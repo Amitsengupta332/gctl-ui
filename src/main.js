@@ -1,5 +1,8 @@
 import "./style.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
 
@@ -24,6 +27,13 @@ async function loadComponents() {
   initNavbarSearch();
   initNavbarScroll();
   initHeroSlider();
+
+  AOS.init({
+    duration: 900,
+    easing: "ease-out-cubic",
+    once: true,
+    offset: 80,
+  });
 }
 
 function initNavbarMenu() {
@@ -101,13 +111,13 @@ function initNavbarScroll() {
       header.classList.add(
         "bg-white",
         "border-gray-100",
-        "shadow-[0_8px_30px_rgba(15,23,42,0.08)]"
+        "shadow-[0_8px_30px_rgba(15,23,42,0.08)]",
       );
     } else {
       header.classList.remove(
         "bg-white",
         "border-gray-100",
-        "shadow-[0_8px_30px_rgba(15,23,42,0.08)]"
+        "shadow-[0_8px_30px_rgba(15,23,42,0.08)]",
       );
       header.classList.add("bg-transparent", "border-white/20");
     }
@@ -180,12 +190,12 @@ function initHeroSlider() {
     slides[currentSlide].classList.remove(
       "opacity-100",
       "visible",
-      "pointer-events-auto"
+      "pointer-events-auto",
     );
     slides[currentSlide].classList.add(
       "opacity-0",
       "invisible",
-      "pointer-events-none"
+      "pointer-events-none",
     );
 
     currentSlide = (index + slides.length) % slides.length;
@@ -193,12 +203,12 @@ function initHeroSlider() {
     slides[currentSlide].classList.remove(
       "opacity-0",
       "invisible",
-      "pointer-events-none"
+      "pointer-events-none",
     );
     slides[currentSlide].classList.add(
       "opacity-100",
       "visible",
-      "pointer-events-auto"
+      "pointer-events-auto",
     );
 
     updateDots();
@@ -260,7 +270,7 @@ function initHeroSlider() {
     function (e) {
       touchStartX = e.changedTouches[0].screenX;
     },
-    { passive: true }
+    { passive: true },
   );
 
   slider.addEventListener(
@@ -280,7 +290,7 @@ function initHeroSlider() {
         restartAutoplay();
       }
     },
-    { passive: true }
+    { passive: true },
   );
 
   document.addEventListener("visibilitychange", function () {
