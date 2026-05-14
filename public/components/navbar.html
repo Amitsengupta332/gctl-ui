@@ -1,4 +1,5 @@
-<header id="siteHeader" class="fixed top-0 left-0 z-50 w-full bg-transparent border-b border-white/20 transition-all duration-300">
+<header id="siteHeader"
+    class="fixed top-0 left-0 z-50 w-full bg-transparent border-b border-white/20 transition-all duration-300">
     <nav class="relative bg-transparent">
         <div class="max-w-[1320px] mx-auto px-4">
             <div class="h-[92px] flex items-center justify-between gap-6">
@@ -12,53 +13,24 @@
                 <!-- Center Menu -->
                 <ul class="hidden lg:flex items-center justify-center gap-8 text-[15px] font-semibold text-[#071425]">
 
-                    <li>
+                    <li class="h-[92px] flex items-center">
                         <a href="/index.html" class="hover:text-[#0068c9] transition-colors">
                             Home
                         </a>
                     </li>
 
-                    <li class="relative group">
-                        <a href="#" class="flex items-center gap-1 hover:text-[#0068c9] transition-colors">
+                    <!-- Solutions -->
+                    <li class="h-[92px] flex items-center">
+                        <a href="/solutions.html" class="hover:text-[#0068c9] transition-colors">
                             Solutions
-                            <svg class="w-3.5 h-3.5 mt-[2px]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="m6 9 6 6 6-6"></path>
-                            </svg>
                         </a>
-
-                        <div
-                            class="absolute left-0 top-full pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <div class="w-64 bg-white border border-gray-100 rounded-xl shadow-xl overflow-hidden">
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Security Automation
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    CCTV Surveillance
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Access Control
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Fire Safety System
-                                </a>
-                            </div>
-                        </div>
                     </li>
 
-                    <li>
-                        <a href="/products.html" class="hover:text-[#0068c9] transition-colors">
+                    <!-- Products Mega Menu -->
+                    <!-- Products Mega Menu -->
+                    <li class="relative group/products h-[92px] flex items-center">
+                        <a href="/products.html" class="flex items-center gap-1 hover:text-[#0068c9] transition-colors">
                             Products
-                        </a>
-                    </li>
-
-                    <li class="relative group">
-                        <a href="#" class="flex items-center gap-1 hover:text-[#0068c9] transition-colors">
-                            Industries
                             <svg class="w-3.5 h-3.5 mt-[2px]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <path d="m6 9 6 6 6-6"></path>
@@ -66,69 +38,213 @@
                         </a>
 
                         <div
-                            class="absolute left-0 top-full pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <div class="w-60 bg-white border border-gray-100 rounded-xl shadow-xl overflow-hidden">
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Corporate Office
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Factory & Industry
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Bank & Finance
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Residential Building
-                                </a>
+                            class="fixed left-1/2 top-[92px] z-[999] w-[min(1220px,calc(100vw-40px))] -translate-x-1/2 opacity-0 invisible group-hover/products:opacity-100 group-hover/products:visible transition-all duration-200">
+                            <div
+                                class="grid grid-cols-[360px_360px_1fr] min-h-[640px] overflow-hidden rounded-b-[18px] border border-[#dce8f7] bg-white shadow-[0_22px_60px_rgba(15,23,42,0.16)]">
+
+                                <!-- Left Categories -->
+                                <div class="border-r border-[#dce8f7] bg-white">
+                                    <a href="/all-categories.html"
+                                        class="h-[56px] w-full flex items-center gap-4 bg-[#0b66d8] px-6 text-white text-left hover:bg-[#075ac2] transition-colors">
+                                        <span class="grid grid-cols-2 gap-1">
+                                            <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
+                                            <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
+                                            <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
+                                            <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
+                                        </span>
+
+                                        <span class="text-[15px] font-bold">All Product Categories</span>
+
+                                        <!-- <span class="ml-auto text-xl leading-none">›</span> -->
+                                    </a>
+
+                                    <div class="max-h-[584px] overflow-y-auto">
+                                        <button type="button" data-product-mega-tab="cctv"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] bg-[#eef7ff] px-5 text-left text-[14px] font-semibold text-[#0057d8] border-l-2 border-l-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-blue-100 text-[#0057d8]">📹</span>
+                                                CCTV Surveillance
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="automation"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">⚙</span>
+                                                Automation Products
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="entrance"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🚪</span>
+                                                Entrance Security Solutions
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="analytics"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">▣</span>
+                                                Intelligent Video Analytics
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="access"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">▣</span>
+                                                Access Control & Time Attendance
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="fire"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🔥</span>
+                                                Fire Alarm System
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="barrier"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🚧</span>
+                                                Turnstile Gate & Boom Barrier
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="signage"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">▤</span>
+                                                LCD/LED Digital Signage
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="queue"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">👥</span>
+                                                Queue Management System
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="vehicle"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🚗</span>
+                                                Vehicle Control System
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="conference"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🎙</span>
+                                                Conference & PA System
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="building"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">🏢</span>
+                                                Building Automation Solutions
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+
+                                        <button type="button" data-product-mega-tab="smart"
+                                            class="product-mega-tab flex w-full h-[46px] items-center justify-between px-5 text-left text-[14px] font-semibold text-[#071425] hover:bg-[#eef7ff] hover:text-[#0057d8]">
+                                            <span class="flex items-center gap-3">
+                                                <span
+                                                    class="w-7 h-7 flex items-center justify-center rounded-md bg-gray-100 text-gray-500">⌂</span>
+                                                Smart Home Solutions
+                                            </span>
+                                            <span class="text-xl">›</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Middle Sub Categories -->
+                                <div class="border-r border-[#dce8f7] bg-white px-7 py-7">
+                                    <h3 id="productMegaTitle" class="mb-5 text-[17px] font-bold text-[#0057d8]">
+                                        CCTV Surveillance
+                                    </h3>
+
+                                    <div id="productMegaSubList" class="space-y-1"></div>
+                                </div>
+
+                                <!-- Right Product Preview -->
+                                <div class="bg-white px-7 py-7">
+                                    <h3 id="productMegaPreviewTitle" class="mb-6 text-[17px] font-bold text-[#0057d8]">
+                                        HD CCTV Camera
+                                    </h3>
+
+                                    <div id="productMegaPreviewList" class="space-y-4"></div>
+
+                                    <a id="productMegaViewAll" href="/products.html"
+                                        class="mt-7 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
+                                        <span>View All Products</span>
+                                        <span class="text-2xl leading-none">›</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </li>
 
-                    <li>
+                    <!-- Industries -->
+                    <li class="h-[92px] flex items-center">
+                        <a href="/industries.html" class="hover:text-[#0068c9] transition-colors">
+                            Industries
+                        </a>
+                    </li>
+
+                    <li class="h-[92px] flex items-center">
                         <a href="/services.html" class="hover:text-[#0068c9] transition-colors">
                             Services
                         </a>
                     </li>
 
-                    <li>
+                    <li class="h-[92px] flex items-center">
                         <a href="/projects.html" class="hover:text-[#0068c9] transition-colors">
                             Projects
                         </a>
                     </li>
 
-                    <li class="relative group">
-                        <a href="#" class="flex items-center gap-1 hover:text-[#0068c9] transition-colors">
+                    <!-- Resources -->
+                    <li class="h-[92px] flex items-center">
+                        <a href="/resources.html" class="hover:text-[#0068c9] transition-colors">
                             Resources
-                            <svg class="w-3.5 h-3.5 mt-[2px]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="m6 9 6 6 6-6"></path>
-                            </svg>
                         </a>
-
-                        <div
-                            class="absolute left-0 top-full pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <div class="w-52 bg-white border border-gray-100 rounded-xl shadow-xl overflow-hidden">
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Blog
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    Downloads
-                                </a>
-                                <a href="#"
-                                    class="block px-5 py-3 text-sm hover:bg-blue-50 hover:text-[#0068c9]">
-                                    FAQ
-                                </a>
-                            </div>
-                        </div>
                     </li>
 
-                    <li>
+                    <li class="h-[92px] flex items-center">
                         <a href="/contact.html" class="hover:text-[#0068c9] transition-colors">
                             Contact Us
                         </a>
@@ -193,7 +309,8 @@
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-lg">
             <div class="px-4 py-5">
-                <form class="flex items-center w-full h-12 border border-gray-200 rounded-xl overflow-hidden bg-white mb-4">
+                <form
+                    class="flex items-center w-full h-12 border border-gray-200 rounded-xl overflow-hidden bg-white mb-4">
                     <input type="text" placeholder="Search products..."
                         class="w-full h-full px-4 text-sm outline-none" />
                     <button type="submit" class="w-12 h-full bg-[#0068c9] text-white flex items-center justify-center">
@@ -210,36 +327,62 @@
                             Home
                         </a>
                     </li>
+
                     <li>
                         <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Solutions
                         </a>
                     </li>
+
                     <li>
                         <a href="/products.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Products
                         </a>
                     </li>
+
+                    <li class="pl-4 space-y-1">
+                        <a href="/products/cctv-surveillance.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            CCTV Surveillance
+                        </a>
+                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            Automation Products
+                        </a>
+                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            Entrance Security
+                        </a>
+                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            Access Control
+                        </a>
+                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            Fire Alarm System
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Industries
                         </a>
                     </li>
+
                     <li>
                         <a href="/services.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Services
                         </a>
                     </li>
+
                     <li>
                         <a href="/projects.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Projects
                         </a>
                     </li>
+
                     <li>
                         <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Resources
                         </a>
                     </li>
+
                     <li>
                         <a href="/contact.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Contact Us

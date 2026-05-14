@@ -3,3 +3,15 @@
 @source "../index.html";
 @source "../public/**/*.html";
 @source "./**/*.{js,css}";
+
+/* Product slider scrollbar hide */
+[data-product-track] {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+}
+
+[data-product-track]::-webkit-scrollbar {
+  display: none;
+}
