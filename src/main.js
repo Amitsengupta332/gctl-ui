@@ -29,6 +29,7 @@ async function loadComponents() {
   initProductMegaMenu();
   initHeroSlider();
   initProductSlider();
+ initCategoryProductFilter();
 
   AOS.init({
     duration: 900,
@@ -396,217 +397,231 @@ function initProductMegaMenu() {
       .replace(/^-+|-+$/g, "");
   }
 
-  function makeProducts(categorySlug, subName) {
-    const subSlug = slugify(subName);
-
-    return [
-      {
-        name: subName,
-        desc: "Professional security & automation product solution.",
-        img: `/images/products/${subSlug}.avif`,
-        link: `/products/${categorySlug}/${subSlug}.html`,
-      },
-      {
-        name: `${subName} Pro`,
-        desc: "Advanced model for commercial and industrial projects.",
-        img: `/images/products/${subSlug}-pro.avif`,
-        link: `/products/${categorySlug}/${subSlug}-pro.html`,
-      },
-      {
-        name: `${subName} Accessories`,
-        desc: "Required accessories, parts and installation support.",
-        img: `/images/products/${subSlug}-accessories.avif`,
-        link: `/products/${categorySlug}/${subSlug}-accessories.html`,
-      },
-    ];
-  }
-
   const data = {
     cctv: {
       title: "CCTV Surveillance",
-      link: "/products/cctv-surveillance.html",
+      link: "/cctv-surveillance.html",
       sub: [
-        "HD CCTV Camera",
-        "IP Camera",
-        "ANPR Number Plate Camera",
-        "AI Camera",
-        "Body Temperature Camera",
-        "Network Video Recorder (NVR)",
-        "Digital Video Recorder (DVR)",
-        "CCTV Camera Accessories",
-        "CC Camera",
+        { name: "HD CCTV Camera", link: "/hd-cctv-camera.html" },
+        { name: "IP Camera", link: "/ip-camera.html" },
+        { name: "ANPR Number Plate Camera", link: "/anpr-number-plate-camera.html" },
+        { name: "AI Camera", link: "/ai-camera.html" },
+        { name: "Body Temperature Camera", link: "/body-temperature-camera.html" },
+        { name: "Network Video Recorder (NVR)", link: "/network-video-recorder-nvr.html" },
+        { name: "Digital Video Recorder (DVR)", link: "/digital-video-recorder-dvr.html" },
+        { name: "CCTV Camera Accessories", link: "/cctv-camera-accessories.html" },
+        { name: "CC Camera", link: "/cc-camera.html" },
       ],
     },
 
     automation: {
       title: "Automation Products",
-      link: "/products/automation-products.html",
+      link: "/automation-products.html",
       sub: [
-        "Sliding Gate Motor",
-        "Swing Gate Motor",
-        "Automatic Glass Door",
-        "Garage Door Automation",
-        "Rolling Shutter Motor",
-        "Automatic Sensor Door",
-        "Road Blocker System",
-        "Industrial Door Automation",
+        { name: "Sliding Gate Motor", link: "/sliding-gate-motor.html" },
+        { name: "Swing Gate Motor", link: "/swing-gate-motor.html" },
+        { name: "Automatic Glass Door", link: "/automatic-glass-door.html" },
+        { name: "Garage Door Automation", link: "/garage-door-automation.html" },
+        { name: "Rolling Shutter Motor", link: "/rolling-shutter-motor.html" },
+        { name: "Automatic Sensor Door", link: "/automatic-sensor-door.html" },
+        { name: "Road Blocker System", link: "/road-blocker-system.html" },
+        { name: "Industrial Door Automation", link: "/industrial-door-automation.html" },
       ],
     },
 
     entrance: {
       title: "Entrance Security Solutions",
-      link: "/products/entrance-security-solutions.html",
+      link: "/entrance-security-solutions.html",
       sub: [
-        "Walk Through Metal Detector",
-        "Hand Held Metal Detector",
-        "X-Ray Baggage Scanner",
-        "Under Vehicle Scanner",
-        "Explosive Detector",
-        "Visitor Management System",
-        "Security Inspection System",
+        { name: "Walk Through Metal Detector", link: "/walk-through-metal-detector.html" },
+        { name: "Hand Held Metal Detector", link: "/hand-held-metal-detector.html" },
+        { name: "X-Ray Baggage Scanner", link: "/x-ray-baggage-scanner.html" },
+        { name: "Under Vehicle Scanner", link: "/under-vehicle-scanner.html" },
+        { name: "Explosive Detector", link: "/explosive-detector.html" },
+        { name: "Visitor Management System", link: "/visitor-management-system.html" },
+        { name: "Security Inspection System", link: "/security-inspection-system.html" },
       ],
     },
 
     analytics: {
       title: "Intelligent Video Analytics",
-      link: "/products/intelligent-video-analytics.html",
+      link: "/intelligent-video-analytics.html",
       sub: [
-        "Face Recognition System",
-        "People Counting Camera",
-        "Object Detection",
-        "Intrusion Detection",
-        "Vehicle Analytics",
-        "Heatmap Analytics",
-        "Smart Search Analytics",
+        { name: "Face Recognition System", link: "/face-recognition-system.html" },
+        { name: "People Counting Camera", link: "/people-counting-camera.html" },
+        { name: "Object Detection", link: "/object-detection.html" },
+        { name: "Intrusion Detection", link: "/intrusion-detection.html" },
+        { name: "Vehicle Analytics", link: "/vehicle-analytics.html" },
+        { name: "Heatmap Analytics", link: "/heatmap-analytics.html" },
+        { name: "Smart Search Analytics", link: "/smart-search-analytics.html" },
       ],
     },
 
     access: {
       title: "Access Control & Time Attendance",
-      link: "/products/access-control-time-attendance.html",
+      link: "/access-control-time-attendance.html",
       sub: [
-        "Biometric Attendance",
-        "Face Attendance Device",
-        "RFID Access Control",
-        "Door Lock System",
-        "Access Control Panel",
-        "Hotel Door Lock",
-        "Time Attendance Software",
+        { name: "Biometric Attendance", link: "/biometric-attendance.html" },
+        { name: "Face Attendance Device", link: "/face-attendance-device.html" },
+        { name: "RFID Access Control", link: "/rfid-access-control.html" },
+        { name: "Door Lock System", link: "/door-lock-system.html" },
+        { name: "Access Control Panel", link: "/access-control-panel.html" },
+        { name: "Hotel Door Lock", link: "/hotel-door-lock.html" },
+        { name: "Time Attendance Software", link: "/time-attendance-software.html" },
       ],
     },
 
     fire: {
       title: "Fire Alarm System",
-      link: "/products/fire-alarm-system.html",
+      link: "/fire-alarm-system.html",
       sub: [
-        "Addressable Fire Alarm",
-        "Conventional Fire Alarm",
-        "Smoke Detector",
-        "Heat Detector",
-        "Manual Call Point",
-        "Fire Alarm Bell",
-        "Fire Suppression System",
+        { name: "Addressable Fire Alarm", link: "/addressable-fire-alarm.html" },
+        { name: "Conventional Fire Alarm", link: "/conventional-fire-alarm.html" },
+        { name: "Smoke Detector", link: "/smoke-detector.html" },
+        { name: "Heat Detector", link: "/heat-detector.html" },
+        { name: "Manual Call Point", link: "/manual-call-point.html" },
+        { name: "Fire Alarm Bell", link: "/fire-alarm-bell.html" },
+        { name: "Fire Suppression System", link: "/fire-suppression-system.html" },
       ],
     },
 
     barrier: {
       title: "Turnstile Gate & Boom Barrier",
-      link: "/products/turnstile-gate-boom-barrier.html",
+      link: "/turnstile-gate-boom-barrier.html",
       sub: [
-        "Tripod Turnstile",
-        "Flap Barrier",
-        "Swing Barrier",
-        "Full Height Turnstile",
-        "Boom Barrier Gate",
-        "Parking Barrier",
-        "Ticketing Gate System",
+        { name: "Tripod Turnstile", link: "/tripod-turnstile.html" },
+        { name: "Flap Barrier", link: "/flap-barrier.html" },
+        { name: "Swing Barrier", link: "/swing-barrier.html" },
+        { name: "Full Height Turnstile", link: "/full-height-turnstile.html" },
+        { name: "Boom Barrier Gate", link: "/boom-barrier-gate.html" },
+        { name: "Parking Barrier", link: "/parking-barrier.html" },
+        { name: "Ticketing Gate System", link: "/ticketing-gate-system.html" },
       ],
     },
 
     signage: {
       title: "LCD/LED Digital Signage",
-      link: "/products/lcd-led-digital-signage.html",
+      link: "/lcd-led-digital-signage.html",
       sub: [
-        "Indoor LED Display",
-        "Outdoor LED Display",
-        "Interactive Kiosk",
-        "Video Wall Display",
-        "Digital Signage Player",
-        "Advertising Display",
+        { name: "Indoor LED Display", link: "/indoor-led-display.html" },
+        { name: "Outdoor LED Display", link: "/outdoor-led-display.html" },
+        { name: "Interactive Kiosk", link: "/interactive-kiosk.html" },
+        { name: "Video Wall Display", link: "/video-wall-display.html" },
+        { name: "Digital Signage Player", link: "/digital-signage-player.html" },
+        { name: "Advertising Display", link: "/advertising-display.html" },
       ],
     },
 
     queue: {
       title: "Queue Management System",
-      link: "/products/queue-management-system.html",
+      link: "/queue-management-system.html",
       sub: [
-        "Token Machine",
-        "Queue Display",
-        "Calling System",
-        "Counter Display",
-        "Queue Software",
-        "Customer Feedback System",
+        { name: "Token Machine", link: "/token-machine.html" },
+        { name: "Queue Display", link: "/queue-display.html" },
+        { name: "Calling System", link: "/calling-system.html" },
+        { name: "Counter Display", link: "/counter-display.html" },
+        { name: "Queue Software", link: "/queue-software.html" },
+        { name: "Customer Feedback System", link: "/customer-feedback-system.html" },
       ],
     },
 
     vehicle: {
       title: "Vehicle Control System",
-      link: "/products/vehicle-control-system.html",
+      link: "/vehicle-control-system.html",
       sub: [
-        "Parking Management System",
-        "Car Parking Guidance",
-        "RFID Vehicle Access",
-        "ANPR Parking System",
-        "Vehicle Loop Detector",
-        "Parking Payment Kiosk",
+        { name: "Parking Management System", link: "/parking-management-system.html" },
+        { name: "Car Parking Guidance", link: "/car-parking-guidance.html" },
+        { name: "RFID Vehicle Access", link: "/rfid-vehicle-access.html" },
+        { name: "ANPR Parking System", link: "/anpr-parking-system.html" },
+        { name: "Vehicle Loop Detector", link: "/vehicle-loop-detector.html" },
+        { name: "Parking Payment Kiosk", link: "/parking-payment-kiosk.html" },
       ],
     },
 
     conference: {
       title: "Conference & PA System",
-      link: "/products/conference-pa-system.html",
+      link: "/conference-pa-system.html",
       sub: [
-        "Conference Microphone",
-        "PA Speaker System",
-        "Amplifier System",
-        "Wireless Microphone",
-        "Meeting Room Audio",
-        "Public Announcement System",
+        { name: "Conference Microphone", link: "/conference-microphone.html" },
+        { name: "PA Speaker System", link: "/pa-speaker-system.html" },
+        { name: "Amplifier System", link: "/amplifier-system.html" },
+        { name: "Wireless Microphone", link: "/wireless-microphone.html" },
+        { name: "Meeting Room Audio", link: "/meeting-room-audio.html" },
+        { name: "Public Announcement System", link: "/public-announcement-system.html" },
       ],
     },
 
     building: {
       title: "Building Automation Solutions",
-      link: "/products/building-automation-solutions.html",
+      link: "/building-automation-solutions.html",
       sub: [
-        "BMS System",
-        "Lighting Control",
-        "HVAC Control",
-        "Energy Management",
-        "Smart Building Control",
-        "Central Monitoring System",
+        { name: "BMS System", link: "/bms-system.html" },
+        { name: "Lighting Control", link: "/lighting-control.html" },
+        { name: "HVAC Control", link: "/hvac-control.html" },
+        { name: "Energy Management", link: "/energy-management.html" },
+        { name: "Smart Building Control", link: "/smart-building-control.html" },
+        { name: "Central Monitoring System", link: "/central-monitoring-system.html" },
       ],
     },
 
     smart: {
       title: "Smart Home Solutions",
-      link: "/products/smart-home-solutions.html",
+      link: "/smart-home-solutions.html",
       sub: [
-        "Smart Door Lock",
-        "Smart Switch",
-        "Smart Curtain",
-        "Smart Lighting",
-        "Smart Security Sensor",
-        "Home Automation Hub",
+        { name: "Smart Door Lock", link: "/smart-door-lock.html" },
+        { name: "Smart Switch", link: "/smart-switch.html" },
+        { name: "Smart Curtain", link: "/smart-curtain.html" },
+        { name: "Smart Lighting", link: "/smart-lighting.html" },
+        { name: "Smart Security Sensor", link: "/smart-security-sensor.html" },
+        { name: "Home Automation Hub", link: "/home-automation-hub.html" },
       ],
     },
   };
 
-  function renderProducts(categoryKey, subName) {
-    const category = data[categoryKey];
-    const categorySlug = slugify(category.title);
+  function getSubName(subItem) {
+    return typeof subItem === "string" ? subItem : subItem.name;
+  }
+
+  function getSubLink(subItem) {
+    if (typeof subItem === "string") {
+      return `/${slugify(subItem)}.html`;
+    }
+
+    return subItem.link;
+  }
+
+  function makeProducts(subItem) {
+    const subName = getSubName(subItem);
     const subSlug = slugify(subName);
-    const products = makeProducts(categorySlug, subName);
+    const subLink = getSubLink(subItem);
+
+    return [
+      {
+        name: subName,
+        desc: "View all products and solutions in this sub category.",
+        img: `/images/products/${subSlug}.avif`,
+        link: subLink,
+      },
+      {
+        name: `${subName} Products`,
+        desc: "Explore product models, features and project options.",
+        img: `/images/products/${subSlug}-pro.avif`,
+        link: subLink,
+      },
+      {
+        name: `${subName} Accessories`,
+        desc: "Accessories, parts and installation support.",
+        img: `/images/products/${subSlug}-accessories.avif`,
+        link: subLink,
+      },
+    ];
+  }
+
+  function renderProducts(categoryKey, subItem) {
+    const subName = getSubName(subItem);
+    const subSlug = slugify(subName);
+    const subLink = getSubLink(subItem);
+    const products = makeProducts(subItem);
 
     previewTitle.textContent = subName;
 
@@ -636,25 +651,25 @@ function initProductMegaMenu() {
       })
       .join("");
 
-    viewAll.href = `/products/${categorySlug}/${subSlug}.html`;
+    viewAll.href = subLink;
     viewAll.querySelector("span").textContent = `View All ${subName}`;
   }
 
   function renderCategory(categoryKey) {
     const current = data[categoryKey];
-    if (!current) return;
 
-    const categorySlug = slugify(current.title);
+    if (!current) return;
 
     title.textContent = current.title;
 
     subList.innerHTML = current.sub
-      .map(function (subName, index) {
-        const subSlug = slugify(subName);
+      .map(function (subItem, index) {
+        const subName = getSubName(subItem);
+        const subLink = getSubLink(subItem);
 
         return `
           <a
-            href="/products/${categorySlug}/${subSlug}.html"
+            href="${subLink}"
             data-product-sub-index="${index}"
             class="product-mega-sub-link flex min-h-[43px] items-center justify-between rounded-lg px-4 text-[14px] font-semibold transition-colors ${
               index === 0
@@ -682,7 +697,7 @@ function initProductMegaMenu() {
           "bg-[#eef7ff]",
           "text-[#0057d8]",
           "border-l-2",
-          "border-l-[#0057d8]",
+          "border-l-[#0057d8]"
         );
       }
     });
@@ -692,7 +707,7 @@ function initProductMegaMenu() {
     subLinks.forEach(function (subLink) {
       subLink.addEventListener("mouseenter", function () {
         const index = Number(subLink.getAttribute("data-product-sub-index"));
-        const subName = current.sub[index];
+        const subItem = current.sub[index];
 
         subLinks.forEach(function (link) {
           link.classList.remove("bg-[#eef7ff]", "text-[#0057d8]");
@@ -702,14 +717,7 @@ function initProductMegaMenu() {
         subLink.classList.add("bg-[#eef7ff]", "text-[#0057d8]");
         subLink.classList.remove("text-[#071425]");
 
-        renderProducts(categoryKey, subName);
-      });
-
-      subLink.addEventListener("click", function (e) {
-        const index = Number(subLink.getAttribute("data-product-sub-index"));
-        const subName = current.sub[index];
-
-        renderProducts(categoryKey, subName);
+        renderProducts(categoryKey, subItem);
       });
     });
 
@@ -728,5 +736,89 @@ function initProductMegaMenu() {
   });
 
   renderCategory("cctv");
+}
+
+function initCategoryProductFilter() {
+  const filterButtons = document.querySelectorAll("[data-product-filter]");
+  const productCards = Array.from(document.querySelectorAll("[data-product-card]"));
+  const sortSelect = document.getElementById("productSort");
+  const productGrid = document.getElementById("productGrid");
+
+  if (!filterButtons.length || !productCards.length || !productGrid) return;
+
+  let currentFilter = "all";
+
+  function setActiveButton(filterValue) {
+    filterButtons.forEach(function (button) {
+      const isActive = button.getAttribute("data-product-filter") === filterValue;
+
+      button.classList.toggle("active", isActive);
+      button.classList.toggle("bg-[#0057d8]", isActive);
+      button.classList.toggle("text-white", isActive);
+      button.classList.toggle("shadow-[0_8px_20px_rgba(0,87,216,0.22)]", isActive);
+
+      if (!isActive) {
+        button.classList.remove(
+          "bg-[#0057d8]",
+          "text-white",
+          "shadow-[0_8px_20px_rgba(0,87,216,0.22)]",
+        );
+      }
+    });
+  }
+
+  function filterProducts(filterValue) {
+    currentFilter = filterValue;
+
+    productCards.forEach(function (card) {
+      const categories = card.getAttribute("data-category") || "";
+      const shouldShow = filterValue === "all" || categories.includes(filterValue);
+
+      card.classList.toggle("hidden", !shouldShow);
+    });
+
+    setActiveButton(filterValue);
+  }
+
+  function sortProducts() {
+    if (!sortSelect) return;
+
+    const sortValue = sortSelect.value;
+    const cards = Array.from(productCards);
+
+    cards.sort(function (a, b) {
+      if (sortValue === "name") {
+        return (a.getAttribute("data-name") || "").localeCompare(
+          b.getAttribute("data-name") || "",
+        );
+      }
+
+      if (sortValue === "new") {
+        return Number(b.getAttribute("data-sort")) - Number(a.getAttribute("data-sort"));
+      }
+
+      return Number(a.getAttribute("data-sort")) - Number(b.getAttribute("data-sort"));
+    });
+
+    cards.forEach(function (card) {
+      productGrid.appendChild(card);
+    });
+
+    filterProducts(currentFilter);
+  }
+
+  filterButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      const filterValue = button.getAttribute("data-product-filter");
+
+      filterProducts(filterValue);
+    });
+  });
+
+  if (sortSelect) {
+    sortSelect.addEventListener("change", sortProducts);
+  }
+
+  filterProducts("all");
 }
 document.addEventListener("DOMContentLoaded", loadComponents);

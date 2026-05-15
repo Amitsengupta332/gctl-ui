@@ -1,3 +1,5 @@
+<!-- Navbar -->
+
 <header id="siteHeader"
     class="fixed top-0 left-0 z-50 w-full bg-transparent border-b border-white/20 transition-all duration-300">
     <nav class="relative bg-transparent">
@@ -19,14 +21,12 @@
                         </a>
                     </li>
 
-                    <!-- Solutions -->
                     <li class="h-[92px] flex items-center">
                         <a href="/solutions.html" class="hover:text-[#0068c9] transition-colors">
                             Solutions
                         </a>
                     </li>
 
-                    <!-- Products Mega Menu -->
                     <!-- Products Mega Menu -->
                     <li class="relative group/products h-[92px] flex items-center">
                         <a href="/products.html" class="flex items-center gap-1 hover:text-[#0068c9] transition-colors">
@@ -44,6 +44,8 @@
 
                                 <!-- Left Categories -->
                                 <div class="border-r border-[#dce8f7] bg-white">
+
+                                    <!-- All Categories -->
                                     <a href="/all-categories.html"
                                         class="h-[56px] w-full flex items-center gap-4 bg-[#0b66d8] px-6 text-white text-left hover:bg-[#075ac2] transition-colors">
                                         <span class="grid grid-cols-2 gap-1">
@@ -54,11 +56,12 @@
                                         </span>
 
                                         <span class="text-[15px] font-bold">All Product Categories</span>
-
-                                        <!-- <span class="ml-auto text-xl leading-none">›</span> -->
+                                        <span class="ml-auto text-xl leading-none">›</span>
                                     </a>
 
                                     <div class="max-h-[584px] overflow-y-auto">
+
+                                        <!-- This is a tab button, not redirect -->
                                         <button type="button" data-product-mega-tab="cctv"
                                             class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] bg-[#eef7ff] px-5 text-left text-[14px] font-semibold text-[#0057d8] border-l-2 border-l-[#0057d8]">
                                             <span class="flex items-center gap-3">
@@ -208,7 +211,8 @@
 
                                     <div id="productMegaPreviewList" class="space-y-4"></div>
 
-                                    <a id="productMegaViewAll" href="/products.html"
+                                    <!-- Desktop redirect button -->
+                                    <a id="productMegaViewAll" href="/cctv-surveillance.html"
                                         class="mt-7 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
                                         <span>View All Products</span>
                                         <span class="text-2xl leading-none">›</span>
@@ -218,7 +222,6 @@
                         </div>
                     </li>
 
-                    <!-- Industries -->
                     <li class="h-[92px] flex items-center">
                         <a href="/industries.html" class="hover:text-[#0068c9] transition-colors">
                             Industries
@@ -237,7 +240,6 @@
                         </a>
                     </li>
 
-                    <!-- Resources -->
                     <li class="h-[92px] flex items-center">
                         <a href="/resources.html" class="hover:text-[#0068c9] transition-colors">
                             Resources
@@ -254,7 +256,6 @@
                 <!-- Right Actions -->
                 <div class="flex items-center gap-3 shrink-0">
 
-                    <!-- Search Button -->
                     <button id="navbarSearchButton" type="button" aria-label="Open search"
                         class="w-11 h-11 hidden sm:flex items-center justify-center rounded-xl text-[#071425] hover:bg-white/50 transition-colors">
                         <svg class="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -264,13 +265,11 @@
                         </svg>
                     </button>
 
-                    <!-- CTA -->
                     <a href="/contact.html"
                         class="hidden md:inline-flex items-center justify-center h-[48px] px-7 rounded-full border-2 border-[#071425] text-[#071425] text-[15px] font-bold hover:bg-[#071425] hover:text-white transition-all bg-white/20 backdrop-blur-sm">
                         Let's Connect
                     </a>
 
-                    <!-- Mobile Button -->
                     <button id="mobileMenuButton" type="button" aria-label="Open mobile menu"
                         class="lg:hidden w-11 h-11 flex items-center justify-center rounded-xl border border-[#071425]/20 text-[#071425] bg-white/40 backdrop-blur-sm">
                         <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -329,7 +328,7 @@
                     </li>
 
                     <li>
-                        <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
+                        <a href="/solutions.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Solutions
                         </a>
                     </li>
@@ -341,26 +340,40 @@
                     </li>
 
                     <li class="pl-4 space-y-1">
-                        <a href="/products/cctv-surveillance.html"
+                        <a href="/all-categories.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+                            All Product Categories
+                        </a>
+
+                        <!-- Mobile redirect link -->
+                        <a href="/cctv-surveillance.html"
                             class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             CCTV Surveillance
                         </a>
-                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+
+                        <a href="/automation-products.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             Automation Products
                         </a>
-                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+
+                        <a href="/entrance-security-solutions.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             Entrance Security
                         </a>
-                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+
+                        <a href="/access-control-time-attendance.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             Access Control
                         </a>
-                        <a href="#" class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
+
+                        <a href="/fire-alarm-system.html"
+                            class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             Fire Alarm System
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
+                        <a href="/industries.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Industries
                         </a>
                     </li>
@@ -378,7 +391,7 @@
                     </li>
 
                     <li>
-                        <a href="#" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
+                        <a href="/resources.html" class="block px-3 py-3 rounded-lg hover:bg-gray-50">
                             Resources
                         </a>
                     </li>
