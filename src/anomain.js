@@ -672,243 +672,21 @@ function initProductMegaMenu() {
     return subItem.link;
   }
 
-  // function makeProducts(subItem) {
-  //   const subName = getSubName(subItem);
-  //   const subSlug = slugify(subName);
-  //   const subLink = getSubLink(subItem);
-
-  //   return [
-  //     {
-  //       name: subName,
-  //       desc: "View all products and solutions in this sub category.",
-  //       img: `/images/products/${subSlug}.avif`,
-  //       link: subLink,
-  //     },
-  //     {
-  //       name: `${subName} Products`,
-  //       desc: "Explore product models, features and project options.",
-  //       img: `/images/products/${subSlug}-pro.avif`,
-  //       link: subLink,
-  //     },
-  //     {
-  //       name: `${subName} Accessories`,
-  //       desc: "Accessories, parts and installation support.",
-  //       img: `/images/products/${subSlug}-accessories.avif`,
-  //       link: subLink,
-  //     },
-  //   ];
-  // }
-
   function makeProducts(subItem) {
     const subName = getSubName(subItem);
     const subSlug = slugify(subName);
     const subLink = getSubLink(subItem);
 
-    const productPreviewData = {
-      "HD CCTV Camera": [
-        {
-          name: "CCTL 4MP IR Bullet Camera",
-          desc: "4MP HD bullet camera with night vision and outdoor monitoring.",
-          img: "/images/products/cctv/cctl-4mp-ir-bullet-camera.avif",
-          link: "/product-details/cctv/cctl-4mp-ir-bullet-camera.html",
-        },
-        {
-          name: "CCTL 5MP Dome Camera",
-          desc: "Compact HD dome camera for indoor and office surveillance.",
-          img: "/images/products/cctv/cctl-5mp-dome-camera.avif",
-          link: "/product-details/cctv/cctl-5mp-dome-camera.html",
-        },
-        {
-          name: "CCTL HD Turret Camera",
-          desc: "HD turret camera for homes, shops and commercial spaces.",
-          img: "/images/products/cctv/cctl-hd-turret-camera.avif",
-          link: "/product-details/cctv/cctl-hd-turret-camera.html",
-        },
-      ],
-
-      "IP Camera": [
-        {
-          name: "CCTL 4MP IP Bullet Camera",
-          desc: "Network IP bullet camera for remote monitoring and smart recording.",
-          img: "/images/products/cctv/cctl-4mp-ip-bullet-camera.avif",
-          link: "/product-details/cctv/cctl-4mp-ip-bullet-camera.html",
-        },
-        {
-          name: "CCTL 5MP IP Dome Camera",
-          desc: "IP dome camera for office, shop and indoor surveillance.",
-          img: "/images/products/cctv/cctl-5mp-ip-dome-camera.avif",
-          link: "/product-details/cctv/cctl-5mp-ip-dome-camera.html",
-        },
-        {
-          name: "CCTL 8MP IP Camera",
-          desc: "High resolution IP camera for professional security projects.",
-          img: "/images/products/cctv/cctl-8mp-ip-camera.avif",
-          link: "/product-details/cctv/cctl-8mp-ip-camera.html",
-        },
-      ],
-
-      "ANPR Number Plate Camera": [
-        {
-          name: "CCTL ANPR Bullet Camera",
-          desc: "Number plate recognition camera for vehicle entry monitoring.",
-          img: "/images/products/cctv/cctl-anpr-bullet-camera.avif",
-          link: "/product-details/cctv/cctl-anpr-bullet-camera.html",
-        },
-        {
-          name: "CCTL ANPR IP Camera",
-          desc: "Smart ANPR IP camera for parking and gate control systems.",
-          img: "/images/products/cctv/cctl-anpr-ip-camera.avif",
-          link: "/product-details/cctv/cctl-anpr-ip-camera.html",
-        },
-        {
-          name: "CCTL Vehicle Plate Camera",
-          desc: "Vehicle license plate camera for road and access monitoring.",
-          img: "/images/products/cctv/cctl-vehicle-plate-camera.avif",
-          link: "/product-details/cctv/cctl-vehicle-plate-camera.html",
-        },
-      ],
-
-      "AI Camera": [
-        {
-          name: "CCTL AI Bullet Camera",
-          desc: "AI bullet camera with smart detection and real-time alerts.",
-          img: "/images/products/cctv/cctl-ai-bullet-camera.avif",
-          link: "/product-details/cctv/cctl-ai-bullet-camera.html",
-        },
-        {
-          name: "CCTL AI Dome Camera",
-          desc: "AI dome camera for intelligent indoor security monitoring.",
-          img: "/images/products/cctv/cctl-ai-dome-camera.avif",
-          link: "/product-details/cctv/cctl-ai-dome-camera.html",
-        },
-        {
-          name: "CCTL AI Detection Camera",
-          desc: "Smart detection camera for people, vehicle and motion analytics.",
-          img: "/images/products/cctv/cctl-ai-detection-camera.avif",
-          link: "/product-details/cctv/cctl-ai-detection-camera.html",
-        },
-      ],
-
-      "Body Temperature Camera": [
-        {
-          name: "CCTL Thermal Temperature Camera",
-          desc: "Thermal camera for temperature screening and safety monitoring.",
-          img: "/images/products/cctv/cctl-thermal-temperature-camera.avif",
-          link: "/product-details/cctv/cctl-thermal-temperature-camera.html",
-        },
-        {
-          name: "CCTL Face Temperature Camera",
-          desc: "Face temperature camera for access and entry screening.",
-          img: "/images/products/cctv/cctl-face-temperature-camera.avif",
-          link: "/product-details/cctv/cctl-face-temperature-camera.html",
-        },
-        {
-          name: "CCTL Thermal Monitoring Camera",
-          desc: "Thermal monitoring camera for commercial safety projects.",
-          img: "/images/products/cctv/cctl-thermal-monitoring-camera.avif",
-          link: "/product-details/cctv/cctl-thermal-monitoring-camera.html",
-        },
-      ],
-
-      "Network Video Recorder (NVR)": [
-        {
-          name: "CCTL 8 Channel NVR",
-          desc: "8 channel network video recorder for IP camera systems.",
-          img: "/images/products/cctv/cctl-8-channel-nvr.avif",
-          link: "/product-details/cctv/cctl-8-channel-nvr.html",
-        },
-        {
-          name: "CCTL 16 Channel NVR",
-          desc: "16 channel NVR for medium and large surveillance projects.",
-          img: "/images/products/cctv/cctl-16-channel-nvr.avif",
-          link: "/product-details/cctv/cctl-16-channel-nvr.html",
-        },
-        {
-          name: "CCTL 32 Channel NVR",
-          desc: "Professional 32 channel NVR with high capacity recording.",
-          img: "/images/products/cctv/cctl-32-channel-nvr.avif",
-          link: "/product-details/cctv/cctl-32-channel-nvr.html",
-        },
-      ],
-
-      "Digital Video Recorder (DVR)": [
-        {
-          name: "CCTL 4 Channel DVR",
-          desc: "4 channel DVR for small HD CCTV camera setups.",
-          img: "/images/products/cctv/cctl-4-channel-dvr.avif",
-          link: "/product-details/cctv/cctl-4-channel-dvr.html",
-        },
-        {
-          name: "CCTL 8 Channel DVR",
-          desc: "8 channel DVR for home, shop and office CCTV systems.",
-          img: "/images/products/cctv/cctl-8-channel-dvr.avif",
-          link: "/product-details/cctv/cctl-8-channel-dvr.html",
-        },
-        {
-          name: "CCTL 16 Channel DVR",
-          desc: "16 channel DVR for commercial HD CCTV recording.",
-          img: "/images/products/cctv/cctl-16-channel-dvr.avif",
-          link: "/product-details/cctv/cctl-16-channel-dvr.html",
-        },
-      ],
-
-      "CCTV Camera Accessories": [
-        {
-          name: "CCTV Camera Bracket",
-          desc: "Mounting bracket for CCTV camera installation.",
-          img: "/images/products/cctv/cctv-camera-bracket.avif",
-          link: "/product-details/cctv/cctv-camera-bracket.html",
-        },
-        {
-          name: "CCTV Power Supply",
-          desc: "Reliable CCTV power supply for surveillance systems.",
-          img: "/images/products/cctv/cctv-power-supply.avif",
-          link: "/product-details/cctv/cctv-power-supply.html",
-        },
-        {
-          name: "CCTV Cable Connector",
-          desc: "Cable and connector accessories for CCTV installation.",
-          img: "/images/products/cctv/cctv-cable-connector.avif",
-          link: "/product-details/cctv/cctv-cable-connector.html",
-        },
-      ],
-
-      "CC Camera": [
-        {
-          name: "CCTL Indoor CC Camera",
-          desc: "Indoor CC camera for home, office and retail surveillance.",
-          img: "/images/products/cctv/cctl-indoor-cc-camera.avif",
-          link: "/product-details/cctv/cctl-indoor-cc-camera.html",
-        },
-        {
-          name: "CCTL Outdoor CC Camera",
-          desc: "Outdoor CC camera for building and perimeter monitoring.",
-          img: "/images/products/cctv/cctl-outdoor-cc-camera.avif",
-          link: "/product-details/cctv/cctl-outdoor-cc-camera.html",
-        },
-        {
-          name: "CCTL Night Vision CC Camera",
-          desc: "Night vision CC camera for low-light security monitoring.",
-          img: "/images/products/cctv/cctl-night-vision-cc-camera.avif",
-          link: "/product-details/cctv/cctl-night-vision-cc-camera.html",
-        },
-      ],
-    };
-
-    if (productPreviewData[subName]) {
-      return productPreviewData[subName];
-    }
-
     return [
       {
         name: subName,
-        desc: "Explore products and solutions in this sub category.",
+        desc: "View all products and solutions in this sub category.",
         img: `/images/products/${subSlug}.avif`,
         link: subLink,
       },
       {
         name: `${subName} Products`,
-        desc: "View product models, features and project options.",
+        desc: "Explore product models, features and project options.",
         img: `/images/products/${subSlug}-pro.avif`,
         link: subLink,
       },
@@ -920,6 +698,7 @@ function initProductMegaMenu() {
       },
     ];
   }
+
   function renderProducts(categoryKey, subItem) {
     const subName = getSubName(subItem);
     const subSlug = slugify(subName);
