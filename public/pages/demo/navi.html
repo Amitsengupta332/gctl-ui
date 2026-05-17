@@ -39,7 +39,7 @@
                         <div
                             class="fixed left-1/2 top-[92px] z-[999] w-[min(1220px,calc(100vw-40px))] -translate-x-1/2 opacity-0 invisible group-hover/products:opacity-100 group-hover/products:visible transition-all duration-200">
                             <div
-                                class="grid grid-cols-[360px_360px_1fr] h-[640px] max-h-[calc(100vh-110px)] overflow-hidden rounded-b-[18px] border border-[#dce8f7] bg-white shadow-[0_22px_60px_rgba(15,23,42,0.16)]">
+                                class="grid grid-cols-[360px_360px_1fr] min-h-[640px] overflow-hidden rounded-b-[18px] border border-[#dce8f7] bg-white shadow-[0_22px_60px_rgba(15,23,42,0.16)]">
 
                                 <!-- Left Categories -->
                                 <div class="border-r border-[#dce8f7] bg-white">
@@ -203,20 +203,17 @@
                                     <div id="productMegaSubList" class="space-y-1"></div>
                                 </div>
 
-                              
                                 <!-- Right Product Preview -->
-                                <div class="bg-white px-7 py-7 min-h-0 overflow-hidden flex flex-col">
-                                    <h3 id="productMegaPreviewTitle"
-                                        class="mb-6 shrink-0 text-[17px] font-bold text-[#0057d8]">
+                                <div class="bg-white px-7 py-7">
+                                    <h3 id="productMegaPreviewTitle" class="mb-6 text-[17px] font-bold text-[#0057d8]">
                                         HD CCTV Camera
                                     </h3>
 
-                                    <div id="productMegaPreviewList"
-                                        class="space-y-4 flex-1 min-h-0 overflow-y-auto pr-2 overscroll-contain"></div>
+                                    <div id="productMegaPreviewList" class="space-y-4"></div>
 
                                     <!-- Desktop redirect button -->
                                     <a id="productMegaViewAll" href="/cctv-surveillance.html"
-                                        class="mt-7 shrink-0 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
+                                        class="mt-7 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
                                         <span>View All Products</span>
                                         <span class="text-2xl leading-none">›</span>
                                     </a>

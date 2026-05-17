@@ -407,22 +407,22 @@ function initProductMegaMenu() {
             {
               name: "HD Dome Camera",
               link: "/sub-hd-dome-camera.html",
-              img: "/images/sub-sub-categories/sub-hd-dome-camera.avif",
+              img: "/images/products/cctv_category_images_avif/hd_dome_camera.avif",
             },
             {
               name: "HD Bullet Camera",
               link: "/sub-hd-bullet-camera.html",
-              img: "/images/sub-sub-categories/sub-hd-bullet-camera.avif",
+              img: "/images/products/cctv_category_images_avif/hd_bullet_camera_1.avif",
             },
             {
               name: "HD Turret Camera",
               link: "/sub-hd-turret-camera.html",
-              img: "/images/sub-sub-categories/sub-hd-turret-camera.avif",
+              img: "/images/products/cctv_category_images_avif/hd_turret_camera_600x450.avif",
             },
             {
               name: "HD PTZ Camera",
               link: "/sub-hd-ptz-camera.html",
-              img: "/images/sub-sub-categories/sub-hd-ptz-camera.avif",
+              img: "/images/products/cctv_category_images_avif/hd_ptz_camera.avif",
             },
           ],
         },
@@ -432,50 +432,50 @@ function initProductMegaMenu() {
           subSub: [
             {
               name: "IP Dome Camera",
-              link: "pages/sub-sub-category-pages/cctv-surveillance/ip-camera/sub-ip-dome-camera.html",
+              link: "/sub-ip-dome-camera.html",
               img: "/images/sub-sub-categories/sub-ip-dome-camera.avif",
             },
             {
               name: "IP Bullet Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ip-camera/sub-ip-bullet-camera.html",
+              link: "/sub-ip-bullet-camera.html",
               img: "/images/sub-sub-categories/sub-ip-bullet-camera.avif",
             },
             {
               name: "WiFi IP Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ip-camera/sub-wifi-ip-camera.html",
+              link: "/sub-wifi-ip-camera.html",
               img: "/images/sub-sub-categories/sub-wifi-ip-camera.avif",
             },
             {
               name: "PoE IP Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ip-camera/sub-poe-ip-camera.html",
+              link: "/sub-poe-ip-camera.html",
               img: "/images/sub-sub-categories/sub-poe-ip-camera.avif",
             },
           ],
         },
         {
           name: "ANPR Number Plate Camera",
-          link: "/sub-category-pages/cctv-surveillance/anpr-number-plate-camera.html",
+          link: "/anpr-number-plate-camera.html",
           subSub: [
             {
               name: "Fixed ANPR Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/anpr-number-plate-camera/sub-fixed-anpr-camera.html",
+              link: "/sub-fixed-anpr-camera.html",
               img: "/images/sub-sub-categories/sub-fixed-anpr-camera.avif",
             },
             {
               name: "Parking ANPR Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/anpr-number-plate-camera/sub-parking-anpr-camera.html",
+              link: "/sub-parking-anpr-camera.html",
               img: "/images/sub-sub-categories/sub-parking-anpr-camera.avif",
             },
             {
               name: "Traffic ANPR Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/anpr-number-plate-camera/sub-traffic-anpr-camera.html",
+              link: "/sub-traffic-anpr-camera.html",
               img: "/images/sub-sub-categories/sub-traffic-anpr-camera.avif",
             },
           ],
         },
         {
           name: "AI Camera",
-          link: "/sub-category-pages/cctv-surveillance/ai-camera.html",
+          link: "/ai-camera.html",
           subSub: [
             {
               name: "Face Recognition Camera",
@@ -2053,14 +2053,15 @@ function initProductMegaMenu() {
         .map(function (item) {
           return `
             <a href="${item.link}" class="flex items-center gap-5 border-b border-[#e6edf5] pb-4 group/product">
-              <div class="w-[95px] h-[95px] rounded-xl bg-[#f5f8fc] overflow-hidden shrink-0">
-                <img
-                  src="${item.img}"
-                  alt="${item.name}"
-                  class="w-full h-full object-contain p-3"
-                  onerror="this.src='/images/products/placeholder.avif'"
-                />
-              </div>
+          <div class="w-[96px] h-[96px] rounded-xl bg-[#f5f8fc] overflow-hidden shrink-0 flex items-center justify-center">
+  <img
+    src="${item.img}"
+    alt="${item.name}"
+    class="w-full h-full object-contain p-1"
+    style="transform: scale(1.35); transform-origin: center;"
+    onerror="this.src='/images/products/placeholder.avif'"
+  />
+</div>
 
               <div>
                 <h4 class="text-[17px] font-bold text-[#071425] group-hover/product:text-[#0057d8]">
