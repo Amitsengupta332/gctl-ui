@@ -564,42 +564,42 @@ function initProductMegaMenu() {
         },
         {
           name: "CCTV Camera Accessories",
-          link: "/sub-category-pages/cctv-surveillance/cctv-camera-accessories.html",
+          link: "/cctv-camera-accessories.html",
           subSub: [
             {
               name: "CCTV Cable",
-              link: "/sub-sub-category-pages/cctv-surveillance/cctv-camera-accessories/sub-cctv-cable.html",
+              link: "/sub-cctv-cable.html",
               img: "/images/sub-sub-categories/sub-cctv-cable.avif",
             },
             {
               name: "CCTV Power Supply",
-              link: "/sub-sub-category-pages/cctv-surveillance/cctv-camera-accessories/sub-cctv-power-supply.html",
+              link: "/sub-cctv-power-supply.html",
               img: "/images/sub-sub-categories/sub-cctv-power-supply.avif",
             },
             {
               name: "CCTV Bracket",
-              link: "/sub-sub-category-pages/cctv-surveillance/cctv-camera-accessories/sub-cctv-bracket.html",
+              link: "/sub-cctv-bracket.html",
               img: "/images/sub-sub-categories/sub-cctv-bracket.avif",
             },
             {
               name: "CCTV Connector",
-              link: "/sub-sub-category-pages/cctv-surveillance/cctv-camera-accessories/sub-cctv-connector.html",
+              link: "/sub-cctv-connector.html",
               img: "/images/sub-sub-categories/sub-cctv-connector.avif",
             },
           ],
         },
         {
           name: "CC Camera",
-          link: "/sub-category-pages/cctv-surveillance/cc-camera.html",
+          link: "/cc-camera.html",
           subSub: [
             {
               name: "Indoor CC Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/cc-camera/sub-indoor-cc-camera.html",
+              link: "/sub-indoor-cc-camera.html",
               img: "/images/sub-sub-categories/sub-indoor-cc-camera.avif",
             },
             {
               name: "Outdoor CC Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/cc-camera/sub-outdoor-cc-camera.html",
+              link: "/sub-outdoor-cc-camera.html",
               img: "/images/sub-sub-categories/sub-outdoor-cc-camera.avif",
             },
           ],
