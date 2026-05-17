@@ -433,22 +433,22 @@ function initProductMegaMenu() {
             {
               name: "IP Dome Camera",
               link: "/sub-ip-dome-camera.html",
-              img: "/images/sub-sub-categories/sub-ip-dome-camera.avif",
+              img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-dome-camera-category-600x450.avif",
             },
             {
               name: "IP Bullet Camera",
               link: "/sub-ip-bullet-camera.html",
-              img: "/images/sub-sub-categories/sub-ip-bullet-camera.avif",
+              img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-bullet-camera-category-600x450.avif",
             },
             {
               name: "WiFi IP Camera",
               link: "/sub-wifi-ip-camera.html",
-              img: "/images/sub-sub-categories/sub-wifi-ip-camera.avif",
+              img: "/public/images/products/all-ip-camera-category-avif-600x450/wifi-ip-camera-category-600x450.avif",
             },
             {
               name: "PoE IP Camera",
               link: "/sub-poe-ip-camera.html",
-              img: "/images/sub-sub-categories/sub-poe-ip-camera.avif",
+              img: "/public/images/products/all-ip-camera-category-avif-600x450/poe-ip-camera-category-600x450.avif",
             },
           ],
         },
@@ -501,63 +501,63 @@ function initProductMegaMenu() {
         },
         {
           name: "Body Temperature Camera",
-          link: "/sub-category-pages/cctv-surveillance/body-temperature-camera.html",
+          link: "/body-temperature-camera.html",
           subSub: [
             {
               name: "Thermal Temperature Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/body-temperature-camera/sub-thermal-temperature-camera.html",
+              link: "/sub-thermal-temperature-camera.html",
               img: "/images/sub-sub-categories/sub-thermal-temperature-camera.avif",
             },
             {
               name: "Face Temperature Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/body-temperature-camera/sub-face-temperature-camera.html",
+              link: "/sub-face-temperature-camera.html",
               img: "/images/sub-sub-categories/sub-face-temperature-camera.avif",
             },
           ],
         },
         {
           name: "Network Video Recorder (NVR)",
-          link: "/sub-category-pages/cctv-surveillance/network-video-recorder-nvr.html",
+          link: "/network-video-recorder-nvr.html",
           subSub: [
             {
               name: "4 Channel NVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/network-video-recorder-nvr/sub-4-channel-nvr.html",
+              link: "/sub-4-channel-nvr.html",
               img: "/images/sub-sub-categories/sub-4-channel-nvr.avif",
             },
             {
               name: "8 Channel NVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/network-video-recorder-nvr/sub-8-channel-nvr.html",
+              link: "/sub-8-channel-nvr.html",
               img: "/images/sub-sub-categories/sub-8-channel-nvr.avif",
             },
             {
               name: "16 Channel NVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/network-video-recorder-nvr/sub-16-channel-nvr.html",
+              link: "/sub-16-channel-nvr.html",
               img: "/images/sub-sub-categories/sub-16-channel-nvr.avif",
             },
             {
               name: "32 Channel NVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/network-video-recorder-nvr/sub-32-channel-nvr.html",
+              link: "/sub-32-channel-nvr.html",
               img: "/images/sub-sub-categories/sub-32-channel-nvr.avif",
             },
           ],
         },
         {
           name: "Digital Video Recorder (DVR)",
-          link: "/sub-category-pages/cctv-surveillance/digital-video-recorder-dvr.html",
+          link: "/digital-video-recorder-dvr.html",
           subSub: [
             {
               name: "4 Channel DVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/digital-video-recorder-dvr/sub-4-channel-dvr.html",
+              link: "/sub-4-channel-dvr.html",
               img: "/images/sub-sub-categories/sub-4-channel-dvr.avif",
             },
             {
               name: "8 Channel DVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/digital-video-recorder-dvr/sub-8-channel-dvr.html",
+              link: "/sub-8-channel-dvr.html",
               img: "/images/sub-sub-categories/sub-8-channel-dvr.avif",
             },
             {
               name: "16 Channel DVR",
-              link: "/sub-sub-category-pages/cctv-surveillance/digital-video-recorder-dvr/sub-16-channel-dvr.html",
+              link: "/sub-16-channel-dvr.html",
               img: "/images/sub-sub-categories/sub-16-channel-dvr.avif",
             },
           ],

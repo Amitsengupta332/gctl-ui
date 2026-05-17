@@ -4,7 +4,7 @@
   <!-- Banner -->
   <div class="relative overflow-hidden border-b border-[#dfeaf7] bg-[#eef6ff]">
     <div class="absolute inset-0">
-      <img src="/images/products/banners/cctv-surveillance.avif" alt="HD PTZ Camera"
+      <img src="/public/images/products/hd-cctv-camera/hd_ptz_camera_banner.avif" alt="HD PTZ Camera"
         class="w-full h-full object-cover object-center" />
       <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/75 to-white/10"></div>
     </div>
@@ -44,10 +44,12 @@
   </div>
 
   <!-- HD CCTV Camera Type Switcher -->
-  <div class="border-b border-[#e6edf5] bg-[#f8fbff]">
-    <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<!-- HD CCTV Camera Type Switcher Slider -->
+<div class="border-b border-[#e6edf5] bg-[#f8fbff]">
+  <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-      <div class="mb-6 border-b border-[#dfeaf7] pb-4">
+    <div class="mb-6 border-b border-[#dfeaf7] pb-4 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+      <div>
         <p class="text-[13px] font-bold uppercase tracking-[0.18em] text-[#0057d8]">
           HD CCTV Camera Types
         </p>
@@ -59,16 +61,40 @@
         <div class="mt-3 h-[2px] w-[42px] bg-[#0057d8]"></div>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+      <div class="flex items-center gap-3">
+        <a href="/hd-cctv-camera.html"
+          class="inline-flex h-10 items-center justify-center rounded-[6px] border border-[#0057d8] bg-white px-4 text-[13px] font-extrabold text-[#0057d8] hover:bg-[#0057d8] hover:text-white transition-colors">
+          All Product
+        </a>
+
+        <button type="button" data-product-prev
+          class="hidden sm:inline-flex h-10 w-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white text-[22px] font-bold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] transition-colors">
+          ‹
+        </button>
+
+        <button type="button" data-product-next
+          class="hidden sm:inline-flex h-10 w-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white text-[22px] font-bold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] transition-colors">
+          ›
+        </button>
+      </div>
+    </div>
+
+    <div data-product-slider class="relative">
+
+      <div data-product-track
+        class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-3">
 
         <!-- HD Dome Camera -->
         <a href="/sub-hd-dome-camera.html"
-          class="group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
+          class="snap-start shrink-0 w-[210px] sm:w-[230px] md:w-[250px] lg:w-[270px] group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
 
           <div class="h-[92px] w-full flex items-center justify-center overflow-hidden">
-            <img src="/images/products/cctv_category_images_avif/hd_dome_camera.avif" alt="HD Dome Camera"
+            <img
+              src="/images/products/cctv_category_images_avif/hd_dome_camera.avif"
+              alt="HD Dome Camera"
               class="max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply"
-              onerror="this.src='/images/products/placeholder.avif'" />
+              onerror="this.src='/images/products/placeholder.avif'"
+            />
           </div>
 
           <h3 class="mt-2 text-center text-[14px] leading-5 font-extrabold text-[#071425] group-hover:text-[#0057d8]">
@@ -78,12 +104,15 @@
 
         <!-- HD Bullet Camera -->
         <a href="/sub-hd-bullet-camera.html"
-          class="group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
+          class="snap-start shrink-0 w-[210px] sm:w-[230px] md:w-[250px] lg:w-[270px] group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
 
           <div class="h-[92px] w-full flex items-center justify-center overflow-hidden">
-            <img src="/images/products/cctv_category_images_avif/hd_bullet_camera_1.avif" alt="HD Bullet Camera"
+            <img
+              src="/images/products/cctv_category_images_avif/hd_bullet_camera_1.avif"
+              alt="HD Bullet Camera"
               class="max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply"
-              onerror="this.src='/images/products/placeholder.avif'" />
+              onerror="this.src='/images/products/placeholder.avif'"
+            />
           </div>
 
           <h3 class="mt-2 text-center text-[14px] leading-5 font-extrabold text-[#071425] group-hover:text-[#0057d8]">
@@ -93,12 +122,15 @@
 
         <!-- HD Turret Camera -->
         <a href="/sub-hd-turret-camera.html"
-          class="group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
+          class="snap-start shrink-0 w-[210px] sm:w-[230px] md:w-[250px] lg:w-[270px] group h-[150px] rounded-[6px] border border-[#dfeaf7] bg-white px-4 py-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
 
           <div class="h-[92px] w-full flex items-center justify-center overflow-hidden">
-            <img src="/images/products/cctv_category_images_avif/hd_turret_camera_600x450.avif" alt="HD Turret Camera"
+            <img
+              src="/images/products/cctv_category_images_avif/hd_turret_camera_600x450.avif"
+              alt="HD Turret Camera"
               class="max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply"
-              onerror="this.src='/images/products/placeholder.avif'" />
+              onerror="this.src='/images/products/placeholder.avif'"
+            />
           </div>
 
           <h3 class="mt-2 text-center text-[14px] leading-5 font-extrabold text-[#071425] group-hover:text-[#0057d8]">
@@ -108,12 +140,15 @@
 
         <!-- Active: HD PTZ Camera -->
         <a href="/sub-hd-ptz-camera.html"
-          class="group h-[150px] rounded-[6px] border-2 border-[#0057d8] bg-[#eef7ff] px-4 py-3 shadow-[0_10px_25px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
+          class="snap-start shrink-0 w-[210px] sm:w-[230px] md:w-[250px] lg:w-[270px] group h-[150px] rounded-[6px] border-2 border-[#0057d8] bg-[#eef7ff] px-4 py-3 shadow-[0_10px_25px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
 
           <div class="h-[92px] w-full flex items-center justify-center overflow-hidden">
-            <img src="/images/products/cctv_category_images_avif/hd_ptz_camera.avif" alt="HD PTZ Camera"
+            <img
+              src="/images/products/cctv_category_images_avif/hd_ptz_camera.avif"
+              alt="HD PTZ Camera"
               class="max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply"
-              onerror="this.src='/images/products/placeholder.avif'" />
+              onerror="this.src='/images/products/placeholder.avif'"
+            />
           </div>
 
           <h3 class="mt-2 text-center text-[14px] leading-5 font-extrabold text-[#0057d8]">
@@ -122,9 +157,23 @@
         </a>
 
       </div>
+
+      <!-- Mobile Slider Buttons -->
+      <div class="mt-4 flex sm:hidden items-center justify-center gap-3">
+        <button type="button" data-product-prev
+          class="inline-flex h-10 w-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white text-[22px] font-bold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] transition-colors">
+          ‹
+        </button>
+
+        <button type="button" data-product-next
+          class="inline-flex h-10 w-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white text-[22px] font-bold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] transition-colors">
+          ›
+        </button>
+      </div>
+
     </div>
   </div>
-
+</div>
   <!-- Products -->
   <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
