@@ -479,22 +479,22 @@ function initProductMegaMenu() {
           subSub: [
             {
               name: "Face Recognition Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ai-camera/sub-face-recognition-camera.html",
+              link: "/sub-face-recognition-camera.html",
               img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
             },
             {
               name: "People Counting Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ai-camera/sub-people-counting-camera.html",
+              link: "/sub-people-counting-camera.html",
               img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
             },
             {
               name: "Human Detection Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ai-camera/sub-human-detection-camera.html",
+              link: "/sub-human-detection-camera.html",
               img: "/images/sub-sub-categories/sub-human-detection-camera.avif",
             },
             {
               name: "Vehicle Detection Camera",
-              link: "/sub-sub-category-pages/cctv-surveillance/ai-camera/sub-vehicle-detection-camera.html",
+              link: "/sub-vehicle-detection-camera.html",
               img: "/images/sub-sub-categories/sub-vehicle-detection-camera.avif",
             },
           ],
