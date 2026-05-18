@@ -3,6 +3,8 @@ import "./style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import { initReusablePages } from "./reusable-pages.js";
+
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
 
@@ -27,6 +29,9 @@ async function loadComponents() {
   initNavbarSearch();
   initNavbarScroll();
   initProductMegaMenu();
+
+  initReusablePages();
+
   initHeroSlider();
   initProductSlider();
   initCategoryProductFilter();
@@ -609,147 +614,147 @@ function initProductMegaMenu() {
 
     automation: {
       title: "Automation Products",
-      link: "/category-pages/automation-products.html",
+      link: "/automation-products.html",
       sub: [
         {
           name: "Sliding Gate Motor",
-          link: "/sub-category-pages/automation-products/sliding-gate-motor.html",
+          link: "/sliding-gate-motor.html",
           subSub: [
             {
               name: "Residential Sliding Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/sliding-gate-motor/sub-residential-sliding-gate-motor.html",
+              link: "/sub-residential-sliding-gate-motor.html",
               img: "/images/sub-sub-categories/sub-residential-sliding-gate-motor.avif",
             },
             {
               name: "Industrial Sliding Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/sliding-gate-motor/sub-industrial-sliding-gate-motor.html",
+              link: "/sub-industrial-sliding-gate-motor.html",
               img: "/images/sub-sub-categories/sub-industrial-sliding-gate-motor.avif",
             },
             {
               name: "Heavy Duty Sliding Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/sliding-gate-motor/sub-heavy-duty-sliding-gate-motor.html",
+              link: "/sub-heavy-duty-sliding-gate-motor.html",
               img: "/images/sub-sub-categories/sub-heavy-duty-sliding-gate-motor.avif",
             },
           ],
         },
         {
           name: "Swing Gate Motor",
-          link: "/sub-category-pages/automation-products/swing-gate-motor.html",
+          link: "/swing-gate-motor.html",
           subSub: [
             {
               name: "Single Leaf Swing Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/swing-gate-motor/sub-single-leaf-swing-gate-motor.html",
+              link: "/sub-single-leaf-swing-gate-motor.html",
               img: "/images/sub-sub-categories/sub-single-leaf-swing-gate-motor.avif",
             },
             {
               name: "Double Leaf Swing Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/swing-gate-motor/sub-double-leaf-swing-gate-motor.html",
+              link: "/sub-double-leaf-swing-gate-motor.html",
               img: "/images/sub-sub-categories/sub-double-leaf-swing-gate-motor.avif",
             },
             {
               name: "Underground Swing Gate Motor",
-              link: "/sub-sub-category-pages/automation-products/swing-gate-motor/sub-underground-swing-gate-motor.html",
+              link: "/sub-underground-swing-gate-motor.html",
               img: "/images/sub-sub-categories/sub-underground-swing-gate-motor.avif",
             },
           ],
         },
         {
           name: "Automatic Glass Door",
-          link: "/sub-category-pages/automation-products/automatic-glass-door.html",
+          link: "/automatic-glass-door.html",
           subSub: [
             {
               name: "Sensor Sliding Glass Door",
-              link: "/sub-sub-category-pages/automation-products/automatic-glass-door/sub-sensor-sliding-glass-door.html",
+              link: "/sub-sensor-sliding-glass-door.html",
               img: "/images/sub-sub-categories/sub-sensor-sliding-glass-door.avif",
             },
             {
               name: "Telescopic Glass Door",
-              link: "/sub-sub-category-pages/automation-products/automatic-glass-door/sub-telescopic-glass-door.html",
+              link: "/sub-telescopic-glass-door.html",
               img: "/images/sub-sub-categories/sub-telescopic-glass-door.avif",
             },
             {
               name: "Glass Door Accessories",
-              link: "/sub-sub-category-pages/automation-products/automatic-glass-door/sub-glass-door-accessories.html",
+              link: "/sub-glass-door-accessories.html",
               img: "/images/sub-sub-categories/sub-glass-door-accessories.avif",
             },
           ],
         },
         {
           name: "Garage Door Automation",
-          link: "/sub-category-pages/automation-products/garage-door-automation.html",
+          link: "/garage-door-automation.html",
           subSub: [
             {
               name: "Sectional Garage Door",
-              link: "/sub-sub-category-pages/automation-products/garage-door-automation/sub-sectional-garage-door.html",
+              link: "/sub-sectional-garage-door.html",
               img: "/images/sub-sub-categories/sub-sectional-garage-door.avif",
             },
             {
               name: "Rolling Garage Door",
-              link: "/sub-sub-category-pages/automation-products/garage-door-automation/sub-rolling-garage-door.html",
+              link: "/sub-rolling-garage-door.html",
               img: "/images/sub-sub-categories/sub-rolling-garage-door.avif",
             },
           ],
         },
         {
           name: "Rolling Shutter Motor",
-          link: "/sub-category-pages/automation-products/rolling-shutter-motor.html",
+          link: "/rolling-shutter-motor.html",
           subSub: [
             {
               name: "AC Rolling Shutter Motor",
-              link: "/sub-sub-category-pages/automation-products/rolling-shutter-motor/sub-ac-rolling-shutter-motor.html",
+              link: "/sub-ac-rolling-shutter-motor.html",
               img: "/images/sub-sub-categories/sub-ac-rolling-shutter-motor.avif",
             },
             {
               name: "DC Rolling Shutter Motor",
-              link: "/sub-sub-category-pages/automation-products/rolling-shutter-motor/sub-dc-rolling-shutter-motor.html",
+              link: "/sub-dc-rolling-shutter-motor.html",
               img: "/images/sub-sub-categories/sub-dc-rolling-shutter-motor.avif",
             },
           ],
         },
         {
           name: "Automatic Sensor Door",
-          link: "/sub-category-pages/automation-products/automatic-sensor-door.html",
+          link: "/automatic-sensor-door.html",
           subSub: [
             {
               name: "Sliding Sensor Door",
-              link: "/sub-sub-category-pages/automation-products/automatic-sensor-door/sub-sliding-sensor-door.html",
+              link: "/sub-sliding-sensor-door.html",
               img: "/images/sub-sub-categories/sub-sliding-sensor-door.avif",
             },
             {
               name: "Swing Sensor Door",
-              link: "/sub-sub-category-pages/automation-products/automatic-sensor-door/sub-swing-sensor-door.html",
+              link: "/sub-swing-sensor-door.html",
               img: "/images/sub-sub-categories/sub-swing-sensor-door.avif",
             },
           ],
         },
         {
           name: "Road Blocker System",
-          link: "/sub-category-pages/automation-products/road-blocker-system.html",
+          link: "/road-blocker-system.html",
           subSub: [
             {
               name: "Hydraulic Road Blocker",
-              link: "/sub-sub-category-pages/automation-products/road-blocker-system/sub-hydraulic-road-blocker.html",
+              link: "/sub-hydraulic-road-blocker.html",
               img: "/images/sub-sub-categories/sub-hydraulic-road-blocker.avif",
             },
             {
               name: "Automatic Road Blocker",
-              link: "/sub-sub-category-pages/automation-products/road-blocker-system/sub-automatic-road-blocker.html",
+              link: "/sub-automatic-road-blocker.html",
               img: "/images/sub-sub-categories/sub-automatic-road-blocker.avif",
             },
           ],
         },
         {
           name: "Industrial Door Automation",
-          link: "/sub-category-pages/automation-products/industrial-door-automation.html",
+          link: "/industrial-door-automation.html",
           subSub: [
             {
               name: "High Speed Door",
-              link: "/sub-sub-category-pages/automation-products/industrial-door-automation/sub-high-speed-door.html",
+              link: "/sub-high-speed-door.html",
               img: "/images/sub-sub-categories/sub-high-speed-door.avif",
             },
             {
               name: "Sectional Industrial Door",
-              link: "/sub-sub-category-pages/automation-products/industrial-door-automation/sub-sectional-industrial-door.html",
+              link: "/sub-sectional-industrial-door.html",
               img: "/images/sub-sub-categories/sub-sectional-industrial-door.avif",
             },
           ],
@@ -759,126 +764,126 @@ function initProductMegaMenu() {
 
     entrance: {
       title: "Entrance Security Solutions",
-      link: "/category-pages/entrance-security-solutions.html",
+      link: "/entrance-security-solutions.html",
       sub: [
         {
           name: "Walk Through Metal Detector",
-          link: "/sub-category-pages/entrance-security-solutions/walk-through-metal-detector.html",
+          link: "/walk-through-metal-detector.html",
           subSub: [
             {
               name: "Single Zone Metal Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/walk-through-metal-detector/sub-single-zone-metal-detector.html",
+              link: "/sub-single-zone-metal-detector.html",
               img: "/images/sub-sub-categories/sub-single-zone-metal-detector.avif",
             },
             {
               name: "Multi Zone Metal Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/walk-through-metal-detector/sub-multi-zone-metal-detector.html",
+              link: "/sub-multi-zone-metal-detector.html",
               img: "/images/sub-sub-categories/sub-multi-zone-metal-detector.avif",
             },
             {
               name: "Weatherproof Metal Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/walk-through-metal-detector/sub-weatherproof-metal-detector.html",
+              link: "/sub-weatherproof-metal-detector.html",
               img: "/images/sub-sub-categories/sub-weatherproof-metal-detector.avif",
             },
           ],
         },
         {
           name: "Hand Held Metal Detector",
-          link: "/sub-category-pages/entrance-security-solutions/hand-held-metal-detector.html",
+          link: "/hand-held-metal-detector.html",
           subSub: [
             {
               name: "Rechargeable Hand Held Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/hand-held-metal-detector/sub-rechargeable-hand-held-detector.html",
+              link: "/sub-rechargeable-hand-held-detector.html",
               img: "/images/sub-sub-categories/sub-rechargeable-hand-held-detector.avif",
             },
             {
               name: "Portable Hand Held Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/hand-held-metal-detector/sub-portable-hand-held-detector.html",
+              link: "/sub-portable-hand-held-detector.html",
               img: "/images/sub-sub-categories/sub-portable-hand-held-detector.avif",
             },
           ],
         },
         {
           name: "X-Ray Baggage Scanner",
-          link: "/sub-category-pages/entrance-security-solutions/x-ray-baggage-scanner.html",
+          link: "/x-ray-baggage-scanner.html",
           subSub: [
             {
               name: "Small Baggage Scanner",
-              link: "/sub-sub-category-pages/entrance-security-solutions/x-ray-baggage-scanner/sub-small-baggage-scanner.html",
+              link: "/sub-small-baggage-scanner.html",
               img: "/images/sub-sub-categories/sub-small-baggage-scanner.avif",
             },
             {
               name: "Medium Baggage Scanner",
-              link: "/sub-sub-category-pages/entrance-security-solutions/x-ray-baggage-scanner/sub-medium-baggage-scanner.html",
+              link: "/sub-medium-baggage-scanner.html",
               img: "/images/sub-sub-categories/sub-medium-baggage-scanner.avif",
             },
             {
               name: "Large Baggage Scanner",
-              link: "/sub-sub-category-pages/entrance-security-solutions/x-ray-baggage-scanner/sub-large-baggage-scanner.html",
+              link: "/sub-large-baggage-scanner.html",
               img: "/images/sub-sub-categories/sub-large-baggage-scanner.avif",
             },
           ],
         },
         {
           name: "Under Vehicle Scanner",
-          link: "/sub-category-pages/entrance-security-solutions/under-vehicle-scanner.html",
+          link: "/under-vehicle-scanner.html",
           subSub: [
             {
               name: "Fixed Under Vehicle Scanner",
-              link: "/sub-sub-category-pages/entrance-security-solutions/under-vehicle-scanner/sub-fixed-under-vehicle-scanner.html",
+              link: "/sub-fixed-under-vehicle-scanner.html",
               img: "/images/sub-sub-categories/sub-fixed-under-vehicle-scanner.avif",
             },
             {
               name: "Portable Under Vehicle Scanner",
-              link: "/sub-sub-category-pages/entrance-security-solutions/under-vehicle-scanner/sub-portable-under-vehicle-scanner.html",
+              link: "/sub-portable-under-vehicle-scanner.html",
               img: "/images/sub-sub-categories/sub-portable-under-vehicle-scanner.avif",
             },
           ],
         },
         {
           name: "Explosive Detector",
-          link: "/sub-category-pages/entrance-security-solutions/explosive-detector.html",
+          link: "/explosive-detector.html",
           subSub: [
             {
               name: "Portable Explosive Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/explosive-detector/sub-portable-explosive-detector.html",
+              link: "/sub-portable-explosive-detector.html",
               img: "/images/sub-sub-categories/sub-portable-explosive-detector.avif",
             },
             {
               name: "Trace Explosive Detector",
-              link: "/sub-sub-category-pages/entrance-security-solutions/explosive-detector/sub-trace-explosive-detector.html",
+              link: "/sub-trace-explosive-detector.html",
               img: "/images/sub-sub-categories/sub-trace-explosive-detector.avif",
             },
           ],
         },
         {
           name: "Visitor Management System",
-          link: "/sub-category-pages/entrance-security-solutions/visitor-management-system.html",
+          link: "/visitor-management-system.html",
           subSub: [
             {
               name: "Visitor Registration Kiosk",
-              link: "/sub-sub-category-pages/entrance-security-solutions/visitor-management-system/sub-visitor-registration-kiosk.html",
+              link: "/sub-visitor-registration-kiosk.html",
               img: "/images/sub-sub-categories/sub-visitor-registration-kiosk.avif",
             },
             {
               name: "Visitor Pass System",
-              link: "/sub-sub-category-pages/entrance-security-solutions/visitor-management-system/sub-visitor-pass-system.html",
+              link: "/sub-visitor-pass-system.html",
               img: "/images/sub-sub-categories/sub-visitor-pass-system.avif",
             },
           ],
         },
         {
           name: "Security Inspection System",
-          link: "/sub-category-pages/entrance-security-solutions/security-inspection-system.html",
+          link: "/security-inspection-system.html",
           subSub: [
             {
               name: "Inspection Mirror",
-              link: "/sub-sub-category-pages/entrance-security-solutions/security-inspection-system/sub-inspection-mirror.html",
+              link: "/sub-inspection-mirror.html",
               img: "/images/sub-sub-categories/sub-inspection-mirror.avif",
             },
             {
               name: "Security Screening Kit",
-              link: "/sub-sub-category-pages/entrance-security-solutions/security-inspection-system/sub-security-screening-kit.html",
+              link: "/sub-security-screening-kit.html",
               img: "/images/sub-sub-categories/sub-security-screening-kit.avif",
             },
           ],
@@ -888,117 +893,126 @@ function initProductMegaMenu() {
 
     analytics: {
       title: "Intelligent Video Analytics",
-      link: "/category-pages/intelligent-video-analytics.html",
+      link: "/intelligent-video-analytics.html",
       sub: [
         {
           name: "Face Recognition System",
-          link: "/sub-category-pages/intelligent-video-analytics/face-recognition-system.html",
+          link: "/face-recognition-system.html",
           subSub: [
             {
               name: "Face Recognition Camera",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/face-recognition-system/sub-face-recognition-camera.html",
+              link: "/sub-face-recognition-camera.html",
               img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
             },
             {
               name: "Face Recognition Terminal",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/face-recognition-system/sub-face-recognition-terminal.html",
+              link: "/sub-face-recognition-terminal.html",
               img: "/images/sub-sub-categories/sub-face-recognition-terminal.avif",
             },
-          ],
-        },
-        {
-          name: "People Counting Camera",
-          link: "/sub-category-pages/intelligent-video-analytics/people-counting-camera.html",
-          subSub: [
             {
-              name: "Single Lens People Counter",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/people-counting-camera/sub-single-lens-people-counter.html",
-              img: "/images/sub-sub-categories/sub-single-lens-people-counter.avif",
-            },
-            {
-              name: "Dual Lens People Counter",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/people-counting-camera/sub-dual-lens-people-counter.html",
-              img: "/images/sub-sub-categories/sub-dual-lens-people-counter.avif",
+              name: "Face Recognition Software",
+              link: "/sub-face-recognition-software.html",
+              img: "/images/sub-sub-categories/sub-face-recognition-software.avif",
             },
           ],
         },
         {
-          name: "Object Detection",
-          link: "/sub-category-pages/intelligent-video-analytics/object-detection.html",
+          name: "People Counting System",
+          link: "/people-counting-system.html",
           subSub: [
             {
-              name: "Object Classification",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/object-detection/sub-object-classification.html",
-              img: "/images/sub-sub-categories/sub-object-classification.avif",
+              name: "People Counting Camera",
+              link: "/sub-people-counting-camera.html",
+              img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
             },
+            {
+              name: "Visitor Counting System",
+              link: "/sub-visitor-counting-system.html",
+              img: "/images/sub-sub-categories/sub-visitor-counting-system.avif",
+            },
+            {
+              name: "Occupancy Monitoring System",
+              link: "/sub-occupancy-monitoring-system.html",
+              img: "/images/sub-sub-categories/sub-occupancy-monitoring-system.avif",
+            },
+          ],
+        },
+        {
+          name: "Perimeter Intrusion Detection",
+          link: "/perimeter-intrusion-detection.html",
+          subSub: [
+            {
+              name: "Fence Intrusion Detection",
+              link: "/sub-fence-intrusion-detection.html",
+              img: "/images/sub-sub-categories/sub-fence-intrusion-detection.avif",
+            },
+            {
+              name: "Restricted Area Detection",
+              link: "/sub-restricted-area-detection.html",
+              img: "/images/sub-sub-categories/sub-restricted-area-detection.avif",
+            },
+            {
+              name: "AI Perimeter Camera",
+              link: "/sub-ai-perimeter-camera.html",
+              img: "/images/sub-sub-categories/sub-ai-perimeter-camera.avif",
+            },
+          ],
+        },
+        {
+          name: "Line Crossing Detection",
+          link: "/line-crossing-detection.html",
+          subSub: [
+            {
+              name: "Virtual Line Crossing",
+              link: "/sub-virtual-line-crossing.html",
+              img: "/images/sub-sub-categories/sub-virtual-line-crossing.avif",
+            },
+            {
+              name: "Direction Detection",
+              link: "/sub-direction-detection.html",
+              img: "/images/sub-sub-categories/sub-direction-detection.avif",
+            },
+          ],
+        },
+        {
+          name: "Object Detection System",
+          link: "/object-detection-system.html",
+          subSub: [
             {
               name: "Abandoned Object Detection",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/object-detection/sub-abandoned-object-detection.html",
+              link: "/sub-abandoned-object-detection.html",
               img: "/images/sub-sub-categories/sub-abandoned-object-detection.avif",
             },
-          ],
-        },
-        {
-          name: "Intrusion Detection",
-          link: "/sub-category-pages/intelligent-video-analytics/intrusion-detection.html",
-          subSub: [
             {
-              name: "Line Crossing Detection",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/intrusion-detection/sub-line-crossing-detection.html",
-              img: "/images/sub-sub-categories/sub-line-crossing-detection.avif",
+              name: "Missing Object Detection",
+              link: "/sub-missing-object-detection.html",
+              img: "/images/sub-sub-categories/sub-missing-object-detection.avif",
             },
             {
-              name: "Area Intrusion Detection",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/intrusion-detection/sub-area-intrusion-detection.html",
-              img: "/images/sub-sub-categories/sub-area-intrusion-detection.avif",
+              name: "Suspicious Object Detection",
+              link: "/sub-suspicious-object-detection.html",
+              img: "/images/sub-sub-categories/sub-suspicious-object-detection.avif",
             },
           ],
         },
         {
-          name: "Vehicle Analytics",
-          link: "/sub-category-pages/intelligent-video-analytics/vehicle-analytics.html",
+          name: "Vehicle Analytics System",
+          link: "/vehicle-analytics-system.html",
           subSub: [
             {
-              name: "Vehicle Counting Analytics",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/vehicle-analytics/sub-vehicle-counting-analytics.html",
-              img: "/images/sub-sub-categories/sub-vehicle-counting-analytics.avif",
+              name: "Vehicle Detection System",
+              link: "/sub-vehicle-detection-system.html",
+              img: "/images/sub-sub-categories/sub-vehicle-detection-system.avif",
             },
             {
-              name: "Vehicle Detection Analytics",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/vehicle-analytics/sub-vehicle-detection-analytics.html",
-              img: "/images/sub-sub-categories/sub-vehicle-detection-analytics.avif",
-            },
-          ],
-        },
-        {
-          name: "Heatmap Analytics",
-          link: "/sub-category-pages/intelligent-video-analytics/heatmap-analytics.html",
-          subSub: [
-            {
-              name: "People Heatmap",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/heatmap-analytics/sub-people-heatmap.html",
-              img: "/images/sub-sub-categories/sub-people-heatmap.avif",
+              name: "Vehicle Counting System",
+              link: "/sub-vehicle-counting-system.html",
+              img: "/images/sub-sub-categories/sub-vehicle-counting-system.avif",
             },
             {
-              name: "Traffic Heatmap",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/heatmap-analytics/sub-traffic-heatmap.html",
-              img: "/images/sub-sub-categories/sub-traffic-heatmap.avif",
-            },
-          ],
-        },
-        {
-          name: "Smart Search Analytics",
-          link: "/sub-category-pages/intelligent-video-analytics/smart-search-analytics.html",
-          subSub: [
-            {
-              name: "Human Search Analytics",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/smart-search-analytics/sub-human-search-analytics.html",
-              img: "/images/sub-sub-categories/sub-human-search-analytics.avif",
-            },
-            {
-              name: "Vehicle Search Analytics",
-              link: "/sub-sub-category-pages/intelligent-video-analytics/smart-search-analytics/sub-vehicle-search-analytics.html",
-              img: "/images/sub-sub-categories/sub-vehicle-search-analytics.avif",
+              name: "Traffic Flow Analytics",
+              link: "/sub-traffic-flow-analytics.html",
+              img: "/images/sub-sub-categories/sub-traffic-flow-analytics.avif",
             },
           ],
         },
