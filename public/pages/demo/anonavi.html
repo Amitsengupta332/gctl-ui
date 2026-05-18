@@ -38,28 +38,29 @@
 
                         <div
                             class="fixed left-1/2 top-[92px] z-[999] w-[min(1220px,calc(100vw-40px))] -translate-x-1/2 opacity-0 invisible group-hover/products:opacity-100 group-hover/products:visible transition-all duration-200">
-                            <!-- Updated Grid Container with h-full and flex -->
                             <div
                                 class="grid grid-cols-[360px_360px_1fr] h-[640px] max-h-[calc(100vh-110px)] overflow-hidden rounded-b-[18px] border border-[#dce8f7] bg-white shadow-[0_22px_60px_rgba(15,23,42,0.16)]">
 
                                 <!-- Left Categories -->
-                                <div class="border-r border-[#dce8f7] bg-white flex flex-col h-full overflow-hidden">
+                                <div class="border-r border-[#dce8f7] bg-white">
 
-                                    <!-- All Categories Button (Fixed at top) -->
+                                    <!-- All Categories -->
                                     <a href="/all-categories.html"
-                                        class="shrink-0 h-[56px] w-full flex items-center gap-4 bg-[#0b66d8] px-6 text-white text-left hover:bg-[#075ac2] transition-colors">
+                                        class="h-[56px] w-full flex items-center gap-4 bg-[#0b66d8] px-6 text-white text-left hover:bg-[#075ac2] transition-colors">
                                         <span class="grid grid-cols-2 gap-1">
                                             <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
                                             <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
                                             <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
                                             <span class="w-2.5 h-2.5 rounded-[2px] bg-white"></span>
                                         </span>
+
                                         <span class="text-[15px] font-bold">All Product Categories</span>
+                                        <!-- <span class="ml-auto text-xl leading-none">›</span> -->
                                     </a>
 
-                                    <!-- Category Buttons Scrollable Area -->
-                                    <div class="flex-1 overflow-y-auto min-h-0 overscroll-contain">
+                                    <div class="max-h-[584px] overflow-y-auto">
 
+                                        <!-- This is a tab button, not redirect -->
                                         <button type="button" data-product-mega-tab="cctv"
                                             data-product-link="/cctv-surveillance.html"
                                             class="product-mega-tab flex w-full h-[46px] items-center justify-between border-b border-[#edf2f8] bg-[#eef7ff] px-5 text-left text-[14px] font-semibold text-[#0057d8] border-l-2 border-l-[#0057d8]">
@@ -190,35 +191,32 @@
                                             </span>
                                             <span class="text-xl">›</span>
                                         </button>
-
                                     </div>
                                 </div>
 
                                 <!-- Middle Sub Categories -->
-                                <div
-                                    class="border-r border-[#dce8f7] bg-white px-7 py-7 flex flex-col h-full overflow-hidden">
-                                    <h3 id="productMegaTitle"
-                                        class="shrink-0 mb-5 text-[17px] font-bold text-[#0057d8]">
+                                <div class="border-r border-[#dce8f7] bg-white px-7 py-7">
+                                    <h3 id="productMegaTitle" class="mb-5 text-[17px] font-bold text-[#0057d8]">
                                         CCTV Surveillance
                                     </h3>
 
-                                    <div id="productMegaSubList"
-                                        class="flex-1 overflow-y-auto min-h-0 space-y-1 pr-2 overscroll-contain"></div>
+                                    <div id="productMegaSubList" class="space-y-1"></div>
                                 </div>
 
+                              
                                 <!-- Right Product Preview -->
-                                <div class="bg-white px-7 py-7 flex flex-col h-full overflow-hidden">
+                                <div class="bg-white px-7 py-7 min-h-0 overflow-hidden flex flex-col">
                                     <h3 id="productMegaPreviewTitle"
-                                        class="shrink-0 mb-6 text-[17px] font-bold text-[#0057d8]">
+                                        class="mb-6 shrink-0 text-[17px] font-bold text-[#0057d8]">
                                         HD CCTV Camera
                                     </h3>
 
                                     <div id="productMegaPreviewList"
-                                        class="flex-1 overflow-y-auto min-h-0 space-y-4 pr-2 overscroll-contain"></div>
+                                        class="space-y-4 flex-1 min-h-0 overflow-y-auto pr-2 overscroll-contain"></div>
 
                                     <!-- Desktop redirect button -->
                                     <a id="productMegaViewAll" href="/cctv-surveillance.html"
-                                        class="shrink-0 mt-7 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
+                                        class="mt-7 shrink-0 flex h-[48px] items-center justify-between rounded-lg bg-[#eef7ff] px-5 text-[15px] font-bold text-[#0057d8] hover:bg-[#dcefff] transition-colors">
                                         <span>View All Products</span>
                                         <span class="text-2xl leading-none">›</span>
                                     </a>
@@ -350,6 +348,7 @@
                             All Product Categories
                         </a>
 
+                        <!-- Mobile redirect link -->
                         <a href="/cctv-surveillance.html"
                             class="block px-3 py-2 text-sm rounded-lg hover:bg-blue-50 hover:text-[#0068c9]">
                             CCTV Surveillance

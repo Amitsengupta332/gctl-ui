@@ -1021,127 +1021,126 @@ function initProductMegaMenu() {
 
     access: {
       title: "Access Control & Time Attendance",
-      link: "/category-pages/access-control-time-attendance.html",
+      link: "/access-control-time-attendance.html",
       sub: [
         {
-          name: "Biometric Attendance",
-          link: "/sub-category-pages/access-control-time-attendance/biometric-attendance.html",
+          name: "Biometric Attendance System",
+          link: "/biometric-attendance-system.html",
           subSub: [
             {
-              name: "Fingerprint Attendance",
-              link: "/sub-sub-category-pages/access-control-time-attendance/biometric-attendance/sub-fingerprint-attendance.html",
-              img: "/images/sub-sub-categories/sub-fingerprint-attendance.avif",
+              name: "Fingerprint Attendance Device",
+              link: "/sub-fingerprint-attendance-device.html",
+              img: "/images/sub-sub-categories/sub-fingerprint-attendance-device.avif",
             },
             {
-              name: "Face Attendance",
-              link: "/sub-sub-category-pages/access-control-time-attendance/biometric-attendance/sub-face-attendance.html",
-              img: "/images/sub-sub-categories/sub-face-attendance.avif",
+              name: "Face Attendance Device",
+              link: "/sub-face-attendance-device.html",
+              img: "/images/sub-sub-categories/sub-face-attendance-device.avif",
             },
             {
-              name: "Palm Attendance",
-              link: "/sub-sub-category-pages/access-control-time-attendance/biometric-attendance/sub-palm-attendance.html",
-              img: "/images/sub-sub-categories/sub-palm-attendance.avif",
+              name: "Card Attendance Device",
+              link: "/sub-card-attendance-device.html",
+              img: "/images/sub-sub-categories/sub-card-attendance-device.avif",
             },
           ],
         },
         {
-          name: "Face Attendance Device",
-          link: "/sub-category-pages/access-control-time-attendance/face-attendance-device.html",
+          name: "Door Access Control System",
+          link: "/door-access-control-system.html",
           subSub: [
             {
-              name: "Face Recognition Attendance",
-              link: "/sub-sub-category-pages/access-control-time-attendance/face-attendance-device/sub-face-recognition-attendance.html",
-              img: "/images/sub-sub-categories/sub-face-recognition-attendance.avif",
+              name: "Single Door Access Control",
+              link: "/sub-single-door-access-control.html",
+              img: "/images/sub-sub-categories/sub-single-door-access-control.avif",
             },
+            {
+              name: "Multi Door Access Control",
+              link: "/sub-multi-door-access-control.html",
+              img: "/images/sub-sub-categories/sub-multi-door-access-control.avif",
+            },
+            {
+              name: "Network Access Controller",
+              link: "/sub-network-access-controller.html",
+              img: "/images/sub-sub-categories/sub-network-access-controller.avif",
+            },
+          ],
+        },
+        {
+          name: "Face Recognition Access Control",
+          link: "/face-recognition-access-control.html",
+          subSub: [
             {
               name: "Face Access Terminal",
-              link: "/sub-sub-category-pages/access-control-time-attendance/face-attendance-device/sub-face-access-terminal.html",
+              link: "/sub-face-access-terminal.html",
               img: "/images/sub-sub-categories/sub-face-access-terminal.avif",
+            },
+            {
+              name: "Mask Detection Access Control",
+              link: "/sub-mask-detection-access-control.html",
+              img: "/images/sub-sub-categories/sub-mask-detection-access-control.avif",
+            },
+            {
+              name: "Temperature Detection Terminal",
+              link: "/sub-temperature-detection-terminal.html",
+              img: "/images/sub-sub-categories/sub-temperature-detection-terminal.avif",
             },
           ],
         },
         {
-          name: "RFID Access Control",
-          link: "/sub-category-pages/access-control-time-attendance/rfid-access-control.html",
+          name: "RFID Card Access System",
+          link: "/rfid-card-access-system.html",
           subSub: [
             {
               name: "RFID Card Reader",
-              link: "/sub-sub-category-pages/access-control-time-attendance/rfid-access-control/sub-rfid-card-reader.html",
+              link: "/sub-rfid-card-reader.html",
               img: "/images/sub-sub-categories/sub-rfid-card-reader.avif",
             },
             {
-              name: "RFID Controller",
-              link: "/sub-sub-category-pages/access-control-time-attendance/rfid-access-control/sub-rfid-controller.html",
-              img: "/images/sub-sub-categories/sub-rfid-controller.avif",
+              name: "RFID Access Card",
+              link: "/sub-rfid-access-card.html",
+              img: "/images/sub-sub-categories/sub-rfid-access-card.avif",
+            },
+            {
+              name: "RFID Key Fob",
+              link: "/sub-rfid-key-fob.html",
+              img: "/images/sub-sub-categories/sub-rfid-key-fob.avif",
             },
           ],
         },
         {
-          name: "Door Lock System",
-          link: "/sub-category-pages/access-control-time-attendance/door-lock-system.html",
+          name: "Electric Door Lock",
+          link: "/electric-door-lock.html",
           subSub: [
             {
-              name: "Magnetic Lock",
-              link: "/sub-sub-category-pages/access-control-time-attendance/door-lock-system/sub-magnetic-lock.html",
-              img: "/images/sub-sub-categories/sub-magnetic-lock.avif",
+              name: "Magnetic Door Lock",
+              link: "/sub-magnetic-door-lock.html",
+              img: "/images/sub-sub-categories/sub-magnetic-door-lock.avif",
             },
             {
-              name: "Drop Bolt Lock",
-              link: "/sub-sub-category-pages/access-control-time-attendance/door-lock-system/sub-drop-bolt-lock.html",
-              img: "/images/sub-sub-categories/sub-drop-bolt-lock.avif",
+              name: "Electric Bolt Lock",
+              link: "/sub-electric-bolt-lock.html",
+              img: "/images/sub-sub-categories/sub-electric-bolt-lock.avif",
             },
             {
-              name: "Electric Strike Lock",
-              link: "/sub-sub-category-pages/access-control-time-attendance/door-lock-system/sub-electric-strike-lock.html",
-              img: "/images/sub-sub-categories/sub-electric-strike-lock.avif",
+              name: "Door Exit Button",
+              link: "/sub-door-exit-button.html",
+              img: "/images/sub-sub-categories/sub-door-exit-button.avif",
             },
           ],
         },
         {
-          name: "Access Control Panel",
-          link: "/sub-category-pages/access-control-time-attendance/access-control-panel.html",
+          name: "Attendance Management Software",
+          link: "/attendance-management-software.html",
           subSub: [
             {
-              name: "Single Door Controller",
-              link: "/sub-sub-category-pages/access-control-time-attendance/access-control-panel/sub-single-door-controller.html",
-              img: "/images/sub-sub-categories/sub-single-door-controller.avif",
+              name: "Employee Attendance Software",
+              link: "/sub-employee-attendance-software.html",
+              img: "/images/sub-sub-categories/sub-employee-attendance-software.avif",
             },
-            {
-              name: "Multi Door Controller",
-              link: "/sub-sub-category-pages/access-control-time-attendance/access-control-panel/sub-multi-door-controller.html",
-              img: "/images/sub-sub-categories/sub-multi-door-controller.avif",
-            },
-          ],
-        },
-        {
-          name: "Hotel Door Lock",
-          link: "/sub-category-pages/access-control-time-attendance/hotel-door-lock.html",
-          subSub: [
-            {
-              name: "RFID Hotel Lock",
-              link: "/sub-sub-category-pages/access-control-time-attendance/hotel-door-lock/sub-rfid-hotel-lock.html",
-              img: "/images/sub-sub-categories/sub-rfid-hotel-lock.avif",
-            },
-            {
-              name: "Smart Hotel Lock",
-              link: "/sub-sub-category-pages/access-control-time-attendance/hotel-door-lock/sub-smart-hotel-lock.html",
-              img: "/images/sub-sub-categories/sub-smart-hotel-lock.avif",
-            },
-          ],
-        },
-        {
-          name: "Time Attendance Software",
-          link: "/sub-category-pages/access-control-time-attendance/time-attendance-software.html",
-          subSub: [
             {
               name: "Cloud Attendance Software",
-              link: "/sub-sub-category-pages/access-control-time-attendance/time-attendance-software/sub-cloud-attendance-software.html",
+              link: "/sub-cloud-attendance-software.html",
               img: "/images/sub-sub-categories/sub-cloud-attendance-software.avif",
-            },
-            {
-              name: "Desktop Attendance Software",
-              link: "/sub-sub-category-pages/access-control-time-attendance/time-attendance-software/sub-desktop-attendance-software.html",
-              img: "/images/sub-sub-categories/sub-desktop-attendance-software.avif",
             },
           ],
         },
@@ -1150,240 +1149,249 @@ function initProductMegaMenu() {
 
     fire: {
       title: "Fire Alarm System",
-      link: "/category-pages/fire-alarm-system.html",
+      link: "/fire-alarm-system.html",
       sub: [
         {
-          name: "Addressable Fire Alarm",
-          link: "/sub-category-pages/fire-alarm-system/addressable-fire-alarm.html",
+          name: "Conventional Fire Alarm System",
+          link: "/conventional-fire-alarm-system.html",
           subSub: [
             {
-              name: "Addressable Fire Panel",
-              link: "/sub-sub-category-pages/fire-alarm-system/addressable-fire-alarm/sub-addressable-fire-panel.html",
-              img: "/images/sub-sub-categories/sub-addressable-fire-panel.avif",
+              name: "Conventional Fire Alarm Panel",
+              link: "/sub-conventional-fire-alarm-panel.html",
+              img: "/images/sub-sub-categories/sub-conventional-fire-alarm-panel.avif",
             },
             {
-              name: "Addressable Fire Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/addressable-fire-alarm/sub-addressable-fire-detector.html",
-              img: "/images/sub-sub-categories/sub-addressable-fire-detector.avif",
+              name: "Conventional Smoke Detector",
+              link: "/sub-conventional-smoke-detector.html",
+              img: "/images/sub-sub-categories/sub-conventional-smoke-detector.avif",
+            },
+            {
+              name: "Conventional Heat Detector",
+              link: "/sub-conventional-heat-detector.html",
+              img: "/images/sub-sub-categories/sub-conventional-heat-detector.avif",
             },
           ],
         },
         {
-          name: "Conventional Fire Alarm",
-          link: "/sub-category-pages/fire-alarm-system/conventional-fire-alarm.html",
+          name: "Addressable Fire Alarm System",
+          link: "/addressable-fire-alarm-system.html",
           subSub: [
             {
-              name: "Conventional Fire Panel",
-              link: "/sub-sub-category-pages/fire-alarm-system/conventional-fire-alarm/sub-conventional-fire-panel.html",
-              img: "/images/sub-sub-categories/sub-conventional-fire-panel.avif",
+              name: "Addressable Fire Alarm Panel",
+              link: "/sub-addressable-fire-alarm-panel.html",
+              img: "/images/sub-sub-categories/sub-addressable-fire-alarm-panel.avif",
             },
             {
-              name: "Conventional Fire Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/conventional-fire-alarm/sub-conventional-fire-detector.html",
-              img: "/images/sub-sub-categories/sub-conventional-fire-detector.avif",
+              name: "Addressable Smoke Detector",
+              link: "/sub-addressable-smoke-detector.html",
+              img: "/images/sub-sub-categories/sub-addressable-smoke-detector.avif",
+            },
+            {
+              name: "Addressable Heat Detector",
+              link: "/sub-addressable-heat-detector.html",
+              img: "/images/sub-sub-categories/sub-addressable-heat-detector.avif",
+            },
+          ],
+        },
+        {
+          name: "Fire Alarm Control Panel",
+          link: "/fire-alarm-control-panel.html",
+          subSub: [
+            {
+              name: "2 Zone Fire Alarm Panel",
+              link: "/sub-2-zone-fire-alarm-panel.html",
+              img: "/images/sub-sub-categories/sub-2-zone-fire-alarm-panel.avif",
+            },
+            {
+              name: "4 Zone Fire Alarm Panel",
+              link: "/sub-4-zone-fire-alarm-panel.html",
+              img: "/images/sub-sub-categories/sub-4-zone-fire-alarm-panel.avif",
+            },
+            {
+              name: "8 Zone Fire Alarm Panel",
+              link: "/sub-8-zone-fire-alarm-panel.html",
+              img: "/images/sub-sub-categories/sub-8-zone-fire-alarm-panel.avif",
             },
           ],
         },
         {
           name: "Smoke Detector",
-          link: "/sub-category-pages/fire-alarm-system/smoke-detector.html",
+          link: "/smoke-detector.html",
           subSub: [
             {
-              name: "Addressable Smoke Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/smoke-detector/sub-addressable-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-addressable-smoke-detector.avif",
+              name: "Optical Smoke Detector",
+              link: "/sub-optical-smoke-detector.html",
+              img: "/images/sub-sub-categories/sub-optical-smoke-detector.avif",
             },
             {
-              name: "Conventional Smoke Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/smoke-detector/sub-conventional-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-conventional-smoke-detector.avif",
-            },
-            {
-              name: "Wireless Smoke Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/smoke-detector/sub-wireless-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-wireless-smoke-detector.avif",
+              name: "Photoelectric Smoke Detector",
+              link: "/sub-photoelectric-smoke-detector.html",
+              img: "/images/sub-sub-categories/sub-photoelectric-smoke-detector.avif",
             },
           ],
         },
         {
           name: "Heat Detector",
-          link: "/sub-category-pages/fire-alarm-system/heat-detector.html",
+          link: "/heat-detector.html",
           subSub: [
             {
               name: "Fixed Temperature Heat Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/heat-detector/sub-fixed-temperature-heat-detector.html",
+              link: "/sub-fixed-temperature-heat-detector.html",
               img: "/images/sub-sub-categories/sub-fixed-temperature-heat-detector.avif",
             },
             {
-              name: "Rate Of Rise Heat Detector",
-              link: "/sub-sub-category-pages/fire-alarm-system/heat-detector/sub-rate-of-rise-heat-detector.html",
+              name: "Rate of Rise Heat Detector",
+              link: "/sub-rate-of-rise-heat-detector.html",
               img: "/images/sub-sub-categories/sub-rate-of-rise-heat-detector.avif",
             },
           ],
         },
         {
           name: "Manual Call Point",
-          link: "/sub-category-pages/fire-alarm-system/manual-call-point.html",
+          link: "/manual-call-point.html",
           subSub: [
             {
-              name: "Addressable Manual Call Point",
-              link: "/sub-sub-category-pages/fire-alarm-system/manual-call-point/sub-addressable-manual-call-point.html",
-              img: "/images/sub-sub-categories/sub-addressable-manual-call-point.avif",
+              name: "Break Glass Call Point",
+              link: "/sub-break-glass-call-point.html",
+              img: "/images/sub-sub-categories/sub-break-glass-call-point.avif",
             },
             {
-              name: "Conventional Manual Call Point",
-              link: "/sub-sub-category-pages/fire-alarm-system/manual-call-point/sub-conventional-manual-call-point.html",
-              img: "/images/sub-sub-categories/sub-conventional-manual-call-point.avif",
+              name: "Resettable Call Point",
+              link: "/sub-resettable-call-point.html",
+              img: "/images/sub-sub-categories/sub-resettable-call-point.avif",
             },
           ],
         },
         {
-          name: "Fire Alarm Bell",
-          link: "/sub-category-pages/fire-alarm-system/fire-alarm-bell.html",
+          name: "Fire Alarm Sounder & Strobe",
+          link: "/fire-alarm-sounder-strobe.html",
           subSub: [
             {
-              name: "Indoor Fire Alarm Bell",
-              link: "/sub-sub-category-pages/fire-alarm-system/fire-alarm-bell/sub-indoor-fire-alarm-bell.html",
-              img: "/images/sub-sub-categories/sub-indoor-fire-alarm-bell.avif",
+              name: "Fire Alarm Sounder",
+              link: "/sub-fire-alarm-sounder.html",
+              img: "/images/sub-sub-categories/sub-fire-alarm-sounder.avif",
             },
             {
-              name: "Outdoor Fire Alarm Bell",
-              link: "/sub-sub-category-pages/fire-alarm-system/fire-alarm-bell/sub-outdoor-fire-alarm-bell.html",
-              img: "/images/sub-sub-categories/sub-outdoor-fire-alarm-bell.avif",
-            },
-          ],
-        },
-        {
-          name: "Fire Suppression System",
-          link: "/sub-category-pages/fire-alarm-system/fire-suppression-system.html",
-          subSub: [
-            {
-              name: "Gas Suppression System",
-              link: "/sub-sub-category-pages/fire-alarm-system/fire-suppression-system/sub-gas-suppression-system.html",
-              img: "/images/sub-sub-categories/sub-gas-suppression-system.avif",
-            },
-            {
-              name: "Kitchen Fire Suppression",
-              link: "/sub-sub-category-pages/fire-alarm-system/fire-suppression-system/sub-kitchen-fire-suppression.html",
-              img: "/images/sub-sub-categories/sub-kitchen-fire-suppression.avif",
+              name: "Fire Alarm Strobe",
+              link: "/sub-fire-alarm-strobe.html",
+              img: "/images/sub-sub-categories/sub-fire-alarm-strobe.avif",
             },
           ],
         },
       ],
     },
-
     barrier: {
       title: "Turnstile Gate & Boom Barrier",
-      link: "/category-pages/turnstile-gate-boom-barrier.html",
+      link: "/turnstile-gate-boom-barrier.html",
       sub: [
         {
           name: "Tripod Turnstile",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/tripod-turnstile.html",
+          link: "/tripod-turnstile.html",
           subSub: [
             {
               name: "Manual Tripod Turnstile",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/tripod-turnstile/sub-manual-tripod-turnstile.html",
+              link: "/sub-manual-tripod-turnstile.html",
               img: "/images/sub-sub-categories/sub-manual-tripod-turnstile.avif",
             },
             {
               name: "Automatic Tripod Turnstile",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/tripod-turnstile/sub-automatic-tripod-turnstile.html",
+              link: "/sub-automatic-tripod-turnstile.html",
               img: "/images/sub-sub-categories/sub-automatic-tripod-turnstile.avif",
             },
           ],
         },
         {
           name: "Flap Barrier",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/flap-barrier.html",
+          link: "/flap-barrier.html",
           subSub: [
             {
               name: "Single Lane Flap Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/flap-barrier/sub-single-lane-flap-barrier.html",
+              link: "/sub-single-lane-flap-barrier.html",
               img: "/images/sub-sub-categories/sub-single-lane-flap-barrier.avif",
             },
             {
               name: "Double Lane Flap Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/flap-barrier/sub-double-lane-flap-barrier.html",
+              link: "/sub-double-lane-flap-barrier.html",
               img: "/images/sub-sub-categories/sub-double-lane-flap-barrier.avif",
             },
           ],
         },
         {
           name: "Swing Barrier",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/swing-barrier.html",
+          link: "/swing-barrier.html",
           subSub: [
             {
               name: "Single Swing Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/swing-barrier/sub-single-swing-barrier.html",
+              link: "/sub-single-swing-barrier.html",
               img: "/images/sub-sub-categories/sub-single-swing-barrier.avif",
             },
             {
               name: "Double Swing Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/swing-barrier/sub-double-swing-barrier.html",
+              link: "/sub-double-swing-barrier.html",
               img: "/images/sub-sub-categories/sub-double-swing-barrier.avif",
             },
           ],
         },
         {
           name: "Full Height Turnstile",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/full-height-turnstile.html",
+          link: "/full-height-turnstile.html",
           subSub: [
             {
               name: "Single Full Height Turnstile",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/full-height-turnstile/sub-single-full-height-turnstile.html",
+              link: "/sub-single-full-height-turnstile.html",
               img: "/images/sub-sub-categories/sub-single-full-height-turnstile.avif",
             },
             {
               name: "Double Full Height Turnstile",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/full-height-turnstile/sub-double-full-height-turnstile.html",
+              link: "/sub-double-full-height-turnstile.html",
               img: "/images/sub-sub-categories/sub-double-full-height-turnstile.avif",
             },
           ],
         },
         {
           name: "Boom Barrier Gate",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/boom-barrier-gate.html",
+          link: "/boom-barrier-gate.html",
           subSub: [
             {
               name: "Straight Arm Boom Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/boom-barrier-gate/sub-straight-arm-boom-barrier.html",
+              link: "/sub-straight-arm-boom-barrier.html",
               img: "/images/sub-sub-categories/sub-straight-arm-boom-barrier.avif",
             },
             {
               name: "Folding Arm Boom Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/boom-barrier-gate/sub-folding-arm-boom-barrier.html",
+              link: "/sub-folding-arm-boom-barrier.html",
               img: "/images/sub-sub-categories/sub-folding-arm-boom-barrier.avif",
             },
           ],
         },
         {
           name: "Parking Barrier",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/parking-barrier.html",
+          link: "/parking-barrier.html",
           subSub: [
             {
               name: "RFID Parking Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/parking-barrier/sub-rfid-parking-barrier.html",
+              link: "/sub-rfid-parking-barrier.html",
               img: "/images/sub-sub-categories/sub-rfid-parking-barrier.avif",
             },
             {
               name: "ANPR Parking Barrier",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/parking-barrier/sub-anpr-parking-barrier.html",
+              link: "/sub-anpr-parking-barrier.html",
               img: "/images/sub-sub-categories/sub-anpr-parking-barrier.avif",
             },
           ],
         },
         {
           name: "Ticketing Gate System",
-          link: "/sub-category-pages/turnstile-gate-boom-barrier/ticketing-gate-system.html",
+          link: "/ticketing-gate-system.html",
           subSub: [
             {
               name: "QR Ticketing Gate",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/ticketing-gate-system/sub-qr-ticketing-gate.html",
+              link: "/sub-qr-ticketing-gate.html",
               img: "/images/sub-sub-categories/sub-qr-ticketing-gate.avif",
             },
             {
               name: "RFID Ticketing Gate",
-              link: "/sub-sub-category-pages/turnstile-gate-boom-barrier/ticketing-gate-system/sub-rfid-ticketing-gate.html",
+              link: "/sub-rfid-ticketing-gate.html",
               img: "/images/sub-sub-categories/sub-rfid-ticketing-gate.avif",
             },
           ],
@@ -1393,100 +1401,100 @@ function initProductMegaMenu() {
 
     signage: {
       title: "LCD/LED Digital Signage",
-      link: "/category-pages/lcd-led-digital-signage.html",
+      link: "/lcd-led-digital-signage.html",
       sub: [
         {
           name: "Indoor LED Display",
-          link: "/sub-category-pages/lcd-led-digital-signage/indoor-led-display.html",
+          link: "/indoor-led-display.html",
           subSub: [
             {
               name: "P2 Indoor LED Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/indoor-led-display/sub-p2-indoor-led-display.html",
+              link: "/sub-p2-indoor-led-display.html",
               img: "/images/sub-sub-categories/sub-p2-indoor-led-display.avif",
             },
             {
               name: "P3 Indoor LED Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/indoor-led-display/sub-p3-indoor-led-display.html",
+              link: "/sub-p3-indoor-led-display.html",
               img: "/images/sub-sub-categories/sub-p3-indoor-led-display.avif",
             },
           ],
         },
         {
           name: "Outdoor LED Display",
-          link: "/sub-category-pages/lcd-led-digital-signage/outdoor-led-display.html",
+          link: "/outdoor-led-display.html",
           subSub: [
             {
               name: "P4 Outdoor LED Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/outdoor-led-display/sub-p4-outdoor-led-display.html",
+              link: "/sub-p4-outdoor-led-display.html",
               img: "/images/sub-sub-categories/sub-p4-outdoor-led-display.avif",
             },
             {
               name: "P5 Outdoor LED Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/outdoor-led-display/sub-p5-outdoor-led-display.html",
+              link: "/sub-p5-outdoor-led-display.html",
               img: "/images/sub-sub-categories/sub-p5-outdoor-led-display.avif",
             },
           ],
         },
         {
           name: "Interactive Kiosk",
-          link: "/sub-category-pages/lcd-led-digital-signage/interactive-kiosk.html",
+          link: "/interactive-kiosk.html",
           subSub: [
             {
               name: "Touch Kiosk",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/interactive-kiosk/sub-touch-kiosk.html",
+              link: "/sub-touch-kiosk.html",
               img: "/images/sub-sub-categories/sub-touch-kiosk.avif",
             },
             {
               name: "Self Service Kiosk",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/interactive-kiosk/sub-self-service-kiosk.html",
+              link: "/sub-self-service-kiosk.html",
               img: "/images/sub-sub-categories/sub-self-service-kiosk.avif",
             },
           ],
         },
         {
           name: "Video Wall Display",
-          link: "/sub-category-pages/lcd-led-digital-signage/video-wall-display.html",
+          link: "/video-wall-display.html",
           subSub: [
             {
               name: "LCD Video Wall",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/video-wall-display/sub-lcd-video-wall.html",
+              link: "/sub-lcd-video-wall.html",
               img: "/images/sub-sub-categories/sub-lcd-video-wall.avif",
             },
             {
               name: "LED Video Wall",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/video-wall-display/sub-led-video-wall.html",
+              link: "/sub-led-video-wall.html",
               img: "/images/sub-sub-categories/sub-led-video-wall.avif",
             },
           ],
         },
         {
           name: "Digital Signage Player",
-          link: "/sub-category-pages/lcd-led-digital-signage/digital-signage-player.html",
+          link: "/digital-signage-player.html",
           subSub: [
             {
               name: "Android Signage Player",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/digital-signage-player/sub-android-signage-player.html",
+              link: "/sub-android-signage-player.html",
               img: "/images/sub-sub-categories/sub-android-signage-player.avif",
             },
             {
               name: "Windows Signage Player",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/digital-signage-player/sub-windows-signage-player.html",
+              link: "/sub-windows-signage-player.html",
               img: "/images/sub-sub-categories/sub-windows-signage-player.avif",
             },
           ],
         },
         {
           name: "Advertising Display",
-          link: "/sub-category-pages/lcd-led-digital-signage/advertising-display.html",
+          link: "/advertising-display.html",
           subSub: [
             {
               name: "Floor Standing Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/advertising-display/sub-floor-standing-display.html",
+              link: "/sub-floor-standing-display.html",
               img: "/images/sub-sub-categories/sub-floor-standing-display.avif",
             },
             {
               name: "Wall Mounted Display",
-              link: "/sub-sub-category-pages/lcd-led-digital-signage/advertising-display/sub-wall-mounted-display.html",
+              link: "/sub-wall-mounted-display.html",
               img: "/images/sub-sub-categories/sub-wall-mounted-display.avif",
             },
           ],
@@ -1496,105 +1504,105 @@ function initProductMegaMenu() {
 
     queue: {
       title: "Queue Management System",
-      link: "/category-pages/queue-management-system.html",
+      link: "/queue-management-system.html",
       sub: [
         {
           name: "Token Machine",
-          link: "/sub-category-pages/queue-management-system/token-machine.html",
+          link: "/token-machine.html",
           subSub: [
             {
               name: "Basic Token Machine",
-              link: "/sub-sub-category-pages/queue-management-system/token-machine/sub-basic-token-machine.html",
+              link: "/sub-basic-token-machine.html",
               img: "/images/sub-sub-categories/sub-basic-token-machine.avif",
             },
             {
               name: "Touch Token Machine",
-              link: "/sub-sub-category-pages/queue-management-system/token-machine/sub-touch-token-machine.html",
+              link: "/sub-touch-token-machine.html",
               img: "/images/sub-sub-categories/sub-touch-token-machine.avif",
             },
             {
               name: "Kiosk Token Machine",
-              link: "/sub-sub-category-pages/queue-management-system/token-machine/sub-kiosk-token-machine.html",
+              link: "/sub-kiosk-token-machine.html",
               img: "/images/sub-sub-categories/sub-kiosk-token-machine.avif",
             },
           ],
         },
         {
           name: "Queue Display",
-          link: "/sub-category-pages/queue-management-system/queue-display.html",
+          link: "/queue-display.html",
           subSub: [
             {
               name: "Counter Display",
-              link: "/sub-sub-category-pages/queue-management-system/queue-display/sub-counter-display.html",
+              link: "/sub-counter-display.html",
               img: "/images/sub-sub-categories/sub-counter-display.avif",
             },
             {
               name: "Main Queue Display",
-              link: "/sub-sub-category-pages/queue-management-system/queue-display/sub-main-queue-display.html",
+              link: "/sub-main-queue-display.html",
               img: "/images/sub-sub-categories/sub-main-queue-display.avif",
             },
           ],
         },
         {
           name: "Calling System",
-          link: "/sub-category-pages/queue-management-system/calling-system.html",
+          link: "/calling-system.html",
           subSub: [
             {
               name: "Wireless Calling System",
-              link: "/sub-sub-category-pages/queue-management-system/calling-system/sub-wireless-calling-system.html",
+              link: "/sub-wireless-calling-system.html",
               img: "/images/sub-sub-categories/sub-wireless-calling-system.avif",
             },
             {
               name: "Software Calling System",
-              link: "/sub-sub-category-pages/queue-management-system/calling-system/sub-software-calling-system.html",
+              link: "/sub-software-calling-system.html",
               img: "/images/sub-sub-categories/sub-software-calling-system.avif",
             },
           ],
         },
         {
           name: "Counter Display",
-          link: "/sub-category-pages/queue-management-system/counter-display.html",
+          link: "/counter-display-system.html",
           subSub: [
             {
               name: "LED Counter Display",
-              link: "/sub-sub-category-pages/queue-management-system/counter-display/sub-led-counter-display.html",
+              link: "/sub-led-counter-display.html",
               img: "/images/sub-sub-categories/sub-led-counter-display.avif",
             },
             {
               name: "LCD Counter Display",
-              link: "/sub-sub-category-pages/queue-management-system/counter-display/sub-lcd-counter-display.html",
+              link: "/sub-lcd-counter-display.html",
               img: "/images/sub-sub-categories/sub-lcd-counter-display.avif",
             },
           ],
         },
         {
           name: "Queue Software",
-          link: "/sub-category-pages/queue-management-system/queue-software.html",
+          link: "/queue-software.html",
           subSub: [
             {
               name: "Cloud Queue Software",
-              link: "/sub-sub-category-pages/queue-management-system/queue-software/sub-cloud-queue-software.html",
+              link: "/sub-cloud-queue-software.html",
               img: "/images/sub-sub-categories/sub-cloud-queue-software.avif",
             },
             {
               name: "Local Queue Software",
-              link: "/sub-sub-category-pages/queue-management-system/queue-software/sub-local-queue-software.html",
+              link: "/sub-local-queue-software.html",
               img: "/images/sub-sub-categories/sub-local-queue-software.avif",
             },
           ],
         },
         {
           name: "Customer Feedback System",
-          link: "/sub-category-pages/queue-management-system/customer-feedback-system.html",
+          link: "/customer-feedback-system.html",
           subSub: [
             {
               name: "Feedback Kiosk",
-              link: "/sub-sub-category-pages/queue-management-system/customer-feedback-system/sub-feedback-kiosk.html",
+              link: "/sub-feedback-kiosk.html",
               img: "/images/sub-sub-categories/sub-feedback-kiosk.avif",
             },
             {
               name: "Feedback Software",
-              link: "/sub-sub-category-pages/queue-management-system/customer-feedback-system/sub-feedback-software.html",
+              link: "/sub-feedback-software.html",
               img: "/images/sub-sub-categories/sub-feedback-software.avif",
             },
           ],
@@ -1604,105 +1612,105 @@ function initProductMegaMenu() {
 
     vehicle: {
       title: "Vehicle Control System",
-      link: "/category-pages/vehicle-control-system.html",
+      link: "/vehicle-control-system.html",
       sub: [
         {
           name: "Parking Management System",
-          link: "/sub-category-pages/vehicle-control-system/parking-management-system.html",
+          link: "/parking-management-system.html",
           subSub: [
             {
               name: "Ticket Parking System",
-              link: "/sub-sub-category-pages/vehicle-control-system/parking-management-system/sub-ticket-parking-system.html",
+              link: "/sub-ticket-parking-system.html",
               img: "/images/sub-sub-categories/sub-ticket-parking-system.avif",
             },
             {
               name: "RFID Parking System",
-              link: "/sub-sub-category-pages/vehicle-control-system/parking-management-system/sub-rfid-parking-system.html",
+              link: "/sub-rfid-parking-system.html",
               img: "/images/sub-sub-categories/sub-rfid-parking-system.avif",
             },
             {
               name: "ANPR Parking System",
-              link: "/sub-sub-category-pages/vehicle-control-system/parking-management-system/sub-anpr-parking-system.html",
+              link: "/sub-anpr-parking-system.html",
               img: "/images/sub-sub-categories/sub-anpr-parking-system.avif",
             },
           ],
         },
         {
           name: "Car Parking Guidance",
-          link: "/sub-category-pages/vehicle-control-system/car-parking-guidance.html",
+          link: "/car-parking-guidance.html",
           subSub: [
             {
               name: "Indoor Parking Guidance",
-              link: "/sub-sub-category-pages/vehicle-control-system/car-parking-guidance/sub-indoor-parking-guidance.html",
+              link: "/sub-indoor-parking-guidance.html",
               img: "/images/sub-sub-categories/sub-indoor-parking-guidance.avif",
             },
             {
               name: "Outdoor Parking Guidance",
-              link: "/sub-sub-category-pages/vehicle-control-system/car-parking-guidance/sub-outdoor-parking-guidance.html",
+              link: "/sub-outdoor-parking-guidance.html",
               img: "/images/sub-sub-categories/sub-outdoor-parking-guidance.avif",
             },
           ],
         },
         {
           name: "RFID Vehicle Access",
-          link: "/sub-category-pages/vehicle-control-system/rfid-vehicle-access.html",
+          link: "/rfid-vehicle-access.html",
           subSub: [
             {
               name: "RFID Long Range Reader",
-              link: "/sub-sub-category-pages/vehicle-control-system/rfid-vehicle-access/sub-rfid-long-range-reader.html",
+              link: "/sub-rfid-long-range-reader.html",
               img: "/images/sub-sub-categories/sub-rfid-long-range-reader.avif",
             },
             {
               name: "RFID Vehicle Tag",
-              link: "/sub-sub-category-pages/vehicle-control-system/rfid-vehicle-access/sub-rfid-vehicle-tag.html",
+              link: "/sub-rfid-vehicle-tag.html",
               img: "/images/sub-sub-categories/sub-rfid-vehicle-tag.avif",
             },
           ],
         },
         {
           name: "ANPR Parking System",
-          link: "/sub-category-pages/vehicle-control-system/anpr-parking-system.html",
+          link: "/anpr-parking-control.html",
           subSub: [
             {
               name: "ANPR Entry System",
-              link: "/sub-sub-category-pages/vehicle-control-system/anpr-parking-system/sub-anpr-entry-system.html",
+              link: "/sub-anpr-entry-system.html",
               img: "/images/sub-sub-categories/sub-anpr-entry-system.avif",
             },
             {
               name: "ANPR Exit System",
-              link: "/sub-sub-category-pages/vehicle-control-system/anpr-parking-system/sub-anpr-exit-system.html",
+              link: "/sub-anpr-exit-system.html",
               img: "/images/sub-sub-categories/sub-anpr-exit-system.avif",
             },
           ],
         },
         {
           name: "Vehicle Loop Detector",
-          link: "/sub-category-pages/vehicle-control-system/vehicle-loop-detector.html",
+          link: "/vehicle-loop-detector.html",
           subSub: [
             {
               name: "Single Channel Loop Detector",
-              link: "/sub-sub-category-pages/vehicle-control-system/vehicle-loop-detector/sub-single-channel-loop-detector.html",
+              link: "/sub-single-channel-loop-detector.html",
               img: "/images/sub-sub-categories/sub-single-channel-loop-detector.avif",
             },
             {
               name: "Dual Channel Loop Detector",
-              link: "/sub-sub-category-pages/vehicle-control-system/vehicle-loop-detector/sub-dual-channel-loop-detector.html",
+              link: "/sub-dual-channel-loop-detector.html",
               img: "/images/sub-sub-categories/sub-dual-channel-loop-detector.avif",
             },
           ],
         },
         {
           name: "Parking Payment Kiosk",
-          link: "/sub-category-pages/vehicle-control-system/parking-payment-kiosk.html",
+          link: "/parking-payment-kiosk.html",
           subSub: [
             {
               name: "Cash Payment Kiosk",
-              link: "/sub-sub-category-pages/vehicle-control-system/parking-payment-kiosk/sub-cash-payment-kiosk.html",
+              link: "/sub-cash-payment-kiosk.html",
               img: "/images/sub-sub-categories/sub-cash-payment-kiosk.avif",
             },
             {
               name: "Card Payment Kiosk",
-              link: "/sub-sub-category-pages/vehicle-control-system/parking-payment-kiosk/sub-card-payment-kiosk.html",
+              link: "/sub-card-payment-kiosk.html",
               img: "/images/sub-sub-categories/sub-card-payment-kiosk.avif",
             },
           ],
@@ -1712,100 +1720,100 @@ function initProductMegaMenu() {
 
     conference: {
       title: "Conference & PA System",
-      link: "/category-pages/conference-pa-system.html",
+      link: "/conference-pa-system.html",
       sub: [
         {
           name: "Conference Microphone",
-          link: "/sub-category-pages/conference-pa-system/conference-microphone.html",
+          link: "/conference-microphone.html",
           subSub: [
             {
               name: "Wired Conference Microphone",
-              link: "/sub-sub-category-pages/conference-pa-system/conference-microphone/sub-wired-conference-microphone.html",
+              link: "/sub-wired-conference-microphone.html",
               img: "/images/sub-sub-categories/sub-wired-conference-microphone.avif",
             },
             {
               name: "Wireless Conference Microphone",
-              link: "/sub-sub-category-pages/conference-pa-system/conference-microphone/sub-wireless-conference-microphone.html",
+              link: "/sub-wireless-conference-microphone.html",
               img: "/images/sub-sub-categories/sub-wireless-conference-microphone.avif",
             },
           ],
         },
         {
           name: "PA Speaker System",
-          link: "/sub-category-pages/conference-pa-system/pa-speaker-system.html",
+          link: "/pa-speaker-system.html",
           subSub: [
             {
               name: "Wall Mount PA Speaker",
-              link: "/sub-sub-category-pages/conference-pa-system/pa-speaker-system/sub-wall-mount-pa-speaker.html",
+              link: "/sub-wall-mount-pa-speaker.html",
               img: "/images/sub-sub-categories/sub-wall-mount-pa-speaker.avif",
             },
             {
               name: "Ceiling PA Speaker",
-              link: "/sub-sub-category-pages/conference-pa-system/pa-speaker-system/sub-ceiling-pa-speaker.html",
+              link: "/sub-ceiling-pa-speaker.html",
               img: "/images/sub-sub-categories/sub-ceiling-pa-speaker.avif",
             },
           ],
         },
         {
           name: "Amplifier System",
-          link: "/sub-category-pages/conference-pa-system/amplifier-system.html",
+          link: "/amplifier-system.html",
           subSub: [
             {
               name: "Mixer Amplifier",
-              link: "/sub-sub-category-pages/conference-pa-system/amplifier-system/sub-mixer-amplifier.html",
+              link: "/sub-mixer-amplifier.html",
               img: "/images/sub-sub-categories/sub-mixer-amplifier.avif",
             },
             {
               name: "Power Amplifier",
-              link: "/sub-sub-category-pages/conference-pa-system/amplifier-system/sub-power-amplifier.html",
+              link: "/sub-power-amplifier.html",
               img: "/images/sub-sub-categories/sub-power-amplifier.avif",
             },
           ],
         },
         {
           name: "Wireless Microphone",
-          link: "/sub-category-pages/conference-pa-system/wireless-microphone.html",
+          link: "/wireless-microphone.html",
           subSub: [
             {
               name: "Handheld Wireless Microphone",
-              link: "/sub-sub-category-pages/conference-pa-system/wireless-microphone/sub-handheld-wireless-microphone.html",
+              link: "/sub-handheld-wireless-microphone.html",
               img: "/images/sub-sub-categories/sub-handheld-wireless-microphone.avif",
             },
             {
               name: "Lapel Wireless Microphone",
-              link: "/sub-sub-category-pages/conference-pa-system/wireless-microphone/sub-lapel-wireless-microphone.html",
+              link: "/sub-lapel-wireless-microphone.html",
               img: "/images/sub-sub-categories/sub-lapel-wireless-microphone.avif",
             },
           ],
         },
         {
           name: "Meeting Room Audio",
-          link: "/sub-category-pages/conference-pa-system/meeting-room-audio.html",
+          link: "/meeting-room-audio.html",
           subSub: [
             {
               name: "Small Meeting Room Audio",
-              link: "/sub-sub-category-pages/conference-pa-system/meeting-room-audio/sub-small-meeting-room-audio.html",
+              link: "/sub-small-meeting-room-audio.html",
               img: "/images/sub-sub-categories/sub-small-meeting-room-audio.avif",
             },
             {
               name: "Large Meeting Room Audio",
-              link: "/sub-sub-category-pages/conference-pa-system/meeting-room-audio/sub-large-meeting-room-audio.html",
+              link: "/sub-large-meeting-room-audio.html",
               img: "/images/sub-sub-categories/sub-large-meeting-room-audio.avif",
             },
           ],
         },
         {
           name: "Public Announcement System",
-          link: "/sub-category-pages/conference-pa-system/public-announcement-system.html",
+          link: "/public-announcement-system.html",
           subSub: [
             {
               name: "Zone PA System",
-              link: "/sub-sub-category-pages/conference-pa-system/public-announcement-system/sub-zone-pa-system.html",
+              link: "/sub-zone-pa-system.html",
               img: "/images/sub-sub-categories/sub-zone-pa-system.avif",
             },
             {
               name: "Emergency PA System",
-              link: "/sub-sub-category-pages/conference-pa-system/public-announcement-system/sub-emergency-pa-system.html",
+              link: "/sub-emergency-pa-system.html",
               img: "/images/sub-sub-categories/sub-emergency-pa-system.avif",
             },
           ],
@@ -1815,213 +1823,212 @@ function initProductMegaMenu() {
 
     building: {
       title: "Building Automation Solutions",
-      link: "/category-pages/building-automation-solutions.html",
+      link: "/building-automation-solutions.html",
       sub: [
         {
           name: "BMS System",
-          link: "/sub-category-pages/building-automation-solutions/bms-system.html",
+          link: "/bms-system.html",
           subSub: [
             {
               name: "BMS Controller",
-              link: "/sub-sub-category-pages/building-automation-solutions/bms-system/sub-bms-controller.html",
+              link: "/sub-bms-controller.html",
               img: "/images/sub-sub-categories/sub-bms-controller.avif",
             },
             {
               name: "BMS Monitoring Software",
-              link: "/sub-sub-category-pages/building-automation-solutions/bms-system/sub-bms-monitoring-software.html",
+              link: "/sub-bms-monitoring-software.html",
               img: "/images/sub-sub-categories/sub-bms-monitoring-software.avif",
             },
           ],
         },
         {
           name: "Lighting Control",
-          link: "/sub-category-pages/building-automation-solutions/lighting-control.html",
+          link: "/lighting-control.html",
           subSub: [
             {
               name: "Dimming Control",
-              link: "/sub-sub-category-pages/building-automation-solutions/lighting-control/sub-dimming-control.html",
+              link: "/sub-dimming-control.html",
               img: "/images/sub-sub-categories/sub-dimming-control.avif",
             },
             {
               name: "Motion Lighting Control",
-              link: "/sub-sub-category-pages/building-automation-solutions/lighting-control/sub-motion-lighting-control.html",
+              link: "/sub-motion-lighting-control.html",
               img: "/images/sub-sub-categories/sub-motion-lighting-control.avif",
             },
           ],
         },
         {
           name: "HVAC Control",
-          link: "/sub-category-pages/building-automation-solutions/hvac-control.html",
+          link: "/hvac-control.html",
           subSub: [
             {
               name: "Thermostat Control",
-              link: "/sub-sub-category-pages/building-automation-solutions/hvac-control/sub-thermostat-control.html",
+              link: "/sub-thermostat-control.html",
               img: "/images/sub-sub-categories/sub-thermostat-control.avif",
             },
             {
               name: "AHU Control",
-              link: "/sub-sub-category-pages/building-automation-solutions/hvac-control/sub-ahu-control.html",
+              link: "/sub-ahu-control.html",
               img: "/images/sub-sub-categories/sub-ahu-control.avif",
             },
           ],
         },
         {
           name: "Energy Management",
-          link: "/sub-category-pages/building-automation-solutions/energy-management.html",
+          link: "/energy-management.html",
           subSub: [
             {
               name: "Energy Meter",
-              link: "/sub-sub-category-pages/building-automation-solutions/energy-management/sub-energy-meter.html",
+              link: "/sub-energy-meter.html",
               img: "/images/sub-sub-categories/sub-energy-meter.avif",
             },
             {
               name: "Energy Monitoring Software",
-              link: "/sub-sub-category-pages/building-automation-solutions/energy-management/sub-energy-monitoring-software.html",
+              link: "/sub-energy-monitoring-software.html",
               img: "/images/sub-sub-categories/sub-energy-monitoring-software.avif",
             },
           ],
         },
         {
           name: "Smart Building Control",
-          link: "/sub-category-pages/building-automation-solutions/smart-building-control.html",
+          link: "/smart-building-control.html",
           subSub: [
             {
               name: "Smart Building Controller",
-              link: "/sub-sub-category-pages/building-automation-solutions/smart-building-control/sub-smart-building-controller.html",
+              link: "/sub-smart-building-controller.html",
               img: "/images/sub-sub-categories/sub-smart-building-controller.avif",
             },
             {
               name: "Smart Building Dashboard",
-              link: "/sub-sub-category-pages/building-automation-solutions/smart-building-control/sub-smart-building-dashboard.html",
+              link: "/sub-smart-building-dashboard.html",
               img: "/images/sub-sub-categories/sub-smart-building-dashboard.avif",
             },
           ],
         },
         {
           name: "Central Monitoring System",
-          link: "/sub-category-pages/building-automation-solutions/central-monitoring-system.html",
+          link: "/central-monitoring-system.html",
           subSub: [
             {
               name: "Central Monitoring Software",
-              link: "/sub-sub-category-pages/building-automation-solutions/central-monitoring-system/sub-central-monitoring-software.html",
+              link: "/sub-central-monitoring-software.html",
               img: "/images/sub-sub-categories/sub-central-monitoring-software.avif",
             },
             {
               name: "Monitoring Workstation",
-              link: "/sub-sub-category-pages/building-automation-solutions/central-monitoring-system/sub-monitoring-workstation.html",
+              link: "/sub-monitoring-workstation.html",
               img: "/images/sub-sub-categories/sub-monitoring-workstation.avif",
             },
           ],
         },
       ],
     },
-
     smart: {
       title: "Smart Home Solutions",
-      link: "/category-pages/smart-home-solutions.html",
+      link: "/smart-home-solutions.html",
       sub: [
         {
           name: "Smart Door Lock",
-          link: "/sub-category-pages/smart-home-solutions/smart-door-lock.html",
+          link: "/smart-door-lock.html",
           subSub: [
             {
               name: "Fingerprint Smart Lock",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-door-lock/sub-fingerprint-smart-lock.html",
+              link: "/sub-fingerprint-smart-lock.html",
               img: "/images/sub-sub-categories/sub-fingerprint-smart-lock.avif",
             },
             {
               name: "WiFi Smart Lock",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-door-lock/sub-wifi-smart-lock.html",
+              link: "/sub-wifi-smart-lock.html",
               img: "/images/sub-sub-categories/sub-wifi-smart-lock.avif",
             },
             {
               name: "Card Smart Lock",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-door-lock/sub-card-smart-lock.html",
+              link: "/sub-card-smart-lock.html",
               img: "/images/sub-sub-categories/sub-card-smart-lock.avif",
             },
           ],
         },
         {
           name: "Smart Switch",
-          link: "/sub-category-pages/smart-home-solutions/smart-switch.html",
+          link: "/smart-switch.html",
           subSub: [
             {
               name: "One Gang Smart Switch",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-switch/sub-one-gang-smart-switch.html",
+              link: "/sub-one-gang-smart-switch.html",
               img: "/images/sub-sub-categories/sub-one-gang-smart-switch.avif",
             },
             {
               name: "Two Gang Smart Switch",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-switch/sub-two-gang-smart-switch.html",
+              link: "/sub-two-gang-smart-switch.html",
               img: "/images/sub-sub-categories/sub-two-gang-smart-switch.avif",
             },
             {
               name: "Three Gang Smart Switch",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-switch/sub-three-gang-smart-switch.html",
+              link: "/sub-three-gang-smart-switch.html",
               img: "/images/sub-sub-categories/sub-three-gang-smart-switch.avif",
             },
           ],
         },
         {
           name: "Smart Curtain",
-          link: "/sub-category-pages/smart-home-solutions/smart-curtain.html",
+          link: "/smart-curtain.html",
           subSub: [
             {
               name: "Smart Curtain Motor",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-curtain/sub-smart-curtain-motor.html",
+              link: "/sub-smart-curtain-motor.html",
               img: "/images/sub-sub-categories/sub-smart-curtain-motor.avif",
             },
             {
               name: "Smart Curtain Track",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-curtain/sub-smart-curtain-track.html",
+              link: "/sub-smart-curtain-track.html",
               img: "/images/sub-sub-categories/sub-smart-curtain-track.avif",
             },
           ],
         },
         {
           name: "Smart Lighting",
-          link: "/sub-category-pages/smart-home-solutions/smart-lighting.html",
+          link: "/smart-lighting.html",
           subSub: [
             {
               name: "Smart LED Bulb",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-lighting/sub-smart-led-bulb.html",
+              link: "/sub-smart-led-bulb.html",
               img: "/images/sub-sub-categories/sub-smart-led-bulb.avif",
             },
             {
               name: "Smart Strip Light",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-lighting/sub-smart-strip-light.html",
+              link: "/sub-smart-strip-light.html",
               img: "/images/sub-sub-categories/sub-smart-strip-light.avif",
             },
           ],
         },
         {
           name: "Smart Security Sensor",
-          link: "/sub-category-pages/smart-home-solutions/smart-security-sensor.html",
+          link: "/smart-security-sensor.html",
           subSub: [
             {
               name: "Smart Motion Sensor",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-security-sensor/sub-smart-motion-sensor.html",
+              link: "/sub-smart-motion-sensor.html",
               img: "/images/sub-sub-categories/sub-smart-motion-sensor.avif",
             },
             {
               name: "Smart Door Sensor",
-              link: "/sub-sub-category-pages/smart-home-solutions/smart-security-sensor/sub-smart-door-sensor.html",
+              link: "/sub-smart-door-sensor.html",
               img: "/images/sub-sub-categories/sub-smart-door-sensor.avif",
             },
           ],
         },
         {
           name: "Home Automation Hub",
-          link: "/sub-category-pages/smart-home-solutions/home-automation-hub.html",
+          link: "/home-automation-hub.html",
           subSub: [
             {
               name: "WiFi Automation Hub",
-              link: "/sub-sub-category-pages/smart-home-solutions/home-automation-hub/sub-wifi-automation-hub.html",
+              link: "/sub-wifi-automation-hub.html",
               img: "/images/sub-sub-categories/sub-wifi-automation-hub.avif",
             },
             {
               name: "Zigbee Automation Hub",
-              link: "/sub-sub-category-pages/smart-home-solutions/home-automation-hub/sub-zigbee-automation-hub.html",
+              link: "/sub-zigbee-automation-hub.html",
               img: "/images/sub-sub-categories/sub-zigbee-automation-hub.avif",
             },
           ],
