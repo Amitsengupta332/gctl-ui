@@ -101,7 +101,7 @@ function categoryGridCard(item, isActive = false) {
         ${imageTag(
           item.img || "/images/products/placeholder.avif",
           item.name,
-          "max-h-[86px] max-w-[170px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+          "max-h-[86px] max-w-[170px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300",
         )}
       </div>
 
@@ -134,7 +134,7 @@ function categoryCard(item, isActive = false) {
         ${imageTag(
           item.img || "/images/products/placeholder.avif",
           item.name,
-          "max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+          "max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300",
         )}
       </div>
 
@@ -147,42 +147,58 @@ function categoryCard(item, isActive = false) {
 
 /* =========================
    Product Card
+   Screenshot style:
+   Image + title + Art.Nr. + stars + phone
 ========================= */
 function productCard(product) {
+  const phone = product.phone || "+8801847213869";
+  const artNo = product.artNo || product.sku || "GCT0000";
+  const rating = Number(product.rating || 5);
+  const stars = "★★★★★".slice(0, Math.max(1, Math.min(rating, 5)));
+
   return `
-    <div class="group rounded-[6px] border border-[#dfeaf7] bg-white overflow-hidden shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300">
-      <div class="h-[230px] bg-white flex items-center justify-center border-b border-[#eef3f8]">
+    <div
+      class="group relative flex h-[410px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:border-[#0057d8] hover:shadow-[0_18px_45px_rgba(0,87,216,0.16)]">
+
+      <div class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white">
         ${imageTag(
           product.img || "/images/products/placeholder.avif",
-          product.name,
-          "w-full h-full object-contain p-7 mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+          product.name || "Product",
+          "max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105",
         )}
       </div>
 
-      <div class="p-5">
-        <h3 class="text-[18px] font-extrabold text-[#071425] group-hover:text-[#0057d8]">
+      <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
+        <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00]">
           ${product.name || "Product Name"}
         </h3>
 
-        <p class="mt-3 text-[14px] leading-6 font-medium text-[#5b6b80]">
-          ${product.description || "Product description will be updated soon."}
-        </p>
+        <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+            Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
+          </p>
 
-        <div class="mt-5 flex items-center justify-between">
-          <span class="text-[13px] font-extrabold uppercase tracking-[0.12em] text-[#0057d8]">
-            Call for Price
+          <div class="text-[#ff4b00] text-[15px] sm:text-[17px] leading-none tracking-[-1px]">
+            ${stars}
+          </div>
+        </div>
+
+        <a href="tel:${phone}"
+          class="mt-4 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827] transition-colors duration-300 group-hover:text-[#0057d8]">
+          <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0 transition-colors duration-300 group-hover:bg-[#0057d8]">
+            <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.2.5 1.2 1.2v3.5c0 .7-.5 1.2-1.2 1.2C10.4 22 2 13.6 2 3.4 2 2.7 2.5 2.2 3.2 2.2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-1.6 2.2z">
+              </path>
+            </svg>
           </span>
 
-          <a href="/contact.html"
-            class="inline-flex h-10 items-center justify-center rounded-[6px] bg-[#0057d8] px-4 text-[13px] font-extrabold text-white hover:bg-[#004bb8] transition-colors">
-            Ask Quote
-          </a>
-        </div>
+          <span>${phone}</span>
+        </a>
       </div>
     </div>
   `;
 }
-
 /* =========================
    Category Grid Section
 ========================= */
@@ -209,6 +225,7 @@ function categoryGridSection({ title, items, activeKey = "" }) {
 
 /* =========================
    Category Slider Section
+   Only for sub-sub category navigation
 ========================= */
 function categorySliderSection({
   eyebrow,
@@ -263,7 +280,7 @@ function categorySliderSection({
 
         <div data-product-slider class="relative">
           <div data-product-track
-            class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-3">
+            class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-3 [scrollbar-width:none] [-ms-overflow-style:none]">
 
             ${safeItems
               .map((item) => categoryCard(item, item.key === activeKey))
@@ -278,6 +295,7 @@ function categorySliderSection({
 
 /* =========================
    Products Section
+   Normal grid, not slider
 ========================= */
 function productsSection(title, products) {
   const safeProducts = safeArray(products);
@@ -288,25 +306,29 @@ function productsSection(title, products) {
 
         <div class="mb-7">
           <p class="text-[13px] font-bold uppercase tracking-[0.22em] text-[#0057d8]">
-            Products
+            All Products
           </p>
 
           <h2 class="mt-3 text-[28px] sm:text-[34px] font-extrabold text-[#071425]">
             ${title}
           </h2>
 
-          <p class="mt-3 text-[15px] sm:text-[16px] font-medium text-[#64748b]">
-            Choose from available products for your project.
-          </p>
+          <div class="mt-3 h-[2px] w-[42px] bg-[#0057d8]"></div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-          ${
-            safeProducts.length
-              ? safeProducts.map(productCard).join("")
-              : `<p class="text-[16px] font-semibold text-[#607086]">Products will be updated soon.</p>`
-          }
-        </div>
+        ${
+          safeProducts.length
+            ? `
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+                ${safeProducts.map(productCard).join("")}
+              </div>
+            `
+            : `
+              <p class="text-[16px] font-semibold text-[#607086]">
+                Products will be updated soon.
+              </p>
+            `
+        }
       </div>
     </div>
   `;
@@ -363,7 +385,7 @@ function seoAndFaqHtml(category) {
                           ${item.answer}
                         </p>
                       </div>
-                    `
+                    `,
                   )
                   .join("")}
               </div>
