@@ -495,7 +495,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Automation Products",
     eyebrow: "Automation Solutions",
     link: "/automation-products.html",
-    banner: "/images/products/banners/automation-products.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/automation-products-banner.avif",
     description:
       "Professional automation products for gate automation, door automation, shutter automation, road blocker and industrial access control projects.",
 
@@ -1026,7 +1027,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Entrance Security Solutions",
     eyebrow: "Entrance Security",
     link: "/entrance-security-solutions.html",
-    banner: "/images/products/banners/entrance-security-solutions.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/entrance-security-solutions-banner.avif",
     description:
       "Professional entrance security solutions for visitor screening, baggage scanning, metal detection, vehicle inspection and secure building entry control.",
 
@@ -1493,7 +1494,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Intelligent Video Analytics",
     eyebrow: "Video Analytics",
     link: "/intelligent-video-analytics.html",
-    banner: "/images/products/banners/intelligent-video-analytics.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/intelligent-video-analytics-banner.avif",
     description:
       "Intelligent video analytics solutions for smart surveillance, face recognition, people counting, perimeter detection, vehicle analytics and automated security monitoring.",
 
@@ -1950,7 +1951,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Access Control & Time Attendance",
     eyebrow: "Access Control",
     link: "/access-control-time-attendance.html",
-    banner: "/images/products/banners/access-control-time-attendance.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/access-control-time-attendance-banner.avif",
     description:
       "Professional access control and time attendance solutions for employee attendance, door access, biometric verification, card access and secure entry management.",
 
@@ -2426,7 +2427,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Fire Alarm System",
     eyebrow: "Fire Safety",
     link: "/fire-alarm-system.html",
-    banner: "/images/products/banners/fire-alarm-system.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/fire-alarm-system-banner.avif",
     description:
       "Professional fire alarm systems for smoke detection, heat detection, manual call points, sounders, fire alarm panels and building fire safety projects.",
 
@@ -2925,7 +2926,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Turnstile Gate & Boom Barrier",
     eyebrow: "Entrance Control",
     link: "/turnstile-gate-boom-barrier.html",
-    banner: "/images/products/banners/turnstile-gate-boom-barrier.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/turnstile-gate-boom-barrier-banner.avif",
     description:
       "Professional turnstile gate and boom barrier solutions for pedestrian access control, vehicle entry control, parking management and secure entrance automation.",
 
@@ -3412,7 +3413,7 @@ export const PRODUCT_CATEGORIES = {
     title: "LCD/LED Digital Signage",
     eyebrow: "Digital Display",
     link: "/lcd-led-digital-signage.html",
-    banner: "/images/products/banners/lcd-led-digital-signage.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/lcd-led-digital-signage-banner.avif",
     description:
       "Professional LCD and LED digital signage solutions for advertising, information display, interactive kiosks, video walls and commercial display projects.",
 
@@ -3837,7 +3838,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Queue Management System",
     eyebrow: "Queue Solution",
     link: "/queue-management-system.html",
-    banner: "/images/products/banners/queue-management-system.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/queue-management-system-banner-v2.avif",
     description:
       "Professional queue management systems for token management, customer service counters, queue display, calling system, feedback system and service flow automation.",
 
@@ -4279,7 +4280,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Vehicle Control System",
     eyebrow: "Vehicle Access",
     link: "/vehicle-control-system.html",
-    banner: "/images/products/banners/vehicle-control-system.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/vehicle-control-system-banner.avif",
     description:
       "Professional vehicle control systems for parking management, RFID vehicle access, ANPR parking, loop detection, parking guidance and automated vehicle entry control.",
 
@@ -4720,7 +4721,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Conference & PA System",
     eyebrow: "Audio Solution",
     link: "/conference-pa-system.html",
-    banner: "/images/products/banners/conference-pa-system.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/conference-pa-system-banner.avif",
     description:
       "Professional conference and public address system solutions for meeting rooms, auditoriums, offices, mosques, schools, factories and commercial buildings.",
 
@@ -5144,7 +5145,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Building Automation Solutions",
     eyebrow: "Building Automation",
     link: "/building-automation-solutions.html",
-    banner: "/images/products/banners/building-automation-solutions.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/building-automation-solutions-banner.avif",
     description:
       "Professional building automation solutions for BMS, lighting control, HVAC control, energy management, smart building control and central monitoring systems.",
 
@@ -5565,7 +5566,7 @@ export const PRODUCT_CATEGORIES = {
     title: "Smart Home Solutions",
     eyebrow: "Smart Home",
     link: "/smart-home-solutions.html",
-    banner: "/images/products/banners/smart-home-solutions.avif",
+    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/smart-home-solutions-banner.avif",
     description:
       "Professional smart home solutions for smart locks, smart switches, smart curtains, smart lighting, security sensors and home automation control.",
 
