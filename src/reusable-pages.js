@@ -80,9 +80,8 @@ function bannerHtml({ eyebrow, title, description, banner, breadcrumb }) {
 
 /* =========================
    Category Grid Card
-   Used in:
-   - Main category page
-   - Sub category page
+   Main Category + Sub Category
+   Image full card style
 ========================= */
 function categoryGridCard(item, isActive = false) {
   const activeClass = isActive
@@ -95,19 +94,21 @@ function categoryGridCard(item, isActive = false) {
 
   return `
     <a href="${item.link}"
-      class="group h-[165px] rounded-[6px] ${activeClass} p-3 shadow-[0_6px_20px_rgba(15,23,42,0.04)] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col items-center justify-center">
+      class="group h-[170px] rounded-[6px] ${activeClass} overflow-hidden bg-white shadow-[0_5px_16px_rgba(15,23,42,0.04)] hover:shadow-[0_10px_25px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col">
 
-      <div class="h-[90px] w-full flex items-center justify-center overflow-hidden">
+      <div class="h-[122px] w-full overflow-hidden bg-white">
         ${imageTag(
           item.img || "/images/products/placeholder.avif",
           item.name,
-          "max-h-[86px] max-w-[170px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300",
+          "w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105",
         )}
       </div>
 
-      <h3 class="mt-3 text-center text-[14px] sm:text-[15px] font-extrabold ${titleClass}">
-        ${item.name}
-      </h3>
+      <div class="h-[48px] px-2 flex items-center justify-center bg-white">
+        <h3 class="text-center text-[12px] sm:text-[13px] leading-[1.25] font-extrabold ${titleClass}">
+          ${item.name}
+        </h3>
+      </div>
     </a>
   `;
 }
@@ -147,8 +148,6 @@ function categoryCard(item, isActive = false) {
 
 /* =========================
    Product Card
-   Screenshot style:
-   Image + title + Art.Nr. + stars + phone
 ========================= */
 function productCard(product) {
   const phone = product.phone || "+8801847213869";
@@ -199,6 +198,7 @@ function productCard(product) {
     </div>
   `;
 }
+
 /* =========================
    Category Grid Section
 ========================= */
@@ -206,15 +206,15 @@ function categoryGridSection({ title, items, activeKey = "" }) {
   const safeItems = safeArray(items);
 
   return `
-    <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="mb-6 border-b border-[#dfeaf7] pb-4">
+    <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="mb-5 border-b border-[#dfeaf7] pb-4">
         <h2 class="text-[20px] sm:text-[22px] font-extrabold text-[#071425]">
           ${title}
         </h2>
         <div class="mt-3 h-[2px] w-[42px] bg-[#0057d8]"></div>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-3">
         ${safeItems
           .map((item) => categoryGridCard(item, item.key === activeKey))
           .join("")}
@@ -225,7 +225,6 @@ function categoryGridSection({ title, items, activeKey = "" }) {
 
 /* =========================
    Category Slider Section
-   Only for sub-sub category navigation
 ========================= */
 function categorySliderSection({
   eyebrow,
@@ -295,7 +294,6 @@ function categorySliderSection({
 
 /* =========================
    Products Section
-   Normal grid, not slider
 ========================= */
 function productsSection(title, products) {
   const safeProducts = safeArray(products);
@@ -399,8 +397,6 @@ function seoAndFaqHtml(category) {
 
 /* =========================
    Render Main Category Page
-   Example:
-   /cctv-surveillance.html
 ========================= */
 function renderCategoryPage(category) {
   const root = document.getElementById("reusableCategoryPage");
@@ -435,8 +431,6 @@ function renderCategoryPage(category) {
 
 /* =========================
    Render Sub Category Page
-   Example:
-   /hd-cctv-camera.html
 ========================= */
 function renderSubCategoryPage(category, subCategory) {
   const root = document.getElementById("reusableSubCategoryPage");
@@ -475,8 +469,6 @@ function renderSubCategoryPage(category, subCategory) {
 
 /* =========================
    Render Sub Sub Category Page
-   Example:
-   /sub-hd-dome-camera.html
 ========================= */
 function renderSubSubCategoryPage(category, subCategory, subSubCategory) {
   const root = document.getElementById("reusableSubSubCategoryPage");

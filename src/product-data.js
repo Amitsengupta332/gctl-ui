@@ -33,7 +33,7 @@ export const PRODUCT_CATEGORIES = {
         key: "hd-cctv-camera",
         name: "HD CCTV Camera",
         link: "/hd-cctv-camera.html",
-        img: "/images/sub-categories/hd-cctv-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/hd-cctv-camera.avif",
         description:
           "HD CCTV cameras for reliable analog video surveillance solutions.",
 
@@ -126,7 +126,7 @@ export const PRODUCT_CATEGORIES = {
         key: "ip-camera",
         name: "IP Camera",
         link: "/ip-camera.html",
-        img: "/images/sub-categories/ip-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/ip-camera.avif",
         description:
           "Network IP cameras for high-resolution and remote video monitoring.",
 
@@ -212,12 +212,11 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
       },
-
       {
         key: "anpr-number-plate-camera",
         name: "ANPR Number Plate Camera",
         link: "/anpr-number-plate-camera.html",
-        img: "/images/sub-categories/anpr-number-plate-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/anpr-number-plate-camera.avif",
         description:
           "ANPR cameras for automatic vehicle number plate recognition.",
 
@@ -283,7 +282,7 @@ export const PRODUCT_CATEGORIES = {
         key: "ai-camera",
         name: "AI Camera",
         link: "/ai-camera.html",
-        img: "/images/sub-categories/ai-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/ai-camera.avif",
         description:
           "AI cameras for smart detection, analytics and intelligent surveillance.",
 
@@ -364,7 +363,7 @@ export const PRODUCT_CATEGORIES = {
         key: "body-temperature-camera",
         name: "Body Temperature Camera",
         link: "/body-temperature-camera.html",
-        img: "/images/sub-categories/body-temperature-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/body-temperature-camera.avif",
         description:
           "Body temperature cameras for thermal screening and safety monitoring.",
 
@@ -415,7 +414,7 @@ export const PRODUCT_CATEGORIES = {
         key: "cc-camera",
         name: "CC Camera",
         link: "/cc-camera.html",
-        img: "/images/sub-categories/cc-camera.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/cc-camera.avif",
         description: "CC cameras for basic surveillance and monitoring.",
 
         products: [
@@ -434,7 +433,7 @@ export const PRODUCT_CATEGORIES = {
         key: "cctv-camera-accessories",
         name: "CCTV Camera Accessories",
         link: "/cctv-camera-accessories.html",
-        img: "/images/sub-categories/cctv-camera-accessories.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/cctv-camera-accessories.avif",
         description:
           "Accessories for CCTV camera installation and maintenance.",
 
@@ -454,7 +453,7 @@ export const PRODUCT_CATEGORIES = {
         key: "digital-video-recorder-dvr",
         name: "Digital Video Recorder DVR",
         link: "/digital-video-recorder-dvr.html",
-        img: "/images/sub-categories/digital-video-recorder-dvr.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/digital-video-recorder-dvr.avif",
         description: "DVR systems for HD CCTV camera recording and playback.",
 
         products: [
@@ -473,7 +472,7 @@ export const PRODUCT_CATEGORIES = {
         key: "network-video-recorder-nvr",
         name: "Network Video Recorder NVR",
         link: "/network-video-recorder-nvr.html",
-        img: "/images/sub-categories/network-video-recorder-nvr.avif",
+        img: "/public/images/sub-categories/cctv-surveillance-sub-category/network-video-recorder-nvr.avif",
         description:
           "NVR systems for IP camera recording and network video management.",
 
@@ -530,7 +529,7 @@ export const PRODUCT_CATEGORIES = {
         key: "sliding-gate-motor",
         name: "Sliding Gate Motor",
         link: "/sliding-gate-motor.html",
-        img: "/images/sub-categories/sliding-gate-motor.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/sliding-gate-motor.avif",
         description:
           "Sliding gate motors for residential, commercial and industrial gate automation.",
 
@@ -626,7 +625,7 @@ export const PRODUCT_CATEGORIES = {
         key: "swing-gate-motor",
         name: "Swing Gate Motor",
         link: "/swing-gate-motor.html",
-        img: "/images/sub-categories/swing-gate-motor.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/swing-gate-motor.avif",
         description:
           "Swing gate motors for single leaf and double leaf gate automation.",
 
@@ -698,7 +697,7 @@ export const PRODUCT_CATEGORIES = {
         key: "automatic-glass-door",
         name: "Automatic Glass Door",
         link: "/automatic-glass-door.html",
-        img: "/images/sub-categories/automatic-glass-door.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/automatic-glass-door.avif",
         description:
           "Automatic glass doors for offices, hospitals, shopping malls and commercial buildings.",
 
@@ -770,7 +769,7 @@ export const PRODUCT_CATEGORIES = {
         key: "garage-door-automation",
         name: "Garage Door Automation",
         link: "/garage-door-automation.html",
-        img: "/images/sub-categories/garage-door-automation.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/garage-door-automation.avif",
         description:
           "Garage door automation products for residential and commercial garage doors.",
 
@@ -821,7 +820,7 @@ export const PRODUCT_CATEGORIES = {
         key: "rolling-shutter-motor",
         name: "Rolling Shutter Motor",
         link: "/rolling-shutter-motor.html",
-        img: "/images/sub-categories/rolling-shutter-motor.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/rolling-shutter-motor.avif",
         description:
           "Rolling shutter motors for shop, warehouse and commercial shutter automation.",
 
@@ -872,7 +871,7 @@ export const PRODUCT_CATEGORIES = {
         key: "automatic-sensor-door",
         name: "Automatic Sensor Door",
         link: "/automatic-sensor-door.html",
-        img: "/images/sub-categories/automatic-sensor-door.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/automatic-sensor-door.avif",
         description:
           "Automatic sensor doors for commercial, office, hospital and retail entrance automation.",
 
@@ -923,7 +922,7 @@ export const PRODUCT_CATEGORIES = {
         key: "road-blocker-system",
         name: "Road Blocker System",
         link: "/road-blocker-system.html",
-        img: "/images/sub-categories/road-blocker-system.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/road-blocker-system.avif",
         description:
           "Road blocker systems for high-security vehicle entrance control.",
 
@@ -974,7 +973,7 @@ export const PRODUCT_CATEGORIES = {
         key: "industrial-door-automation",
         name: "Industrial Door Automation",
         link: "/industrial-door-automation.html",
-        img: "/images/sub-categories/industrial-door-automation.avif",
+        img: "/public/images/sub-categories/Automation-Products-Sub-Category/industrial-door-automation.avif",
         description:
           "Industrial door automation for factory, warehouse and logistics facilities.",
 
@@ -1061,7 +1060,7 @@ export const PRODUCT_CATEGORIES = {
         key: "walk-through-metal-detector",
         name: "Walk Through Metal Detector",
         link: "/walk-through-metal-detector.html",
-        img: "/images/sub-categories/walk-through-metal-detector.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/walk-through-metal-detector.avif",
         description:
           "Walk through metal detectors for people screening at secure entry points.",
 
@@ -1142,7 +1141,7 @@ export const PRODUCT_CATEGORIES = {
         key: "hand-held-metal-detector",
         name: "Hand Held Metal Detector",
         link: "/hand-held-metal-detector.html",
-        img: "/images/sub-categories/hand-held-metal-detector.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
         description:
           "Portable hand held metal detectors for manual security checking.",
 
@@ -1201,7 +1200,7 @@ export const PRODUCT_CATEGORIES = {
         key: "x-ray-baggage-scanner",
         name: "X-Ray Baggage Scanner",
         link: "/x-ray-baggage-scanner.html",
-        img: "/images/sub-categories/x-ray-baggage-scanner.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
         description:
           "X-ray baggage scanners for bag, parcel and luggage inspection.",
 
@@ -1282,7 +1281,7 @@ export const PRODUCT_CATEGORIES = {
         key: "under-vehicle-scanner",
         name: "Under Vehicle Scanner",
         link: "/under-vehicle-scanner.html",
-        img: "/images/sub-categories/under-vehicle-scanner.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
         description:
           "Under vehicle scanning systems for vehicle bottom inspection.",
 
@@ -1335,7 +1334,7 @@ export const PRODUCT_CATEGORIES = {
         key: "explosive-detector",
         name: "Explosive Detector",
         link: "/explosive-detector.html",
-        img: "/images/sub-categories/explosive-detector.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
         description:
           "Explosive detection systems for high-security entrance screening.",
 
@@ -1388,7 +1387,7 @@ export const PRODUCT_CATEGORIES = {
         key: "visitor-management-system",
         name: "Visitor Management System",
         link: "/visitor-management-system.html",
-        img: "/images/sub-categories/visitor-management-system.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/visitor-management-system.avif",
         description:
           "Visitor management systems for visitor registration, pass management and entry tracking.",
 
@@ -1440,7 +1439,7 @@ export const PRODUCT_CATEGORIES = {
         key: "security-inspection-system",
         name: "Security Inspection System",
         link: "/security-inspection-system.html",
-        img: "/images/sub-categories/security-inspection-system.avif",
+        img: "/public/images/sub-categories/Entrance-Security-Solutions-sub-category/security-inspection-system.avif",
         description:
           "Security inspection systems and tools for entrance screening.",
 
@@ -1528,7 +1527,7 @@ export const PRODUCT_CATEGORIES = {
         key: "face-recognition-system",
         name: "Face Recognition System",
         link: "/face-recognition-system.html",
-        img: "/images/sub-categories/face-recognition-system.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/face-recognition-system.avif",
         description:
           "Face recognition systems for smart identification, access control and security monitoring.",
 
@@ -1609,7 +1608,7 @@ export const PRODUCT_CATEGORIES = {
         key: "people-counting-system",
         name: "People Counting System",
         link: "/people-counting-system.html",
-        img: "/images/sub-categories/people-counting-system.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/people-counting-system.avif",
         description:
           "People counting systems for visitor counting, occupancy tracking and crowd analytics.",
 
@@ -1684,7 +1683,7 @@ export const PRODUCT_CATEGORIES = {
         key: "perimeter-intrusion-detection",
         name: "Perimeter Intrusion Detection",
         link: "/perimeter-intrusion-detection.html",
-        img: "/images/sub-categories/perimeter-intrusion-detection.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/perimeter-intrusion-detection.avif",
         description:
           "Perimeter intrusion detection solutions for boundary, fence and restricted area monitoring.",
 
@@ -1759,7 +1758,7 @@ export const PRODUCT_CATEGORIES = {
         key: "line-crossing-detection",
         name: "Line Crossing Detection",
         link: "/line-crossing-detection.html",
-        img: "/images/sub-categories/line-crossing-detection.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/line-crossing-detection.avif",
         description:
           "Line crossing detection analytics for detecting unauthorized movement across virtual lines.",
 
@@ -1812,7 +1811,7 @@ export const PRODUCT_CATEGORIES = {
         key: "object-detection-system",
         name: "Object Detection System",
         link: "/object-detection-system.html",
-        img: "/images/sub-categories/object-detection-system.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/object-detection-system.avif",
         description:
           "Object detection systems for detecting missing, abandoned or suspicious objects.",
 
@@ -1880,7 +1879,7 @@ export const PRODUCT_CATEGORIES = {
         key: "vehicle-analytics-system",
         name: "Vehicle Analytics System",
         link: "/vehicle-analytics-system.html",
-        img: "/images/sub-categories/vehicle-analytics-system.avif",
+        img: "/public/images/sub-categories/Intelligent-Video-Analytics-sub-category/vehicle-analytics-system.avif",
         description:
           "Vehicle analytics systems for vehicle detection, counting and traffic monitoring.",
 
