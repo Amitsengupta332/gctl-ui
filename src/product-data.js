@@ -1984,7 +1984,7 @@ export const PRODUCT_CATEGORIES = {
         key: "biometric-attendance-system",
         name: "Biometric Attendance System",
         link: "/biometric-attendance-system.html",
-        img: "/images/sub-categories/biometric-attendance-system.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/biometric-attendance-system.avif",
         description:
           "Biometric attendance systems for employee attendance tracking and reporting.",
 
@@ -2065,7 +2065,7 @@ export const PRODUCT_CATEGORIES = {
         key: "door-access-control-system",
         name: "Door Access Control System",
         link: "/door-access-control-system.html",
-        img: "/images/sub-categories/door-access-control-system.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/door-access-control-system.avif",
         description:
           "Door access control systems for secured entry management and restricted area protection.",
 
@@ -2146,7 +2146,7 @@ export const PRODUCT_CATEGORIES = {
         key: "face-recognition-access-control",
         name: "Face Recognition Access Control",
         link: "/face-recognition-access-control.html",
-        img: "/images/sub-categories/face-recognition-access-control.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/face-recognition-access-control.avif",
         description:
           "Face recognition access control systems for touchless secure entry.",
 
@@ -2219,7 +2219,7 @@ export const PRODUCT_CATEGORIES = {
         key: "rfid-card-access-system",
         name: "RFID Card Access System",
         link: "/rfid-card-access-system.html",
-        img: "/images/sub-categories/rfid-card-access-system.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/rfid-card-access-system.avif",
         description:
           "RFID card access systems for secure card-based entry control.",
 
@@ -2292,7 +2292,7 @@ export const PRODUCT_CATEGORIES = {
         key: "electric-door-lock",
         name: "Electric Door Lock",
         link: "/electric-door-lock.html",
-        img: "/images/sub-categories/electric-door-lock.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/electric-door-lock.avif",
         description:
           "Electric door locks for access control and secured entry systems.",
 
@@ -2370,7 +2370,7 @@ export const PRODUCT_CATEGORIES = {
         key: "attendance-management-software",
         name: "Attendance Management Software",
         link: "/attendance-management-software.html",
-        img: "/images/sub-categories/attendance-management-software.avif",
+        img: "/public/images/sub-categories/Access-Control-sub-category/attendance-management-software.avif",
         description:
           "Attendance management software for employee attendance reports and HR integration.",
 
@@ -2460,7 +2460,7 @@ export const PRODUCT_CATEGORIES = {
         key: "conventional-fire-alarm-system",
         name: "Conventional Fire Alarm System",
         link: "/conventional-fire-alarm-system.html",
-        img: "/images/sub-categories/conventional-fire-alarm-system.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/conventional_fire_alarm_system.avif",
         description:
           "Conventional fire alarm systems for small and medium building fire safety projects.",
 
@@ -2539,7 +2539,7 @@ export const PRODUCT_CATEGORIES = {
         key: "addressable-fire-alarm-system",
         name: "Addressable Fire Alarm System",
         link: "/addressable-fire-alarm-system.html",
-        img: "/images/sub-categories/addressable-fire-alarm-system.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/addressable_fire_alarm_system.avif",
         description:
           "Addressable fire alarm systems for large buildings and advanced fire safety projects.",
 
@@ -2620,7 +2620,7 @@ export const PRODUCT_CATEGORIES = {
         key: "fire-alarm-control-panel",
         name: "Fire Alarm Control Panel",
         link: "/fire-alarm-control-panel.html",
-        img: "/images/sub-categories/fire-alarm-control-panel.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/fire_alarm_control_panel.avif",
         description:
           "Fire alarm control panels for monitoring and controlling fire alarm devices.",
 
@@ -2699,7 +2699,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smoke-detector",
         name: "Smoke Detector",
         link: "/smoke-detector.html",
-        img: "/images/sub-categories/smoke-detector.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/smoke_detector.avif",
         description:
           "Smoke detectors for early fire and smoke detection in buildings.",
 
@@ -2756,7 +2756,7 @@ export const PRODUCT_CATEGORIES = {
         key: "heat-detector",
         name: "Heat Detector",
         link: "/heat-detector.html",
-        img: "/images/sub-categories/heat-detector.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/heat_detector.avif",
         description:
           "Heat detectors for areas where smoke detectors may not be suitable.",
 
@@ -2814,7 +2814,7 @@ export const PRODUCT_CATEGORIES = {
         key: "manual-call-point",
         name: "Manual Call Point",
         link: "/manual-call-point.html",
-        img: "/images/sub-categories/manual-call-point.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/manual_call_point.avif",
         description:
           "Manual call points for manually triggering fire alarm alerts.",
 
@@ -2866,7 +2866,7 @@ export const PRODUCT_CATEGORIES = {
         key: "fire-alarm-sounder-strobe",
         name: "Fire Alarm Sounder & Strobe",
         link: "/fire-alarm-sounder-strobe.html",
-        img: "/images/sub-categories/fire-alarm-sounder-strobe.avif",
+        img: "/public/images/sub-categories/Fire-Alarm-System-sub-category/fire_alarm_sounder_strobe.avif",
         description:
           "Fire alarm sounders and strobes for audible and visual fire alerts.",
 
@@ -2959,7 +2959,7 @@ export const PRODUCT_CATEGORIES = {
         key: "tripod-turnstile",
         name: "Tripod Turnstile",
         link: "/tripod-turnstile.html",
-        img: "/images/sub-categories/tripod-turnstile.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/tripod-turnstile.avif",
         description:
           "Tripod turnstiles for controlled pedestrian entry and access management.",
 
@@ -3024,7 +3024,7 @@ export const PRODUCT_CATEGORIES = {
         key: "flap-barrier",
         name: "Flap Barrier",
         link: "/flap-barrier.html",
-        img: "/images/sub-categories/flap-barrier.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/flap-barrier.avif",
         description:
           "Flap barriers for modern pedestrian access control and lobby entrance management.",
 
@@ -3088,7 +3088,7 @@ export const PRODUCT_CATEGORIES = {
         key: "swing-barrier",
         name: "Swing Barrier",
         link: "/swing-barrier.html",
-        img: "/images/sub-categories/swing-barrier.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/swing-barrier.avif",
         description:
           "Swing barriers for elegant access control and wide passage pedestrian entry.",
 
@@ -3153,7 +3153,7 @@ export const PRODUCT_CATEGORIES = {
         key: "full-height-turnstile",
         name: "Full Height Turnstile",
         link: "/full-height-turnstile.html",
-        img: "/images/sub-categories/full-height-turnstile.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/full-height-turnstile.avif",
         description:
           "Full height turnstiles for high-security pedestrian access control.",
 
@@ -3218,7 +3218,7 @@ export const PRODUCT_CATEGORIES = {
         key: "boom-barrier-gate",
         name: "Boom Barrier Gate",
         link: "/boom-barrier-gate.html",
-        img: "/images/sub-categories/boom-barrier-gate.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/boom-barrier-gate.avif",
         description:
           "Boom barrier gates for vehicle access control and parking entrance management.",
 
@@ -3283,7 +3283,7 @@ export const PRODUCT_CATEGORIES = {
         key: "parking-barrier",
         name: "Parking Barrier",
         link: "/parking-barrier.html",
-        img: "/images/sub-categories/parking-barrier.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/parking-barrier.avif",
         description:
           "Parking barriers for RFID, ANPR and controlled parking access systems.",
 
@@ -3347,7 +3347,7 @@ export const PRODUCT_CATEGORIES = {
         key: "ticketing-gate-system",
         name: "Ticketing Gate System",
         link: "/ticketing-gate-system.html",
-        img: "/images/sub-categories/ticketing-gate-system.avif",
+        img: "/public/images/sub-categories/tripod-turnstile-sub-category/ticketing-gate-system.avif",
         description:
           "Ticketing gate systems for QR, RFID and ticket-based entry control.",
 
@@ -3446,7 +3446,7 @@ export const PRODUCT_CATEGORIES = {
         key: "indoor-led-display",
         name: "Indoor LED Display",
         link: "/indoor-led-display.html",
-        img: "/images/sub-categories/indoor-led-display.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/indoor-led-display.avif",
         description:
           "Indoor LED displays for commercial advertising, presentations and information display.",
 
@@ -3511,7 +3511,7 @@ export const PRODUCT_CATEGORIES = {
         key: "outdoor-led-display",
         name: "Outdoor LED Display",
         link: "/outdoor-led-display.html",
-        img: "/images/sub-categories/outdoor-led-display.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/led_digital_signage_display.avif",
         description:
           "Outdoor LED displays for advertising, public information and high-brightness outdoor screens.",
 
@@ -3576,7 +3576,7 @@ export const PRODUCT_CATEGORIES = {
         key: "interactive-kiosk",
         name: "Interactive Kiosk",
         link: "/interactive-kiosk.html",
-        img: "/images/sub-categories/interactive-kiosk.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/interactive-kiosk.avif",
         description:
           "Interactive kiosks for customer service, self-service, information and touch screen applications.",
 
@@ -3641,7 +3641,7 @@ export const PRODUCT_CATEGORIES = {
         key: "video-wall-display",
         name: "Video Wall Display",
         link: "/video-wall-display.html",
-        img: "/images/sub-categories/video-wall-display.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/video-wall-display.avif",
         description:
           "Video wall display systems for control rooms, meeting rooms, monitoring centers and commercial display.",
 
@@ -3705,7 +3705,7 @@ export const PRODUCT_CATEGORIES = {
         key: "digital-signage-player",
         name: "Digital Signage Player",
         link: "/digital-signage-player.html",
-        img: "/images/sub-categories/digital-signage-player.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/digital-signage-player.avif",
         description:
           "Digital signage players for controlling and managing display content.",
 
@@ -3770,7 +3770,7 @@ export const PRODUCT_CATEGORIES = {
         key: "advertising-display",
         name: "Advertising Display",
         link: "/advertising-display.html",
-        img: "/images/sub-categories/advertising-display.avif",
+        img: "/public/images/sub-categories/lcd-led-digital-signage-sub-category/advertising-display.avif",
         description:
           "Advertising displays for retail, corporate, hospitality and commercial digital signage.",
 
@@ -3871,7 +3871,7 @@ export const PRODUCT_CATEGORIES = {
         key: "token-machine",
         name: "Token Machine",
         link: "/token-machine.html",
-        img: "/images/sub-categories/token-machine.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/token-machine.avif",
         description:
           "Token machines for generating queue numbers and managing customer waiting lines.",
 
@@ -3958,7 +3958,7 @@ export const PRODUCT_CATEGORIES = {
         key: "queue-display",
         name: "Queue Display",
         link: "/queue-display.html",
-        img: "/images/sub-categories/queue-display.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/queue-display.avif",
         description:
           "Queue displays for showing token numbers, counter numbers and service status.",
 
@@ -4022,7 +4022,7 @@ export const PRODUCT_CATEGORIES = {
         key: "calling-system",
         name: "Calling System",
         link: "/calling-system.html",
-        img: "/images/sub-categories/calling-system.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/calling-system.avif",
         description:
           "Calling systems for counter staff to call token numbers and manage customer flow.",
 
@@ -4086,7 +4086,7 @@ export const PRODUCT_CATEGORIES = {
         key: "counter-display-system",
         name: "Counter Display",
         link: "/counter-display-system.html",
-        img: "/images/sub-categories/counter-display-system.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/counter-display.avif",
         description:
           "Counter display systems for showing active queue numbers at each service counter.",
 
@@ -4148,7 +4148,7 @@ export const PRODUCT_CATEGORIES = {
         key: "queue-software",
         name: "Queue Software",
         link: "/queue-software.html",
-        img: "/images/sub-categories/queue-software.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/queue-software.avif",
         description:
           "Queue software for managing token calls, counter operations, reports and service flow.",
 
@@ -4213,7 +4213,7 @@ export const PRODUCT_CATEGORIES = {
         key: "customer-feedback-system",
         name: "Customer Feedback System",
         link: "/customer-feedback-system.html",
-        img: "/images/sub-categories/customer-feedback-system.avif",
+        img: "/public/images/sub-categories/queue-management-sub-category/customer-feedback-system.avif",
         description:
           "Customer feedback systems for collecting service ratings and customer experience data.",
 
@@ -4313,7 +4313,7 @@ export const PRODUCT_CATEGORIES = {
         key: "parking-management-system",
         name: "Parking Management System",
         link: "/parking-management-system.html",
-        img: "/images/sub-categories/parking-management-system.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/modern_parking_and_access_control_tech.avif",
         description:
           "Parking management systems for automated parking entry, exit, ticketing and vehicle access control.",
 
@@ -4399,7 +4399,7 @@ export const PRODUCT_CATEGORIES = {
         key: "car-parking-guidance",
         name: "Car Parking Guidance",
         link: "/car-parking-guidance.html",
-        img: "/images/sub-categories/car-parking-guidance.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/smart_parking_guidance_system_overview.avif",
         description:
           "Car parking guidance systems for showing available parking spaces and directing drivers.",
 
@@ -4464,7 +4464,7 @@ export const PRODUCT_CATEGORIES = {
         key: "rfid-vehicle-access",
         name: "RFID Vehicle Access",
         link: "/rfid-vehicle-access.html",
-        img: "/images/sub-categories/rfid-vehicle-access.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/futuristic_vehicle_access_control_system.avif",
         description:
           "RFID vehicle access systems for authorized vehicle entry and parking automation.",
 
@@ -4527,7 +4527,7 @@ export const PRODUCT_CATEGORIES = {
         key: "anpr-parking-control",
         name: "ANPR Parking System",
         link: "/anpr-parking-control.html",
-        img: "/images/sub-categories/anpr-parking-control.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/automated_parking_system_design_showcase.avif",
         description:
           "ANPR parking systems for number plate based vehicle entry and exit automation.",
 
@@ -4591,7 +4591,7 @@ export const PRODUCT_CATEGORIES = {
         key: "vehicle-loop-detector",
         name: "Vehicle Loop Detector",
         link: "/vehicle-loop-detector.html",
-        img: "/images/sub-categories/vehicle-loop-detector.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/parking_detection_system_components_showcase.avif",
         description:
           "Vehicle loop detectors for detecting vehicles at gates, barriers and parking entrances.",
 
@@ -4656,7 +4656,7 @@ export const PRODUCT_CATEGORIES = {
         key: "parking-payment-kiosk",
         name: "Parking Payment Kiosk",
         link: "/parking-payment-kiosk.html",
-        img: "/images/sub-categories/parking-payment-kiosk.avif",
+        img: "/public/images/sub-categories/vehicle-control-sub-category/futuristic_parking_payment_technology_showcase.avif",
         description:
           "Parking payment kiosks for automated parking fee collection and self-service payment.",
 
@@ -4754,7 +4754,7 @@ export const PRODUCT_CATEGORIES = {
         key: "conference-microphone",
         name: "Conference Microphone",
         link: "/conference-microphone.html",
-        img: "/images/sub-categories/conference-microphone.avif",
+        img: "/public/images/sub-categories/conference-sub-category/conference-microphone.avif",
         description:
           "Conference microphones for meeting rooms, boardrooms and professional discussion systems.",
 
@@ -4819,7 +4819,7 @@ export const PRODUCT_CATEGORIES = {
         key: "pa-speaker-system",
         name: "PA Speaker System",
         link: "/pa-speaker-system.html",
-        img: "/images/sub-categories/pa-speaker-system.avif",
+        img: "/public/images/sub-categories/conference-sub-category/pa-speaker-system.avif",
         description:
           "PA speaker systems for announcements, background music and public address coverage.",
 
@@ -4884,7 +4884,7 @@ export const PRODUCT_CATEGORIES = {
         key: "amplifier-system",
         name: "Amplifier System",
         link: "/amplifier-system.html",
-        img: "/images/sub-categories/amplifier-system.avif",
+        img: "/public/images/sub-categories/conference-sub-category/amplifier-system.avif",
         description:
           "Amplifier systems for PA speakers, meeting rooms and public address audio projects.",
 
@@ -4947,7 +4947,7 @@ export const PRODUCT_CATEGORIES = {
         key: "wireless-microphone",
         name: "Wireless Microphone",
         link: "/wireless-microphone.html",
-        img: "/images/sub-categories/wireless-microphone.avif",
+        img: "/public/images/sub-categories/conference-sub-category/wireless-microphone.avif",
         description:
           "Wireless microphones for conference rooms, events, presentation and PA systems.",
 
@@ -5012,7 +5012,7 @@ export const PRODUCT_CATEGORIES = {
         key: "meeting-room-audio",
         name: "Meeting Room Audio",
         link: "/meeting-room-audio.html",
-        img: "/images/sub-categories/meeting-room-audio.avif",
+        img: "/public/images/sub-categories/conference-sub-category/meeting-room-audio.avif",
         description:
           "Meeting room audio systems for small, medium and large conference spaces.",
 
@@ -5076,7 +5076,7 @@ export const PRODUCT_CATEGORIES = {
         key: "public-announcement-system",
         name: "Public Announcement System",
         link: "/public-announcement-system.html",
-        img: "/images/sub-categories/public-announcement-system.avif",
+        img: "/public/images/sub-categories/conference-sub-category/public-announcement-system.avif",
         description:
           "Public announcement systems for building-wide announcements and emergency audio broadcasting.",
 
@@ -5178,7 +5178,7 @@ export const PRODUCT_CATEGORIES = {
         key: "bms-system",
         name: "BMS System",
         link: "/bms-system.html",
-        img: "/images/sub-categories/bms-system.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/bms-system.avif",
         description:
           "BMS systems for centralized monitoring and control of building operations.",
 
@@ -5243,7 +5243,7 @@ export const PRODUCT_CATEGORIES = {
         key: "lighting-control",
         name: "Lighting Control",
         link: "/lighting-control.html",
-        img: "/images/sub-categories/lighting-control.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/lighting-control.avif",
         description:
           "Lighting control systems for smart lighting automation, dimming and motion-based control.",
 
@@ -5307,7 +5307,7 @@ export const PRODUCT_CATEGORIES = {
         key: "hvac-control",
         name: "HVAC Control",
         link: "/hvac-control.html",
-        img: "/images/sub-categories/hvac-control.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/hvac-control.avif",
         description:
           "HVAC control systems for air conditioning, ventilation and temperature management.",
 
@@ -5371,7 +5371,7 @@ export const PRODUCT_CATEGORIES = {
         key: "energy-management",
         name: "Energy Management",
         link: "/energy-management.html",
-        img: "/images/sub-categories/energy-management.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/energy-management.avif",
         description:
           "Energy management systems for monitoring, analyzing and reducing energy consumption.",
 
@@ -5435,7 +5435,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-building-control",
         name: "Smart Building Control",
         link: "/smart-building-control.html",
-        img: "/images/sub-categories/smart-building-control.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/smart-building-control.avif",
         description:
           "Smart building control systems for integrated automation and intelligent building management.",
 
@@ -5497,7 +5497,7 @@ export const PRODUCT_CATEGORIES = {
         key: "central-monitoring-system",
         name: "Central Monitoring System",
         link: "/central-monitoring-system.html",
-        img: "/images/sub-categories/central-monitoring-system.avif",
+        img: "/public/images/sub-categories/building-automation-sub-category/central-monitoring-system.avif",
         description:
           "Central monitoring systems for managing multiple building automation systems from one platform.",
 
@@ -5599,7 +5599,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-door-lock",
         name: "Smart Door Lock",
         link: "/smart-door-lock.html",
-        img: "/images/sub-categories/smart-door-lock.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/smart-door-lock.avif",
         description:
           "Smart door locks for secure keyless access using fingerprint, card, PIN, WiFi and mobile app control.",
 
@@ -5685,7 +5685,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-switch",
         name: "Smart Switch",
         link: "/smart-switch.html",
-        img: "/images/sub-categories/smart-switch.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/smart-switch.avif",
         description:
           "Smart switches for mobile app, voice and automation-based lighting control.",
 
@@ -5771,7 +5771,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-curtain",
         name: "Smart Curtain",
         link: "/smart-curtain.html",
-        img: "/images/sub-categories/smart-curtain.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/smart-curtain.avif",
         description:
           "Smart curtain systems for automatic curtain opening, closing and schedule-based control.",
 
@@ -5833,7 +5833,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-lighting",
         name: "Smart Lighting",
         link: "/smart-lighting.html",
-        img: "/images/sub-categories/smart-lighting.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/smart-lighting.avif",
         description:
           "Smart lighting products for app control, dimming, color control and automation scenes.",
 
@@ -5898,7 +5898,7 @@ export const PRODUCT_CATEGORIES = {
         key: "smart-security-sensor",
         name: "Smart Security Sensor",
         link: "/smart-security-sensor.html",
-        img: "/images/sub-categories/smart-security-sensor.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/smart-security-sensor.avif",
         description:
           "Smart security sensors for motion detection, door detection and smart home alerts.",
 
@@ -5963,7 +5963,7 @@ export const PRODUCT_CATEGORIES = {
         key: "home-automation-hub",
         name: "Home Automation Hub",
         link: "/home-automation-hub.html",
-        img: "/images/sub-categories/home-automation-hub.avif",
+        img: "/public/images/sub-categories/smart-home-solutions-sub-category/home-automation-hub.avif",
         description:
           "Home automation hubs for connecting and controlling smart home devices.",
 
