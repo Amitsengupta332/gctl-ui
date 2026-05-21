@@ -117,11 +117,12 @@ function categoryGridCard(item, isActive = false) {
    Slider Category Card
    Used in:
    - Sub-sub category page
+   Same image card style as sub category
 ========================= */
 function categoryCard(item, isActive = false) {
   const activeClass = isActive
-    ? "border-2 border-[#0057d8] bg-[#eef7ff] shadow-[0_10px_25px_rgba(0,87,216,0.10)]"
-    : "border border-[#dfeaf7] bg-white hover:border-[#0057d8] hover:shadow-[0_12px_30px_rgba(0,87,216,0.10)]";
+    ? "border-2 border-[#0057d8] bg-[#eef7ff]"
+    : "border border-[#dfeaf7] bg-white hover:border-[#0057d8]";
 
   const titleClass = isActive
     ? "text-[#0057d8]"
@@ -129,19 +130,21 @@ function categoryCard(item, isActive = false) {
 
   return `
     <a href="${item.link}"
-      class="snap-start shrink-0 w-[210px] sm:w-[230px] md:w-[250px] lg:w-[270px] group h-[150px] rounded-[6px] ${activeClass} px-4 py-3 transition-all duration-300 flex flex-col items-center justify-center">
+      class="snap-start shrink-0 w-[180px] sm:w-[200px] md:w-[220px] lg:w-[240px] group h-[170px] rounded-[6px] ${activeClass} overflow-hidden bg-white shadow-[0_5px_16px_rgba(15,23,42,0.04)] hover:shadow-[0_10px_25px_rgba(0,87,216,0.10)] transition-all duration-300 flex flex-col">
 
-      <div class="h-[92px] w-full flex items-center justify-center overflow-hidden">
+      <div class="h-[122px] w-full overflow-hidden bg-white">
         ${imageTag(
           item.img || "/images/products/placeholder.avif",
           item.name,
-          "max-h-[88px] max-w-[180px] object-contain mx-auto mix-blend-multiply group-hover:scale-105 transition-transform duration-300",
+          "w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105",
         )}
       </div>
 
-      <h3 class="mt-2 text-center text-[14px] sm:text-[15px] font-extrabold ${titleClass}">
-        ${item.name}
-      </h3>
+      <div class="h-[48px] px-2 flex items-center justify-center bg-white">
+        <h3 class="text-center text-[12px] sm:text-[13px] leading-[1.25] font-extrabold ${titleClass}">
+          ${item.name}
+        </h3>
+      </div>
     </a>
   `;
 }

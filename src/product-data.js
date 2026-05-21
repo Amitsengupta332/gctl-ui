@@ -154,7 +154,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ip-dome-camera",
             name: "IP Dome Camera",
             link: "/sub-ip-dome-camera.html",
-            img: "/images/sub-sub-categories/sub-ip-dome-camera.avif",
+            img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-dome-camera-category-600x450.avif",
             description: "Indoor network IP dome camera.",
             products: [
               {
@@ -169,7 +169,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ip-bullet-camera",
             name: "IP Bullet Camera",
             link: "/sub-ip-bullet-camera.html",
-            img: "/images/sub-sub-categories/sub-ip-bullet-camera.avif",
+            img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-bullet-camera-category-600x450.avif",
             description: "Outdoor network IP bullet camera.",
             products: [
               {
@@ -184,7 +184,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wifi-ip-camera",
             name: "WiFi IP Camera",
             link: "/sub-wifi-ip-camera.html",
-            img: "/images/sub-sub-categories/sub-wifi-ip-camera.avif",
+            img: "/public/images/products/all-ip-camera-category-avif-600x450/wifi-ip-camera-category-600x450.avif",
             description: "Wireless IP camera for easy setup.",
             products: [
               {
@@ -199,7 +199,7 @@ export const PRODUCT_CATEGORIES = {
             key: "poe-ip-camera",
             name: "PoE IP Camera",
             link: "/sub-poe-ip-camera.html",
-            img: "/images/sub-sub-categories/sub-poe-ip-camera.avif",
+            img: "/public/images/products/all-ip-camera-category-avif-600x450/poe-ip-camera-category-600x450.avif",
             description: "Power over Ethernet IP camera.",
             products: [
               {
@@ -234,7 +234,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fixed-anpr-camera",
             name: "Fixed ANPR Camera",
             link: "/sub-fixed-anpr-camera.html",
-            img: "/images/sub-sub-categories/sub-fixed-anpr-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/fixed-anpr-camera.avif",
             description: "Fixed ANPR camera for entry points.",
             products: [
               {
@@ -249,7 +249,7 @@ export const PRODUCT_CATEGORIES = {
             key: "parking-anpr-camera",
             name: "Parking ANPR Camera",
             link: "/sub-parking-anpr-camera.html",
-            img: "/images/sub-sub-categories/sub-parking-anpr-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/parking-anpr-camera.avif",
             description: "ANPR camera for parking entry and exit.",
             products: [
               {
@@ -264,7 +264,7 @@ export const PRODUCT_CATEGORIES = {
             key: "traffic-anpr-camera",
             name: "Traffic ANPR Camera",
             link: "/sub-traffic-anpr-camera.html",
-            img: "/images/sub-sub-categories/sub-traffic-anpr-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/traffic-anpr-camera.avif",
             description: "ANPR camera for traffic monitoring.",
             products: [
               {
@@ -300,7 +300,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-recognition-camera",
             name: "Face Recognition Camera",
             link: "/sub-face-recognition-camera.html",
-            img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/face-recognition-camera.avif",
             description: "AI camera for face recognition.",
             products: [
               {
@@ -315,7 +315,7 @@ export const PRODUCT_CATEGORIES = {
             key: "human-detection-camera",
             name: "Human Detection Camera",
             link: "/sub-human-detection-camera.html",
-            img: "/images/sub-sub-categories/sub-human-detection-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/face-recognition-camera.avif",
             description: "AI camera for human detection.",
             products: [
               {
@@ -330,7 +330,7 @@ export const PRODUCT_CATEGORIES = {
             key: "people-counting-camera",
             name: "People Counting Camera",
             link: "/sub-people-counting-camera.html",
-            img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/face-recognition-camera.avif",
             description: "AI camera for people counting.",
             products: [
               {
@@ -345,7 +345,7 @@ export const PRODUCT_CATEGORIES = {
             key: "vehicle-detection-camera",
             name: "Vehicle Detection Camera",
             link: "/sub-vehicle-detection-camera.html",
-            img: "/images/sub-sub-categories/sub-vehicle-detection-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/vehicle-detection-camera.avif",
             description: "AI camera for vehicle detection.",
             products: [
               {
@@ -381,7 +381,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-temperature-camera",
             name: "Face Temperature Camera",
             link: "/sub-face-temperature-camera.html",
-            img: "/images/sub-sub-categories/sub-face-temperature-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/face-temperature-camera.avif",
             description: "Face temperature screening camera.",
             products: [
               {
@@ -396,7 +396,7 @@ export const PRODUCT_CATEGORIES = {
             key: "thermal-temperature-camera",
             name: "Thermal Temperature Camera",
             link: "/sub-thermal-temperature-camera.html",
-            img: "/images/sub-sub-categories/sub-thermal-temperature-camera.avif",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/thermal-temperature-camera.avif",
             description: "Thermal camera for temperature monitoring.",
             products: [
               {
@@ -426,7 +426,38 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
 
-        subSub: [],
+        subSub: [
+          {
+            key: "indoor-cc-camera",
+            name: "Indoor CC Camera",
+            link: "/sub-indoor-cc-camera.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/indoor-cc-camera.avif",
+            description: "Indoor CC camera for basic indoor surveillance.",
+            products: [
+              {
+                name: "Indoor CC Camera",
+                img: "/images/products/indoor-cc-camera.avif",
+                description:
+                  "Indoor CC camera for room, office and shop monitoring.",
+              },
+            ],
+          },
+          {
+            key: "outdoor-cc-camera",
+            name: "Outdoor CC Camera",
+            link: "/sub-outdoor-cc-camera.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/outdoor-cc-camera.avif",
+            description: "Outdoor CC camera for outside surveillance.",
+            products: [
+              {
+                name: "Outdoor CC Camera",
+                img: "/images/products/outdoor-cc-camera.avif",
+                description:
+                  "Outdoor CC camera for gate, road and perimeter monitoring.",
+              },
+            ],
+          },
+        ],
       },
 
       {
@@ -446,7 +477,67 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
 
-        subSub: [],
+        subSub: [
+          {
+            key: "cctv-cable",
+            name: "CCTV Cable",
+            link: "/sub-cctv-cable.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-cable.avif",
+            description: "CCTV cable for camera installation.",
+            products: [
+              {
+                name: "CCTV Cable",
+                img: "/images/products/cctv-cable.avif",
+                description:
+                  "CCTV cable for surveillance camera wiring and installation.",
+              },
+            ],
+          },
+          {
+            key: "cctv-power-supply",
+            name: "CCTV Power Supply",
+            link: "/sub-cctv-power-supply.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-power-supply.avif",
+            description: "Power supply for CCTV cameras.",
+            products: [
+              {
+                name: "CCTV Power Supply",
+                img: "/images/products/cctv-power-supply.avif",
+                description: "Power supply unit for CCTV camera systems.",
+              },
+            ],
+          },
+          {
+            key: "cctv-bracket",
+            name: "CCTV Bracket",
+            link: "/sub-cctv-bracket.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-bracket.avif",
+            description: "Mounting bracket for CCTV cameras.",
+            products: [
+              {
+                name: "CCTV Bracket",
+                img: "/images/products/cctv-bracket.avif",
+                description:
+                  "CCTV camera bracket for wall and ceiling installation.",
+              },
+            ],
+          },
+          {
+            key: "cctv-connector",
+            name: "CCTV Connector",
+            link: "/sub-cctv-connector.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-connector.avif",
+            description: "Connector for CCTV camera wiring.",
+            products: [
+              {
+                name: "CCTV Connector",
+                img: "/images/products/cctv-connector.avif",
+                description:
+                  "CCTV connector for camera cable and power connection.",
+              },
+            ],
+          },
+        ],
       },
 
       {
@@ -465,7 +556,53 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
 
-        subSub: [],
+        subSub: [
+          {
+            key: "4-channel-dvr",
+            name: "4 Channel DVR",
+            link: "/sub-4-channel-dvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/4-channel-dvr.avif",
+            description: "4 channel DVR for small CCTV systems.",
+            products: [
+              {
+                name: "4 Channel DVR",
+                img: "/images/products/4-channel-dvr.avif",
+                description:
+                  "4 channel DVR for small HD CCTV camera recording.",
+              },
+            ],
+          },
+          {
+            key: "8-channel-dvr",
+            name: "8 Channel DVR",
+            link: "/sub-8-channel-dvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/8-channel-dvr.avif",
+            description: "8 channel DVR for medium CCTV systems.",
+            products: [
+              {
+                name: "8 Channel DVR",
+                img: "/images/products/8-channel-dvr.avif",
+                description:
+                  "8 channel DVR for medium HD CCTV camera recording.",
+              },
+            ],
+          },
+          {
+            key: "16-channel-dvr",
+            name: "16 Channel DVR",
+            link: "/sub-16-channel-dvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/16-channel-dvr.avif",
+            description: "16 channel DVR for large CCTV systems.",
+            products: [
+              {
+                name: "16 Channel DVR",
+                img: "/images/products/16-channel-dvr.avif",
+                description:
+                  "16 channel DVR for large HD CCTV camera recording.",
+              },
+            ],
+          },
+        ],
       },
 
       {
@@ -485,7 +622,65 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
 
-        subSub: [],
+        subSub: [
+          {
+            key: "4-channel-nvr",
+            name: "4 Channel NVR",
+            link: "/sub-4-channel-nvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/4-channel-nvr.avif",
+            description: "4 channel NVR for small IP camera systems.",
+            products: [
+              {
+                name: "4 Channel NVR",
+                img: "/images/products/4-channel-nvr.avif",
+                description: "4 channel NVR for small IP camera recording.",
+              },
+            ],
+          },
+          {
+            key: "8-channel-nvr",
+            name: "8 Channel NVR",
+            link: "/sub-8-channel-nvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/8-channel-nvr.avif",
+            description: "8 channel NVR for medium IP camera systems.",
+            products: [
+              {
+                name: "8 Channel NVR",
+                img: "/images/products/8-channel-nvr.avif",
+                description: "8 channel NVR for medium IP camera recording.",
+              },
+            ],
+          },
+          {
+            key: "16-channel-nvr",
+            name: "16 Channel NVR",
+            link: "/sub-16-channel-nvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/16-channel-nvr.avif",
+            description: "16 channel NVR for large IP camera systems.",
+            products: [
+              {
+                name: "16 Channel NVR",
+                img: "/images/products/16-channel-nvr.avif",
+                description: "16 channel NVR for large IP camera recording.",
+              },
+            ],
+          },
+          {
+            key: "32-channel-nvr",
+            name: "32 Channel NVR",
+            link: "/sub-32-channel-nvr.html",
+            img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/32-channel-nvr.avif",
+            description: "32 channel NVR for enterprise IP camera systems.",
+            products: [
+              {
+                name: "32 Channel NVR",
+                img: "/images/products/32-channel-nvr.avif",
+                description:
+                  "32 channel NVR for enterprise IP camera recording.",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -1026,7 +1221,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Entrance Security Solutions",
     eyebrow: "Entrance Security",
     link: "/entrance-security-solutions.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/entrance-security-solutions-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/entrance-security-solutions-banner.avif",
     description:
       "Professional entrance security solutions for visitor screening, baggage scanning, metal detection, vehicle inspection and secure building entry control.",
 
@@ -1493,7 +1689,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Intelligent Video Analytics",
     eyebrow: "Video Analytics",
     link: "/intelligent-video-analytics.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/intelligent-video-analytics-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/intelligent-video-analytics-banner.avif",
     description:
       "Intelligent video analytics solutions for smart surveillance, face recognition, people counting, perimeter detection, vehicle analytics and automated security monitoring.",
 
@@ -1950,7 +2147,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Access Control & Time Attendance",
     eyebrow: "Access Control",
     link: "/access-control-time-attendance.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/access-control-time-attendance-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/access-control-time-attendance-banner.avif",
     description:
       "Professional access control and time attendance solutions for employee attendance, door access, biometric verification, card access and secure entry management.",
 
@@ -2426,7 +2624,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Fire Alarm System",
     eyebrow: "Fire Safety",
     link: "/fire-alarm-system.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/fire-alarm-system-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/fire-alarm-system-banner.avif",
     description:
       "Professional fire alarm systems for smoke detection, heat detection, manual call points, sounders, fire alarm panels and building fire safety projects.",
 
@@ -2925,7 +3124,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Turnstile Gate & Boom Barrier",
     eyebrow: "Entrance Control",
     link: "/turnstile-gate-boom-barrier.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/turnstile-gate-boom-barrier-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/turnstile-gate-boom-barrier-banner.avif",
     description:
       "Professional turnstile gate and boom barrier solutions for pedestrian access control, vehicle entry control, parking management and secure entrance automation.",
 
@@ -3412,7 +3612,8 @@ export const PRODUCT_CATEGORIES = {
     title: "LCD/LED Digital Signage",
     eyebrow: "Digital Display",
     link: "/lcd-led-digital-signage.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/lcd-led-digital-signage-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/lcd-led-digital-signage-banner.avif",
     description:
       "Professional LCD and LED digital signage solutions for advertising, information display, interactive kiosks, video walls and commercial display projects.",
 
@@ -3837,7 +4038,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Queue Management System",
     eyebrow: "Queue Solution",
     link: "/queue-management-system.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/queue-management-system-banner-v2.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/queue-management-system-banner-v2.avif",
     description:
       "Professional queue management systems for token management, customer service counters, queue display, calling system, feedback system and service flow automation.",
 
@@ -4279,7 +4481,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Vehicle Control System",
     eyebrow: "Vehicle Access",
     link: "/vehicle-control-system.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/vehicle-control-system-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/vehicle-control-system-banner.avif",
     description:
       "Professional vehicle control systems for parking management, RFID vehicle access, ANPR parking, loop detection, parking guidance and automated vehicle entry control.",
 
@@ -4720,7 +4923,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Conference & PA System",
     eyebrow: "Audio Solution",
     link: "/conference-pa-system.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/conference-pa-system-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/conference-pa-system-banner.avif",
     description:
       "Professional conference and public address system solutions for meeting rooms, auditoriums, offices, mosques, schools, factories and commercial buildings.",
 
@@ -5144,7 +5348,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Building Automation Solutions",
     eyebrow: "Building Automation",
     link: "/building-automation-solutions.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/building-automation-solutions-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/building-automation-solutions-banner.avif",
     description:
       "Professional building automation solutions for BMS, lighting control, HVAC control, energy management, smart building control and central monitoring systems.",
 
@@ -5565,7 +5770,8 @@ export const PRODUCT_CATEGORIES = {
     title: "Smart Home Solutions",
     eyebrow: "Smart Home",
     link: "/smart-home-solutions.html",
-    banner: "/images/products/banners/all-website-hero-banners-avif-original-size/smart-home-solutions-banner.avif",
+    banner:
+      "/images/products/banners/all-website-hero-banners-avif-original-size/smart-home-solutions-banner.avif",
     description:
       "Professional smart home solutions for smart locks, smart switches, smart curtains, smart lighting, security sensors and home automation control.",
 
