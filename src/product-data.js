@@ -754,7 +754,7 @@ export const PRODUCT_CATEGORIES = {
             key: "residential-sliding-gate-motor",
             name: "Residential Sliding Gate Motor",
             link: "/sub-residential-sliding-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-residential-sliding-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/residential_sliding_gate_motor.avif",
             description: "Sliding gate motor for home and apartment gates.",
             products: [
               {
@@ -775,7 +775,7 @@ export const PRODUCT_CATEGORIES = {
             key: "industrial-sliding-gate-motor",
             name: "Industrial Sliding Gate Motor",
             link: "/sub-industrial-sliding-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-industrial-sliding-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/industrial_sliding_gate_motor.avif",
             description: "Industrial gate motor for factories and warehouses.",
             products: [
               {
@@ -796,7 +796,7 @@ export const PRODUCT_CATEGORIES = {
             key: "heavy-duty-sliding-gate-motor",
             name: "Heavy Duty Sliding Gate Motor",
             link: "/sub-heavy-duty-sliding-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-heavy-duty-sliding-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/heavy_duty_sliding_gate_motor.avif",
             description: "Heavy duty motor for large sliding gates.",
             products: [
               {
@@ -844,7 +844,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-leaf-swing-gate-motor",
             name: "Single Leaf Swing Gate Motor",
             link: "/sub-single-leaf-swing-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-single-leaf-swing-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/single_leaf_swing_gate_motor.avif",
             description: "Swing motor for single leaf gate automation.",
             products: [
               {
@@ -859,7 +859,7 @@ export const PRODUCT_CATEGORIES = {
             key: "double-leaf-swing-gate-motor",
             name: "Double Leaf Swing Gate Motor",
             link: "/sub-double-leaf-swing-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-double-leaf-swing-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/double_leaf_swing_gate_motor.avif",
             description: "Swing motor for double leaf gate automation.",
             products: [
               {
@@ -874,7 +874,7 @@ export const PRODUCT_CATEGORIES = {
             key: "underground-swing-gate-motor",
             name: "Underground Swing Gate Motor",
             link: "/sub-underground-swing-gate-motor.html",
-            img: "/images/sub-sub-categories/sub-underground-swing-gate-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/underground_swing_gate_motor.avif",
             description: "Underground swing motor for premium gate automation.",
             products: [
               {
@@ -916,7 +916,7 @@ export const PRODUCT_CATEGORIES = {
             key: "sensor-sliding-glass-door",
             name: "Sensor Sliding Glass Door",
             link: "/sub-sensor-sliding-glass-door.html",
-            img: "/images/sub-sub-categories/sub-sensor-sliding-glass-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/sensor-sliding-glass-door.avif",
             description: "Sensor sliding glass door for commercial entrances.",
             products: [
               {
@@ -931,7 +931,7 @@ export const PRODUCT_CATEGORIES = {
             key: "telescopic-glass-door",
             name: "Telescopic Glass Door",
             link: "/sub-telescopic-glass-door.html",
-            img: "/images/sub-sub-categories/sub-telescopic-glass-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/telescopic-glass-door.avif",
             description: "Telescopic glass door for wide commercial entrances.",
             products: [
               {
@@ -946,7 +946,7 @@ export const PRODUCT_CATEGORIES = {
             key: "glass-door-accessories",
             name: "Glass Door Accessories",
             link: "/sub-glass-door-accessories.html",
-            img: "/images/sub-sub-categories/sub-glass-door-accessories.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/glass-door-accessories.avif",
             description: "Accessories for automatic glass door systems.",
             products: [
               {
@@ -982,7 +982,7 @@ export const PRODUCT_CATEGORIES = {
             key: "sectional-garage-door",
             name: "Sectional Garage Door",
             link: "/sub-sectional-garage-door.html",
-            img: "/images/sub-sub-categories/sub-sectional-garage-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-garage-door.avif",
             description: "Sectional garage door automation system.",
             products: [
               {
@@ -997,7 +997,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rolling-garage-door",
             name: "Rolling Garage Door",
             link: "/sub-rolling-garage-door.html",
-            img: "/images/sub-sub-categories/sub-rolling-garage-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/rolling-garage-door.avif",
             description: "Rolling garage door automation system.",
             products: [
               {
@@ -1015,7 +1015,7 @@ export const PRODUCT_CATEGORIES = {
         key: "rolling-shutter-motor",
         name: "Rolling Shutter Motor",
         link: "/rolling-shutter-motor.html",
-        img: "/public/images/sub-categories/Automation-Products-Sub-Category/rolling-shutter-motor.avif",
+        img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/glass-door-accessories.avif",
         description:
           "Rolling shutter motors for shop, warehouse and commercial shutter automation.",
 
@@ -1033,7 +1033,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ac-rolling-shutter-motor",
             name: "AC Rolling Shutter Motor",
             link: "/sub-ac-rolling-shutter-motor.html",
-            img: "/images/sub-sub-categories/sub-ac-rolling-shutter-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/ac-rolling-shutter-motor.avif",
             description: "AC motor for rolling shutter automation.",
             products: [
               {
@@ -1048,7 +1048,7 @@ export const PRODUCT_CATEGORIES = {
             key: "dc-rolling-shutter-motor",
             name: "DC Rolling Shutter Motor",
             link: "/sub-dc-rolling-shutter-motor.html",
-            img: "/images/sub-sub-categories/sub-dc-rolling-shutter-motor.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/dc-rolling-shutter-motor.avif",
             description: "DC motor for rolling shutter automation.",
             products: [
               {
@@ -1084,7 +1084,7 @@ export const PRODUCT_CATEGORIES = {
             key: "sliding-sensor-door",
             name: "Sliding Sensor Door",
             link: "/sub-sliding-sensor-door.html",
-            img: "/images/sub-sub-categories/sub-sliding-sensor-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sliding-sensor-door.avif",
             description: "Sliding sensor door for automatic entrance access.",
             products: [
               {
@@ -1099,7 +1099,7 @@ export const PRODUCT_CATEGORIES = {
             key: "swing-sensor-door",
             name: "Swing Sensor Door",
             link: "/sub-swing-sensor-door.html",
-            img: "/images/sub-sub-categories/sub-swing-sensor-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/swing-sensor-door.avif",
             description: "Swing sensor door for automatic entry control.",
             products: [
               {
@@ -1135,7 +1135,7 @@ export const PRODUCT_CATEGORIES = {
             key: "hydraulic-road-blocker",
             name: "Hydraulic Road Blocker",
             link: "/sub-hydraulic-road-blocker.html",
-            img: "/images/sub-sub-categories/sub-hydraulic-road-blocker.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/hydraulic-road-blocker.avif",
             description: "Hydraulic road blocker for high security entrances.",
             products: [
               {
@@ -1150,7 +1150,7 @@ export const PRODUCT_CATEGORIES = {
             key: "automatic-road-blocker",
             name: "Automatic Road Blocker",
             link: "/sub-automatic-road-blocker.html",
-            img: "/images/sub-sub-categories/sub-automatic-road-blocker.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/automatic-road-blocker.avif",
             description: "Automatic road blocker for secured vehicle entry.",
             products: [
               {
@@ -1186,7 +1186,7 @@ export const PRODUCT_CATEGORIES = {
             key: "high-speed-door",
             name: "High Speed Door",
             link: "/sub-high-speed-door.html",
-            img: "/images/sub-sub-categories/sub-high-speed-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/high-speed-door.avif",
             description: "High speed door for industrial automation projects.",
             products: [
               {
@@ -1201,7 +1201,7 @@ export const PRODUCT_CATEGORIES = {
             key: "sectional-industrial-door",
             name: "Sectional Industrial Door",
             link: "/sub-sectional-industrial-door.html",
-            img: "/images/sub-sub-categories/sub-sectional-industrial-door.avif",
+            img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-industrial-door.avif",
             description: "Sectional industrial door for warehouse access.",
             products: [
               {

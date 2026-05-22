@@ -623,17 +623,17 @@ function initProductMegaMenu() {
             {
               name: "Residential Sliding Gate Motor",
               link: "/sub-residential-sliding-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-residential-sliding-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/residential_sliding_gate_motor.avif",
             },
             {
               name: "Industrial Sliding Gate Motor",
               link: "/sub-industrial-sliding-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-industrial-sliding-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/industrial_sliding_gate_motor.avif",
             },
             {
               name: "Heavy Duty Sliding Gate Motor",
               link: "/sub-heavy-duty-sliding-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-heavy-duty-sliding-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/heavy_duty_sliding_gate_motor.avif",
             },
           ],
         },
@@ -644,17 +644,17 @@ function initProductMegaMenu() {
             {
               name: "Single Leaf Swing Gate Motor",
               link: "/sub-single-leaf-swing-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-single-leaf-swing-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/single_leaf_swing_gate_motor.avif",
             },
             {
               name: "Double Leaf Swing Gate Motor",
               link: "/sub-double-leaf-swing-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-double-leaf-swing-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/double_leaf_swing_gate_motor.avif",
             },
             {
               name: "Underground Swing Gate Motor",
               link: "/sub-underground-swing-gate-motor.html",
-              img: "/images/sub-sub-categories/sub-underground-swing-gate-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/underground_swing_gate_motor.avif",
             },
           ],
         },
@@ -665,17 +665,17 @@ function initProductMegaMenu() {
             {
               name: "Sensor Sliding Glass Door",
               link: "/sub-sensor-sliding-glass-door.html",
-              img: "/images/sub-sub-categories/sub-sensor-sliding-glass-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/sensor-sliding-glass-door.avif",
             },
             {
               name: "Telescopic Glass Door",
               link: "/sub-telescopic-glass-door.html",
-              img: "/images/sub-sub-categories/sub-telescopic-glass-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/telescopic-glass-door.avif",
             },
             {
               name: "Glass Door Accessories",
               link: "/sub-glass-door-accessories.html",
-              img: "/images/sub-sub-categories/sub-glass-door-accessories.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/glass-door-accessories.avif",
             },
           ],
         },
@@ -686,12 +686,12 @@ function initProductMegaMenu() {
             {
               name: "Sectional Garage Door",
               link: "/sub-sectional-garage-door.html",
-              img: "/images/sub-sub-categories/sub-sectional-garage-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-garage-door.avif",
             },
             {
               name: "Rolling Garage Door",
               link: "/sub-rolling-garage-door.html",
-              img: "/images/sub-sub-categories/sub-rolling-garage-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/rolling-garage-door.avif",
             },
           ],
         },
@@ -702,12 +702,12 @@ function initProductMegaMenu() {
             {
               name: "AC Rolling Shutter Motor",
               link: "/sub-ac-rolling-shutter-motor.html",
-              img: "/images/sub-sub-categories/sub-ac-rolling-shutter-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/ac-rolling-shutter-motor.avif",
             },
             {
               name: "DC Rolling Shutter Motor",
               link: "/sub-dc-rolling-shutter-motor.html",
-              img: "/images/sub-sub-categories/sub-dc-rolling-shutter-motor.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/dc-rolling-shutter-motor.avif",
             },
           ],
         },
@@ -718,12 +718,12 @@ function initProductMegaMenu() {
             {
               name: "Sliding Sensor Door",
               link: "/sub-sliding-sensor-door.html",
-              img: "/images/sub-sub-categories/sub-sliding-sensor-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sliding-sensor-door.avif",
             },
             {
               name: "Swing Sensor Door",
               link: "/sub-swing-sensor-door.html",
-              img: "/images/sub-sub-categories/sub-swing-sensor-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/swing-sensor-door.avif",
             },
           ],
         },
@@ -734,12 +734,12 @@ function initProductMegaMenu() {
             {
               name: "Hydraulic Road Blocker",
               link: "/sub-hydraulic-road-blocker.html",
-              img: "/images/sub-sub-categories/sub-hydraulic-road-blocker.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/hydraulic-road-blocker.avif",
             },
             {
               name: "Automatic Road Blocker",
               link: "/sub-automatic-road-blocker.html",
-              img: "/images/sub-sub-categories/sub-automatic-road-blocker.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/automatic-road-blocker.avif",
             },
           ],
         },
@@ -750,12 +750,12 @@ function initProductMegaMenu() {
             {
               name: "High Speed Door",
               link: "/sub-high-speed-door.html",
-              img: "/images/sub-sub-categories/sub-high-speed-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/high-speed-door.avif",
             },
             {
               name: "Sectional Industrial Door",
               link: "/sub-sectional-industrial-door.html",
-              img: "/images/sub-sub-categories/sub-sectional-industrial-door.avif",
+              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-industrial-door.avif",
             },
           ],
         },
