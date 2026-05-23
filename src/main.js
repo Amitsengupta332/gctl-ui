@@ -1291,12 +1291,12 @@ function initProductMegaMenu() {
             {
               name: "Manual Tripod Turnstile",
               link: "/sub-manual-tripod-turnstile.html",
-              img: "/images/sub-sub-categories/sub-manual-tripod-turnstile.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Manual Tripod Turnstile.avif",
             },
             {
               name: "Automatic Tripod Turnstile",
               link: "/sub-automatic-tripod-turnstile.html",
-              img: "/images/sub-sub-categories/sub-automatic-tripod-turnstile.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Automatic Tripod Turnstile.avif",
             },
           ],
         },
@@ -1307,12 +1307,12 @@ function initProductMegaMenu() {
             {
               name: "Single Lane Flap Barrier",
               link: "/sub-single-lane-flap-barrier.html",
-              img: "/images/sub-sub-categories/sub-single-lane-flap-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Lane Flap Barrier.avif",
             },
             {
               name: "Double Lane Flap Barrier",
               link: "/sub-double-lane-flap-barrier.html",
-              img: "/images/sub-sub-categories/sub-double-lane-flap-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/flap_barrier_gate.avif",
             },
           ],
         },
@@ -1323,12 +1323,12 @@ function initProductMegaMenu() {
             {
               name: "Single Swing Barrier",
               link: "/sub-single-swing-barrier.html",
-              img: "/images/sub-sub-categories/sub-single-swing-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Swing Barrier.avif",
             },
             {
               name: "Double Swing Barrier",
               link: "/sub-double-swing-barrier.html",
-              img: "/images/sub-sub-categories/sub-double-swing-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Swing Barrier.avif",
             },
           ],
         },
@@ -1339,12 +1339,12 @@ function initProductMegaMenu() {
             {
               name: "Single Full Height Turnstile",
               link: "/sub-single-full-height-turnstile.html",
-              img: "/images/sub-sub-categories/sub-single-full-height-turnstile.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Full Height Turnstile.avif",
             },
             {
               name: "Double Full Height Turnstile",
               link: "/sub-double-full-height-turnstile.html",
-              img: "/images/sub-sub-categories/sub-double-full-height-turnstile.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Full Height Turnstile.avif",
             },
           ],
         },
@@ -1355,12 +1355,12 @@ function initProductMegaMenu() {
             {
               name: "Straight Arm Boom Barrier",
               link: "/sub-straight-arm-boom-barrier.html",
-              img: "/images/sub-sub-categories/sub-straight-arm-boom-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Straight Arm Boom Barrier.avif",
             },
             {
               name: "Folding Arm Boom Barrier",
               link: "/sub-folding-arm-boom-barrier.html",
-              img: "/images/sub-sub-categories/sub-folding-arm-boom-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/Folding Arm Boom Barrier.avif",
             },
           ],
         },
@@ -1371,12 +1371,12 @@ function initProductMegaMenu() {
             {
               name: "RFID Parking Barrier",
               link: "/sub-rfid-parking-barrier.html",
-              img: "/images/sub-sub-categories/sub-rfid-parking-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Parking Barrier.avif",
             },
             {
               name: "ANPR Parking Barrier",
               link: "/sub-anpr-parking-barrier.html",
-              img: "/images/sub-sub-categories/sub-anpr-parking-barrier.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/ANPR Parking Barrier.avif",
             },
           ],
         },
@@ -1387,12 +1387,12 @@ function initProductMegaMenu() {
             {
               name: "QR Ticketing Gate",
               link: "/sub-qr-ticketing-gate.html",
-              img: "/images/sub-sub-categories/sub-qr-ticketing-gate.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/QR Ticketing Gate.avif",
             },
             {
               name: "RFID Ticketing Gate",
               link: "/sub-rfid-ticketing-gate.html",
-              img: "/images/sub-sub-categories/sub-rfid-ticketing-gate.avif",
+              img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Ticketing Gate.avif",
             },
           ],
         },

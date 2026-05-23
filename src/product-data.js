@@ -3189,7 +3189,7 @@ export const PRODUCT_CATEGORIES = {
             key: "manual-tripod-turnstile",
             name: "Manual Tripod Turnstile",
             link: "/sub-manual-tripod-turnstile.html",
-            img: "/images/sub-sub-categories/sub-manual-tripod-turnstile.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Manual Tripod Turnstile.avif",
             description:
               "Manual tripod turnstile for basic pedestrian access control.",
             products: [
@@ -3205,7 +3205,7 @@ export const PRODUCT_CATEGORIES = {
             key: "automatic-tripod-turnstile",
             name: "Automatic Tripod Turnstile",
             link: "/sub-automatic-tripod-turnstile.html",
-            img: "/images/sub-sub-categories/sub-automatic-tripod-turnstile.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Automatic Tripod Turnstile.avif",
             description:
               "Automatic tripod turnstile with card, biometric or QR access control.",
             products: [
@@ -3219,7 +3219,6 @@ export const PRODUCT_CATEGORIES = {
           },
         ],
       },
-
       {
         key: "flap-barrier",
         name: "Flap Barrier",
@@ -3254,7 +3253,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-lane-flap-barrier",
             name: "Single Lane Flap Barrier",
             link: "/sub-single-lane-flap-barrier.html",
-            img: "/images/sub-sub-categories/sub-single-lane-flap-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Lane Flap Barrier.avif",
             description:
               "Single lane flap barrier for controlled pedestrian entry.",
             products: [
@@ -3270,7 +3269,7 @@ export const PRODUCT_CATEGORIES = {
             key: "double-lane-flap-barrier",
             name: "Double Lane Flap Barrier",
             link: "/sub-double-lane-flap-barrier.html",
-            img: "/images/sub-sub-categories/sub-double-lane-flap-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/flap_barrier_gate.avif",
             description: "Double lane flap barrier for higher pedestrian flow.",
             products: [
               {
@@ -3318,7 +3317,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-swing-barrier",
             name: "Single Swing Barrier",
             link: "/sub-single-swing-barrier.html",
-            img: "/images/sub-sub-categories/sub-single-swing-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Swing Barrier.avif",
             description:
               "Single swing barrier for controlled pedestrian access.",
             products: [
@@ -3334,7 +3333,7 @@ export const PRODUCT_CATEGORIES = {
             key: "double-swing-barrier",
             name: "Double Swing Barrier",
             link: "/sub-double-swing-barrier.html",
-            img: "/images/sub-sub-categories/sub-double-swing-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Swing Barrier.avif",
             description:
               "Double swing barrier for wide entrance access control.",
             products: [
@@ -3383,7 +3382,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-full-height-turnstile",
             name: "Single Full Height Turnstile",
             link: "/sub-single-full-height-turnstile.html",
-            img: "/images/sub-sub-categories/sub-single-full-height-turnstile.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Swing Barrier.avif",
             description:
               "Single full height turnstile for high-security entrance control.",
             products: [
@@ -3399,7 +3398,7 @@ export const PRODUCT_CATEGORIES = {
             key: "double-full-height-turnstile",
             name: "Double Full Height Turnstile",
             link: "/sub-double-full-height-turnstile.html",
-            img: "/images/sub-sub-categories/sub-double-full-height-turnstile.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Full Height Turnstile.avif",
             description:
               "Double full height turnstile for high traffic secured entrances.",
             products: [
@@ -3448,7 +3447,7 @@ export const PRODUCT_CATEGORIES = {
             key: "straight-arm-boom-barrier",
             name: "Straight Arm Boom Barrier",
             link: "/sub-straight-arm-boom-barrier.html",
-            img: "/images/sub-sub-categories/sub-straight-arm-boom-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Straight Arm Boom Barrier.avif",
             description:
               "Straight arm boom barrier for vehicle access control.",
             products: [
@@ -3464,7 +3463,7 @@ export const PRODUCT_CATEGORIES = {
             key: "folding-arm-boom-barrier",
             name: "Folding Arm Boom Barrier",
             link: "/sub-folding-arm-boom-barrier.html",
-            img: "/images/sub-sub-categories/sub-folding-arm-boom-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/Folding Arm Boom Barrier.avif",
             description:
               "Folding arm boom barrier for basement and low height parking.",
             products: [
@@ -3513,7 +3512,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-parking-barrier",
             name: "RFID Parking Barrier",
             link: "/sub-rfid-parking-barrier.html",
-            img: "/images/sub-sub-categories/sub-rfid-parking-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Parking Barrier.avif",
             description: "RFID parking barrier for authorized vehicle access.",
             products: [
               {
@@ -3528,7 +3527,7 @@ export const PRODUCT_CATEGORIES = {
             key: "anpr-parking-barrier",
             name: "ANPR Parking Barrier",
             link: "/sub-anpr-parking-barrier.html",
-            img: "/images/sub-sub-categories/sub-anpr-parking-barrier.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/ANPR Parking Barrier.avif",
             description:
               "ANPR parking barrier for automatic plate recognition parking.",
             products: [
@@ -3576,7 +3575,7 @@ export const PRODUCT_CATEGORIES = {
             key: "qr-ticketing-gate",
             name: "QR Ticketing Gate",
             link: "/sub-qr-ticketing-gate.html",
-            img: "/images/sub-sub-categories/sub-qr-ticketing-gate.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/QR Ticketing Gate.avif",
             description: "QR ticketing gate for scan-based entry access.",
             products: [
               {
@@ -3591,7 +3590,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-ticketing-gate",
             name: "RFID Ticketing Gate",
             link: "/sub-rfid-ticketing-gate.html",
-            img: "/images/sub-sub-categories/sub-rfid-ticketing-gate.avif",
+            img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Ticketing Gate.avif",
             description: "RFID ticketing gate for card-based entry access.",
             products: [
               {
