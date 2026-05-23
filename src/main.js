@@ -1630,17 +1630,17 @@ function initProductMegaMenu() {
             {
               name: "Ticket Parking System",
               link: "/sub-ticket-parking-system.html",
-              img: "/images/sub-sub-categories/sub-ticket-parking-system.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Ticket Parking System.avif",
             },
             {
               name: "RFID Parking System",
               link: "/sub-rfid-parking-system.html",
-              img: "/images/sub-sub-categories/sub-rfid-parking-system.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Parking System.avif",
             },
             {
               name: "ANPR Parking System",
               link: "/sub-anpr-parking-system.html",
-              img: "/images/sub-sub-categories/sub-anpr-parking-system.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Parking System.avif",
             },
           ],
         },
@@ -1651,12 +1651,12 @@ function initProductMegaMenu() {
             {
               name: "Indoor Parking Guidance",
               link: "/sub-indoor-parking-guidance.html",
-              img: "/images/sub-sub-categories/sub-indoor-parking-guidance.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Indoor Parking Guidance.avif",
             },
             {
               name: "Outdoor Parking Guidance",
               link: "/sub-outdoor-parking-guidance.html",
-              img: "/images/sub-sub-categories/sub-outdoor-parking-guidance.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Outdoor Parking Guidance.avif",
             },
           ],
         },
@@ -1667,12 +1667,12 @@ function initProductMegaMenu() {
             {
               name: "RFID Long Range Reader",
               link: "/sub-rfid-long-range-reader.html",
-              img: "/images/sub-sub-categories/sub-rfid-long-range-reader.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Long Range Reader.avif",
             },
             {
               name: "RFID Vehicle Tag",
               link: "/sub-rfid-vehicle-tag.html",
-              img: "/images/sub-sub-categories/sub-rfid-vehicle-tag.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Vehicle Tag.avif",
             },
           ],
         },
@@ -1683,12 +1683,12 @@ function initProductMegaMenu() {
             {
               name: "ANPR Entry System",
               link: "/sub-anpr-entry-system.html",
-              img: "/images/sub-sub-categories/sub-anpr-entry-system.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Entry System.avif",
             },
             {
               name: "ANPR Exit System",
               link: "/sub-anpr-exit-system.html",
-              img: "/images/sub-sub-categories/sub-anpr-exit-system.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Exit System.avif",
             },
           ],
         },
@@ -1699,12 +1699,12 @@ function initProductMegaMenu() {
             {
               name: "Single Channel Loop Detector",
               link: "/sub-single-channel-loop-detector.html",
-              img: "/images/sub-sub-categories/sub-single-channel-loop-detector.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Single Channel Loop Detector.avif",
             },
             {
               name: "Dual Channel Loop Detector",
               link: "/sub-dual-channel-loop-detector.html",
-              img: "/images/sub-sub-categories/sub-dual-channel-loop-detector.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Dual Channel Loop Detector.avif",
             },
           ],
         },
@@ -1715,12 +1715,12 @@ function initProductMegaMenu() {
             {
               name: "Cash Payment Kiosk",
               link: "/sub-cash-payment-kiosk.html",
-              img: "/images/sub-sub-categories/sub-cash-payment-kiosk.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Cash Payment Kiosk.avif",
             },
             {
               name: "Card Payment Kiosk",
               link: "/sub-card-payment-kiosk.html",
-              img: "/images/sub-sub-categories/sub-card-payment-kiosk.avif",
+              img: "/public/images/sub-sub-categories/vehicle-control-system/Card Payment Kiosk.avif",
             },
           ],
         },

@@ -4551,7 +4551,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ticket-parking-system",
             name: "Ticket Parking System",
             link: "/sub-ticket-parking-system.html",
-            img: "/images/sub-sub-categories/sub-ticket-parking-system.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Ticket Parking System.avif",
             description:
               "Ticket-based parking system for entry, exit and payment operation.",
             products: [
@@ -4567,7 +4567,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-parking-system",
             name: "RFID Parking System",
             link: "/sub-rfid-parking-system.html",
-            img: "/images/sub-sub-categories/sub-rfid-parking-system.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Parking System.avif",
             description: "RFID parking system for authorized vehicle access.",
             products: [
               {
@@ -4582,7 +4582,7 @@ export const PRODUCT_CATEGORIES = {
             key: "anpr-parking-system",
             name: "ANPR Parking System",
             link: "/sub-anpr-parking-system.html",
-            img: "/images/sub-sub-categories/sub-anpr-parking-system.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Parking System.avif",
             description:
               "ANPR parking system for automatic number plate based vehicle access.",
             products: [
@@ -4631,7 +4631,7 @@ export const PRODUCT_CATEGORIES = {
             key: "indoor-parking-guidance",
             name: "Indoor Parking Guidance",
             link: "/sub-indoor-parking-guidance.html",
-            img: "/images/sub-sub-categories/sub-indoor-parking-guidance.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Indoor Parking Guidance.avif",
             description:
               "Indoor parking guidance system for basement and covered parking.",
             products: [
@@ -4647,7 +4647,7 @@ export const PRODUCT_CATEGORIES = {
             key: "outdoor-parking-guidance",
             name: "Outdoor Parking Guidance",
             link: "/sub-outdoor-parking-guidance.html",
-            img: "/images/sub-sub-categories/sub-outdoor-parking-guidance.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Outdoor Parking Guidance.avif",
             description:
               "Outdoor parking guidance system for open vehicle parking areas.",
             products: [
@@ -4695,7 +4695,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-long-range-reader",
             name: "RFID Long Range Reader",
             link: "/sub-rfid-long-range-reader.html",
-            img: "/images/sub-sub-categories/sub-rfid-long-range-reader.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Long Range Reader.avif",
             description: "Long range RFID reader for vehicle access control.",
             products: [
               {
@@ -4710,7 +4710,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-vehicle-tag",
             name: "RFID Vehicle Tag",
             link: "/sub-rfid-vehicle-tag.html",
-            img: "/images/sub-sub-categories/sub-rfid-vehicle-tag.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Vehicle Tag.avif",
             description:
               "RFID vehicle tag for authorized vehicle identification.",
             products: [
@@ -4759,7 +4759,7 @@ export const PRODUCT_CATEGORIES = {
             key: "anpr-entry-system",
             name: "ANPR Entry System",
             link: "/sub-anpr-entry-system.html",
-            img: "/images/sub-sub-categories/sub-anpr-entry-system.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Entry System.avif",
             description:
               "ANPR entry system for number plate based vehicle access.",
             products: [
@@ -4775,7 +4775,7 @@ export const PRODUCT_CATEGORIES = {
             key: "anpr-exit-system",
             name: "ANPR Exit System",
             link: "/sub-anpr-exit-system.html",
-            img: "/images/sub-sub-categories/sub-anpr-exit-system.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Exit System.avif",
             description: "ANPR exit system for automated vehicle exit control.",
             products: [
               {
@@ -4823,7 +4823,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-channel-loop-detector",
             name: "Single Channel Loop Detector",
             link: "/sub-single-channel-loop-detector.html",
-            img: "/images/sub-sub-categories/sub-single-channel-loop-detector.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Single Channel Loop Detector.avif",
             description:
               "Single channel loop detector for parking and barrier systems.",
             products: [
@@ -4839,7 +4839,7 @@ export const PRODUCT_CATEGORIES = {
             key: "dual-channel-loop-detector",
             name: "Dual Channel Loop Detector",
             link: "/sub-dual-channel-loop-detector.html",
-            img: "/images/sub-sub-categories/sub-dual-channel-loop-detector.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Dual Channel Loop Detector.avif",
             description:
               "Dual channel loop detector for advanced vehicle detection.",
             products: [
@@ -4886,7 +4886,7 @@ export const PRODUCT_CATEGORIES = {
             key: "cash-payment-kiosk",
             name: "Cash Payment Kiosk",
             link: "/sub-cash-payment-kiosk.html",
-            img: "/images/sub-sub-categories/sub-cash-payment-kiosk.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Cash Payment Kiosk.avif",
             description: "Cash payment kiosk for parking fee payment.",
             products: [
               {
@@ -4901,7 +4901,7 @@ export const PRODUCT_CATEGORIES = {
             key: "card-payment-kiosk",
             name: "Card Payment Kiosk",
             link: "/sub-card-payment-kiosk.html",
-            img: "/images/sub-sub-categories/sub-card-payment-kiosk.avif",
+            img: "/public/images/sub-sub-categories/vehicle-control-system/Card Payment Kiosk.avif",
             description: "Card payment kiosk for cashless parking payment.",
             products: [
               {
