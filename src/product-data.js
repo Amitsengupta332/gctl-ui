@@ -5840,7 +5840,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fingerprint-smart-lock",
             name: "Fingerprint Smart Lock",
             link: "/sub-fingerprint-smart-lock.html",
-            img: "/images/sub-sub-categories/sub-fingerprint-smart-lock.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Fingerprint Smart Lock.avif",
             description:
               "Fingerprint smart lock for biometric home and office door access.",
             products: [
@@ -5856,7 +5856,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wifi-smart-lock",
             name: "WiFi Smart Lock",
             link: "/sub-wifi-smart-lock.html",
-            img: "/images/sub-sub-categories/sub-wifi-smart-lock.avif",
+            img: "/public/images/sub-sub-categories/smart-home/WiFi Smart Lock.avif",
             description:
               "WiFi smart lock for app-based and remote door access.",
             products: [
@@ -5872,7 +5872,7 @@ export const PRODUCT_CATEGORIES = {
             key: "card-smart-lock",
             name: "Card Smart Lock",
             link: "/sub-card-smart-lock.html",
-            img: "/images/sub-sub-categories/sub-card-smart-lock.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Card Smart Lock.avif",
             description: "Card smart lock for RFID card based door access.",
             products: [
               {
@@ -5926,7 +5926,7 @@ export const PRODUCT_CATEGORIES = {
             key: "one-gang-smart-switch",
             name: "One Gang Smart Switch",
             link: "/sub-one-gang-smart-switch.html",
-            img: "/images/sub-sub-categories/sub-one-gang-smart-switch.avif",
+            img: "/public/images/sub-sub-categories/smart-home/One Gang Smart Switch.avif",
             description:
               "One gang smart switch for single circuit smart control.",
             products: [
@@ -5942,7 +5942,7 @@ export const PRODUCT_CATEGORIES = {
             key: "two-gang-smart-switch",
             name: "Two Gang Smart Switch",
             link: "/sub-two-gang-smart-switch.html",
-            img: "/images/sub-sub-categories/sub-two-gang-smart-switch.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Two Gang Smart Switch.avif",
             description: "Two gang smart switch for dual lighting control.",
             products: [
               {
@@ -5957,7 +5957,7 @@ export const PRODUCT_CATEGORIES = {
             key: "three-gang-smart-switch",
             name: "Three Gang Smart Switch",
             link: "/sub-three-gang-smart-switch.html",
-            img: "/images/sub-sub-categories/sub-three-gang-smart-switch.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Three Gang Smart Switch.avif",
             description:
               "Three gang smart switch for multiple circuit control.",
             products: [
@@ -6005,7 +6005,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-curtain-motor",
             name: "Smart Curtain Motor",
             link: "/sub-smart-curtain-motor.html",
-            img: "/images/sub-sub-categories/sub-smart-curtain-motor.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Motor.avif",
             description: "Motor for automatic smart curtain operation.",
             products: [
               {
@@ -6020,7 +6020,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-curtain-track",
             name: "Smart Curtain Track",
             link: "/sub-smart-curtain-track.html",
-            img: "/images/sub-sub-categories/sub-smart-curtain-track.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Track.avif",
             description: "Curtain track for smart motorized curtain system.",
             products: [
               {
@@ -6068,7 +6068,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-led-bulb",
             name: "Smart LED Bulb",
             link: "/sub-smart-led-bulb.html",
-            img: "/images/sub-sub-categories/sub-smart-led-bulb.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart LED Bulb.avif",
             description:
               "Smart LED bulb for mobile app and voice lighting control.",
             products: [
@@ -6084,7 +6084,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-strip-light",
             name: "Smart Strip Light",
             link: "/sub-smart-strip-light.html",
-            img: "/images/sub-sub-categories/sub-smart-strip-light.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart Strip Light.avif",
             description:
               "Smart strip light for decorative smart home lighting.",
             products: [
@@ -6133,7 +6133,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-motion-sensor",
             name: "Smart Motion Sensor",
             link: "/sub-smart-motion-sensor.html",
-            img: "/images/sub-sub-categories/sub-smart-motion-sensor.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart Motion Sensor.avif",
             description:
               "Motion sensor for smart home security and automation.",
             products: [
@@ -6149,7 +6149,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-door-sensor",
             name: "Smart Door Sensor",
             link: "/sub-smart-door-sensor.html",
-            img: "/images/sub-sub-categories/sub-smart-door-sensor.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Smart Door Sensor.avif",
             description:
               "Door sensor for smart home door open and close detection.",
             products: [
@@ -6197,7 +6197,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wifi-automation-hub",
             name: "WiFi Automation Hub",
             link: "/sub-wifi-automation-hub.html",
-            img: "/images/sub-sub-categories/sub-wifi-automation-hub.avif",
+            img: "/public/images/sub-sub-categories/smart-home/WiFi Automation Hub.avif",
             description: "WiFi hub for connecting smart home devices.",
             products: [
               {
@@ -6212,7 +6212,7 @@ export const PRODUCT_CATEGORIES = {
             key: "zigbee-automation-hub",
             name: "Zigbee Automation Hub",
             link: "/sub-zigbee-automation-hub.html",
-            img: "/images/sub-sub-categories/sub-zigbee-automation-hub.avif",
+            img: "/public/images/sub-sub-categories/smart-home/Zigbee Automation Hub.avif",
             description: "Zigbee hub for smart home automation devices.",
             products: [
               {

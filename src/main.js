@@ -1943,17 +1943,17 @@ function initProductMegaMenu() {
             {
               name: "Fingerprint Smart Lock",
               link: "/sub-fingerprint-smart-lock.html",
-              img: "/images/sub-sub-categories/sub-fingerprint-smart-lock.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Fingerprint Smart Lock.avif",
             },
             {
               name: "WiFi Smart Lock",
               link: "/sub-wifi-smart-lock.html",
-              img: "/images/sub-sub-categories/sub-wifi-smart-lock.avif",
+              img: "/public/images/sub-sub-categories/smart-home/WiFi Smart Lock.avif",
             },
             {
               name: "Card Smart Lock",
               link: "/sub-card-smart-lock.html",
-              img: "/images/sub-sub-categories/sub-card-smart-lock.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Card Smart Lock.avif",
             },
           ],
         },
@@ -1964,17 +1964,17 @@ function initProductMegaMenu() {
             {
               name: "One Gang Smart Switch",
               link: "/sub-one-gang-smart-switch.html",
-              img: "/images/sub-sub-categories/sub-one-gang-smart-switch.avif",
+              img: "/public/images/sub-sub-categories/smart-home/One Gang Smart Switch.avif",
             },
             {
               name: "Two Gang Smart Switch",
               link: "/sub-two-gang-smart-switch.html",
-              img: "/images/sub-sub-categories/sub-two-gang-smart-switch.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Two Gang Smart Switch.avif",
             },
             {
               name: "Three Gang Smart Switch",
               link: "/sub-three-gang-smart-switch.html",
-              img: "/images/sub-sub-categories/sub-three-gang-smart-switch.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Three Gang Smart Switch.avif",
             },
           ],
         },
@@ -1985,12 +1985,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Curtain Motor",
               link: "/sub-smart-curtain-motor.html",
-              img: "/images/sub-sub-categories/sub-smart-curtain-motor.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Motor.avif",
             },
             {
               name: "Smart Curtain Track",
               link: "/sub-smart-curtain-track.html",
-              img: "/images/sub-sub-categories/sub-smart-curtain-track.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Track.avif",
             },
           ],
         },
@@ -2001,12 +2001,12 @@ function initProductMegaMenu() {
             {
               name: "Smart LED Bulb",
               link: "/sub-smart-led-bulb.html",
-              img: "/images/sub-sub-categories/sub-smart-led-bulb.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart LED Bulb.avif",
             },
             {
               name: "Smart Strip Light",
               link: "/sub-smart-strip-light.html",
-              img: "/images/sub-sub-categories/sub-smart-strip-light.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart Strip Light.avif",
             },
           ],
         },
@@ -2017,12 +2017,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Motion Sensor",
               link: "/sub-smart-motion-sensor.html",
-              img: "/images/sub-sub-categories/sub-smart-motion-sensor.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart Motion Sensor.avif",
             },
             {
               name: "Smart Door Sensor",
               link: "/sub-smart-door-sensor.html",
-              img: "/images/sub-sub-categories/sub-smart-door-sensor.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Smart Door Sensor.avif",
             },
           ],
         },
@@ -2033,12 +2033,12 @@ function initProductMegaMenu() {
             {
               name: "WiFi Automation Hub",
               link: "/sub-wifi-automation-hub.html",
-              img: "/images/sub-sub-categories/sub-wifi-automation-hub.avif",
+              img: "/public/images/sub-sub-categories/smart-home/WiFi Automation Hub.avif",
             },
             {
               name: "Zigbee Automation Hub",
               link: "/sub-zigbee-automation-hub.html",
-              img: "/images/sub-sub-categories/sub-zigbee-automation-hub.avif",
+              img: "/public/images/sub-sub-categories/smart-home/Zigbee Automation Hub.avif",
             },
           ],
         },
