@@ -4987,7 +4987,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wired-conference-microphone",
             name: "Wired Conference Microphone",
             link: "/sub-wired-conference-microphone.html",
-            img: "/images/sub-sub-categories/sub-wired-conference-microphone.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Wired Conference Microphone.avif",
             description:
               "Wired microphone for professional conference and meeting systems.",
             products: [
@@ -5003,7 +5003,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wireless-conference-microphone",
             name: "Wireless Conference Microphone",
             link: "/sub-wireless-conference-microphone.html",
-            img: "/images/sub-sub-categories/sub-wireless-conference-microphone.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Wireless Conference Microphone.avif",
             description:
               "Wireless microphone for flexible conference audio systems.",
             products: [
@@ -5052,7 +5052,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wall-mount-pa-speaker",
             name: "Wall Mount PA Speaker",
             link: "/sub-wall-mount-pa-speaker.html",
-            img: "/images/sub-sub-categories/sub-wall-mount-pa-speaker.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Wall Mount PA Speaker.avif",
             description:
               "Wall mount PA speaker for public address audio coverage.",
             products: [
@@ -5068,7 +5068,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ceiling-pa-speaker",
             name: "Ceiling PA Speaker",
             link: "/sub-ceiling-pa-speaker.html",
-            img: "/images/sub-sub-categories/sub-ceiling-pa-speaker.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Ceiling PA Speaker.avif",
             description:
               "Ceiling speaker for indoor PA and background music systems.",
             products: [
@@ -5117,7 +5117,7 @@ export const PRODUCT_CATEGORIES = {
             key: "mixer-amplifier",
             name: "Mixer Amplifier",
             link: "/sub-mixer-amplifier.html",
-            img: "/images/sub-sub-categories/sub-mixer-amplifier.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Mixer Amplifier.avif",
             description: "Mixer amplifier for microphone and speaker control.",
             products: [
               {
@@ -5132,7 +5132,7 @@ export const PRODUCT_CATEGORIES = {
             key: "power-amplifier",
             name: "Power Amplifier",
             link: "/sub-power-amplifier.html",
-            img: "/images/sub-sub-categories/sub-power-amplifier.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Power Amplifier.avif",
             description: "Power amplifier for larger speaker and PA projects.",
             products: [
               {
@@ -5180,7 +5180,7 @@ export const PRODUCT_CATEGORIES = {
             key: "handheld-wireless-microphone",
             name: "Handheld Wireless Microphone",
             link: "/sub-handheld-wireless-microphone.html",
-            img: "/images/sub-sub-categories/sub-handheld-wireless-microphone.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Handheld Wireless Microphone.avif",
             description:
               "Handheld wireless microphone for speeches and PA systems.",
             products: [
@@ -5196,7 +5196,7 @@ export const PRODUCT_CATEGORIES = {
             key: "lapel-wireless-microphone",
             name: "Lapel Wireless Microphone",
             link: "/sub-lapel-wireless-microphone.html",
-            img: "/images/sub-sub-categories/sub-lapel-wireless-microphone.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Lapel Wireless Microphone.avif",
             description:
               "Lapel wireless microphone for hands-free speech and presentation.",
             products: [
@@ -5245,7 +5245,7 @@ export const PRODUCT_CATEGORIES = {
             key: "small-meeting-room-audio",
             name: "Small Meeting Room Audio",
             link: "/sub-small-meeting-room-audio.html",
-            img: "/images/sub-sub-categories/sub-small-meeting-room-audio.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Small Meeting Room Audio.avif",
             description:
               "Audio system for small meeting rooms and huddle rooms.",
             products: [
@@ -5261,7 +5261,7 @@ export const PRODUCT_CATEGORIES = {
             key: "large-meeting-room-audio",
             name: "Large Meeting Room Audio",
             link: "/sub-large-meeting-room-audio.html",
-            img: "/images/sub-sub-categories/sub-large-meeting-room-audio.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Large Meeting Room Audio.avif",
             description: "Audio system for large meeting rooms and boardrooms.",
             products: [
               {
@@ -5309,7 +5309,7 @@ export const PRODUCT_CATEGORIES = {
             key: "zone-pa-system",
             name: "Zone PA System",
             link: "/sub-zone-pa-system.html",
-            img: "/images/sub-sub-categories/sub-zone-pa-system.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Zone PA System.avif",
             description:
               "Zone PA system for separate area announcement control.",
             products: [
@@ -5325,7 +5325,7 @@ export const PRODUCT_CATEGORIES = {
             key: "emergency-pa-system",
             name: "Emergency PA System",
             link: "/sub-emergency-pa-system.html",
-            img: "/images/sub-sub-categories/sub-emergency-pa-system.avif",
+            img: "/public/images/sub-sub-categories/conference-pa/Emergency PA System.avif",
             description:
               "Emergency PA system for evacuation and safety announcements.",
             products: [

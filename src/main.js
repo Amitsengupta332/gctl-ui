@@ -1738,12 +1738,12 @@ function initProductMegaMenu() {
             {
               name: "Wired Conference Microphone",
               link: "/sub-wired-conference-microphone.html",
-              img: "/images/sub-sub-categories/sub-wired-conference-microphone.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Wired Conference Microphone.avif",
             },
             {
               name: "Wireless Conference Microphone",
               link: "/sub-wireless-conference-microphone.html",
-              img: "/images/sub-sub-categories/sub-wireless-conference-microphone.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Wireless Conference Microphone.avif",
             },
           ],
         },
@@ -1754,12 +1754,12 @@ function initProductMegaMenu() {
             {
               name: "Wall Mount PA Speaker",
               link: "/sub-wall-mount-pa-speaker.html",
-              img: "/images/sub-sub-categories/sub-wall-mount-pa-speaker.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Wall Mount PA Speaker.avif",
             },
             {
               name: "Ceiling PA Speaker",
               link: "/sub-ceiling-pa-speaker.html",
-              img: "/images/sub-sub-categories/sub-ceiling-pa-speaker.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Ceiling PA Speaker.avif",
             },
           ],
         },
@@ -1770,12 +1770,12 @@ function initProductMegaMenu() {
             {
               name: "Mixer Amplifier",
               link: "/sub-mixer-amplifier.html",
-              img: "/images/sub-sub-categories/sub-mixer-amplifier.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Mixer Amplifier.avif",
             },
             {
               name: "Power Amplifier",
               link: "/sub-power-amplifier.html",
-              img: "/images/sub-sub-categories/sub-power-amplifier.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Power Amplifier.avif",
             },
           ],
         },
@@ -1786,12 +1786,12 @@ function initProductMegaMenu() {
             {
               name: "Handheld Wireless Microphone",
               link: "/sub-handheld-wireless-microphone.html",
-              img: "/images/sub-sub-categories/sub-handheld-wireless-microphone.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Handheld Wireless Microphone.avif",
             },
             {
               name: "Lapel Wireless Microphone",
               link: "/sub-lapel-wireless-microphone.html",
-              img: "/images/sub-sub-categories/sub-lapel-wireless-microphone.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Lapel Wireless Microphone.avif",
             },
           ],
         },
@@ -1802,12 +1802,12 @@ function initProductMegaMenu() {
             {
               name: "Small Meeting Room Audio",
               link: "/sub-small-meeting-room-audio.html",
-              img: "/images/sub-sub-categories/sub-small-meeting-room-audio.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Small Meeting Room Audio.avif",
             },
             {
               name: "Large Meeting Room Audio",
               link: "/sub-large-meeting-room-audio.html",
-              img: "/images/sub-sub-categories/sub-large-meeting-room-audio.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Large Meeting Room Audio.avif",
             },
           ],
         },
@@ -1818,12 +1818,12 @@ function initProductMegaMenu() {
             {
               name: "Zone PA System",
               link: "/sub-zone-pa-system.html",
-              img: "/images/sub-sub-categories/sub-zone-pa-system.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Zone PA System.avif",
             },
             {
               name: "Emergency PA System",
               link: "/sub-emergency-pa-system.html",
-              img: "/images/sub-sub-categories/sub-emergency-pa-system.avif",
+              img: "/public/images/sub-sub-categories/conference-pa/Emergency PA System.avif",
             },
           ],
         },
