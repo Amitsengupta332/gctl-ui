@@ -1513,17 +1513,17 @@ function initProductMegaMenu() {
             {
               name: "Basic Token Machine",
               link: "/sub-basic-token-machine.html",
-              img: "/images/sub-sub-categories/sub-basic-token-machine.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Basic Token Machine.avif",
             },
             {
               name: "Touch Token Machine",
               link: "/sub-touch-token-machine.html",
-              img: "/images/sub-sub-categories/sub-touch-token-machine.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Touch Token Machine.avif",
             },
             {
               name: "Kiosk Token Machine",
               link: "/sub-kiosk-token-machine.html",
-              img: "/images/sub-sub-categories/sub-kiosk-token-machine.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Kiosk Token Machine.avif",
             },
           ],
         },
@@ -1534,12 +1534,12 @@ function initProductMegaMenu() {
             {
               name: "Counter Display",
               link: "/sub-counter-display.html",
-              img: "/images/sub-sub-categories/sub-counter-display.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Counter Display.avif",
             },
             {
               name: "Main Queue Display",
               link: "/sub-main-queue-display.html",
-              img: "/images/sub-sub-categories/sub-main-queue-display.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Main Queue Display.avif",
             },
           ],
         },
@@ -1550,12 +1550,12 @@ function initProductMegaMenu() {
             {
               name: "Wireless Calling System",
               link: "/sub-wireless-calling-system.html",
-              img: "/images/sub-sub-categories/sub-wireless-calling-system.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Wireless Calling System.avif",
             },
             {
               name: "Software Calling System",
               link: "/sub-software-calling-system.html",
-              img: "/images/sub-sub-categories/sub-software-calling-system.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Software Calling System.avif",
             },
           ],
         },
@@ -1566,12 +1566,12 @@ function initProductMegaMenu() {
             {
               name: "LED Counter Display",
               link: "/sub-led-counter-display.html",
-              img: "/images/sub-sub-categories/sub-led-counter-display.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/LED Counter Display.avif",
             },
             {
               name: "LCD Counter Display",
               link: "/sub-lcd-counter-display.html",
-              img: "/images/sub-sub-categories/sub-lcd-counter-display.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/LCD Counter Display.avif",
             },
           ],
         },
@@ -1582,12 +1582,12 @@ function initProductMegaMenu() {
             {
               name: "Cloud Queue Software",
               link: "/sub-cloud-queue-software.html",
-              img: "/images/sub-sub-categories/sub-cloud-queue-software.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Cloud Queue Software.avif",
             },
             {
               name: "Local Queue Software",
               link: "/sub-local-queue-software.html",
-              img: "/images/sub-sub-categories/sub-local-queue-software.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Local Queue Software.avif",
             },
           ],
         },
@@ -1598,12 +1598,12 @@ function initProductMegaMenu() {
             {
               name: "Feedback Kiosk",
               link: "/sub-feedback-kiosk.html",
-              img: "/images/sub-sub-categories/sub-feedback-kiosk.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Kiosk.avif",
             },
             {
               name: "Feedback Software",
               link: "/sub-feedback-software.html",
-              img: "/images/sub-sub-categories/sub-feedback-software.avif",
+              img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Software.avif",
             },
           ],
         },

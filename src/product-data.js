@@ -4108,7 +4108,7 @@ export const PRODUCT_CATEGORIES = {
             key: "basic-token-machine",
             name: "Basic Token Machine",
             link: "/sub-basic-token-machine.html",
-            img: "/images/sub-sub-categories/sub-basic-token-machine.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Basic Token Machine.avif",
             description:
               "Basic token machine for simple customer queue management.",
             products: [
@@ -4124,7 +4124,7 @@ export const PRODUCT_CATEGORIES = {
             key: "touch-token-machine",
             name: "Touch Token Machine",
             link: "/sub-touch-token-machine.html",
-            img: "/images/sub-sub-categories/sub-touch-token-machine.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Touch Token Machine.avif",
             description:
               "Touch screen token machine for modern queue management.",
             products: [
@@ -4140,7 +4140,7 @@ export const PRODUCT_CATEGORIES = {
             key: "kiosk-token-machine",
             name: "Kiosk Token Machine",
             link: "/sub-kiosk-token-machine.html",
-            img: "/images/sub-sub-categories/sub-kiosk-token-machine.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Kiosk Token Machine.avif",
             description:
               "Kiosk token machine for self-service queue number generation.",
             products: [
@@ -4189,7 +4189,7 @@ export const PRODUCT_CATEGORIES = {
             key: "counter-display",
             name: "Counter Display",
             link: "/sub-counter-display.html",
-            img: "/images/sub-sub-categories/sub-counter-display.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Counter Display.avif",
             description:
               "Counter display for showing token number at service counters.",
             products: [
@@ -4205,7 +4205,7 @@ export const PRODUCT_CATEGORIES = {
             key: "main-queue-display",
             name: "Main Queue Display",
             link: "/sub-main-queue-display.html",
-            img: "/images/sub-sub-categories/sub-main-queue-display.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Main Queue Display.avif",
             description: "Main queue display for customer waiting areas.",
             products: [
               {
@@ -4253,7 +4253,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wireless-calling-system",
             name: "Wireless Calling System",
             link: "/sub-wireless-calling-system.html",
-            img: "/images/sub-sub-categories/sub-wireless-calling-system.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Wireless Calling System.avif",
             description: "Wireless token calling system for service counters.",
             products: [
               {
@@ -4268,7 +4268,7 @@ export const PRODUCT_CATEGORIES = {
             key: "software-calling-system",
             name: "Software Calling System",
             link: "/sub-software-calling-system.html",
-            img: "/images/sub-sub-categories/sub-software-calling-system.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Software Calling System.avif",
             description:
               "Software calling system for counter-based queue control.",
             products: [
@@ -4316,7 +4316,7 @@ export const PRODUCT_CATEGORIES = {
             key: "led-counter-display",
             name: "LED Counter Display",
             link: "/sub-led-counter-display.html",
-            img: "/images/sub-sub-categories/sub-led-counter-display.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/LED Counter Display.avif",
             description: "LED counter display for queue token number display.",
             products: [
               {
@@ -4331,7 +4331,7 @@ export const PRODUCT_CATEGORIES = {
             key: "lcd-counter-display",
             name: "LCD Counter Display",
             link: "/sub-lcd-counter-display.html",
-            img: "/images/sub-sub-categories/sub-lcd-counter-display.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/LCD Counter Display.avif",
             description: "LCD counter display for digital queue management.",
             products: [
               {
@@ -4379,7 +4379,7 @@ export const PRODUCT_CATEGORIES = {
             key: "cloud-queue-software",
             name: "Cloud Queue Software",
             link: "/sub-cloud-queue-software.html",
-            img: "/images/sub-sub-categories/sub-cloud-queue-software.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Cloud Queue Software.avif",
             description:
               "Cloud queue software for remote queue monitoring and reports.",
             products: [
@@ -4395,7 +4395,7 @@ export const PRODUCT_CATEGORIES = {
             key: "local-queue-software",
             name: "Local Queue Software",
             link: "/sub-local-queue-software.html",
-            img: "/images/sub-sub-categories/sub-local-queue-software.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Local Queue Software.avif",
             description:
               "Local queue software for offline queue management projects.",
             products: [
@@ -4444,7 +4444,7 @@ export const PRODUCT_CATEGORIES = {
             key: "feedback-kiosk",
             name: "Feedback Kiosk",
             link: "/sub-feedback-kiosk.html",
-            img: "/images/sub-sub-categories/sub-feedback-kiosk.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Kiosk.avif",
             description: "Feedback kiosk for customer rating collection.",
             products: [
               {
@@ -4459,7 +4459,7 @@ export const PRODUCT_CATEGORIES = {
             key: "feedback-software",
             name: "Feedback Software",
             link: "/sub-feedback-software.html",
-            img: "/images/sub-sub-categories/sub-feedback-software.avif",
+            img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Software.avif",
             description: "Feedback software for customer experience analytics.",
             products: [
               {
