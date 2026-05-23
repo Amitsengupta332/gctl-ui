@@ -1841,12 +1841,12 @@ function initProductMegaMenu() {
             {
               name: "BMS Controller",
               link: "/sub-bms-controller.html",
-              img: "/images/sub-sub-categories/sub-bms-controller.avif",
+              img: "/public/images/sub-sub-categories/building-automation/BMS Controller.avif",
             },
             {
               name: "BMS Monitoring Software",
               link: "/sub-bms-monitoring-software.html",
-              img: "/images/sub-sub-categories/sub-bms-monitoring-software.avif",
+              img: "/public/images/sub-sub-categories/building-automation/BMS Monitoring Software.avif",
             },
           ],
         },
@@ -1857,12 +1857,12 @@ function initProductMegaMenu() {
             {
               name: "Dimming Control",
               link: "/sub-dimming-control.html",
-              img: "/images/sub-sub-categories/sub-dimming-control.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Dimming Control.avif",
             },
             {
               name: "Motion Lighting Control",
               link: "/sub-motion-lighting-control.html",
-              img: "/images/sub-sub-categories/sub-motion-lighting-control.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Motion Lighting Control.avif",
             },
           ],
         },
@@ -1873,12 +1873,12 @@ function initProductMegaMenu() {
             {
               name: "Thermostat Control",
               link: "/sub-thermostat-control.html",
-              img: "/images/sub-sub-categories/sub-thermostat-control.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Thermostat Control.avif",
             },
             {
               name: "AHU Control",
               link: "/sub-ahu-control.html",
-              img: "/images/sub-sub-categories/sub-ahu-control.avif",
+              img: "/public/images/sub-sub-categories/building-automation/AHU Control.avif",
             },
           ],
         },
@@ -1889,12 +1889,12 @@ function initProductMegaMenu() {
             {
               name: "Energy Meter",
               link: "/sub-energy-meter.html",
-              img: "/images/sub-sub-categories/sub-energy-meter.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Energy Meter.avif",
             },
             {
               name: "Energy Monitoring Software",
               link: "/sub-energy-monitoring-software.html",
-              img: "/images/sub-sub-categories/sub-energy-monitoring-software.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Energy Monitoring Software.avif",
             },
           ],
         },
@@ -1905,12 +1905,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Building Controller",
               link: "/sub-smart-building-controller.html",
-              img: "/images/sub-sub-categories/sub-smart-building-controller.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Smart Building Controller.avif",
             },
             {
               name: "Smart Building Dashboard",
               link: "/sub-smart-building-dashboard.html",
-              img: "/images/sub-sub-categories/sub-smart-building-dashboard.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Smart Building Dashboard.avif",
             },
           ],
         },
@@ -1921,12 +1921,12 @@ function initProductMegaMenu() {
             {
               name: "Central Monitoring Software",
               link: "/sub-central-monitoring-software.html",
-              img: "/images/sub-sub-categories/sub-central-monitoring-software.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Central Monitoring Software.avif",
             },
             {
               name: "Monitoring Workstation",
               link: "/sub-monitoring-workstation.html",
-              img: "/images/sub-sub-categories/sub-monitoring-workstation.avif",
+              img: "/public/images/sub-sub-categories/building-automation/Monitoring Workstation.avif",
             },
           ],
         },

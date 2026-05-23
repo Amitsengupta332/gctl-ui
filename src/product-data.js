@@ -5412,7 +5412,7 @@ export const PRODUCT_CATEGORIES = {
             key: "bms-controller",
             name: "BMS Controller",
             link: "/sub-bms-controller.html",
-            img: "/images/sub-sub-categories/sub-bms-controller.avif",
+            img: "/public/images/sub-sub-categories/building-automation/BMS Controller.avif",
             description:
               "BMS controller for building automation device control.",
             products: [
@@ -5428,7 +5428,7 @@ export const PRODUCT_CATEGORIES = {
             key: "bms-monitoring-software",
             name: "BMS Monitoring Software",
             link: "/sub-bms-monitoring-software.html",
-            img: "/images/sub-sub-categories/sub-bms-monitoring-software.avif",
+            img: "/public/images/sub-sub-categories/building-automation/BMS Monitoring Software.avif",
             description:
               "BMS monitoring software for centralized building system dashboard.",
             products: [
@@ -5477,7 +5477,7 @@ export const PRODUCT_CATEGORIES = {
             key: "dimming-control",
             name: "Dimming Control",
             link: "/sub-dimming-control.html",
-            img: "/images/sub-sub-categories/sub-dimming-control.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Dimming Control.avif",
             description: "Dimming control system for smart lighting projects.",
             products: [
               {
@@ -5492,7 +5492,7 @@ export const PRODUCT_CATEGORIES = {
             key: "motion-lighting-control",
             name: "Motion Lighting Control",
             link: "/sub-motion-lighting-control.html",
-            img: "/images/sub-sub-categories/sub-motion-lighting-control.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Motion Lighting Control.avif",
             description:
               "Motion sensor lighting control for automatic light operation.",
             products: [
@@ -5541,7 +5541,7 @@ export const PRODUCT_CATEGORIES = {
             key: "thermostat-control",
             name: "Thermostat Control",
             link: "/sub-thermostat-control.html",
-            img: "/images/sub-sub-categories/sub-thermostat-control.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Thermostat Control.avif",
             description:
               "Thermostat control for temperature and HVAC automation.",
             products: [
@@ -5557,7 +5557,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ahu-control",
             name: "AHU Control",
             link: "/sub-ahu-control.html",
-            img: "/images/sub-sub-categories/sub-ahu-control.avif",
+            img: "/public/images/sub-sub-categories/building-automation/AHU Control.avif",
             description: "AHU control system for air handling unit management.",
             products: [
               {
@@ -5605,7 +5605,7 @@ export const PRODUCT_CATEGORIES = {
             key: "energy-meter",
             name: "Energy Meter",
             link: "/sub-energy-meter.html",
-            img: "/images/sub-sub-categories/sub-energy-meter.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Energy Meter.avif",
             description: "Energy meter for building power usage monitoring.",
             products: [
               {
@@ -5620,7 +5620,7 @@ export const PRODUCT_CATEGORIES = {
             key: "energy-monitoring-software",
             name: "Energy Monitoring Software",
             link: "/sub-energy-monitoring-software.html",
-            img: "/images/sub-sub-categories/sub-energy-monitoring-software.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Energy Monitoring Software.avif",
             description:
               "Energy monitoring software for reports and consumption analysis.",
             products: [
@@ -5668,7 +5668,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-building-controller",
             name: "Smart Building Controller",
             link: "/sub-smart-building-controller.html",
-            img: "/images/sub-sub-categories/sub-smart-building-controller.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Smart Building Controller.avif",
             description: "Controller for smart building automation systems.",
             products: [
               {
@@ -5683,7 +5683,7 @@ export const PRODUCT_CATEGORIES = {
             key: "smart-building-dashboard",
             name: "Smart Building Dashboard",
             link: "/sub-smart-building-dashboard.html",
-            img: "/images/sub-sub-categories/sub-smart-building-dashboard.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Smart Building Dashboard.avif",
             description: "Dashboard for smart building monitoring and control.",
             products: [
               {
@@ -5731,7 +5731,7 @@ export const PRODUCT_CATEGORIES = {
             key: "central-monitoring-software",
             name: "Central Monitoring Software",
             link: "/sub-central-monitoring-software.html",
-            img: "/images/sub-sub-categories/sub-central-monitoring-software.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Central Monitoring Software.avif",
             description:
               "Central monitoring software for building automation systems.",
             products: [
@@ -5747,7 +5747,7 @@ export const PRODUCT_CATEGORIES = {
             key: "monitoring-workstation",
             name: "Monitoring Workstation",
             link: "/sub-monitoring-workstation.html",
-            img: "/images/sub-sub-categories/sub-monitoring-workstation.avif",
+            img: "/public/images/sub-sub-categories/building-automation/Monitoring Workstation.avif",
             description:
               "Monitoring workstation for building control room operation.",
             products: [
