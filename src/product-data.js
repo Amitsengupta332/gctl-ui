@@ -2212,7 +2212,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fingerprint-attendance-device",
             name: "Fingerprint Attendance Device",
             link: "/sub-fingerprint-attendance-device.html",
-            img: "/images/sub-sub-categories/sub-fingerprint-attendance-device.avif",
+            img: "/public/images/sub-sub-categories/access-control/Fingerprint Attendance Device.avif",
             description:
               "Fingerprint attendance device for employee attendance tracking.",
             products: [
@@ -2228,7 +2228,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-attendance-device",
             name: "Face Attendance Device",
             link: "/sub-face-attendance-device.html",
-            img: "/images/sub-sub-categories/sub-face-attendance-device.avif",
+            img: "/public/images/sub-sub-categories/access-control/Face Attendance Device.avif",
             description:
               "Face recognition attendance device for touchless attendance.",
             products: [
@@ -2244,7 +2244,7 @@ export const PRODUCT_CATEGORIES = {
             key: "card-attendance-device",
             name: "Card Attendance Device",
             link: "/sub-card-attendance-device.html",
-            img: "/images/sub-sub-categories/sub-card-attendance-device.avif",
+            img: "/public/images/sub-sub-categories/access-control/Card Attendance Device.avif",
             description:
               "RFID card attendance device for employee attendance management.",
             products: [
@@ -2293,7 +2293,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-door-access-control",
             name: "Single Door Access Control",
             link: "/sub-single-door-access-control.html",
-            img: "/images/sub-sub-categories/sub-single-door-access-control.avif",
+            img: "/public/images/sub-sub-categories/access-control/Single Door Access Control.avif",
             description:
               "Single door access control system for one entry point.",
             products: [
@@ -2309,7 +2309,7 @@ export const PRODUCT_CATEGORIES = {
             key: "multi-door-access-control",
             name: "Multi Door Access Control",
             link: "/sub-multi-door-access-control.html",
-            img: "/images/sub-sub-categories/sub-multi-door-access-control.avif",
+            img: "/public/images/sub-sub-categories/access-control/Multi Door Access Control.avif",
             description:
               "Multi door access control system for multiple entry points.",
             products: [
@@ -2325,7 +2325,7 @@ export const PRODUCT_CATEGORIES = {
             key: "network-access-controller",
             name: "Network Access Controller",
             link: "/sub-network-access-controller.html",
-            img: "/images/sub-sub-categories/sub-network-access-controller.avif",
+            img: "/public/images/sub-sub-categories/access-control/Network Access Controller.avif",
             description:
               "Network access controller for centralized access control projects.",
             products: [
@@ -2368,7 +2368,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-access-terminal",
             name: "Face Access Terminal",
             link: "/sub-face-access-terminal.html",
-            img: "/images/sub-sub-categories/sub-face-access-terminal.avif",
+            img: "/public/images/sub-sub-categories/access-control/Face Access Terminal.avif",
             description: "Face recognition terminal for secure access control.",
             products: [
               {
@@ -2383,7 +2383,7 @@ export const PRODUCT_CATEGORIES = {
             key: "mask-detection-access-control",
             name: "Mask Detection Access Control",
             link: "/sub-mask-detection-access-control.html",
-            img: "/images/sub-sub-categories/sub-mask-detection-access-control.avif",
+            img: "/public/images/sub-sub-categories/access-control/Mask Detection Access Control.avif",
             description: "Face access terminal with mask detection support.",
             products: [
               {
@@ -2398,7 +2398,7 @@ export const PRODUCT_CATEGORIES = {
             key: "temperature-detection-terminal",
             name: "Temperature Detection Terminal",
             link: "/sub-temperature-detection-terminal.html",
-            img: "/images/sub-sub-categories/sub-temperature-detection-terminal.avif",
+            img: "/public/images/sub-sub-categories/access-control/Temperature Detection Terminal.avif",
             description:
               "Face terminal with temperature detection for entry screening.",
             products: [
@@ -2441,7 +2441,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-card-reader",
             name: "RFID Card Reader",
             link: "/sub-rfid-card-reader.html",
-            img: "/images/sub-sub-categories/sub-rfid-card-reader.avif",
+            img: "/public/images/sub-sub-categories/access-control/RFID Card Reader.avif",
             description: "RFID card reader for access control doors.",
             products: [
               {
@@ -2456,7 +2456,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-access-card",
             name: "RFID Access Card",
             link: "/sub-rfid-access-card.html",
-            img: "/images/sub-sub-categories/sub-rfid-access-card.avif",
+            img: "/public/images/sub-sub-categories/access-control/RFID Access Card.avif",
             description:
               "RFID access cards for employee and visitor entry control.",
             products: [
@@ -2472,7 +2472,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rfid-key-fob",
             name: "RFID Key Fob",
             link: "/sub-rfid-key-fob.html",
-            img: "/images/sub-sub-categories/sub-rfid-key-fob.avif",
+            img: "/public/images/sub-sub-categories/access-control/RFID Key Fob.avif",
             description: "RFID key fob for compact card-based access.",
             products: [
               {
@@ -2520,7 +2520,7 @@ export const PRODUCT_CATEGORIES = {
             key: "magnetic-door-lock",
             name: "Magnetic Door Lock",
             link: "/sub-magnetic-door-lock.html",
-            img: "/images/sub-sub-categories/sub-magnetic-door-lock.avif",
+            img: "/public/images/sub-sub-categories/access-control/Magnetic Door Lock.avif",
             description: "Magnetic door lock for access control doors.",
             products: [
               {
@@ -2535,7 +2535,7 @@ export const PRODUCT_CATEGORIES = {
             key: "electric-bolt-lock",
             name: "Electric Bolt Lock",
             link: "/sub-electric-bolt-lock.html",
-            img: "/images/sub-sub-categories/sub-electric-bolt-lock.avif",
+            img: "/public/images/sub-sub-categories/access-control/Electric Bolt Lock.avif",
             description: "Electric bolt lock for secure door locking.",
             products: [
               {
@@ -2550,7 +2550,7 @@ export const PRODUCT_CATEGORIES = {
             key: "door-exit-button",
             name: "Door Exit Button",
             link: "/sub-door-exit-button.html",
-            img: "/images/sub-sub-categories/sub-door-exit-button.avif",
+            img: "/public/images/sub-sub-categories/access-control/Door Exit Button.avif",
             description: "Exit button for access control door release.",
             products: [
               {
@@ -2586,7 +2586,7 @@ export const PRODUCT_CATEGORIES = {
             key: "employee-attendance-software",
             name: "Employee Attendance Software",
             link: "/sub-employee-attendance-software.html",
-            img: "/images/sub-sub-categories/sub-employee-attendance-software.avif",
+            img: "/public/images/sub-sub-categories/access-control/Employee Attendance Software.avif",
             description:
               "Employee attendance software for report and attendance management.",
             products: [
@@ -2602,7 +2602,7 @@ export const PRODUCT_CATEGORIES = {
             key: "cloud-attendance-software",
             name: "Cloud Attendance Software",
             link: "/sub-cloud-attendance-software.html",
-            img: "/images/sub-sub-categories/sub-cloud-attendance-software.avif",
+            img: "/public/images/sub-sub-categories/access-control/Cloud Attendance Software.avif",
             description:
               "Cloud attendance software for remote attendance monitoring.",
             products: [
