@@ -773,17 +773,17 @@ function initProductMegaMenu() {
             {
               name: "Single Zone Metal Detector",
               link: "/sub-single-zone-metal-detector.html",
-              img: "/images/sub-sub-categories/sub-single-zone-metal-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
             },
             {
               name: "Multi Zone Metal Detector",
               link: "/sub-multi-zone-metal-detector.html",
-              img: "/images/sub-sub-categories/sub-multi-zone-metal-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
             },
             {
               name: "Weatherproof Metal Detector",
               link: "/sub-weatherproof-metal-detector.html",
-              img: "/images/sub-sub-categories/sub-weatherproof-metal-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
             },
           ],
         },
@@ -794,12 +794,12 @@ function initProductMegaMenu() {
             {
               name: "Rechargeable Hand Held Detector",
               link: "/sub-rechargeable-hand-held-detector.html",
-              img: "/images/sub-sub-categories/sub-rechargeable-hand-held-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
             },
             {
               name: "Portable Hand Held Detector",
               link: "/sub-portable-hand-held-detector.html",
-              img: "/images/sub-sub-categories/sub-portable-hand-held-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
             },
           ],
         },
@@ -810,17 +810,17 @@ function initProductMegaMenu() {
             {
               name: "Small Baggage Scanner",
               link: "/sub-small-baggage-scanner.html",
-              img: "/images/sub-sub-categories/sub-small-baggage-scanner.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
             },
             {
               name: "Medium Baggage Scanner",
               link: "/sub-medium-baggage-scanner.html",
-              img: "/images/sub-sub-categories/sub-medium-baggage-scanner.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
             },
             {
               name: "Large Baggage Scanner",
               link: "/sub-large-baggage-scanner.html",
-              img: "/images/sub-sub-categories/sub-large-baggage-scanner.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
             },
           ],
         },
@@ -831,12 +831,12 @@ function initProductMegaMenu() {
             {
               name: "Fixed Under Vehicle Scanner",
               link: "/sub-fixed-under-vehicle-scanner.html",
-              img: "/images/sub-sub-categories/sub-fixed-under-vehicle-scanner.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
             },
             {
               name: "Portable Under Vehicle Scanner",
               link: "/sub-portable-under-vehicle-scanner.html",
-              img: "/images/sub-sub-categories/sub-portable-under-vehicle-scanner.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
             },
           ],
         },
@@ -847,12 +847,12 @@ function initProductMegaMenu() {
             {
               name: "Portable Explosive Detector",
               link: "/sub-portable-explosive-detector.html",
-              img: "/images/sub-sub-categories/sub-portable-explosive-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
             },
             {
               name: "Trace Explosive Detector",
               link: "/sub-trace-explosive-detector.html",
-              img: "/images/sub-sub-categories/sub-trace-explosive-detector.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
             },
           ],
         },
@@ -863,12 +863,12 @@ function initProductMegaMenu() {
             {
               name: "Visitor Registration Kiosk",
               link: "/sub-visitor-registration-kiosk.html",
-              img: "/images/sub-sub-categories/sub-visitor-registration-kiosk.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
             },
             {
               name: "Visitor Pass System",
               link: "/sub-visitor-pass-system.html",
-              img: "/images/sub-sub-categories/sub-visitor-pass-system.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
             },
           ],
         },
@@ -879,12 +879,12 @@ function initProductMegaMenu() {
             {
               name: "Inspection Mirror",
               link: "/sub-inspection-mirror.html",
-              img: "/images/sub-sub-categories/sub-inspection-mirror.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
             },
             {
               name: "Security Screening Kit",
               link: "/sub-security-screening-kit.html",
-              img: "/images/sub-sub-categories/sub-security-screening-kit.avif",
+              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
             },
           ],
         },

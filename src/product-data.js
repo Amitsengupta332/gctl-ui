@@ -1286,7 +1286,7 @@ export const PRODUCT_CATEGORIES = {
             key: "single-zone-metal-detector",
             name: "Single Zone Metal Detector",
             link: "/sub-single-zone-metal-detector.html",
-            img: "/images/sub-sub-categories/sub-single-zone-metal-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
             description:
               "Single zone walk through metal detector for basic entrance screening.",
             products: [
@@ -1302,13 +1302,13 @@ export const PRODUCT_CATEGORIES = {
             key: "multi-zone-metal-detector",
             name: "Multi Zone Metal Detector",
             link: "/sub-multi-zone-metal-detector.html",
-            img: "/images/sub-sub-categories/sub-multi-zone-metal-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
             description:
               "Multi zone detector for accurate metal location detection.",
             products: [
               {
                 name: "Multi Zone Metal Detector",
-                img: "/images/products/multi-zone-metal-detector.avif",
+                img: "/public/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
                 description:
                   "Advanced walk through detector with multiple detection zones.",
               },
@@ -1318,7 +1318,7 @@ export const PRODUCT_CATEGORIES = {
             key: "weatherproof-metal-detector",
             name: "Weatherproof Metal Detector",
             link: "/sub-weatherproof-metal-detector.html",
-            img: "/images/sub-sub-categories/sub-weatherproof-metal-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
             description:
               "Weatherproof metal detector for outdoor security screening.",
             products: [
@@ -1361,7 +1361,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rechargeable-hand-held-detector",
             name: "Rechargeable Hand Held Detector",
             link: "/sub-rechargeable-hand-held-detector.html",
-            img: "/images/sub-sub-categories/sub-rechargeable-hand-held-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
             description:
               "Rechargeable portable detector for entrance security checking.",
             products: [
@@ -1377,7 +1377,7 @@ export const PRODUCT_CATEGORIES = {
             key: "portable-hand-held-detector",
             name: "Portable Hand Held Detector",
             link: "/sub-portable-hand-held-detector.html",
-            img: "/images/sub-sub-categories/sub-portable-hand-held-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
             description:
               "Portable hand held detector for quick metal object checking.",
             products: [
@@ -1426,7 +1426,7 @@ export const PRODUCT_CATEGORIES = {
             key: "small-baggage-scanner",
             name: "Small Baggage Scanner",
             link: "/sub-small-baggage-scanner.html",
-            img: "/images/sub-sub-categories/sub-small-baggage-scanner.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
             description:
               "Small X-ray scanner for parcel and handbag inspection.",
             products: [
@@ -1442,7 +1442,7 @@ export const PRODUCT_CATEGORIES = {
             key: "medium-baggage-scanner",
             name: "Medium Baggage Scanner",
             link: "/sub-medium-baggage-scanner.html",
-            img: "/images/sub-sub-categories/sub-medium-baggage-scanner.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
             description:
               "Medium size X-ray scanner for regular luggage inspection.",
             products: [
@@ -1458,7 +1458,7 @@ export const PRODUCT_CATEGORIES = {
             key: "large-baggage-scanner",
             name: "Large Baggage Scanner",
             link: "/sub-large-baggage-scanner.html",
-            img: "/images/sub-sub-categories/sub-large-baggage-scanner.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
             description:
               "Large X-ray scanner for heavy luggage and large bag inspection.",
             products: [
@@ -1495,13 +1495,13 @@ export const PRODUCT_CATEGORIES = {
             key: "fixed-under-vehicle-scanner",
             name: "Fixed Under Vehicle Scanner",
             link: "/sub-fixed-under-vehicle-scanner.html",
-            img: "/images/sub-sub-categories/sub-fixed-under-vehicle-scanner.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
             description:
               "Fixed under vehicle scanner for permanent checkpoint installation.",
             products: [
               {
                 name: "Fixed Under Vehicle Scanner",
-                img: "/images/products/fixed-under-vehicle-scanner.avif",
+                img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
                 description:
                   "Fixed UVSS system for vehicle undercarriage inspection.",
               },
@@ -1511,7 +1511,7 @@ export const PRODUCT_CATEGORIES = {
             key: "portable-under-vehicle-scanner",
             name: "Portable Under Vehicle Scanner",
             link: "/sub-portable-under-vehicle-scanner.html",
-            img: "/images/sub-sub-categories/sub-portable-under-vehicle-scanner.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
             description:
               "Portable under vehicle scanner for temporary security inspection.",
             products: [
@@ -1548,7 +1548,7 @@ export const PRODUCT_CATEGORIES = {
             key: "portable-explosive-detector",
             name: "Portable Explosive Detector",
             link: "/sub-portable-explosive-detector.html",
-            img: "/images/sub-sub-categories/sub-portable-explosive-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
             description:
               "Portable explosive detector for mobile security screening.",
             products: [
@@ -1564,7 +1564,7 @@ export const PRODUCT_CATEGORIES = {
             key: "trace-explosive-detector",
             name: "Trace Explosive Detector",
             link: "/sub-trace-explosive-detector.html",
-            img: "/images/sub-sub-categories/sub-trace-explosive-detector.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
             description:
               "Trace explosive detector for advanced threat detection.",
             products: [
@@ -1601,7 +1601,7 @@ export const PRODUCT_CATEGORIES = {
             key: "visitor-registration-kiosk",
             name: "Visitor Registration Kiosk",
             link: "/sub-visitor-registration-kiosk.html",
-            img: "/images/sub-sub-categories/sub-visitor-registration-kiosk.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
             description:
               "Visitor kiosk for self registration and visitor check-in.",
             products: [
@@ -1617,7 +1617,7 @@ export const PRODUCT_CATEGORIES = {
             key: "visitor-pass-system",
             name: "Visitor Pass System",
             link: "/sub-visitor-pass-system.html",
-            img: "/images/sub-sub-categories/sub-visitor-pass-system.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
             description:
               "Visitor pass system for visitor identity and entry control.",
             products: [
@@ -1653,7 +1653,7 @@ export const PRODUCT_CATEGORIES = {
             key: "inspection-mirror",
             name: "Inspection Mirror",
             link: "/sub-inspection-mirror.html",
-            img: "/images/sub-sub-categories/sub-inspection-mirror.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
             description: "Inspection mirror for vehicle and object checking.",
             products: [
               {
@@ -1668,7 +1668,7 @@ export const PRODUCT_CATEGORIES = {
             key: "security-screening-kit",
             name: "Security Screening Kit",
             link: "/sub-security-screening-kit.html",
-            img: "/images/sub-sub-categories/sub-security-screening-kit.avif",
+            img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
             description:
               "Security screening kit for entrance inspection operation.",
             products: [
