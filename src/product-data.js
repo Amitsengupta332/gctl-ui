@@ -3677,7 +3677,7 @@ export const PRODUCT_CATEGORIES = {
             key: "p2-indoor-led-display",
             name: "P2 Indoor LED Display",
             link: "/sub-p2-indoor-led-display.html",
-            img: "/images/sub-sub-categories/sub-p2-indoor-led-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p2-indoor-led-display.avif",
             description:
               "P2 pixel pitch indoor LED display for high-resolution display projects.",
             products: [
@@ -3693,7 +3693,7 @@ export const PRODUCT_CATEGORIES = {
             key: "p3-indoor-led-display",
             name: "P3 Indoor LED Display",
             link: "/sub-p3-indoor-led-display.html",
-            img: "/images/sub-sub-categories/sub-p3-indoor-led-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p3-indoor-led-display.avif",
             description:
               "P3 indoor LED display for commercial display and advertising.",
             products: [
@@ -3742,7 +3742,7 @@ export const PRODUCT_CATEGORIES = {
             key: "p4-outdoor-led-display",
             name: "P4 Outdoor LED Display",
             link: "/sub-p4-outdoor-led-display.html",
-            img: "/images/sub-sub-categories/sub-p4-outdoor-led-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p4-outdoor-led-display.avif",
             description:
               "P4 outdoor LED display for sharp outdoor advertising screens.",
             products: [
@@ -3758,7 +3758,7 @@ export const PRODUCT_CATEGORIES = {
             key: "p5-outdoor-led-display",
             name: "P5 Outdoor LED Display",
             link: "/sub-p5-outdoor-led-display.html",
-            img: "/images/sub-sub-categories/sub-p5-outdoor-led-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p5-outdoor-led-display.avif",
             description:
               "P5 outdoor LED display for large outdoor screen projects.",
             products: [
@@ -3807,7 +3807,7 @@ export const PRODUCT_CATEGORIES = {
             key: "touch-kiosk",
             name: "Touch Kiosk",
             link: "/sub-touch-kiosk.html",
-            img: "/images/sub-sub-categories/sub-touch-kiosk.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/touch-kiosk.avif",
             description:
               "Touch screen kiosk for interactive customer information display.",
             products: [
@@ -3823,7 +3823,7 @@ export const PRODUCT_CATEGORIES = {
             key: "self-service-kiosk",
             name: "Self Service Kiosk",
             link: "/sub-self-service-kiosk.html",
-            img: "/images/sub-sub-categories/sub-self-service-kiosk.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/self-service-kiosk.avif",
             description:
               "Self-service kiosk for automated customer service and registration.",
             products: [
@@ -3872,7 +3872,7 @@ export const PRODUCT_CATEGORIES = {
             key: "lcd-video-wall",
             name: "LCD Video Wall",
             link: "/sub-lcd-video-wall.html",
-            img: "/images/sub-sub-categories/sub-lcd-video-wall.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/lcd-video-wall.avif",
             description:
               "LCD video wall display for control rooms and commercial display.",
             products: [
@@ -3888,7 +3888,7 @@ export const PRODUCT_CATEGORIES = {
             key: "led-video-wall",
             name: "LED Video Wall",
             link: "/sub-led-video-wall.html",
-            img: "/images/sub-sub-categories/sub-led-video-wall.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/led-video-wall.avif",
             description: "LED video wall for seamless large screen display.",
             products: [
               {
@@ -3936,7 +3936,7 @@ export const PRODUCT_CATEGORIES = {
             key: "android-signage-player",
             name: "Android Signage Player",
             link: "/sub-android-signage-player.html",
-            img: "/images/sub-sub-categories/sub-android-signage-player.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/android-signage-player.avif",
             description:
               "Android media player for digital signage content playback.",
             products: [
@@ -3952,7 +3952,7 @@ export const PRODUCT_CATEGORIES = {
             key: "windows-signage-player",
             name: "Windows Signage Player",
             link: "/sub-windows-signage-player.html",
-            img: "/images/sub-sub-categories/sub-windows-signage-player.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/windows-signage-player.avif",
             description:
               "Windows signage player for professional display systems.",
             products: [
@@ -4001,7 +4001,7 @@ export const PRODUCT_CATEGORIES = {
             key: "floor-standing-display",
             name: "Floor Standing Display",
             link: "/sub-floor-standing-display.html",
-            img: "/images/sub-sub-categories/sub-floor-standing-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/floor-standing-display.avif",
             description:
               "Floor standing digital display for advertising and information.",
             products: [
@@ -4017,7 +4017,7 @@ export const PRODUCT_CATEGORIES = {
             key: "wall-mounted-display",
             name: "Wall Mounted Display",
             link: "/sub-wall-mounted-display.html",
-            img: "/images/sub-sub-categories/sub-wall-mounted-display.avif",
+            img: "/public/images/sub-sub-categories/lcd-led-digital-signage/wall-mounted-display.avif",
             description: "Wall mounted display for digital signage projects.",
             products: [
               {

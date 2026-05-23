@@ -1410,12 +1410,12 @@ function initProductMegaMenu() {
             {
               name: "P2 Indoor LED Display",
               link: "/sub-p2-indoor-led-display.html",
-              img: "/images/sub-sub-categories/sub-p2-indoor-led-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p2-indoor-led-display.avif",
             },
             {
               name: "P3 Indoor LED Display",
               link: "/sub-p3-indoor-led-display.html",
-              img: "/images/sub-sub-categories/sub-p3-indoor-led-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p3-indoor-led-display.avif",
             },
           ],
         },
@@ -1426,12 +1426,12 @@ function initProductMegaMenu() {
             {
               name: "P4 Outdoor LED Display",
               link: "/sub-p4-outdoor-led-display.html",
-              img: "/images/sub-sub-categories/sub-p4-outdoor-led-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p4-outdoor-led-display.avif",
             },
             {
               name: "P5 Outdoor LED Display",
               link: "/sub-p5-outdoor-led-display.html",
-              img: "/images/sub-sub-categories/sub-p5-outdoor-led-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p5-outdoor-led-display.avif",
             },
           ],
         },
@@ -1442,12 +1442,12 @@ function initProductMegaMenu() {
             {
               name: "Touch Kiosk",
               link: "/sub-touch-kiosk.html",
-              img: "/images/sub-sub-categories/sub-touch-kiosk.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/touch-kiosk.avif",
             },
             {
               name: "Self Service Kiosk",
               link: "/sub-self-service-kiosk.html",
-              img: "/images/sub-sub-categories/sub-self-service-kiosk.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/self-service-kiosk.avif",
             },
           ],
         },
@@ -1458,12 +1458,12 @@ function initProductMegaMenu() {
             {
               name: "LCD Video Wall",
               link: "/sub-lcd-video-wall.html",
-              img: "/images/sub-sub-categories/sub-lcd-video-wall.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/lcd-video-wall.avif",
             },
             {
               name: "LED Video Wall",
               link: "/sub-led-video-wall.html",
-              img: "/images/sub-sub-categories/sub-led-video-wall.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/led-video-wall.avif",
             },
           ],
         },
@@ -1474,12 +1474,12 @@ function initProductMegaMenu() {
             {
               name: "Android Signage Player",
               link: "/sub-android-signage-player.html",
-              img: "/images/sub-sub-categories/sub-android-signage-player.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/android-signage-player.avif",
             },
             {
               name: "Windows Signage Player",
               link: "/sub-windows-signage-player.html",
-              img: "/images/sub-sub-categories/sub-windows-signage-player.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/windows-signage-player.avif",
             },
           ],
         },
@@ -1490,12 +1490,12 @@ function initProductMegaMenu() {
             {
               name: "Floor Standing Display",
               link: "/sub-floor-standing-display.html",
-              img: "/images/sub-sub-categories/sub-floor-standing-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/floor-standing-display.avif",
             },
             {
               name: "Wall Mounted Display",
               link: "/sub-wall-mounted-display.html",
-              img: "/images/sub-sub-categories/sub-wall-mounted-display.avif",
+              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/wall-mounted-display.avif",
             },
           ],
         },
