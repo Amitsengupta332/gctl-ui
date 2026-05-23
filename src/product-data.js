@@ -1754,7 +1754,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-recognition-camera",
             name: "Face Recognition Camera",
             link: "/sub-face-recognition-camera.html",
-            img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Camera.avif",
             description:
               "AI camera for face detection and face recognition surveillance.",
             products: [
@@ -1770,7 +1770,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-recognition-terminal",
             name: "Face Recognition Terminal",
             link: "/sub-face-recognition-terminal.html",
-            img: "/images/sub-sub-categories/sub-face-recognition-terminal.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Terminal.avif",
             description:
               "Face recognition terminal for secure entry and attendance.",
             products: [
@@ -1786,7 +1786,7 @@ export const PRODUCT_CATEGORIES = {
             key: "face-recognition-software",
             name: "Face Recognition Software",
             link: "/sub-face-recognition-software.html",
-            img: "/images/sub-sub-categories/sub-face-recognition-software.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Software.avif",
             description:
               "Software solution for face database, matching and monitoring.",
             products: [
@@ -1829,7 +1829,7 @@ export const PRODUCT_CATEGORIES = {
             key: "people-counting-camera",
             name: "People Counting Camera",
             link: "/sub-people-counting-camera.html",
-            img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/People Counting Camera.avif",
             description:
               "Camera-based people counting solution for entry and exit points.",
             products: [
@@ -1845,7 +1845,7 @@ export const PRODUCT_CATEGORIES = {
             key: "visitor-counting-system",
             name: "Visitor Counting System",
             link: "/sub-visitor-counting-system.html",
-            img: "/images/sub-sub-categories/sub-visitor-counting-system.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Visitor Counting System.avif",
             description:
               "Visitor counting system for retail, office and public places.",
             products: [
@@ -1861,7 +1861,7 @@ export const PRODUCT_CATEGORIES = {
             key: "occupancy-monitoring-system",
             name: "Occupancy Monitoring System",
             link: "/sub-occupancy-monitoring-system.html",
-            img: "/images/sub-sub-categories/sub-occupancy-monitoring-system.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Occupancy Monitoring System.avif",
             description:
               "Occupancy monitoring system for area capacity and crowd control.",
             products: [
@@ -1904,7 +1904,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fence-intrusion-detection",
             name: "Fence Intrusion Detection",
             link: "/sub-fence-intrusion-detection.html",
-            img: "/images/sub-sub-categories/sub-fence-intrusion-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Fence Intrusion Detection.avif",
             description:
               "Fence monitoring solution for detecting perimeter intrusion.",
             products: [
@@ -1920,7 +1920,7 @@ export const PRODUCT_CATEGORIES = {
             key: "restricted-area-detection",
             name: "Restricted Area Detection",
             link: "/sub-restricted-area-detection.html",
-            img: "/images/sub-sub-categories/sub-restricted-area-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Restricted Area Detection.avif",
             description:
               "Restricted area monitoring solution for smart surveillance.",
             products: [
@@ -1936,7 +1936,7 @@ export const PRODUCT_CATEGORIES = {
             key: "ai-perimeter-camera",
             name: "AI Perimeter Camera",
             link: "/sub-ai-perimeter-camera.html",
-            img: "/images/sub-sub-categories/sub-ai-perimeter-camera.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/AI Perimeter Camera.avif",
             description:
               "AI camera for perimeter monitoring and intrusion detection.",
             products: [
@@ -1973,7 +1973,7 @@ export const PRODUCT_CATEGORIES = {
             key: "virtual-line-crossing",
             name: "Virtual Line Crossing",
             link: "/sub-virtual-line-crossing.html",
-            img: "/images/sub-sub-categories/sub-virtual-line-crossing.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Virtual Line Crossing.avif",
             description:
               "Virtual line crossing detection for restricted movement monitoring.",
             products: [
@@ -1989,7 +1989,7 @@ export const PRODUCT_CATEGORIES = {
             key: "direction-detection",
             name: "Direction Detection",
             link: "/sub-direction-detection.html",
-            img: "/images/sub-sub-categories/sub-direction-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Direction Detection.avif",
             description:
               "Direction detection analytics for movement direction monitoring.",
             products: [
@@ -2026,7 +2026,7 @@ export const PRODUCT_CATEGORIES = {
             key: "abandoned-object-detection",
             name: "Abandoned Object Detection",
             link: "/sub-abandoned-object-detection.html",
-            img: "/images/sub-sub-categories/sub-abandoned-object-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Abandoned Object Detection.avif",
             description:
               "Detect abandoned objects in monitored security areas.",
             products: [
@@ -2042,7 +2042,7 @@ export const PRODUCT_CATEGORIES = {
             key: "missing-object-detection",
             name: "Missing Object Detection",
             link: "/sub-missing-object-detection.html",
-            img: "/images/sub-sub-categories/sub-missing-object-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Missing Object Detection.avif",
             description: "Detect missing objects from protected areas.",
             products: [
               {
@@ -2057,7 +2057,7 @@ export const PRODUCT_CATEGORIES = {
             key: "suspicious-object-detection",
             name: "Suspicious Object Detection",
             link: "/sub-suspicious-object-detection.html",
-            img: "/images/sub-sub-categories/sub-suspicious-object-detection.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Suspicious Object Detection.avif",
             description:
               "Detect suspicious objects in security monitoring areas.",
             products: [
@@ -2094,7 +2094,7 @@ export const PRODUCT_CATEGORIES = {
             key: "vehicle-detection-system",
             name: "Vehicle Detection System",
             link: "/sub-vehicle-detection-system.html",
-            img: "/images/sub-sub-categories/sub-vehicle-detection-system.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Detection System.avif",
             description:
               "Vehicle detection analytics for smart traffic and parking monitoring.",
             products: [
@@ -2110,7 +2110,7 @@ export const PRODUCT_CATEGORIES = {
             key: "vehicle-counting-system",
             name: "Vehicle Counting System",
             link: "/sub-vehicle-counting-system.html",
-            img: "/images/sub-sub-categories/sub-vehicle-counting-system.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Counting System.avif",
             description:
               "Vehicle counting system for traffic and parking analytics.",
             products: [
@@ -2126,7 +2126,7 @@ export const PRODUCT_CATEGORIES = {
             key: "traffic-flow-analytics",
             name: "Traffic Flow Analytics",
             link: "/sub-traffic-flow-analytics.html",
-            img: "/images/sub-sub-categories/sub-traffic-flow-analytics.avif",
+            img: "/public/images/sub-sub-categories/intelligent-video-analytics/Traffic Flow Analytics.avif",
             description:
               "Traffic flow analytics for road and vehicle movement monitoring.",
             products: [

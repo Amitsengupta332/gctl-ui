@@ -35,6 +35,7 @@ async function loadComponents() {
   initHeroSlider();
   initProductSlider();
   initCategoryProductFilter();
+    initFooterYear();
 
   AOS.init({
     duration: 900,
@@ -42,6 +43,14 @@ async function loadComponents() {
     once: true,
     offset: 80,
   });
+}
+
+function initFooterYear() {
+  const yearSpan = document.getElementById("copyrightYear");
+
+  if (!yearSpan) return;
+
+  yearSpan.textContent = new Date().getFullYear();
 }
 
 function initNavbarMenu() {
@@ -902,17 +911,17 @@ function initProductMegaMenu() {
             {
               name: "Face Recognition Camera",
               link: "/sub-face-recognition-camera.html",
-              img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Camera.avif",
             },
             {
               name: "Face Recognition Terminal",
               link: "/sub-face-recognition-terminal.html",
-              img: "/images/sub-sub-categories/sub-face-recognition-terminal.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Terminal.avif",
             },
             {
               name: "Face Recognition Software",
               link: "/sub-face-recognition-software.html",
-              img: "/images/sub-sub-categories/sub-face-recognition-software.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Software.avif",
             },
           ],
         },
@@ -923,17 +932,17 @@ function initProductMegaMenu() {
             {
               name: "People Counting Camera",
               link: "/sub-people-counting-camera.html",
-              img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/People Counting Camera.avif",
             },
             {
               name: "Visitor Counting System",
               link: "/sub-visitor-counting-system.html",
-              img: "/images/sub-sub-categories/sub-visitor-counting-system.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Visitor Counting System.avif",
             },
             {
               name: "Occupancy Monitoring System",
               link: "/sub-occupancy-monitoring-system.html",
-              img: "/images/sub-sub-categories/sub-occupancy-monitoring-system.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Occupancy Monitoring System.avif",
             },
           ],
         },
@@ -944,17 +953,17 @@ function initProductMegaMenu() {
             {
               name: "Fence Intrusion Detection",
               link: "/sub-fence-intrusion-detection.html",
-              img: "/images/sub-sub-categories/sub-fence-intrusion-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Fence Intrusion Detection.avif",
             },
             {
               name: "Restricted Area Detection",
               link: "/sub-restricted-area-detection.html",
-              img: "/images/sub-sub-categories/sub-restricted-area-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Restricted Area Detection.avif",
             },
             {
               name: "AI Perimeter Camera",
               link: "/sub-ai-perimeter-camera.html",
-              img: "/images/sub-sub-categories/sub-ai-perimeter-camera.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/AI Perimeter Camera.avif",
             },
           ],
         },
@@ -965,12 +974,12 @@ function initProductMegaMenu() {
             {
               name: "Virtual Line Crossing",
               link: "/sub-virtual-line-crossing.html",
-              img: "/images/sub-sub-categories/sub-virtual-line-crossing.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Virtual Line Crossing.avif",
             },
             {
               name: "Direction Detection",
               link: "/sub-direction-detection.html",
-              img: "/images/sub-sub-categories/sub-direction-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Direction Detection.avif",
             },
           ],
         },
@@ -981,17 +990,17 @@ function initProductMegaMenu() {
             {
               name: "Abandoned Object Detection",
               link: "/sub-abandoned-object-detection.html",
-              img: "/images/sub-sub-categories/sub-abandoned-object-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Abandoned Object Detection.avif",
             },
             {
               name: "Missing Object Detection",
               link: "/sub-missing-object-detection.html",
-              img: "/images/sub-sub-categories/sub-missing-object-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Missing Object Detection.avif",
             },
             {
               name: "Suspicious Object Detection",
               link: "/sub-suspicious-object-detection.html",
-              img: "/images/sub-sub-categories/sub-suspicious-object-detection.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Suspicious Object Detection.avif",
             },
           ],
         },
@@ -1002,17 +1011,17 @@ function initProductMegaMenu() {
             {
               name: "Vehicle Detection System",
               link: "/sub-vehicle-detection-system.html",
-              img: "/images/sub-sub-categories/sub-vehicle-detection-system.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Detection System.avif",
             },
             {
               name: "Vehicle Counting System",
               link: "/sub-vehicle-counting-system.html",
-              img: "/images/sub-sub-categories/sub-vehicle-counting-system.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Counting System.avif",
             },
             {
               name: "Traffic Flow Analytics",
               link: "/sub-traffic-flow-analytics.html",
-              img: "/images/sub-sub-categories/sub-traffic-flow-analytics.avif",
+              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Traffic Flow Analytics.avif",
             },
           ],
         },
