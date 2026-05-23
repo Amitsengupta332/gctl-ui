@@ -1158,17 +1158,17 @@ function initProductMegaMenu() {
             {
               name: "Conventional Fire Alarm Panel",
               link: "/sub-conventional-fire-alarm-panel.html",
-              img: "/images/sub-sub-categories/sub-conventional-fire-alarm-panel.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Fire Alarm Panel.avif",
             },
             {
               name: "Conventional Smoke Detector",
               link: "/sub-conventional-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-conventional-smoke-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Smoke Detector.avif",
             },
             {
               name: "Conventional Heat Detector",
               link: "/sub-conventional-heat-detector.html",
-              img: "/images/sub-sub-categories/sub-conventional-heat-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Heat Detector.avif",
             },
           ],
         },
@@ -1179,17 +1179,17 @@ function initProductMegaMenu() {
             {
               name: "Addressable Fire Alarm Panel",
               link: "/sub-addressable-fire-alarm-panel.html",
-              img: "/images/sub-sub-categories/sub-addressable-fire-alarm-panel.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Fire Alarm Panel.avif",
             },
             {
               name: "Addressable Smoke Detector",
               link: "/sub-addressable-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-addressable-smoke-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Smoke Detector.avif",
             },
             {
               name: "Addressable Heat Detector",
               link: "/sub-addressable-heat-detector.html",
-              img: "/images/sub-sub-categories/sub-addressable-heat-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Heat Detector.avif",
             },
           ],
         },
@@ -1200,17 +1200,17 @@ function initProductMegaMenu() {
             {
               name: "2 Zone Fire Alarm Panel",
               link: "/sub-2-zone-fire-alarm-panel.html",
-              img: "/images/sub-sub-categories/sub-2-zone-fire-alarm-panel.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/2 Zone Fire Alarm Panel.avif",
             },
             {
               name: "4 Zone Fire Alarm Panel",
               link: "/sub-4-zone-fire-alarm-panel.html",
-              img: "/images/sub-sub-categories/sub-4-zone-fire-alarm-panel.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/4 Zone Fire Alarm Panel.avif",
             },
             {
               name: "8 Zone Fire Alarm Panel",
               link: "/sub-8-zone-fire-alarm-panel.html",
-              img: "/images/sub-sub-categories/sub-8-zone-fire-alarm-panel.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/8 Zone Fire Alarm Panel.avif",
             },
           ],
         },
@@ -1221,12 +1221,12 @@ function initProductMegaMenu() {
             {
               name: "Optical Smoke Detector",
               link: "/sub-optical-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-optical-smoke-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Optical Smoke Detector.avif",
             },
             {
               name: "Photoelectric Smoke Detector",
               link: "/sub-photoelectric-smoke-detector.html",
-              img: "/images/sub-sub-categories/sub-photoelectric-smoke-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Photoelectric Smoke Detector.avif",
             },
           ],
         },
@@ -1237,12 +1237,12 @@ function initProductMegaMenu() {
             {
               name: "Fixed Temperature Heat Detector",
               link: "/sub-fixed-temperature-heat-detector.html",
-              img: "/images/sub-sub-categories/sub-fixed-temperature-heat-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Fixed Temperature Heat Detector.avif",
             },
             {
               name: "Rate of Rise Heat Detector",
               link: "/sub-rate-of-rise-heat-detector.html",
-              img: "/images/sub-sub-categories/sub-rate-of-rise-heat-detector.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Rate of Rise Heat Detector.avif",
             },
           ],
         },
@@ -1253,12 +1253,12 @@ function initProductMegaMenu() {
             {
               name: "Break Glass Call Point",
               link: "/sub-break-glass-call-point.html",
-              img: "/images/sub-sub-categories/sub-break-glass-call-point.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Break Glass Call Point.avif",
             },
             {
               name: "Resettable Call Point",
               link: "/sub-resettable-call-point.html",
-              img: "/images/sub-sub-categories/sub-resettable-call-point.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Resettable Call Point.avif",
             },
           ],
         },
@@ -1269,12 +1269,12 @@ function initProductMegaMenu() {
             {
               name: "Fire Alarm Sounder",
               link: "/sub-fire-alarm-sounder.html",
-              img: "/images/sub-sub-categories/sub-fire-alarm-sounder.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Sounder.avif",
             },
             {
               name: "Fire Alarm Strobe",
               link: "/sub-fire-alarm-strobe.html",
-              img: "/images/sub-sub-categories/sub-fire-alarm-strobe.avif",
+              img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Strobe.avif",
             },
           ],
         },

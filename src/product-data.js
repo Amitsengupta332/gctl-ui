@@ -2689,7 +2689,7 @@ export const PRODUCT_CATEGORIES = {
             key: "conventional-fire-alarm-panel",
             name: "Conventional Fire Alarm Panel",
             link: "/sub-conventional-fire-alarm-panel.html",
-            img: "/images/sub-sub-categories/sub-conventional-fire-alarm-panel.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Conventional Fire Alarm Panel.avif",
             description:
               "Conventional fire alarm panel for zone-based fire alarm projects.",
             products: [
@@ -2705,7 +2705,7 @@ export const PRODUCT_CATEGORIES = {
             key: "conventional-smoke-detector",
             name: "Conventional Smoke Detector",
             link: "/sub-conventional-smoke-detector.html",
-            img: "/images/sub-sub-categories/sub-conventional-smoke-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Conventional Smoke Detector.avif",
             description: "Smoke detector for conventional fire alarm systems.",
             products: [
               {
@@ -2720,7 +2720,7 @@ export const PRODUCT_CATEGORIES = {
             key: "conventional-heat-detector",
             name: "Conventional Heat Detector",
             link: "/sub-conventional-heat-detector.html",
-            img: "/images/sub-sub-categories/sub-conventional-heat-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Conventional Heat Detector.avif",
             description: "Heat detector for conventional fire alarm systems.",
             products: [
               {
@@ -2768,7 +2768,7 @@ export const PRODUCT_CATEGORIES = {
             key: "addressable-fire-alarm-panel",
             name: "Addressable Fire Alarm Panel",
             link: "/sub-addressable-fire-alarm-panel.html",
-            img: "/images/sub-sub-categories/sub-addressable-fire-alarm-panel.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Addressable Fire Alarm Panel.avif",
             description:
               "Addressable fire alarm panel for advanced fire detection.",
             products: [
@@ -2784,7 +2784,7 @@ export const PRODUCT_CATEGORIES = {
             key: "addressable-smoke-detector",
             name: "Addressable Smoke Detector",
             link: "/sub-addressable-smoke-detector.html",
-            img: "/images/sub-sub-categories/sub-addressable-smoke-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Addressable Smoke Detector.avif",
             description:
               "Addressable smoke detector for intelligent fire alarm systems.",
             products: [
@@ -2800,7 +2800,7 @@ export const PRODUCT_CATEGORIES = {
             key: "addressable-heat-detector",
             name: "Addressable Heat Detector",
             link: "/sub-addressable-heat-detector.html",
-            img: "/images/sub-sub-categories/sub-addressable-heat-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Addressable Heat Detector.avif",
             description:
               "Addressable heat detector for advanced fire alarm projects.",
             products: [
@@ -2849,7 +2849,7 @@ export const PRODUCT_CATEGORIES = {
             key: "2-zone-fire-alarm-panel",
             name: "2 Zone Fire Alarm Panel",
             link: "/sub-2-zone-fire-alarm-panel.html",
-            img: "/images/sub-sub-categories/sub-2-zone-fire-alarm-panel.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/2 Zone Fire Alarm Panel.avif",
             description: "2 zone fire alarm panel for small projects.",
             products: [
               {
@@ -2864,7 +2864,7 @@ export const PRODUCT_CATEGORIES = {
             key: "4-zone-fire-alarm-panel",
             name: "4 Zone Fire Alarm Panel",
             link: "/sub-4-zone-fire-alarm-panel.html",
-            img: "/images/sub-sub-categories/sub-4-zone-fire-alarm-panel.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/4 Zone Fire Alarm Panel.avif",
             description: "4 zone fire alarm panel for medium projects.",
             products: [
               {
@@ -2879,7 +2879,7 @@ export const PRODUCT_CATEGORIES = {
             key: "8-zone-fire-alarm-panel",
             name: "8 Zone Fire Alarm Panel",
             link: "/sub-8-zone-fire-alarm-panel.html",
-            img: "/images/sub-sub-categories/sub-8-zone-fire-alarm-panel.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/8 Zone Fire Alarm Panel.avif",
             description:
               "8 zone fire alarm panel for larger conventional systems.",
             products: [
@@ -2921,7 +2921,7 @@ export const PRODUCT_CATEGORIES = {
             key: "optical-smoke-detector",
             name: "Optical Smoke Detector",
             link: "/sub-optical-smoke-detector.html",
-            img: "/images/sub-sub-categories/sub-optical-smoke-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Optical Smoke Detector.avif",
             description: "Optical smoke detector for fire alarm systems.",
             products: [
               {
@@ -2936,7 +2936,7 @@ export const PRODUCT_CATEGORIES = {
             key: "photoelectric-smoke-detector",
             name: "Photoelectric Smoke Detector",
             link: "/sub-photoelectric-smoke-detector.html",
-            img: "/images/sub-sub-categories/sub-photoelectric-smoke-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Photoelectric Smoke Detector.avif",
             description:
               "Photoelectric smoke detector for building fire safety.",
             products: [
@@ -2978,7 +2978,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fixed-temperature-heat-detector",
             name: "Fixed Temperature Heat Detector",
             link: "/sub-fixed-temperature-heat-detector.html",
-            img: "/images/sub-sub-categories/sub-fixed-temperature-heat-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Fixed Temperature Heat Detector.avif",
             description:
               "Fixed temperature heat detector for fire alarm systems.",
             products: [
@@ -2994,7 +2994,7 @@ export const PRODUCT_CATEGORIES = {
             key: "rate-of-rise-heat-detector",
             name: "Rate of Rise Heat Detector",
             link: "/sub-rate-of-rise-heat-detector.html",
-            img: "/images/sub-sub-categories/sub-rate-of-rise-heat-detector.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Rate of Rise Heat Detector.avif",
             description:
               "Rate of rise heat detector for fast temperature increase detection.",
             products: [
@@ -3031,7 +3031,7 @@ export const PRODUCT_CATEGORIES = {
             key: "break-glass-call-point",
             name: "Break Glass Call Point",
             link: "/sub-break-glass-call-point.html",
-            img: "/images/sub-sub-categories/sub-break-glass-call-point.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Break Glass Call Point.avif",
             description:
               "Break glass call point for manual fire alarm activation.",
             products: [
@@ -3047,7 +3047,7 @@ export const PRODUCT_CATEGORIES = {
             key: "resettable-call-point",
             name: "Resettable Call Point",
             link: "/sub-resettable-call-point.html",
-            img: "/images/sub-sub-categories/sub-resettable-call-point.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Resettable Call Point.avif",
             description: "Resettable manual call point for fire alarm systems.",
             products: [
               {
@@ -3088,7 +3088,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fire-alarm-sounder",
             name: "Fire Alarm Sounder",
             link: "/sub-fire-alarm-sounder.html",
-            img: "/images/sub-sub-categories/sub-fire-alarm-sounder.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Sounder.avif",
             description: "Audible sounder for fire alarm notification.",
             products: [
               {
@@ -3103,7 +3103,7 @@ export const PRODUCT_CATEGORIES = {
             key: "fire-alarm-strobe",
             name: "Fire Alarm Strobe",
             link: "/sub-fire-alarm-strobe.html",
-            img: "/images/sub-sub-categories/sub-fire-alarm-strobe.avif",
+            img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Strobe.avif",
             description: "Visual strobe light for fire alarm notification.",
             products: [
               {
