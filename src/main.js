@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { initReusablePages } from "./reusable-pages.js";
+import { initProjectsPage } from "./projects-page.js";
 
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
@@ -31,7 +32,7 @@ async function loadComponents() {
   initProductMegaMenu();
 
   initReusablePages();
-
+  initProjectsPage();
   initHeroSlider();
   initProductSlider();
   initCategoryProductFilter();

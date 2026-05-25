@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-@source "../*.html";
-@source "../components/**/*.html";
-@source "../pages/**/*.html";
+@source "../index.html";
+@source "../contact.html";
+@source "../projects.html";
 @source "../public/**/*.html";
-@source "../src/**/*.{js,css}";
+@source "./**/*.{js,css}";
 
 /* Product slider scrollbar hide */
 [data-product-track] {
