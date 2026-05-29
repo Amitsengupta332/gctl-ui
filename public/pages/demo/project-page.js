@@ -56,7 +56,6 @@ function escapeHtml(value = "") {
 
 function getVisibleCategories() {
   const available = new Set(gctlProjects.map((project) => project.category));
-
   return categoryOrder.filter(
     (category) => category === "All Projects" || available.has(category),
   );
@@ -116,23 +115,90 @@ function projectCardTemplate(project) {
           ${escapeHtml(project.summary)}
         </p>
 
-        <a
-          href="/project-details/${encodeURIComponent(project.id)}"
-          class="mt-auto inline-flex w-fit items-center gap-3 pt-5 text-[14px] font-black text-[#0068d9] transition hover:text-[#004ea8]"
-        >
-          View Details
-          <span class="text-lg">→</span>
-        </a>
+    <a
+href="/project-details/${encodeURIComponent(project.id)}"f
+  class="mt-auto inline-flex w-fit items-center gap-3 pt-5 text-[14px] font-black text-[#0068d9] transition hover:text-[#004ea8]"
+>
+  View Details
+  <span class="text-lg">→</span>
+</a>
       </div>
     </article>
   `;
 }
 
+
+function getProjectIdFromUrl() {
+  const parts = window.location.pathname.split("/").filter(Boolean);
+
+  // /project-details/hazrat-shahjalal-airport-cctv
+  if (parts[0] === "project-details" && parts[1]) {
+    return decodeURIComponent(parts[1]);
+  }
+
+  return "";
+}
+// function modalTemplate(project) {
+//   const badgeClass = badgeClasses[project.category] || "bg-[#0068d9]";
+
+//   return `
+//     <div class="grid max-h-[92vh] overflow-y-auto md:grid-cols-[45%_55%]">
+//       <div class="bg-[#eef4fb]">
+//         <img
+//           src="${escapeHtml(project.image)}"
+//           alt="${escapeHtml(project.title)}"
+//           class="h-[300px] w-full object-cover md:h-full"
+//         />
+//       </div>
+
+//       <div class="p-7 md:p-9">
+//         <span class="inline-flex rounded-[4px] ${badgeClass} px-3 py-1.5 text-[12px] font-black text-white">
+//           ${escapeHtml(project.category)}
+//         </span>
+
+//         <h2 class="mt-4 pr-8 text-[27px] font-black leading-[1.2] tracking-[-0.6px] text-[#071f4d]">
+//           ${escapeHtml(project.title)}
+//         </h2>
+
+//         <div class="mt-5 grid gap-3 rounded-[12px] border border-[#dfe8f4] bg-[#f8fbff] p-4 text-[14px] font-semibold text-[#40516a]">
+//           <p>
+//             <span class="font-black text-[#071f4d]">Location:</span>
+//             ${escapeHtml(project.location)}
+//           </p>
+//           <p>
+//             <span class="font-black text-[#071f4d]">System:</span>
+//             ${escapeHtml(project.system)}
+//           </p>
+//         </div>
+
+//         <p class="mt-6 text-[15px] font-medium leading-7 text-[#40516a]">
+//           ${escapeHtml(project.details)}
+//         </p>
+
+//         <div class="mt-7 flex flex-wrap gap-3">
+//           <a
+//             href="/contact.html"
+//             class="inline-flex h-[46px] items-center justify-center rounded-[7px] bg-[#0068d9] px-6 text-[14px] font-black text-white shadow-[0_10px_22px_rgba(0,104,217,0.20)] transition hover:bg-[#0058bb]"
+//           >
+//             Contact Our Experts
+//           </a>
+
+//           <button
+//             type="button"
+//             data-project-modal-close
+//             class="inline-flex h-[46px] items-center justify-center rounded-[7px] border border-[#cdddf1] bg-white px-6 text-[14px] font-black text-[#0068d9] transition hover:border-[#0068d9]"
+//           >
+//             Close
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//   `;
+// }
+
 function renderProjects(root, activeCategory = "All Projects") {
   const list = root.querySelector("[data-project-list]");
   const empty = root.querySelector("[data-project-empty]");
-
-  if (!list || !empty) return;
 
   const filteredProjects =
     activeCategory === "All Projects"
@@ -145,14 +211,35 @@ function renderProjects(root, activeCategory = "All Projects") {
 
 function renderFilters(root, activeCategory = "All Projects") {
   const filters = root.querySelector("[data-project-filters]");
-  if (!filters) return;
-
   filters.innerHTML = "";
 
   getVisibleCategories().forEach((category) => {
     filters.appendChild(createFilterButton(category, activeCategory));
   });
 }
+
+// function openProjectModal(root, projectId) {
+//   const project = gctlProjects.find((item) => item.id === projectId);
+//   if (!project) return;
+
+//   const modal = root.querySelector("[data-project-modal]");
+//   const content = root.querySelector("[data-project-modal-content]");
+
+//   content.innerHTML = modalTemplate(project);
+//   modal.classList.remove("hidden");
+//   modal.classList.add("flex");
+//   document.body.classList.add("overflow-hidden");
+// }
+
+// function closeProjectModal(root) {
+//   const modal = root.querySelector("[data-project-modal]");
+//   const content = root.querySelector("[data-project-modal-content]");
+
+//   modal.classList.add("hidden");
+//   modal.classList.remove("flex");
+//   content.innerHTML = "";
+//   document.body.classList.remove("overflow-hidden");
+// }
 
 export function initProjectsPage() {
   const root = document.querySelector("[data-projects-page]");
@@ -167,12 +254,42 @@ export function initProjectsPage() {
 
   root.addEventListener("click", (event) => {
     const filterButton = event.target.closest("[data-category]");
+    // const detailButton = event.target.closest("[data-project-detail]");
+    // const closeButton = event.target.closest("[data-project-modal-close]");
+    // const modal = root.querySelector("[data-project-modal]");
+    // const modalPanel = root.querySelector("[data-project-modal-panel]");
 
-    if (!filterButton) return;
+    // if (filterButton) {
+    //   activeCategory = filterButton.dataset.category;
+    //   renderFilters(root, activeCategory);
+    //   renderProjects(root, activeCategory);
+    //   return;
+    // }
 
-    activeCategory = filterButton.dataset.category;
-    renderFilters(root, activeCategory);
-    renderProjects(root, activeCategory);
+    // if (detailButton) {
+    //   openProjectModal(root, detailButton.dataset.projectDetail);
+    //   return;
+    // }
+
+    // if (closeButton) {
+    //   closeProjectModal(root);
+    //   return;
+    // }
+
+    if (
+      modal &&
+      !modal.classList.contains("hidden") &&
+      event.target === modal &&
+      !modalPanel.contains(event.target)
+    ) {
+      closeProjectModal(root);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeProjectModal(root);
+    }
   });
 }
 

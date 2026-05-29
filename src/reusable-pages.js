@@ -338,63 +338,97 @@ function productsSection(title, products) {
 /* =========================
    SEO + FAQ
 ========================= */
-function seoAndFaqHtml(category) {
-  const seoText = safeArray(category.seoText);
-  const faq = safeArray(category.faq);
+/* =========================
+   SEO + FAQ
+   Main Category + Sub Category + Sub Sub Category
+========================= */
+function seoAndFaqHtml(item) {
+  if (!item) return "";
 
-  if (!seoText.length && !faq.length) return "";
+  const title = item.title || item.name || "Products";
+
+  const seoTextFromData = safeArray(item.seoText);
+  const faqFromData = safeArray(item.faq);
+
+  const seoText = seoTextFromData.length
+    ? seoTextFromData
+    : [
+        item.description ||
+          `${title} solutions for professional security, automation and technology projects.`,
+        `GCTL provides ${title} products for homes, offices, factories, warehouses, apartments, schools, hospitals, banks and commercial buildings.`,
+        `${title} products are suitable for reliable performance, professional installation and long-term project support.`,
+      ];
+
+  const faq = faqFromData.length
+    ? faqFromData
+    : [
+        {
+          question: `What is ${title}?`,
+          answer:
+            item.description ||
+            `${title} is a professional product category used for security, automation and technology projects.`,
+        },
+        {
+          question: `Where can ${title} be used?`,
+          answer: `${title} can be used in homes, offices, factories, warehouses, apartments, schools, hospitals, banks, shopping malls and commercial buildings.`,
+        },
+        {
+          question: `Do you provide installation support for ${title}?`,
+          answer: `Yes, GCTL provides product supply, installation, configuration and project support for ${title}.`,
+        },
+      ];
 
   return `
-    ${
-      seoText.length
-        ? `
-          <div class="bg-[#f8fbff] py-10 border-t border-[#e6edf5]">
-            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-              <div class="rounded-[6px] border border-[#dfeaf7] bg-white p-6 sm:p-8 shadow-[0_6px_20px_rgba(15,23,42,0.04)]">
-                <h2 class="text-[24px] sm:text-[30px] font-extrabold text-[#071425]">
-                  ${category.seoTitle || category.title}
-                </h2>
+    <!-- SEO Text -->
+    <div class="bg-[#f7fbff] py-12 lg:py-16 border-t border-[#e4eef8]">
+      <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-[22px] border border-[#dfeaf7] bg-white p-5 sm:p-8 lg:p-10 shadow-[0_14px_40px_rgba(15,23,42,0.06)]">
+          <h2 class="text-[24px] sm:text-[32px] leading-tight font-extrabold text-[#071b45] tracking-[-0.02em]">
+            ${item.seoTitle || `${title} in Bangladesh`}
+          </h2>
 
-                <div class="mt-5 space-y-4 text-[15px] leading-8 font-medium text-[#405068]">
-                  ${seoText.map((text) => `<p>${text}</p>`).join("")}
-                </div>
-              </div>
-            </div>
+          <div class="mt-5 space-y-5 text-[15px] sm:text-[16px] leading-7 sm:leading-8 font-medium text-[#40516b]">
+            ${seoText.map((text) => `<p>${text}</p>`).join("")}
           </div>
-        `
-        : ""
-    }
+        </div>
+      </div>
+    </div>
 
-    ${
-      faq.length
-        ? `
-          <div class="bg-white py-10 border-t border-[#e6edf5]">
-            <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
-              <h2 class="text-[26px] sm:text-[34px] font-extrabold text-[#071425] text-center">
-                Frequently Asked Questions
-              </h2>
+    <!-- FAQ -->
+    <div class="bg-white py-12 lg:py-16 pb-24 lg:pb-16">
+      <div class="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+          <h2 class="text-[28px] sm:text-[34px] leading-tight font-extrabold text-[#071b45] tracking-[-0.02em]">
+            Frequently Asked Questions
+          </h2>
+          <div class="w-[52px] h-[3px] bg-[#0057d8] mx-auto mt-4 rounded-full"></div>
+        </div>
 
-              <div class="mt-8 space-y-4">
-                ${faq
-                  .map(
-                    (item) => `
-                      <div class="rounded-[6px] border border-[#dfeaf7] bg-white p-5 shadow-[0_6px_20px_rgba(15,23,42,0.04)]">
-                        <h3 class="text-[17px] font-extrabold text-[#071425]">
-                          ${item.question}
-                        </h3>
-                        <p class="mt-2 text-[15px] leading-7 font-medium text-[#405068]">
-                          ${item.answer}
-                        </p>
-                      </div>
-                    `,
-                  )
-                  .join("")}
-              </div>
-            </div>
-          </div>
-        `
-        : ""
-    }
+        <div class="space-y-4">
+          ${faq
+            .map(
+              (faqItem) => `
+                <details class="group rounded-[16px] border border-[#dfeaf7] bg-white p-5 open:shadow-[0_12px_35px_rgba(15,23,42,0.08)]">
+                  <summary class="cursor-pointer list-none flex items-center justify-between gap-5">
+                    <span class="text-[16px] sm:text-[17px] font-extrabold text-[#071b45]">
+                      ${faqItem.question}
+                    </span>
+
+                    <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#eef6ff] text-xl font-bold text-[#0057d8] group-open:rotate-45 transition-transform">
+                      +
+                    </span>
+                  </summary>
+
+                  <p class="mt-4 text-[15px] leading-7 font-medium text-[#40516b]">
+                    ${faqItem.answer}
+                  </p>
+                </details>
+              `,
+            )
+            .join("")}
+        </div>
+      </div>
+    </div>
   `;
 }
 
@@ -466,7 +500,9 @@ function renderSubCategoryPage(category, subCategory) {
         : ""
     }
 
-    ${productsSection(`${subCategory.name} Products`, products)}
+   ${productsSection(`${subCategory.name} Products`, products)}
+
+${seoAndFaqHtml(subCategory)}
   `;
 }
 
@@ -507,6 +543,7 @@ function renderSubSubCategoryPage(category, subCategory, subSubCategory) {
     })}
 
     ${productsSection(`${subSubCategory.name} Products`, products)}
+    ${seoAndFaqHtml(subSubCategory)}
   `;
 }
 

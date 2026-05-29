@@ -4,7 +4,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { initReusablePages } from "./reusable-pages.js";
+ 
+
 import { initProjectsPage } from "./projects-page.js";
+import { initProjectDetailsPage } from "./project-details-page.js";
 
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
@@ -33,10 +36,11 @@ async function loadComponents() {
 
   initReusablePages();
   initProjectsPage();
+  initProjectDetailsPage();
   initHeroSlider();
   initProductSlider();
   initCategoryProductFilter();
-    initFooterYear();
+  initFooterYear();
 
   AOS.init({
     duration: 900,
