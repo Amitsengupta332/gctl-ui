@@ -3,7 +3,7 @@
 @source "../index.html";
 @source "../contact.html";
 @source "../projects.html";
-@source "../public/**/*.html";
+@source "../**/*.html";
 @source "./**/*.{js,css}";
 
 /* Product slider scrollbar hide */

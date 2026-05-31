@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { initReusablePages } from "./reusable-pages.js";
- 
 
 import { initProjectsPage } from "./projects-page.js";
 import { initProjectDetailsPage } from "./project-details-page.js";
@@ -452,22 +451,22 @@ function initProductMegaMenu() {
             {
               name: "IP Dome Camera",
               link: "/sub-ip-dome-camera.html",
-              img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-dome-camera-category-600x450.avif",
+              img: "/images/products/all-ip-camera-category-avif-600x450/ip-dome-camera-category-600x450.avif",
             },
             {
               name: "IP Bullet Camera",
               link: "/sub-ip-bullet-camera.html",
-              img: "/public/images/products/all-ip-camera-category-avif-600x450/ip-bullet-camera-category-600x450.avif",
+              img: "/images/products/all-ip-camera-category-avif-600x450/ip-bullet-camera-category-600x450.avif",
             },
             {
               name: "WiFi IP Camera",
               link: "/sub-wifi-ip-camera.html",
-              img: "/public/images/products/all-ip-camera-category-avif-600x450/wifi-ip-camera-category-600x450.avif",
+              img: "/images/products/all-ip-camera-category-avif-600x450/wifi-ip-camera-category-600x450.avif",
             },
             {
               name: "PoE IP Camera",
               link: "/sub-poe-ip-camera.html",
-              img: "/public/images/products/all-ip-camera-category-avif-600x450/poe-ip-camera-category-600x450.avif",
+              img: "/images/products/all-ip-camera-category-avif-600x450/poe-ip-camera-category-600x450.avif",
             },
           ],
         },
@@ -478,17 +477,17 @@ function initProductMegaMenu() {
             {
               name: "Fixed ANPR Camera",
               link: "/sub-fixed-anpr-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/fixed-anpr-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/fixed-anpr-camera.avif",
             },
             {
               name: "Parking ANPR Camera",
               link: "/sub-parking-anpr-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/parking-anpr-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/parking-anpr-camera.avif",
             },
             {
               name: "Traffic ANPR Camera",
               link: "/sub-traffic-anpr-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/traffic-anpr-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/anpr/traffic-anpr-camera.avif",
             },
           ],
         },
@@ -499,22 +498,22 @@ function initProductMegaMenu() {
             {
               name: "Face Recognition Camera",
               link: "/sub-face-recognition-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/face-recognition-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/face-recognition-camera.avif",
             },
             {
               name: "People Counting Camera",
               link: "/sub-people-counting-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/people-counting-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/people-counting-camera.avif",
             },
             {
               name: "Human Detection Camera",
               link: "/sub-human-detection-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/human-detection-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/human-detection-camera.avif",
             },
             {
               name: "Vehicle Detection Camera",
               link: "/sub-vehicle-detection-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/vehicle-detection-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/ai-camera/vehicle-detection-camera.avif",
             },
           ],
         },
@@ -525,12 +524,12 @@ function initProductMegaMenu() {
             {
               name: "Thermal Temperature Camera",
               link: "/sub-thermal-temperature-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/thermal-temperature-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/thermal-temperature-camera.avif",
             },
             {
               name: "Face Temperature Camera",
               link: "/sub-face-temperature-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/face-temperature-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/Body-Temperature/face-temperature-camera.avif",
             },
           ],
         },
@@ -541,22 +540,22 @@ function initProductMegaMenu() {
             {
               name: "4 Channel NVR",
               link: "/sub-4-channel-nvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/4-channel-nvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/4-channel-nvr.avif",
             },
             {
               name: "8 Channel NVR",
               link: "/sub-8-channel-nvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/8-channel-nvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/8-channel-nvr.avif",
             },
             {
               name: "16 Channel NVR",
               link: "/sub-16-channel-nvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/16-channel-nvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/16-channel-nvr.avif",
             },
             {
               name: "32 Channel NVR",
               link: "/sub-32-channel-nvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/32-channel-nvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/nvr/32-channel-nvr.avif",
             },
           ],
         },
@@ -567,17 +566,17 @@ function initProductMegaMenu() {
             {
               name: "4 Channel DVR",
               link: "/sub-4-channel-dvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/4-channel-dvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/4-channel-dvr.avif",
             },
             {
               name: "8 Channel DVR",
               link: "/sub-8-channel-dvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/8-channel-dvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/8-channel-dvr.avif",
             },
             {
               name: "16 Channel DVR",
               link: "/sub-16-channel-dvr.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/16-channel-dvr.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/dvr/16-channel-dvr.avif",
             },
           ],
         },
@@ -588,22 +587,22 @@ function initProductMegaMenu() {
             {
               name: "CCTV Cable",
               link: "/sub-cctv-cable.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-cable.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-cable.avif",
             },
             {
               name: "CCTV Power Supply",
               link: "/sub-cctv-power-supply.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-power-supply.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-power-supply.avif",
             },
             {
               name: "CCTV Bracket",
               link: "/sub-cctv-bracket.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-bracket.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-bracket.avif",
             },
             {
               name: "CCTV Connector",
               link: "/sub-cctv-connector.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-connector.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cctv-camera-accessories/cctv-connector.avif",
             },
           ],
         },
@@ -614,12 +613,12 @@ function initProductMegaMenu() {
             {
               name: "Indoor CC Camera",
               link: "/sub-indoor-cc-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/indoor-cc-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/indoor-cc-camera.avif",
             },
             {
               name: "Outdoor CC Camera",
               link: "/sub-outdoor-cc-camera.html",
-              img: "/public/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/indoor-cc-camera.avif",
+              img: "/images/sub-sub-categories/cctv-surveillance-sub-sub/cc-camera/indoor-cc-camera.avif",
             },
           ],
         },
@@ -637,17 +636,17 @@ function initProductMegaMenu() {
             {
               name: "Residential Sliding Gate Motor",
               link: "/sub-residential-sliding-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/residential_sliding_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/sliding-gate-motor/residential_sliding_gate_motor.avif",
             },
             {
               name: "Industrial Sliding Gate Motor",
               link: "/sub-industrial-sliding-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/industrial_sliding_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/sliding-gate-motor/industrial_sliding_gate_motor.avif",
             },
             {
               name: "Heavy Duty Sliding Gate Motor",
               link: "/sub-heavy-duty-sliding-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/sliding-gate-motor/heavy_duty_sliding_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/sliding-gate-motor/heavy_duty_sliding_gate_motor.avif",
             },
           ],
         },
@@ -658,17 +657,17 @@ function initProductMegaMenu() {
             {
               name: "Single Leaf Swing Gate Motor",
               link: "/sub-single-leaf-swing-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/single_leaf_swing_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/swing-gate-motor/single_leaf_swing_gate_motor.avif",
             },
             {
               name: "Double Leaf Swing Gate Motor",
               link: "/sub-double-leaf-swing-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/double_leaf_swing_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/swing-gate-motor/double_leaf_swing_gate_motor.avif",
             },
             {
               name: "Underground Swing Gate Motor",
               link: "/sub-underground-swing-gate-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/swing-gate-motor/underground_swing_gate_motor.avif",
+              img: "/images/sub-sub-categories/automation-products/swing-gate-motor/underground_swing_gate_motor.avif",
             },
           ],
         },
@@ -679,17 +678,17 @@ function initProductMegaMenu() {
             {
               name: "Sensor Sliding Glass Door",
               link: "/sub-sensor-sliding-glass-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/sensor-sliding-glass-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automatic-glassdoor/sensor-sliding-glass-door.avif",
             },
             {
               name: "Telescopic Glass Door",
               link: "/sub-telescopic-glass-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/telescopic-glass-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automatic-glassdoor/telescopic-glass-door.avif",
             },
             {
               name: "Glass Door Accessories",
               link: "/sub-glass-door-accessories.html",
-              img: "/public/images/sub-sub-categories/automation-products/automatic-glassdoor/glass-door-accessories.avif",
+              img: "/images/sub-sub-categories/automation-products/automatic-glassdoor/glass-door-accessories.avif",
             },
           ],
         },
@@ -700,12 +699,12 @@ function initProductMegaMenu() {
             {
               name: "Sectional Garage Door",
               link: "/sub-sectional-garage-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-garage-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-garage-door.avif",
             },
             {
               name: "Rolling Garage Door",
               link: "/sub-rolling-garage-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/rolling-garage-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/rolling-garage-door.avif",
             },
           ],
         },
@@ -716,12 +715,12 @@ function initProductMegaMenu() {
             {
               name: "AC Rolling Shutter Motor",
               link: "/sub-ac-rolling-shutter-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/ac-rolling-shutter-motor.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/ac-rolling-shutter-motor.avif",
             },
             {
               name: "DC Rolling Shutter Motor",
               link: "/sub-dc-rolling-shutter-motor.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/dc-rolling-shutter-motor.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/dc-rolling-shutter-motor.avif",
             },
           ],
         },
@@ -732,12 +731,12 @@ function initProductMegaMenu() {
             {
               name: "Sliding Sensor Door",
               link: "/sub-sliding-sensor-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sliding-sensor-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sliding-sensor-door.avif",
             },
             {
               name: "Swing Sensor Door",
               link: "/sub-swing-sensor-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/swing-sensor-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/swing-sensor-door.avif",
             },
           ],
         },
@@ -748,12 +747,12 @@ function initProductMegaMenu() {
             {
               name: "Hydraulic Road Blocker",
               link: "/sub-hydraulic-road-blocker.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/hydraulic-road-blocker.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/hydraulic-road-blocker.avif",
             },
             {
               name: "Automatic Road Blocker",
               link: "/sub-automatic-road-blocker.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/automatic-road-blocker.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/automatic-road-blocker.avif",
             },
           ],
         },
@@ -764,12 +763,12 @@ function initProductMegaMenu() {
             {
               name: "High Speed Door",
               link: "/sub-high-speed-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/high-speed-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/high-speed-door.avif",
             },
             {
               name: "Sectional Industrial Door",
               link: "/sub-sectional-industrial-door.html",
-              img: "/public/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-industrial-door.avif",
+              img: "/images/sub-sub-categories/automation-products/automation-products-sub-sub-category-avif-600x450/sectional-industrial-door.avif",
             },
           ],
         },
@@ -787,17 +786,17 @@ function initProductMegaMenu() {
             {
               name: "Single Zone Metal Detector",
               link: "/sub-single-zone-metal-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
             },
             {
               name: "Multi Zone Metal Detector",
               link: "/sub-multi-zone-metal-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
             },
             {
               name: "Weatherproof Metal Detector",
               link: "/sub-weatherproof-metal-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
             },
           ],
         },
@@ -808,12 +807,12 @@ function initProductMegaMenu() {
             {
               name: "Rechargeable Hand Held Detector",
               link: "/sub-rechargeable-hand-held-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
             },
             {
               name: "Portable Hand Held Detector",
               link: "/sub-portable-hand-held-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
             },
           ],
         },
@@ -824,17 +823,17 @@ function initProductMegaMenu() {
             {
               name: "Small Baggage Scanner",
               link: "/sub-small-baggage-scanner.html",
-              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
+              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
             },
             {
               name: "Medium Baggage Scanner",
               link: "/sub-medium-baggage-scanner.html",
-              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
+              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
             },
             {
               name: "Large Baggage Scanner",
               link: "/sub-large-baggage-scanner.html",
-              img: "/public/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
+              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
             },
           ],
         },
@@ -845,12 +844,12 @@ function initProductMegaMenu() {
             {
               name: "Fixed Under Vehicle Scanner",
               link: "/sub-fixed-under-vehicle-scanner.html",
-              img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
+              img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
             },
             {
               name: "Portable Under Vehicle Scanner",
               link: "/sub-portable-under-vehicle-scanner.html",
-              img: "/public/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
+              img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
             },
           ],
         },
@@ -861,12 +860,12 @@ function initProductMegaMenu() {
             {
               name: "Portable Explosive Detector",
               link: "/sub-portable-explosive-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
             },
             {
               name: "Trace Explosive Detector",
               link: "/sub-trace-explosive-detector.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
             },
           ],
         },
@@ -877,12 +876,12 @@ function initProductMegaMenu() {
             {
               name: "Visitor Registration Kiosk",
               link: "/sub-visitor-registration-kiosk.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
             },
             {
               name: "Visitor Pass System",
               link: "/sub-visitor-pass-system.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
             },
           ],
         },
@@ -893,12 +892,12 @@ function initProductMegaMenu() {
             {
               name: "Inspection Mirror",
               link: "/sub-inspection-mirror.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
             },
             {
               name: "Security Screening Kit",
               link: "/sub-security-screening-kit.html",
-              img: "/public/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
+              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
             },
           ],
         },
@@ -916,17 +915,17 @@ function initProductMegaMenu() {
             {
               name: "Face Recognition Camera",
               link: "/sub-face-recognition-camera.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Camera.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Camera.avif",
             },
             {
               name: "Face Recognition Terminal",
               link: "/sub-face-recognition-terminal.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Terminal.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Terminal.avif",
             },
             {
               name: "Face Recognition Software",
               link: "/sub-face-recognition-software.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Software.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Face Recognition Software.avif",
             },
           ],
         },
@@ -937,17 +936,17 @@ function initProductMegaMenu() {
             {
               name: "People Counting Camera",
               link: "/sub-people-counting-camera.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/People Counting Camera.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/People Counting Camera.avif",
             },
             {
               name: "Visitor Counting System",
               link: "/sub-visitor-counting-system.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Visitor Counting System.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Visitor Counting System.avif",
             },
             {
               name: "Occupancy Monitoring System",
               link: "/sub-occupancy-monitoring-system.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Occupancy Monitoring System.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Occupancy Monitoring System.avif",
             },
           ],
         },
@@ -958,17 +957,17 @@ function initProductMegaMenu() {
             {
               name: "Fence Intrusion Detection",
               link: "/sub-fence-intrusion-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Fence Intrusion Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Fence Intrusion Detection.avif",
             },
             {
               name: "Restricted Area Detection",
               link: "/sub-restricted-area-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Restricted Area Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Restricted Area Detection.avif",
             },
             {
               name: "AI Perimeter Camera",
               link: "/sub-ai-perimeter-camera.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/AI Perimeter Camera.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/AI Perimeter Camera.avif",
             },
           ],
         },
@@ -979,12 +978,12 @@ function initProductMegaMenu() {
             {
               name: "Virtual Line Crossing",
               link: "/sub-virtual-line-crossing.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Virtual Line Crossing.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Virtual Line Crossing.avif",
             },
             {
               name: "Direction Detection",
               link: "/sub-direction-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Direction Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Direction Detection.avif",
             },
           ],
         },
@@ -995,17 +994,17 @@ function initProductMegaMenu() {
             {
               name: "Abandoned Object Detection",
               link: "/sub-abandoned-object-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Abandoned Object Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Abandoned Object Detection.avif",
             },
             {
               name: "Missing Object Detection",
               link: "/sub-missing-object-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Missing Object Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Missing Object Detection.avif",
             },
             {
               name: "Suspicious Object Detection",
               link: "/sub-suspicious-object-detection.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Suspicious Object Detection.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Suspicious Object Detection.avif",
             },
           ],
         },
@@ -1016,17 +1015,17 @@ function initProductMegaMenu() {
             {
               name: "Vehicle Detection System",
               link: "/sub-vehicle-detection-system.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Detection System.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Vehicle Detection System.avif",
             },
             {
               name: "Vehicle Counting System",
               link: "/sub-vehicle-counting-system.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Vehicle Counting System.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Vehicle Counting System.avif",
             },
             {
               name: "Traffic Flow Analytics",
               link: "/sub-traffic-flow-analytics.html",
-              img: "/public/images/sub-sub-categories/intelligent-video-analytics/Traffic Flow Analytics.avif",
+              img: "/images/sub-sub-categories/intelligent-video-analytics/Traffic Flow Analytics.avif",
             },
           ],
         },
@@ -1044,17 +1043,17 @@ function initProductMegaMenu() {
             {
               name: "Fingerprint Attendance Device",
               link: "/sub-fingerprint-attendance-device.html",
-              img: "/public/images/sub-sub-categories/access-control/Fingerprint Attendance Device.avif",
+              img: "/images/sub-sub-categories/access-control/Fingerprint Attendance Device.avif",
             },
             {
               name: "Face Attendance Device",
               link: "/sub-face-attendance-device.html",
-              img: "/public/images/sub-sub-categories/access-control/Face Attendance Device.avif",
+              img: "/images/sub-sub-categories/access-control/Face Attendance Device.avif",
             },
             {
               name: "Card Attendance Device",
               link: "/sub-card-attendance-device.html",
-              img: "/public/images/sub-sub-categories/access-control/Card Attendance Device.avif",
+              img: "/images/sub-sub-categories/access-control/Card Attendance Device.avif",
             },
           ],
         },
@@ -1065,17 +1064,17 @@ function initProductMegaMenu() {
             {
               name: "Single Door Access Control",
               link: "/sub-single-door-access-control.html",
-              img: "/public/images/sub-sub-categories/access-control/Single Door Access Control.avif",
+              img: "/images/sub-sub-categories/access-control/Single Door Access Control.avif",
             },
             {
               name: "Multi Door Access Control",
               link: "/sub-multi-door-access-control.html",
-              img: "/public/images/sub-sub-categories/access-control/Multi Door Access Control.avif",
+              img: "/images/sub-sub-categories/access-control/Multi Door Access Control.avif",
             },
             {
               name: "Network Access Controller",
               link: "/sub-network-access-controller.html",
-              img: "/public/images/sub-sub-categories/access-control/Network Access Controller.avif",
+              img: "/images/sub-sub-categories/access-control/Network Access Controller.avif",
             },
           ],
         },
@@ -1086,17 +1085,17 @@ function initProductMegaMenu() {
             {
               name: "Face Access Terminal",
               link: "/sub-face-access-terminal.html",
-              img: "/public/images/sub-sub-categories/access-control/Face Access Terminal.avif",
+              img: "/images/sub-sub-categories/access-control/Face Access Terminal.avif",
             },
             {
               name: "Mask Detection Access Control",
               link: "/sub-mask-detection-access-control.html",
-              img: "/public/images/sub-sub-categories/access-control/Mask Detection Access Control.avif",
+              img: "/images/sub-sub-categories/access-control/Mask Detection Access Control.avif",
             },
             {
               name: "Temperature Detection Terminal",
               link: "/sub-temperature-detection-terminal.html",
-              img: "/public/images/sub-sub-categories/access-control/Temperature Detection Terminal.avif",
+              img: "/images/sub-sub-categories/access-control/Temperature Detection Terminal.avif",
             },
           ],
         },
@@ -1107,17 +1106,17 @@ function initProductMegaMenu() {
             {
               name: "RFID Card Reader",
               link: "/sub-rfid-card-reader.html",
-              img: "/public/images/sub-sub-categories/access-control/RFID Card Reader.avif",
+              img: "/images/sub-sub-categories/access-control/RFID Card Reader.avif",
             },
             {
               name: "RFID Access Card",
               link: "/sub-rfid-access-card.html",
-              img: "/public/images/sub-sub-categories/access-control/RFID Access Card.avif",
+              img: "/images/sub-sub-categories/access-control/RFID Access Card.avif",
             },
             {
               name: "RFID Key Fob",
               link: "/sub-rfid-key-fob.html",
-              img: "/public/images/sub-sub-categories/access-control/RFID Key Fob.avif",
+              img: "/images/sub-sub-categories/access-control/RFID Key Fob.avif",
             },
           ],
         },
@@ -1128,17 +1127,17 @@ function initProductMegaMenu() {
             {
               name: "Magnetic Door Lock",
               link: "/sub-magnetic-door-lock.html",
-              img: "/public/images/sub-sub-categories/access-control/Magnetic Door Lock.avif",
+              img: "/images/sub-sub-categories/access-control/Magnetic Door Lock.avif",
             },
             {
               name: "Electric Bolt Lock",
               link: "/sub-electric-bolt-lock.html",
-              img: "/public/images/sub-sub-categories/access-control/Electric Bolt Lock.avif",
+              img: "/images/sub-sub-categories/access-control/Electric Bolt Lock.avif",
             },
             {
               name: "Door Exit Button",
               link: "/sub-door-exit-button.html",
-              img: "/public/images/sub-sub-categories/access-control/Door Exit Button.avif",
+              img: "/images/sub-sub-categories/access-control/Door Exit Button.avif",
             },
           ],
         },
@@ -1149,12 +1148,12 @@ function initProductMegaMenu() {
             {
               name: "Employee Attendance Software",
               link: "/sub-employee-attendance-software.html",
-              img: "/public/images/sub-sub-categories/access-control/Employee Attendance Software.avif",
+              img: "/images/sub-sub-categories/access-control/Employee Attendance Software.avif",
             },
             {
               name: "Cloud Attendance Software",
               link: "/sub-cloud-attendance-software.html",
-              img: "/public/images/sub-sub-categories/access-control/Cloud Attendance Software.avif",
+              img: "/images/sub-sub-categories/access-control/Cloud Attendance Software.avif",
             },
           ],
         },
@@ -1172,17 +1171,17 @@ function initProductMegaMenu() {
             {
               name: "Conventional Fire Alarm Panel",
               link: "/sub-conventional-fire-alarm-panel.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Fire Alarm Panel.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Conventional Fire Alarm Panel.avif",
             },
             {
               name: "Conventional Smoke Detector",
               link: "/sub-conventional-smoke-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Smoke Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Conventional Smoke Detector.avif",
             },
             {
               name: "Conventional Heat Detector",
               link: "/sub-conventional-heat-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Conventional Heat Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Conventional Heat Detector.avif",
             },
           ],
         },
@@ -1193,17 +1192,17 @@ function initProductMegaMenu() {
             {
               name: "Addressable Fire Alarm Panel",
               link: "/sub-addressable-fire-alarm-panel.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Fire Alarm Panel.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Addressable Fire Alarm Panel.avif",
             },
             {
               name: "Addressable Smoke Detector",
               link: "/sub-addressable-smoke-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Smoke Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Addressable Smoke Detector.avif",
             },
             {
               name: "Addressable Heat Detector",
               link: "/sub-addressable-heat-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Addressable Heat Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Addressable Heat Detector.avif",
             },
           ],
         },
@@ -1214,17 +1213,17 @@ function initProductMegaMenu() {
             {
               name: "2 Zone Fire Alarm Panel",
               link: "/sub-2-zone-fire-alarm-panel.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/2 Zone Fire Alarm Panel.avif",
+              img: "/images/sub-sub-categories/fire-alarm/2 Zone Fire Alarm Panel.avif",
             },
             {
               name: "4 Zone Fire Alarm Panel",
               link: "/sub-4-zone-fire-alarm-panel.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/4 Zone Fire Alarm Panel.avif",
+              img: "/images/sub-sub-categories/fire-alarm/4 Zone Fire Alarm Panel.avif",
             },
             {
               name: "8 Zone Fire Alarm Panel",
               link: "/sub-8-zone-fire-alarm-panel.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/8 Zone Fire Alarm Panel.avif",
+              img: "/images/sub-sub-categories/fire-alarm/8 Zone Fire Alarm Panel.avif",
             },
           ],
         },
@@ -1235,12 +1234,12 @@ function initProductMegaMenu() {
             {
               name: "Optical Smoke Detector",
               link: "/sub-optical-smoke-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Optical Smoke Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Optical Smoke Detector.avif",
             },
             {
               name: "Photoelectric Smoke Detector",
               link: "/sub-photoelectric-smoke-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Photoelectric Smoke Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Photoelectric Smoke Detector.avif",
             },
           ],
         },
@@ -1251,12 +1250,12 @@ function initProductMegaMenu() {
             {
               name: "Fixed Temperature Heat Detector",
               link: "/sub-fixed-temperature-heat-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Fixed Temperature Heat Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Fixed Temperature Heat Detector.avif",
             },
             {
               name: "Rate of Rise Heat Detector",
               link: "/sub-rate-of-rise-heat-detector.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Rate of Rise Heat Detector.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Rate of Rise Heat Detector.avif",
             },
           ],
         },
@@ -1267,12 +1266,12 @@ function initProductMegaMenu() {
             {
               name: "Break Glass Call Point",
               link: "/sub-break-glass-call-point.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Break Glass Call Point.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Break Glass Call Point.avif",
             },
             {
               name: "Resettable Call Point",
               link: "/sub-resettable-call-point.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Resettable Call Point.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Resettable Call Point.avif",
             },
           ],
         },
@@ -1283,12 +1282,12 @@ function initProductMegaMenu() {
             {
               name: "Fire Alarm Sounder",
               link: "/sub-fire-alarm-sounder.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Sounder.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Fire Alarm Sounder.avif",
             },
             {
               name: "Fire Alarm Strobe",
               link: "/sub-fire-alarm-strobe.html",
-              img: "/public/images/sub-sub-categories/fire-alarm/Fire Alarm Strobe.avif",
+              img: "/images/sub-sub-categories/fire-alarm/Fire Alarm Strobe.avif",
             },
           ],
         },
@@ -1305,12 +1304,12 @@ function initProductMegaMenu() {
             {
               name: "Manual Tripod Turnstile",
               link: "/sub-manual-tripod-turnstile.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Manual Tripod Turnstile.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Manual Tripod Turnstile.avif",
             },
             {
               name: "Automatic Tripod Turnstile",
               link: "/sub-automatic-tripod-turnstile.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Automatic Tripod Turnstile.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Automatic Tripod Turnstile.avif",
             },
           ],
         },
@@ -1321,12 +1320,12 @@ function initProductMegaMenu() {
             {
               name: "Single Lane Flap Barrier",
               link: "/sub-single-lane-flap-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Lane Flap Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Single Lane Flap Barrier.avif",
             },
             {
               name: "Double Lane Flap Barrier",
               link: "/sub-double-lane-flap-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/flap_barrier_gate.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/flap_barrier_gate.avif",
             },
           ],
         },
@@ -1337,12 +1336,12 @@ function initProductMegaMenu() {
             {
               name: "Single Swing Barrier",
               link: "/sub-single-swing-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Swing Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Single Swing Barrier.avif",
             },
             {
               name: "Double Swing Barrier",
               link: "/sub-double-swing-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Swing Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Double Swing Barrier.avif",
             },
           ],
         },
@@ -1353,12 +1352,12 @@ function initProductMegaMenu() {
             {
               name: "Single Full Height Turnstile",
               link: "/sub-single-full-height-turnstile.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Single Full Height Turnstile.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Single Full Height Turnstile.avif",
             },
             {
               name: "Double Full Height Turnstile",
               link: "/sub-double-full-height-turnstile.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Double Full Height Turnstile.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Double Full Height Turnstile.avif",
             },
           ],
         },
@@ -1369,12 +1368,12 @@ function initProductMegaMenu() {
             {
               name: "Straight Arm Boom Barrier",
               link: "/sub-straight-arm-boom-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Straight Arm Boom Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Straight Arm Boom Barrier.avif",
             },
             {
               name: "Folding Arm Boom Barrier",
               link: "/sub-folding-arm-boom-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/Folding Arm Boom Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/Folding Arm Boom Barrier.avif",
             },
           ],
         },
@@ -1385,12 +1384,12 @@ function initProductMegaMenu() {
             {
               name: "RFID Parking Barrier",
               link: "/sub-rfid-parking-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Parking Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/RFID Parking Barrier.avif",
             },
             {
               name: "ANPR Parking Barrier",
               link: "/sub-anpr-parking-barrier.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/ANPR Parking Barrier.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/ANPR Parking Barrier.avif",
             },
           ],
         },
@@ -1401,12 +1400,12 @@ function initProductMegaMenu() {
             {
               name: "QR Ticketing Gate",
               link: "/sub-qr-ticketing-gate.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/QR Ticketing Gate.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/QR Ticketing Gate.avif",
             },
             {
               name: "RFID Ticketing Gate",
               link: "/sub-rfid-ticketing-gate.html",
-              img: "/public/images/sub-sub-categories/Turnstile-Gate/RFID Ticketing Gate.avif",
+              img: "/images/sub-sub-categories/Turnstile-Gate/RFID Ticketing Gate.avif",
             },
           ],
         },
@@ -1424,12 +1423,12 @@ function initProductMegaMenu() {
             {
               name: "P2 Indoor LED Display",
               link: "/sub-p2-indoor-led-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p2-indoor-led-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/p2-indoor-led-display.avif",
             },
             {
               name: "P3 Indoor LED Display",
               link: "/sub-p3-indoor-led-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p3-indoor-led-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/p3-indoor-led-display.avif",
             },
           ],
         },
@@ -1440,12 +1439,12 @@ function initProductMegaMenu() {
             {
               name: "P4 Outdoor LED Display",
               link: "/sub-p4-outdoor-led-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p4-outdoor-led-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/p4-outdoor-led-display.avif",
             },
             {
               name: "P5 Outdoor LED Display",
               link: "/sub-p5-outdoor-led-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/p5-outdoor-led-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/p5-outdoor-led-display.avif",
             },
           ],
         },
@@ -1456,12 +1455,12 @@ function initProductMegaMenu() {
             {
               name: "Touch Kiosk",
               link: "/sub-touch-kiosk.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/touch-kiosk.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/touch-kiosk.avif",
             },
             {
               name: "Self Service Kiosk",
               link: "/sub-self-service-kiosk.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/self-service-kiosk.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/self-service-kiosk.avif",
             },
           ],
         },
@@ -1472,12 +1471,12 @@ function initProductMegaMenu() {
             {
               name: "LCD Video Wall",
               link: "/sub-lcd-video-wall.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/lcd-video-wall.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/lcd-video-wall.avif",
             },
             {
               name: "LED Video Wall",
               link: "/sub-led-video-wall.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/led-video-wall.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/led-video-wall.avif",
             },
           ],
         },
@@ -1488,12 +1487,12 @@ function initProductMegaMenu() {
             {
               name: "Android Signage Player",
               link: "/sub-android-signage-player.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/android-signage-player.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/android-signage-player.avif",
             },
             {
               name: "Windows Signage Player",
               link: "/sub-windows-signage-player.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/windows-signage-player.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/windows-signage-player.avif",
             },
           ],
         },
@@ -1504,12 +1503,12 @@ function initProductMegaMenu() {
             {
               name: "Floor Standing Display",
               link: "/sub-floor-standing-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/floor-standing-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/floor-standing-display.avif",
             },
             {
               name: "Wall Mounted Display",
               link: "/sub-wall-mounted-display.html",
-              img: "/public/images/sub-sub-categories/lcd-led-digital-signage/wall-mounted-display.avif",
+              img: "/images/sub-sub-categories/lcd-led-digital-signage/wall-mounted-display.avif",
             },
           ],
         },
@@ -1527,17 +1526,17 @@ function initProductMegaMenu() {
             {
               name: "Basic Token Machine",
               link: "/sub-basic-token-machine.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Basic Token Machine.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Basic Token Machine.avif",
             },
             {
               name: "Touch Token Machine",
               link: "/sub-touch-token-machine.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Touch Token Machine.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Touch Token Machine.avif",
             },
             {
               name: "Kiosk Token Machine",
               link: "/sub-kiosk-token-machine.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Kiosk Token Machine.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Kiosk Token Machine.avif",
             },
           ],
         },
@@ -1548,12 +1547,12 @@ function initProductMegaMenu() {
             {
               name: "Counter Display",
               link: "/sub-counter-display.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Counter Display.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Counter Display.avif",
             },
             {
               name: "Main Queue Display",
               link: "/sub-main-queue-display.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Main Queue Display.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Main Queue Display.avif",
             },
           ],
         },
@@ -1564,12 +1563,12 @@ function initProductMegaMenu() {
             {
               name: "Wireless Calling System",
               link: "/sub-wireless-calling-system.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Wireless Calling System.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Wireless Calling System.avif",
             },
             {
               name: "Software Calling System",
               link: "/sub-software-calling-system.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Software Calling System.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Software Calling System.avif",
             },
           ],
         },
@@ -1580,12 +1579,12 @@ function initProductMegaMenu() {
             {
               name: "LED Counter Display",
               link: "/sub-led-counter-display.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/LED Counter Display.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/LED Counter Display.avif",
             },
             {
               name: "LCD Counter Display",
               link: "/sub-lcd-counter-display.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/LCD Counter Display.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/LCD Counter Display.avif",
             },
           ],
         },
@@ -1596,12 +1595,12 @@ function initProductMegaMenu() {
             {
               name: "Cloud Queue Software",
               link: "/sub-cloud-queue-software.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Cloud Queue Software.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Cloud Queue Software.avif",
             },
             {
               name: "Local Queue Software",
               link: "/sub-local-queue-software.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Local Queue Software.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Local Queue Software.avif",
             },
           ],
         },
@@ -1612,12 +1611,12 @@ function initProductMegaMenu() {
             {
               name: "Feedback Kiosk",
               link: "/sub-feedback-kiosk.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Kiosk.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Feedback Kiosk.avif",
             },
             {
               name: "Feedback Software",
               link: "/sub-feedback-software.html",
-              img: "/public/images/sub-sub-categories/queue_management_avif_images/Feedback Software.avif",
+              img: "/images/sub-sub-categories/queue_management_avif_images/Feedback Software.avif",
             },
           ],
         },
@@ -1635,17 +1634,17 @@ function initProductMegaMenu() {
             {
               name: "Ticket Parking System",
               link: "/sub-ticket-parking-system.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Ticket Parking System.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Ticket Parking System.avif",
             },
             {
               name: "RFID Parking System",
               link: "/sub-rfid-parking-system.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Parking System.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/RFID Parking System.avif",
             },
             {
               name: "ANPR Parking System",
               link: "/sub-anpr-parking-system.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Parking System.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/ANPR Parking System.avif",
             },
           ],
         },
@@ -1656,12 +1655,12 @@ function initProductMegaMenu() {
             {
               name: "Indoor Parking Guidance",
               link: "/sub-indoor-parking-guidance.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Indoor Parking Guidance.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Indoor Parking Guidance.avif",
             },
             {
               name: "Outdoor Parking Guidance",
               link: "/sub-outdoor-parking-guidance.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Outdoor Parking Guidance.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Outdoor Parking Guidance.avif",
             },
           ],
         },
@@ -1672,12 +1671,12 @@ function initProductMegaMenu() {
             {
               name: "RFID Long Range Reader",
               link: "/sub-rfid-long-range-reader.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Long Range Reader.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/RFID Long Range Reader.avif",
             },
             {
               name: "RFID Vehicle Tag",
               link: "/sub-rfid-vehicle-tag.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/RFID Vehicle Tag.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/RFID Vehicle Tag.avif",
             },
           ],
         },
@@ -1688,12 +1687,12 @@ function initProductMegaMenu() {
             {
               name: "ANPR Entry System",
               link: "/sub-anpr-entry-system.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Entry System.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/ANPR Entry System.avif",
             },
             {
               name: "ANPR Exit System",
               link: "/sub-anpr-exit-system.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/ANPR Exit System.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/ANPR Exit System.avif",
             },
           ],
         },
@@ -1704,12 +1703,12 @@ function initProductMegaMenu() {
             {
               name: "Single Channel Loop Detector",
               link: "/sub-single-channel-loop-detector.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Single Channel Loop Detector.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Single Channel Loop Detector.avif",
             },
             {
               name: "Dual Channel Loop Detector",
               link: "/sub-dual-channel-loop-detector.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Dual Channel Loop Detector.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Dual Channel Loop Detector.avif",
             },
           ],
         },
@@ -1720,12 +1719,12 @@ function initProductMegaMenu() {
             {
               name: "Cash Payment Kiosk",
               link: "/sub-cash-payment-kiosk.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Cash Payment Kiosk.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Cash Payment Kiosk.avif",
             },
             {
               name: "Card Payment Kiosk",
               link: "/sub-card-payment-kiosk.html",
-              img: "/public/images/sub-sub-categories/vehicle-control-system/Card Payment Kiosk.avif",
+              img: "/images/sub-sub-categories/vehicle-control-system/Card Payment Kiosk.avif",
             },
           ],
         },
@@ -1743,12 +1742,12 @@ function initProductMegaMenu() {
             {
               name: "Wired Conference Microphone",
               link: "/sub-wired-conference-microphone.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Wired Conference Microphone.avif",
+              img: "/images/sub-sub-categories/conference-pa/Wired Conference Microphone.avif",
             },
             {
               name: "Wireless Conference Microphone",
               link: "/sub-wireless-conference-microphone.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Wireless Conference Microphone.avif",
+              img: "/images/sub-sub-categories/conference-pa/Wireless Conference Microphone.avif",
             },
           ],
         },
@@ -1759,12 +1758,12 @@ function initProductMegaMenu() {
             {
               name: "Wall Mount PA Speaker",
               link: "/sub-wall-mount-pa-speaker.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Wall Mount PA Speaker.avif",
+              img: "/images/sub-sub-categories/conference-pa/Wall Mount PA Speaker.avif",
             },
             {
               name: "Ceiling PA Speaker",
               link: "/sub-ceiling-pa-speaker.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Ceiling PA Speaker.avif",
+              img: "/images/sub-sub-categories/conference-pa/Ceiling PA Speaker.avif",
             },
           ],
         },
@@ -1775,12 +1774,12 @@ function initProductMegaMenu() {
             {
               name: "Mixer Amplifier",
               link: "/sub-mixer-amplifier.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Mixer Amplifier.avif",
+              img: "/images/sub-sub-categories/conference-pa/Mixer Amplifier.avif",
             },
             {
               name: "Power Amplifier",
               link: "/sub-power-amplifier.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Power Amplifier.avif",
+              img: "/images/sub-sub-categories/conference-pa/Power Amplifier.avif",
             },
           ],
         },
@@ -1791,12 +1790,12 @@ function initProductMegaMenu() {
             {
               name: "Handheld Wireless Microphone",
               link: "/sub-handheld-wireless-microphone.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Handheld Wireless Microphone.avif",
+              img: "/images/sub-sub-categories/conference-pa/Handheld Wireless Microphone.avif",
             },
             {
               name: "Lapel Wireless Microphone",
               link: "/sub-lapel-wireless-microphone.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Lapel Wireless Microphone.avif",
+              img: "/images/sub-sub-categories/conference-pa/Lapel Wireless Microphone.avif",
             },
           ],
         },
@@ -1807,12 +1806,12 @@ function initProductMegaMenu() {
             {
               name: "Small Meeting Room Audio",
               link: "/sub-small-meeting-room-audio.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Small Meeting Room Audio.avif",
+              img: "/images/sub-sub-categories/conference-pa/Small Meeting Room Audio.avif",
             },
             {
               name: "Large Meeting Room Audio",
               link: "/sub-large-meeting-room-audio.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Large Meeting Room Audio.avif",
+              img: "/images/sub-sub-categories/conference-pa/Large Meeting Room Audio.avif",
             },
           ],
         },
@@ -1823,12 +1822,12 @@ function initProductMegaMenu() {
             {
               name: "Zone PA System",
               link: "/sub-zone-pa-system.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Zone PA System.avif",
+              img: "/images/sub-sub-categories/conference-pa/Zone PA System.avif",
             },
             {
               name: "Emergency PA System",
               link: "/sub-emergency-pa-system.html",
-              img: "/public/images/sub-sub-categories/conference-pa/Emergency PA System.avif",
+              img: "/images/sub-sub-categories/conference-pa/Emergency PA System.avif",
             },
           ],
         },
@@ -1846,12 +1845,12 @@ function initProductMegaMenu() {
             {
               name: "BMS Controller",
               link: "/sub-bms-controller.html",
-              img: "/public/images/sub-sub-categories/building-automation/BMS Controller.avif",
+              img: "/images/sub-sub-categories/building-automation/BMS Controller.avif",
             },
             {
               name: "BMS Monitoring Software",
               link: "/sub-bms-monitoring-software.html",
-              img: "/public/images/sub-sub-categories/building-automation/BMS Monitoring Software.avif",
+              img: "/images/sub-sub-categories/building-automation/BMS Monitoring Software.avif",
             },
           ],
         },
@@ -1862,12 +1861,12 @@ function initProductMegaMenu() {
             {
               name: "Dimming Control",
               link: "/sub-dimming-control.html",
-              img: "/public/images/sub-sub-categories/building-automation/Dimming Control.avif",
+              img: "/images/sub-sub-categories/building-automation/Dimming Control.avif",
             },
             {
               name: "Motion Lighting Control",
               link: "/sub-motion-lighting-control.html",
-              img: "/public/images/sub-sub-categories/building-automation/Motion Lighting Control.avif",
+              img: "/images/sub-sub-categories/building-automation/Motion Lighting Control.avif",
             },
           ],
         },
@@ -1878,12 +1877,12 @@ function initProductMegaMenu() {
             {
               name: "Thermostat Control",
               link: "/sub-thermostat-control.html",
-              img: "/public/images/sub-sub-categories/building-automation/Thermostat Control.avif",
+              img: "/images/sub-sub-categories/building-automation/Thermostat Control.avif",
             },
             {
               name: "AHU Control",
               link: "/sub-ahu-control.html",
-              img: "/public/images/sub-sub-categories/building-automation/AHU Control.avif",
+              img: "/images/sub-sub-categories/building-automation/AHU Control.avif",
             },
           ],
         },
@@ -1894,12 +1893,12 @@ function initProductMegaMenu() {
             {
               name: "Energy Meter",
               link: "/sub-energy-meter.html",
-              img: "/public/images/sub-sub-categories/building-automation/Energy Meter.avif",
+              img: "/images/sub-sub-categories/building-automation/Energy Meter.avif",
             },
             {
               name: "Energy Monitoring Software",
               link: "/sub-energy-monitoring-software.html",
-              img: "/public/images/sub-sub-categories/building-automation/Energy Monitoring Software.avif",
+              img: "/images/sub-sub-categories/building-automation/Energy Monitoring Software.avif",
             },
           ],
         },
@@ -1910,12 +1909,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Building Controller",
               link: "/sub-smart-building-controller.html",
-              img: "/public/images/sub-sub-categories/building-automation/Smart Building Controller.avif",
+              img: "/images/sub-sub-categories/building-automation/Smart Building Controller.avif",
             },
             {
               name: "Smart Building Dashboard",
               link: "/sub-smart-building-dashboard.html",
-              img: "/public/images/sub-sub-categories/building-automation/Smart Building Dashboard.avif",
+              img: "/images/sub-sub-categories/building-automation/Smart Building Dashboard.avif",
             },
           ],
         },
@@ -1926,12 +1925,12 @@ function initProductMegaMenu() {
             {
               name: "Central Monitoring Software",
               link: "/sub-central-monitoring-software.html",
-              img: "/public/images/sub-sub-categories/building-automation/Central Monitoring Software.avif",
+              img: "/images/sub-sub-categories/building-automation/Central Monitoring Software.avif",
             },
             {
               name: "Monitoring Workstation",
               link: "/sub-monitoring-workstation.html",
-              img: "/public/images/sub-sub-categories/building-automation/Monitoring Workstation.avif",
+              img: "/images/sub-sub-categories/building-automation/Monitoring Workstation.avif",
             },
           ],
         },
@@ -1948,17 +1947,17 @@ function initProductMegaMenu() {
             {
               name: "Fingerprint Smart Lock",
               link: "/sub-fingerprint-smart-lock.html",
-              img: "/public/images/sub-sub-categories/smart-home/Fingerprint Smart Lock.avif",
+              img: "/images/sub-sub-categories/smart-home/Fingerprint Smart Lock.avif",
             },
             {
               name: "WiFi Smart Lock",
               link: "/sub-wifi-smart-lock.html",
-              img: "/public/images/sub-sub-categories/smart-home/WiFi Smart Lock.avif",
+              img: "/images/sub-sub-categories/smart-home/WiFi Smart Lock.avif",
             },
             {
               name: "Card Smart Lock",
               link: "/sub-card-smart-lock.html",
-              img: "/public/images/sub-sub-categories/smart-home/Card Smart Lock.avif",
+              img: "/images/sub-sub-categories/smart-home/Card Smart Lock.avif",
             },
           ],
         },
@@ -1969,17 +1968,17 @@ function initProductMegaMenu() {
             {
               name: "One Gang Smart Switch",
               link: "/sub-one-gang-smart-switch.html",
-              img: "/public/images/sub-sub-categories/smart-home/One Gang Smart Switch.avif",
+              img: "/images/sub-sub-categories/smart-home/One Gang Smart Switch.avif",
             },
             {
               name: "Two Gang Smart Switch",
               link: "/sub-two-gang-smart-switch.html",
-              img: "/public/images/sub-sub-categories/smart-home/Two Gang Smart Switch.avif",
+              img: "/images/sub-sub-categories/smart-home/Two Gang Smart Switch.avif",
             },
             {
               name: "Three Gang Smart Switch",
               link: "/sub-three-gang-smart-switch.html",
-              img: "/public/images/sub-sub-categories/smart-home/Three Gang Smart Switch.avif",
+              img: "/images/sub-sub-categories/smart-home/Three Gang Smart Switch.avif",
             },
           ],
         },
@@ -1990,12 +1989,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Curtain Motor",
               link: "/sub-smart-curtain-motor.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Motor.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart Curtain Motor.avif",
             },
             {
               name: "Smart Curtain Track",
               link: "/sub-smart-curtain-track.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart Curtain Track.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart Curtain Track.avif",
             },
           ],
         },
@@ -2006,12 +2005,12 @@ function initProductMegaMenu() {
             {
               name: "Smart LED Bulb",
               link: "/sub-smart-led-bulb.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart LED Bulb.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart LED Bulb.avif",
             },
             {
               name: "Smart Strip Light",
               link: "/sub-smart-strip-light.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart Strip Light.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart Strip Light.avif",
             },
           ],
         },
@@ -2022,12 +2021,12 @@ function initProductMegaMenu() {
             {
               name: "Smart Motion Sensor",
               link: "/sub-smart-motion-sensor.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart Motion Sensor.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart Motion Sensor.avif",
             },
             {
               name: "Smart Door Sensor",
               link: "/sub-smart-door-sensor.html",
-              img: "/public/images/sub-sub-categories/smart-home/Smart Door Sensor.avif",
+              img: "/images/sub-sub-categories/smart-home/Smart Door Sensor.avif",
             },
           ],
         },
@@ -2038,12 +2037,12 @@ function initProductMegaMenu() {
             {
               name: "WiFi Automation Hub",
               link: "/sub-wifi-automation-hub.html",
-              img: "/public/images/sub-sub-categories/smart-home/WiFi Automation Hub.avif",
+              img: "/images/sub-sub-categories/smart-home/WiFi Automation Hub.avif",
             },
             {
               name: "Zigbee Automation Hub",
               link: "/sub-zigbee-automation-hub.html",
-              img: "/public/images/sub-sub-categories/smart-home/Zigbee Automation Hub.avif",
+              img: "/images/sub-sub-categories/smart-home/Zigbee Automation Hub.avif",
             },
           ],
         },

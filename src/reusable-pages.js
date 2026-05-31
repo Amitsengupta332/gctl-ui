@@ -1,5 +1,7 @@
 import { PRODUCT_CATEGORIES } from "./product-data.js";
 
+const PRODUCTS_PER_PAGE = 10;
+
 function getMainElement() {
   return document.querySelector("main[data-page-type]");
 }
@@ -80,8 +82,6 @@ function bannerHtml({ eyebrow, title, description, banner, breadcrumb }) {
 
 /* =========================
    Category Grid Card
-   Main Category + Sub Category
-   Image full card style
 ========================= */
 function categoryGridCard(item, isActive = false) {
   const activeClass = isActive
@@ -115,9 +115,6 @@ function categoryGridCard(item, isActive = false) {
 
 /* =========================
    Slider Category Card
-   Used in:
-   - Sub-sub category page
-   Same image card style as sub category
 ========================= */
 function categoryCard(item, isActive = false) {
   const activeClass = isActive
@@ -296,32 +293,72 @@ function categorySliderSection({
 }
 
 /* =========================
-   Products Section
+   Products Section with Pagination
 ========================= */
 function productsSection(title, products) {
   const safeProducts = safeArray(products);
 
   return `
-    <div class="bg-white border-t border-[#e6edf5]">
+    <div class="bg-white border-t border-[#e6edf5]" data-paginated-products data-products-per-page="${PRODUCTS_PER_PAGE}">
       <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
-        <div class="mb-7">
-          <p class="text-[13px] font-bold uppercase tracking-[0.22em] text-[#0057d8]">
-            All Products
-          </p>
+        <div class="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-[13px] font-bold uppercase tracking-[0.22em] text-[#0057d8]">
+              All Products
+            </p>
 
-          <h2 class="mt-3 text-[28px] sm:text-[34px] font-extrabold text-[#071425]">
-            ${title}
-          </h2>
+            <h2 class="mt-3 text-[28px] sm:text-[34px] font-extrabold text-[#071425]">
+              ${title}
+            </h2>
 
-          <div class="mt-3 h-[2px] w-[42px] bg-[#0057d8]"></div>
+            <div class="mt-3 h-[2px] w-[42px] bg-[#0057d8]"></div>
+          </div>
+
+          ${
+            safeProducts.length
+              ? `
+                <p class="text-[13px] sm:text-[14px] font-bold text-[#607086]">
+                  Showing
+                  <span data-page-start class="text-[#0057d8]">1</span>
+                  -
+                  <span data-page-end class="text-[#0057d8]">${Math.min(PRODUCTS_PER_PAGE, safeProducts.length)}</span>
+                  of
+                  <span class="text-[#0057d8]">${safeProducts.length}</span>
+                  products
+                </p>
+              `
+              : ""
+          }
         </div>
 
         ${
           safeProducts.length
             ? `
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
-                ${safeProducts.map(productCard).join("")}
+                ${safeProducts
+                  .map(
+                    (product) => `
+                      <div data-product-item>
+                        ${productCard(product)}
+                      </div>
+                    `,
+                  )
+                  .join("")}
+              </div>
+
+              <div data-product-pagination class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+                <button type="button" data-page-action="prev"
+                  class="inline-flex h-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white px-4 text-[13px] font-extrabold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] disabled:cursor-not-allowed disabled:opacity-40 transition-colors">
+                  Previous
+                </button>
+
+                <div data-page-numbers class="flex flex-wrap items-center justify-center gap-2"></div>
+
+                <button type="button" data-page-action="next"
+                  class="inline-flex h-10 items-center justify-center rounded-[6px] border border-[#dfeaf7] bg-white px-4 text-[13px] font-extrabold text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8] disabled:cursor-not-allowed disabled:opacity-40 transition-colors">
+                  Next
+                </button>
               </div>
             `
             : `
@@ -336,8 +373,97 @@ function productsSection(title, products) {
 }
 
 /* =========================
-   SEO + FAQ
+   Init Product Pagination
 ========================= */
+function initProductPagination() {
+  document.querySelectorAll("[data-paginated-products]").forEach((section) => {
+    const items = Array.from(section.querySelectorAll("[data-product-item]"));
+    const pageSize =
+      Number(section.getAttribute("data-products-per-page")) || PRODUCTS_PER_PAGE;
+
+    const pagination = section.querySelector("[data-product-pagination]");
+    const pageNumbers = section.querySelector("[data-page-numbers]");
+    const prevBtn = section.querySelector('[data-page-action="prev"]');
+    const nextBtn = section.querySelector('[data-page-action="next"]');
+    const pageStart = section.querySelector("[data-page-start]");
+    const pageEnd = section.querySelector("[data-page-end]");
+
+    if (!items.length || !pagination || !pageNumbers || !prevBtn || !nextBtn) {
+      return;
+    }
+
+    const totalPages = Math.ceil(items.length / pageSize);
+    let currentPage = 1;
+
+    if (totalPages <= 1) {
+      pagination.style.display = "none";
+    }
+
+    function renderPage(page) {
+      currentPage = Math.max(1, Math.min(page, totalPages));
+
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = Math.min(startIndex + pageSize, items.length);
+
+      items.forEach((item, index) => {
+        item.style.display =
+          index >= startIndex && index < endIndex ? "" : "none";
+      });
+
+      if (pageStart) pageStart.textContent = startIndex + 1;
+      if (pageEnd) pageEnd.textContent = endIndex;
+
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage === totalPages;
+
+      pageNumbers.innerHTML = Array.from({ length: totalPages })
+        .map((_, index) => {
+          const pageNumber = index + 1;
+          const isActive = pageNumber === currentPage;
+
+          return `
+            <button type="button" data-page-number="${pageNumber}"
+              class="h-10 min-w-10 rounded-[6px] border px-3 text-[13px] font-extrabold transition-colors ${
+                isActive
+                  ? "border-[#0057d8] bg-[#0057d8] text-white"
+                  : "border-[#dfeaf7] bg-white text-[#071425] hover:border-[#0057d8] hover:text-[#0057d8]"
+              }">
+              ${pageNumber}
+            </button>
+          `;
+        })
+        .join("");
+    }
+
+    pagination.addEventListener("click", (event) => {
+      const button = event.target.closest("button");
+      if (!button) return;
+
+      const action = button.getAttribute("data-page-action");
+      const pageNumber = button.getAttribute("data-page-number");
+
+      if (action === "prev") {
+        renderPage(currentPage - 1);
+      }
+
+      if (action === "next") {
+        renderPage(currentPage + 1);
+      }
+
+      if (pageNumber) {
+        renderPage(Number(pageNumber));
+      }
+
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
+
+    renderPage(1);
+  });
+}
+
 /* =========================
    SEO + FAQ
    Main Category + Sub Category + Sub Sub Category
@@ -464,6 +590,8 @@ function renderCategoryPage(category) {
 
     ${seoAndFaqHtml(category)}
   `;
+
+  initProductPagination();
 }
 
 /* =========================
@@ -500,10 +628,12 @@ function renderSubCategoryPage(category, subCategory) {
         : ""
     }
 
-   ${productsSection(`${subCategory.name} Products`, products)}
+    ${productsSection(`${subCategory.name} Products`, products)}
 
-${seoAndFaqHtml(subCategory)}
+    ${seoAndFaqHtml(subCategory)}
   `;
+
+  initProductPagination();
 }
 
 /* =========================
@@ -543,8 +673,11 @@ function renderSubSubCategoryPage(category, subCategory, subSubCategory) {
     })}
 
     ${productsSection(`${subSubCategory.name} Products`, products)}
+
     ${seoAndFaqHtml(subSubCategory)}
   `;
+
+  initProductPagination();
 }
 
 /* =========================
