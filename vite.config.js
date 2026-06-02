@@ -1,11 +1,3 @@
-// import { defineConfig } from "vite";
-// import tailwindcss from "@tailwindcss/vite";
-
-// export default defineConfig({
-//   plugins: [tailwindcss()],
-//   base: "./",
-// });
-
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
@@ -23,24 +15,44 @@ function getRootHtmlInputs() {
     }, {});
 }
 
-function projectDetailsRewrite() {
+function detailsRewrite() {
   return {
-    name: "project-details-rewrite",
+    name: "details-rewrite",
 
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (req.url && req.url.startsWith("/project-details/")) {
+        if (!req.url) return next();
+
+        if (req.url.startsWith("/project-details/")) {
           req.url = "/project-details.html";
         }
+
+        if (
+          req.url.startsWith("/product-details/") ||
+          req.url.startsWith("/product-details.html/")
+        ) {
+          req.url = "/product-details.html";
+        }
+
         next();
       });
     },
 
     configurePreviewServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (req.url && req.url.startsWith("/project-details/")) {
+        if (!req.url) return next();
+
+        if (req.url.startsWith("/project-details/")) {
           req.url = "/project-details.html";
         }
+
+        if (
+          req.url.startsWith("/product-details/") ||
+          req.url.startsWith("/product-details.html/")
+        ) {
+          req.url = "/product-details.html";
+        }
+
         next();
       });
     },
@@ -48,7 +60,7 @@ function projectDetailsRewrite() {
 }
 
 export default defineConfig({
-  plugins: [tailwindcss(), projectDetailsRewrite()],
+  plugins: [tailwindcss(), detailsRewrite()],
 
   build: {
     rollupOptions: {

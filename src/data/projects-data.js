@@ -588,3 +588,5 @@ export const gctlProjects = [
       "GCTL installed conventional fire alarm system at NRB Bank Limited Srimangal Branch for branch fire safety and protection.",
   },
 ];
+
+

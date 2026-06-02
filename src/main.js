@@ -7,7 +7,7 @@ import { initReusablePages } from "./reusable-pages.js";
 
 import { initProjectsPage } from "./projects-page.js";
 import { initProjectDetailsPage } from "./project-details-page.js";
-
+import { renderCategoryProductSections } from "./pages/category-products-renderer.js";
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
 
@@ -34,6 +34,9 @@ async function loadComponents() {
   initProductMegaMenu();
 
   initReusablePages();
+  renderCategoryProductSections();
+
+
   initProjectsPage();
   initProjectDetailsPage();
   initHeroSlider();

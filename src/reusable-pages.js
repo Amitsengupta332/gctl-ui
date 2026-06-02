@@ -24,6 +24,15 @@ function safeArray(value) {
   return Array.isArray(value) ? value : [];
 }
 
+function slugify(text = "") {
+  return String(text)
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function imageTag(src, alt, extraClass = "") {
   return `
     <img
@@ -149,28 +158,83 @@ function categoryCard(item, isActive = false) {
 /* =========================
    Product Card
 ========================= */
+// function productCard(product) {
+//   const phone = product.phone || "+8801847213869";
+//   const artNo = product.artNo || product.sku || "GCT0000";
+//   const rating = Number(product.rating || 5);
+//   const stars = "★★★★★".slice(0, Math.max(1, Math.min(rating, 5)));
+
+//   return `
+//     <div
+//       class="group relative flex h-[410px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:border-[#0057d8] hover:shadow-[0_18px_45px_rgba(0,87,216,0.16)]">
+
+//       <div class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white">
+//         ${imageTag(
+//           product.img || "/images/products/placeholder.avif",
+//           product.name || "Product",
+//           "max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105",
+//         )}
+//       </div>
+
+//       <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
+//         <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00]">
+//           ${product.name || "Product Name"}
+//         </h3>
+
+//         <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+//           <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+//             Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
+//           </p>
+
+//           <div class="text-[#ff4b00] text-[15px] sm:text-[17px] leading-none tracking-[-1px]">
+//             ${stars}
+//           </div>
+//         </div>
+
+//         <a href="tel:${phone}"
+//           class="mt-4 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827] transition-colors duration-300 group-hover:text-[#0057d8]">
+//           <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0 transition-colors duration-300 group-hover:bg-[#0057d8]">
+//             <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+//               <path
+//                 d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.2.5 1.2 1.2v3.5c0 .7-.5 1.2-1.2 1.2C10.4 22 2 13.6 2 3.4 2 2.7 2.5 2.2 3.2 2.2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-1.6 2.2z">
+//               </path>
+//             </svg>
+//           </span>
+
+//           <span>${phone}</span>
+//         </a>
+//       </div>
+//     </div>
+//   `;
+// }
+
 function productCard(product) {
   const phone = product.phone || "+8801847213869";
-  const artNo = product.artNo || product.sku || "GCT0000";
+  const artNo = product.artNo || product.sku || "Call for Price";
   const rating = Number(product.rating || 5);
   const stars = "★★★★★".slice(0, Math.max(1, Math.min(rating, 5)));
 
+  const slug = product.slug || slugify(product.name || "product");
+ const detailsLink = `/product-details.html/${encodeURIComponent(slug)}`;
+
   return `
     <div
-      class="group relative flex h-[410px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:border-[#0057d8] hover:shadow-[0_18px_45px_rgba(0,87,216,0.16)]">
+      class="group relative flex h-[445px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:border-[#0057d8] hover:shadow-[0_18px_45px_rgba(0,87,216,0.16)]">
 
-      <div class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white">
+      <a href="${detailsLink}" class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white">
         ${imageTag(
           product.img || "/images/products/placeholder.avif",
           product.name || "Product",
           "max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105",
         )}
-      </div>
+      </a>
 
       <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
-        <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00]">
-          ${product.name || "Product Name"}
-        </h3>
+        <a href="${detailsLink}">
+          <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00] hover:underline">
+            ${product.name || "Product Name"}
+          </h3>
+        </a>
 
         <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
@@ -182,8 +246,13 @@ function productCard(product) {
           </div>
         </div>
 
+        <a href="${detailsLink}"
+          class="mt-3 inline-flex items-center justify-center rounded-full border border-[#dfeaf7] bg-[#f8fbff] px-4 py-2 text-[12px] font-black text-[#0057b8] hover:bg-[#0057b8] hover:text-white transition">
+          View Details
+        </a>
+
         <a href="tel:${phone}"
-          class="mt-4 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827] transition-colors duration-300 group-hover:text-[#0057d8]">
+          class="mt-3 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827] transition-colors duration-300 group-hover:text-[#0057d8]">
           <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0 transition-colors duration-300 group-hover:bg-[#0057d8]">
             <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
               <path
@@ -379,7 +448,8 @@ function initProductPagination() {
   document.querySelectorAll("[data-paginated-products]").forEach((section) => {
     const items = Array.from(section.querySelectorAll("[data-product-item]"));
     const pageSize =
-      Number(section.getAttribute("data-products-per-page")) || PRODUCTS_PER_PAGE;
+      Number(section.getAttribute("data-products-per-page")) ||
+      PRODUCTS_PER_PAGE;
 
     const pagination = section.querySelector("[data-product-pagination]");
     const pageNumbers = section.querySelector("[data-page-numbers]");
