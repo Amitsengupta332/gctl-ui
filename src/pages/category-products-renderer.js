@@ -153,13 +153,13 @@ function renderProductCard(product, color = "#0057b8") {
       <div
         class="group flex h-[445px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] hover:-translate-y-1 transition-all duration-300 overflow-hidden">
 
-        <a href="/product-details.html/${encodeURIComponent(slug)}"
+        <a href="/product-details/${encodeURIComponent(slug)}"
           class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white">
           <img src="${img}" alt="${name}" class="max-w-full max-h-full object-contain" />
         </a>
 
         <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
-          <a href="/product-details.html/${encodeURIComponent(slug)}">
+          <a href="/product-details/${encodeURIComponent(slug)}">
             <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] hover:underline">
               ${name}
             </h3>
@@ -175,7 +175,7 @@ function renderProductCard(product, color = "#0057b8") {
             </div>
           </div>
 
-          <a href="/product-details.html/${encodeURIComponent(slug)}"
+          <a href="/product-details/${encodeURIComponent(slug)}"
             class="mt-3 inline-flex items-center justify-center rounded-full border border-[#dfeaf7] bg-[#f8fbff] px-4 py-2 text-[12px] font-black transition"
             style="color:${color};"
             onmouseover="this.style.backgroundColor='${color}';this.style.color='white';"
@@ -348,13 +348,13 @@ export function renderCategoryProductSections() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", renderCategoryProductSections);
+// document.addEventListener("DOMContentLoaded", renderCategoryProductSections);
 
-const observer = new MutationObserver(() => {
-  renderCategoryProductSections();
-});
+// const observer = new MutationObserver(() => {
+//   renderCategoryProductSections();
+// });
 
-observer.observe(document.documentElement, {
-  childList: true,
-  subtree: true,
-});
+// observer.observe(document.documentElement, {
+//   childList: true,
+//   subtree: true,
+// });

@@ -8,6 +8,8 @@ import { initReusablePages } from "./reusable-pages.js";
 import { initProjectsPage } from "./projects-page.js";
 import { initProjectDetailsPage } from "./project-details-page.js";
 import { renderCategoryProductSections } from "./pages/category-products-renderer.js";
+import { initProductDetailsPage } from "./pages/product-details-page.js";
+
 async function loadComponents() {
   const components = document.querySelectorAll("[data-component]");
 
@@ -35,7 +37,7 @@ async function loadComponents() {
 
   initReusablePages();
   renderCategoryProductSections();
-
+  initProductDetailsPage();
 
   initProjectsPage();
   initProjectDetailsPage();

@@ -215,7 +215,7 @@ function productCard(product) {
   const stars = "★★★★★".slice(0, Math.max(1, Math.min(rating, 5)));
 
   const slug = product.slug || slugify(product.name || "product");
- const detailsLink = `/product-details.html/${encodeURIComponent(slug)}`;
+ const detailsLink = `/product-details/${encodeURIComponent(slug)}`;
 
   return `
     <div
