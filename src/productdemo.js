@@ -62,7 +62,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "hd-dome-camera",
             name: "HD Dome Camera",
-            link: "/sub-hd-dome-camera.html",
+            link: "/hd-dome-camera.html",
             img: "/images/products/cctv_category_images_avif/hd_dome_camera.avif",
             description: "Indoor HD dome CCTV camera.",
             products: [
@@ -77,7 +77,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "hd-bullet-camera",
             name: "HD Bullet Camera",
-            link: "/sub-hd-bullet-camera.html",
+            link: "/hd-bullet-camera.html",
             img: "/images/products/cctv_category_images_avif/hd_bullet_camera_1.avif",
             description: "Outdoor HD bullet CCTV camera.",
             products: [
@@ -92,7 +92,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "hd-turret-camera",
             name: "HD Turret Camera",
-            link: "/sub-hd-turret-camera.html",
+            link: "/hd-turret-camera.html",
             img: "/images/products/cctv_category_images_avif/hd_turret_camera_600x450.avif",
             description: "HD turret camera for flexible CCTV monitoring.",
             products: [
@@ -107,7 +107,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "hd-ptz-camera",
             name: "HD PTZ Camera",
-            link: "/sub-hd-ptz-camera.html",
+            link: "/hd-ptz-camera.html",
             img: "/images/products/cctv_category_images_avif/hd_ptz_camera.avif",
             description: "HD PTZ camera for pan tilt zoom surveillance.",
             products: [
@@ -153,7 +153,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ip-dome-camera",
             name: "IP Dome Camera",
-            link: "/sub-ip-dome-camera.html",
+            link: "/ip-dome-camera.html",
             img: "/images/sub-sub-categories/sub-ip-dome-camera.avif",
             description: "Indoor network IP dome camera.",
             products: [
@@ -168,7 +168,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ip-bullet-camera",
             name: "IP Bullet Camera",
-            link: "/sub-ip-bullet-camera.html",
+            link: "/ip-bullet-camera.html",
             img: "/images/sub-sub-categories/sub-ip-bullet-camera.avif",
             description: "Outdoor network IP bullet camera.",
             products: [
@@ -183,7 +183,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wifi-ip-camera",
             name: "WiFi IP Camera",
-            link: "/sub-wifi-ip-camera.html",
+            link: "/wifi-ip-camera.html",
             img: "/images/sub-sub-categories/sub-wifi-ip-camera.avif",
             description: "Wireless IP camera for easy setup.",
             products: [
@@ -198,7 +198,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "poe-ip-camera",
             name: "PoE IP Camera",
-            link: "/sub-poe-ip-camera.html",
+            link: "/poe-ip-camera.html",
             img: "/images/sub-sub-categories/sub-poe-ip-camera.avif",
             description: "Power over Ethernet IP camera.",
             products: [
@@ -234,7 +234,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fixed-anpr-camera",
             name: "Fixed ANPR Camera",
-            link: "/sub-fixed-anpr-camera.html",
+            link: "/fixed-anpr-camera.html",
             img: "/images/sub-sub-categories/sub-fixed-anpr-camera.avif",
             description: "Fixed ANPR camera for entry points.",
             products: [
@@ -249,7 +249,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "parking-anpr-camera",
             name: "Parking ANPR Camera",
-            link: "/sub-parking-anpr-camera.html",
+            link: "/parking-anpr-camera.html",
             img: "/images/sub-sub-categories/sub-parking-anpr-camera.avif",
             description: "ANPR camera for parking entry and exit.",
             products: [
@@ -264,7 +264,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "traffic-anpr-camera",
             name: "Traffic ANPR Camera",
-            link: "/sub-traffic-anpr-camera.html",
+            link: "/traffic-anpr-camera.html",
             img: "/images/sub-sub-categories/sub-traffic-anpr-camera.avif",
             description: "ANPR camera for traffic monitoring.",
             products: [
@@ -300,7 +300,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-recognition-camera",
             name: "Face Recognition Camera",
-            link: "/sub-face-recognition-camera.html",
+            link: "/face-recognition-camera.html",
             img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
             description: "AI camera for face recognition.",
             products: [
@@ -315,7 +315,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "human-detection-camera",
             name: "Human Detection Camera",
-            link: "/sub-human-detection-camera.html",
+            link: "/human-detection-camera.html",
             img: "/images/sub-sub-categories/sub-human-detection-camera.avif",
             description: "AI camera for human detection.",
             products: [
@@ -330,7 +330,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "people-counting-camera",
             name: "People Counting Camera",
-            link: "/sub-people-counting-camera.html",
+            link: "/people-counting-camera.html",
             img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
             description: "AI camera for people counting.",
             products: [
@@ -345,7 +345,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "vehicle-detection-camera",
             name: "Vehicle Detection Camera",
-            link: "/sub-vehicle-detection-camera.html",
+            link: "/vehicle-detection-camera.html",
             img: "/images/sub-sub-categories/sub-vehicle-detection-camera.avif",
             description: "AI camera for vehicle detection.",
             products: [
@@ -381,7 +381,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-temperature-camera",
             name: "Face Temperature Camera",
-            link: "/sub-face-temperature-camera.html",
+            link: "/face-temperature-camera.html",
             img: "/images/sub-sub-categories/sub-face-temperature-camera.avif",
             description: "Face temperature screening camera.",
             products: [
@@ -396,7 +396,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "thermal-temperature-camera",
             name: "Thermal Temperature Camera",
-            link: "/sub-thermal-temperature-camera.html",
+            link: "/thermal-temperature-camera.html",
             img: "/images/sub-sub-categories/sub-thermal-temperature-camera.avif",
             description: "Thermal camera for temperature monitoring.",
             products: [
@@ -558,7 +558,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "residential-sliding-gate-motor",
             name: "Residential Sliding Gate Motor",
-            link: "/sub-residential-sliding-gate-motor.html",
+            link: "/residential-sliding-gate-motor.html",
             img: "/images/sub-sub-categories/sub-residential-sliding-gate-motor.avif",
             description: "Sliding gate motor for home and apartment gates.",
             products: [
@@ -579,7 +579,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "industrial-sliding-gate-motor",
             name: "Industrial Sliding Gate Motor",
-            link: "/sub-industrial-sliding-gate-motor.html",
+            link: "/industrial-sliding-gate-motor.html",
             img: "/images/sub-sub-categories/sub-industrial-sliding-gate-motor.avif",
             description: "Industrial gate motor for factories and warehouses.",
             products: [
@@ -600,7 +600,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "heavy-duty-sliding-gate-motor",
             name: "Heavy Duty Sliding Gate Motor",
-            link: "/sub-heavy-duty-sliding-gate-motor.html",
+            link: "/heavy-duty-sliding-gate-motor.html",
             img: "/images/sub-sub-categories/sub-heavy-duty-sliding-gate-motor.avif",
             description: "Heavy duty motor for large sliding gates.",
             products: [
@@ -648,7 +648,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-leaf-swing-gate-motor",
             name: "Single Leaf Swing Gate Motor",
-            link: "/sub-single-leaf-swing-gate-motor.html",
+            link: "/single-leaf-swing-gate-motor.html",
             img: "/images/sub-sub-categories/sub-single-leaf-swing-gate-motor.avif",
             description: "Swing motor for single leaf gate automation.",
             products: [
@@ -663,7 +663,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "double-leaf-swing-gate-motor",
             name: "Double Leaf Swing Gate Motor",
-            link: "/sub-double-leaf-swing-gate-motor.html",
+            link: "/double-leaf-swing-gate-motor.html",
             img: "/images/sub-sub-categories/sub-double-leaf-swing-gate-motor.avif",
             description: "Swing motor for double leaf gate automation.",
             products: [
@@ -678,7 +678,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "underground-swing-gate-motor",
             name: "Underground Swing Gate Motor",
-            link: "/sub-underground-swing-gate-motor.html",
+            link: "/underground-swing-gate-motor.html",
             img: "/images/sub-sub-categories/sub-underground-swing-gate-motor.avif",
             description: "Underground swing motor for premium gate automation.",
             products: [
@@ -720,7 +720,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "sensor-sliding-glass-door",
             name: "Sensor Sliding Glass Door",
-            link: "/sub-sensor-sliding-glass-door.html",
+            link: "/sensor-sliding-glass-door.html",
             img: "/images/sub-sub-categories/sub-sensor-sliding-glass-door.avif",
             description: "Sensor sliding glass door for commercial entrances.",
             products: [
@@ -735,7 +735,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "telescopic-glass-door",
             name: "Telescopic Glass Door",
-            link: "/sub-telescopic-glass-door.html",
+            link: "/telescopic-glass-door.html",
             img: "/images/sub-sub-categories/sub-telescopic-glass-door.avif",
             description: "Telescopic glass door for wide commercial entrances.",
             products: [
@@ -750,7 +750,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "glass-door-accessories",
             name: "Glass Door Accessories",
-            link: "/sub-glass-door-accessories.html",
+            link: "/glass-door-accessories.html",
             img: "/images/sub-sub-categories/sub-glass-door-accessories.avif",
             description: "Accessories for automatic glass door systems.",
             products: [
@@ -786,7 +786,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "sectional-garage-door",
             name: "Sectional Garage Door",
-            link: "/sub-sectional-garage-door.html",
+            link: "/sectional-garage-door.html",
             img: "/images/sub-sub-categories/sub-sectional-garage-door.avif",
             description: "Sectional garage door automation system.",
             products: [
@@ -801,7 +801,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rolling-garage-door",
             name: "Rolling Garage Door",
-            link: "/sub-rolling-garage-door.html",
+            link: "/rolling-garage-door.html",
             img: "/images/sub-sub-categories/sub-rolling-garage-door.avif",
             description: "Rolling garage door automation system.",
             products: [
@@ -837,7 +837,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ac-rolling-shutter-motor",
             name: "AC Rolling Shutter Motor",
-            link: "/sub-ac-rolling-shutter-motor.html",
+            link: "/ac-rolling-shutter-motor.html",
             img: "/images/sub-sub-categories/sub-ac-rolling-shutter-motor.avif",
             description: "AC motor for rolling shutter automation.",
             products: [
@@ -852,7 +852,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "dc-rolling-shutter-motor",
             name: "DC Rolling Shutter Motor",
-            link: "/sub-dc-rolling-shutter-motor.html",
+            link: "/dc-rolling-shutter-motor.html",
             img: "/images/sub-sub-categories/sub-dc-rolling-shutter-motor.avif",
             description: "DC motor for rolling shutter automation.",
             products: [
@@ -888,7 +888,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "sliding-sensor-door",
             name: "Sliding Sensor Door",
-            link: "/sub-sliding-sensor-door.html",
+            link: "/sliding-sensor-door.html",
             img: "/images/sub-sub-categories/sub-sliding-sensor-door.avif",
             description: "Sliding sensor door for automatic entrance access.",
             products: [
@@ -903,7 +903,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "swing-sensor-door",
             name: "Swing Sensor Door",
-            link: "/sub-swing-sensor-door.html",
+            link: "/swing-sensor-door.html",
             img: "/images/sub-sub-categories/sub-swing-sensor-door.avif",
             description: "Swing sensor door for automatic entry control.",
             products: [
@@ -939,7 +939,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "hydraulic-road-blocker",
             name: "Hydraulic Road Blocker",
-            link: "/sub-hydraulic-road-blocker.html",
+            link: "/hydraulic-road-blocker.html",
             img: "/images/sub-sub-categories/sub-hydraulic-road-blocker.avif",
             description: "Hydraulic road blocker for high security entrances.",
             products: [
@@ -954,7 +954,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "automatic-road-blocker",
             name: "Automatic Road Blocker",
-            link: "/sub-automatic-road-blocker.html",
+            link: "/automatic-road-blocker.html",
             img: "/images/sub-sub-categories/sub-automatic-road-blocker.avif",
             description: "Automatic road blocker for secured vehicle entry.",
             products: [
@@ -990,7 +990,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "high-speed-door",
             name: "High Speed Door",
-            link: "/sub-high-speed-door.html",
+            link: "/high-speed-door.html",
             img: "/images/sub-sub-categories/sub-high-speed-door.avif",
             description: "High speed door for industrial automation projects.",
             products: [
@@ -1005,7 +1005,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "sectional-industrial-door",
             name: "Sectional Industrial Door",
-            link: "/sub-sectional-industrial-door.html",
+            link: "/sectional-industrial-door.html",
             img: "/images/sub-sub-categories/sub-sectional-industrial-door.avif",
             description: "Sectional industrial door for warehouse access.",
             products: [
@@ -1089,7 +1089,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-zone-metal-detector",
             name: "Single Zone Metal Detector",
-            link: "/sub-single-zone-metal-detector.html",
+            link: "/single-zone-metal-detector.html",
             img: "/images/sub-sub-categories/sub-single-zone-metal-detector.avif",
             description:
               "Single zone walk through metal detector for basic entrance screening.",
@@ -1105,7 +1105,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "multi-zone-metal-detector",
             name: "Multi Zone Metal Detector",
-            link: "/sub-multi-zone-metal-detector.html",
+            link: "/multi-zone-metal-detector.html",
             img: "/images/sub-sub-categories/sub-multi-zone-metal-detector.avif",
             description:
               "Multi zone detector for accurate metal location detection.",
@@ -1121,7 +1121,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "weatherproof-metal-detector",
             name: "Weatherproof Metal Detector",
-            link: "/sub-weatherproof-metal-detector.html",
+            link: "/weatherproof-metal-detector.html",
             img: "/images/sub-sub-categories/sub-weatherproof-metal-detector.avif",
             description:
               "Weatherproof metal detector for outdoor security screening.",
@@ -1164,7 +1164,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rechargeable-hand-held-detector",
             name: "Rechargeable Hand Held Detector",
-            link: "/sub-rechargeable-hand-held-detector.html",
+            link: "/rechargeable-hand-held-detector.html",
             img: "/images/sub-sub-categories/sub-rechargeable-hand-held-detector.avif",
             description:
               "Rechargeable portable detector for entrance security checking.",
@@ -1180,7 +1180,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "portable-hand-held-detector",
             name: "Portable Hand Held Detector",
-            link: "/sub-portable-hand-held-detector.html",
+            link: "/portable-hand-held-detector.html",
             img: "/images/sub-sub-categories/sub-portable-hand-held-detector.avif",
             description:
               "Portable hand held detector for quick metal object checking.",
@@ -1229,7 +1229,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "small-baggage-scanner",
             name: "Small Baggage Scanner",
-            link: "/sub-small-baggage-scanner.html",
+            link: "/small-baggage-scanner.html",
             img: "/images/sub-sub-categories/sub-small-baggage-scanner.avif",
             description:
               "Small X-ray scanner for parcel and handbag inspection.",
@@ -1245,7 +1245,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "medium-baggage-scanner",
             name: "Medium Baggage Scanner",
-            link: "/sub-medium-baggage-scanner.html",
+            link: "/medium-baggage-scanner.html",
             img: "/images/sub-sub-categories/sub-medium-baggage-scanner.avif",
             description:
               "Medium size X-ray scanner for regular luggage inspection.",
@@ -1261,7 +1261,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "large-baggage-scanner",
             name: "Large Baggage Scanner",
-            link: "/sub-large-baggage-scanner.html",
+            link: "/large-baggage-scanner.html",
             img: "/images/sub-sub-categories/sub-large-baggage-scanner.avif",
             description:
               "Large X-ray scanner for heavy luggage and large bag inspection.",
@@ -1298,7 +1298,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fixed-under-vehicle-scanner",
             name: "Fixed Under Vehicle Scanner",
-            link: "/sub-fixed-under-vehicle-scanner.html",
+            link: "/fixed-under-vehicle-scanner.html",
             img: "/images/sub-sub-categories/sub-fixed-under-vehicle-scanner.avif",
             description:
               "Fixed under vehicle scanner for permanent checkpoint installation.",
@@ -1314,7 +1314,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "portable-under-vehicle-scanner",
             name: "Portable Under Vehicle Scanner",
-            link: "/sub-portable-under-vehicle-scanner.html",
+            link: "/portable-under-vehicle-scanner.html",
             img: "/images/sub-sub-categories/sub-portable-under-vehicle-scanner.avif",
             description:
               "Portable under vehicle scanner for temporary security inspection.",
@@ -1351,7 +1351,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "portable-explosive-detector",
             name: "Portable Explosive Detector",
-            link: "/sub-portable-explosive-detector.html",
+            link: "/portable-explosive-detector.html",
             img: "/images/sub-sub-categories/sub-portable-explosive-detector.avif",
             description:
               "Portable explosive detector for mobile security screening.",
@@ -1367,7 +1367,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "trace-explosive-detector",
             name: "Trace Explosive Detector",
-            link: "/sub-trace-explosive-detector.html",
+            link: "/trace-explosive-detector.html",
             img: "/images/sub-sub-categories/sub-trace-explosive-detector.avif",
             description:
               "Trace explosive detector for advanced threat detection.",
@@ -1404,7 +1404,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "visitor-registration-kiosk",
             name: "Visitor Registration Kiosk",
-            link: "/sub-visitor-registration-kiosk.html",
+            link: "/visitor-registration-kiosk.html",
             img: "/images/sub-sub-categories/sub-visitor-registration-kiosk.avif",
             description:
               "Visitor kiosk for self registration and visitor check-in.",
@@ -1420,7 +1420,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "visitor-pass-system",
             name: "Visitor Pass System",
-            link: "/sub-visitor-pass-system.html",
+            link: "/visitor-pass-system.html",
             img: "/images/sub-sub-categories/sub-visitor-pass-system.avif",
             description:
               "Visitor pass system for visitor identity and entry control.",
@@ -1456,7 +1456,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "inspection-mirror",
             name: "Inspection Mirror",
-            link: "/sub-inspection-mirror.html",
+            link: "/inspection-mirror.html",
             img: "/images/sub-sub-categories/sub-inspection-mirror.avif",
             description: "Inspection mirror for vehicle and object checking.",
             products: [
@@ -1471,7 +1471,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "security-screening-kit",
             name: "Security Screening Kit",
-            link: "/sub-security-screening-kit.html",
+            link: "/security-screening-kit.html",
             img: "/images/sub-sub-categories/sub-security-screening-kit.avif",
             description:
               "Security screening kit for entrance inspection operation.",
@@ -1556,7 +1556,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-recognition-camera",
             name: "Face Recognition Camera",
-            link: "/sub-face-recognition-camera.html",
+            link: "/face-recognition-camera.html",
             img: "/images/sub-sub-categories/sub-face-recognition-camera.avif",
             description:
               "AI camera for face detection and face recognition surveillance.",
@@ -1572,7 +1572,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-recognition-terminal",
             name: "Face Recognition Terminal",
-            link: "/sub-face-recognition-terminal.html",
+            link: "/face-recognition-terminal.html",
             img: "/images/sub-sub-categories/sub-face-recognition-terminal.avif",
             description:
               "Face recognition terminal for secure entry and attendance.",
@@ -1588,7 +1588,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-recognition-software",
             name: "Face Recognition Software",
-            link: "/sub-face-recognition-software.html",
+            link: "/face-recognition-software.html",
             img: "/images/sub-sub-categories/sub-face-recognition-software.avif",
             description:
               "Software solution for face database, matching and monitoring.",
@@ -1631,7 +1631,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "people-counting-camera",
             name: "People Counting Camera",
-            link: "/sub-people-counting-camera.html",
+            link: "/people-counting-camera.html",
             img: "/images/sub-sub-categories/sub-people-counting-camera.avif",
             description:
               "Camera-based people counting solution for entry and exit points.",
@@ -1647,7 +1647,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "visitor-counting-system",
             name: "Visitor Counting System",
-            link: "/sub-visitor-counting-system.html",
+            link: "/visitor-counting-system.html",
             img: "/images/sub-sub-categories/sub-visitor-counting-system.avif",
             description:
               "Visitor counting system for retail, office and public places.",
@@ -1663,7 +1663,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "occupancy-monitoring-system",
             name: "Occupancy Monitoring System",
-            link: "/sub-occupancy-monitoring-system.html",
+            link: "/occupancy-monitoring-system.html",
             img: "/images/sub-sub-categories/sub-occupancy-monitoring-system.avif",
             description:
               "Occupancy monitoring system for area capacity and crowd control.",
@@ -1706,7 +1706,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fence-intrusion-detection",
             name: "Fence Intrusion Detection",
-            link: "/sub-fence-intrusion-detection.html",
+            link: "/fence-intrusion-detection.html",
             img: "/images/sub-sub-categories/sub-fence-intrusion-detection.avif",
             description:
               "Fence monitoring solution for detecting perimeter intrusion.",
@@ -1722,7 +1722,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "restricted-area-detection",
             name: "Restricted Area Detection",
-            link: "/sub-restricted-area-detection.html",
+            link: "/restricted-area-detection.html",
             img: "/images/sub-sub-categories/sub-restricted-area-detection.avif",
             description:
               "Restricted area monitoring solution for smart surveillance.",
@@ -1738,7 +1738,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ai-perimeter-camera",
             name: "AI Perimeter Camera",
-            link: "/sub-ai-perimeter-camera.html",
+            link: "/ai-perimeter-camera.html",
             img: "/images/sub-sub-categories/sub-ai-perimeter-camera.avif",
             description:
               "AI camera for perimeter monitoring and intrusion detection.",
@@ -1775,7 +1775,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "virtual-line-crossing",
             name: "Virtual Line Crossing",
-            link: "/sub-virtual-line-crossing.html",
+            link: "/virtual-line-crossing.html",
             img: "/images/sub-sub-categories/sub-virtual-line-crossing.avif",
             description:
               "Virtual line crossing detection for restricted movement monitoring.",
@@ -1791,7 +1791,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "direction-detection",
             name: "Direction Detection",
-            link: "/sub-direction-detection.html",
+            link: "/direction-detection.html",
             img: "/images/sub-sub-categories/sub-direction-detection.avif",
             description:
               "Direction detection analytics for movement direction monitoring.",
@@ -1828,7 +1828,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "abandoned-object-detection",
             name: "Abandoned Object Detection",
-            link: "/sub-abandoned-object-detection.html",
+            link: "/abandoned-object-detection.html",
             img: "/images/sub-sub-categories/sub-abandoned-object-detection.avif",
             description:
               "Detect abandoned objects in monitored security areas.",
@@ -1844,7 +1844,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "missing-object-detection",
             name: "Missing Object Detection",
-            link: "/sub-missing-object-detection.html",
+            link: "/missing-object-detection.html",
             img: "/images/sub-sub-categories/sub-missing-object-detection.avif",
             description: "Detect missing objects from protected areas.",
             products: [
@@ -1859,7 +1859,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "suspicious-object-detection",
             name: "Suspicious Object Detection",
-            link: "/sub-suspicious-object-detection.html",
+            link: "/suspicious-object-detection.html",
             img: "/images/sub-sub-categories/sub-suspicious-object-detection.avif",
             description:
               "Detect suspicious objects in security monitoring areas.",
@@ -1896,7 +1896,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "vehicle-detection-system",
             name: "Vehicle Detection System",
-            link: "/sub-vehicle-detection-system.html",
+            link: "/vehicle-detection-system.html",
             img: "/images/sub-sub-categories/sub-vehicle-detection-system.avif",
             description:
               "Vehicle detection analytics for smart traffic and parking monitoring.",
@@ -1912,7 +1912,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "vehicle-counting-system",
             name: "Vehicle Counting System",
-            link: "/sub-vehicle-counting-system.html",
+            link: "/vehicle-counting-system.html",
             img: "/images/sub-sub-categories/sub-vehicle-counting-system.avif",
             description:
               "Vehicle counting system for traffic and parking analytics.",
@@ -1928,7 +1928,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "traffic-flow-analytics",
             name: "Traffic Flow Analytics",
-            link: "/sub-traffic-flow-analytics.html",
+            link: "/traffic-flow-analytics.html",
             img: "/images/sub-sub-categories/sub-traffic-flow-analytics.avif",
             description:
               "Traffic flow analytics for road and vehicle movement monitoring.",
@@ -2013,7 +2013,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fingerprint-attendance-device",
             name: "Fingerprint Attendance Device",
-            link: "/sub-fingerprint-attendance-device.html",
+            link: "/fingerprint-attendance-device.html",
             img: "/images/sub-sub-categories/sub-fingerprint-attendance-device.avif",
             description:
               "Fingerprint attendance device for employee attendance tracking.",
@@ -2029,7 +2029,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-attendance-device",
             name: "Face Attendance Device",
-            link: "/sub-face-attendance-device.html",
+            link: "/face-attendance-device.html",
             img: "/images/sub-sub-categories/sub-face-attendance-device.avif",
             description:
               "Face recognition attendance device for touchless attendance.",
@@ -2045,7 +2045,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "card-attendance-device",
             name: "Card Attendance Device",
-            link: "/sub-card-attendance-device.html",
+            link: "/card-attendance-device.html",
             img: "/images/sub-sub-categories/sub-card-attendance-device.avif",
             description:
               "RFID card attendance device for employee attendance management.",
@@ -2094,7 +2094,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-door-access-control",
             name: "Single Door Access Control",
-            link: "/sub-single-door-access-control.html",
+            link: "/single-door-access-control.html",
             img: "/images/sub-sub-categories/sub-single-door-access-control.avif",
             description:
               "Single door access control system for one entry point.",
@@ -2110,7 +2110,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "multi-door-access-control",
             name: "Multi Door Access Control",
-            link: "/sub-multi-door-access-control.html",
+            link: "/multi-door-access-control.html",
             img: "/images/sub-sub-categories/sub-multi-door-access-control.avif",
             description:
               "Multi door access control system for multiple entry points.",
@@ -2126,7 +2126,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "network-access-controller",
             name: "Network Access Controller",
-            link: "/sub-network-access-controller.html",
+            link: "/network-access-controller.html",
             img: "/images/sub-sub-categories/sub-network-access-controller.avif",
             description:
               "Network access controller for centralized access control projects.",
@@ -2169,7 +2169,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "face-access-terminal",
             name: "Face Access Terminal",
-            link: "/sub-face-access-terminal.html",
+            link: "/face-access-terminal.html",
             img: "/images/sub-sub-categories/sub-face-access-terminal.avif",
             description: "Face recognition terminal for secure access control.",
             products: [
@@ -2184,7 +2184,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "mask-detection-access-control",
             name: "Mask Detection Access Control",
-            link: "/sub-mask-detection-access-control.html",
+            link: "/mask-detection-access-control.html",
             img: "/images/sub-sub-categories/sub-mask-detection-access-control.avif",
             description: "Face access terminal with mask detection support.",
             products: [
@@ -2199,7 +2199,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "temperature-detection-terminal",
             name: "Temperature Detection Terminal",
-            link: "/sub-temperature-detection-terminal.html",
+            link: "/temperature-detection-terminal.html",
             img: "/images/sub-sub-categories/sub-temperature-detection-terminal.avif",
             description:
               "Face terminal with temperature detection for entry screening.",
@@ -2242,7 +2242,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-card-reader",
             name: "RFID Card Reader",
-            link: "/sub-rfid-card-reader.html",
+            link: "/rfid-card-reader.html",
             img: "/images/sub-sub-categories/sub-rfid-card-reader.avif",
             description: "RFID card reader for access control doors.",
             products: [
@@ -2257,7 +2257,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-access-card",
             name: "RFID Access Card",
-            link: "/sub-rfid-access-card.html",
+            link: "/rfid-access-card.html",
             img: "/images/sub-sub-categories/sub-rfid-access-card.avif",
             description:
               "RFID access cards for employee and visitor entry control.",
@@ -2273,7 +2273,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-key-fob",
             name: "RFID Key Fob",
-            link: "/sub-rfid-key-fob.html",
+            link: "/rfid-key-fob.html",
             img: "/images/sub-sub-categories/sub-rfid-key-fob.avif",
             description: "RFID key fob for compact card-based access.",
             products: [
@@ -2321,7 +2321,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "magnetic-door-lock",
             name: "Magnetic Door Lock",
-            link: "/sub-magnetic-door-lock.html",
+            link: "/magnetic-door-lock.html",
             img: "/images/sub-sub-categories/sub-magnetic-door-lock.avif",
             description: "Magnetic door lock for access control doors.",
             products: [
@@ -2336,7 +2336,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "electric-bolt-lock",
             name: "Electric Bolt Lock",
-            link: "/sub-electric-bolt-lock.html",
+            link: "/electric-bolt-lock.html",
             img: "/images/sub-sub-categories/sub-electric-bolt-lock.avif",
             description: "Electric bolt lock for secure door locking.",
             products: [
@@ -2351,7 +2351,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "door-exit-button",
             name: "Door Exit Button",
-            link: "/sub-door-exit-button.html",
+            link: "/door-exit-button.html",
             img: "/images/sub-sub-categories/sub-door-exit-button.avif",
             description: "Exit button for access control door release.",
             products: [
@@ -2387,7 +2387,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "employee-attendance-software",
             name: "Employee Attendance Software",
-            link: "/sub-employee-attendance-software.html",
+            link: "/employee-attendance-software.html",
             img: "/images/sub-sub-categories/sub-employee-attendance-software.avif",
             description:
               "Employee attendance software for report and attendance management.",
@@ -2403,7 +2403,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "cloud-attendance-software",
             name: "Cloud Attendance Software",
-            link: "/sub-cloud-attendance-software.html",
+            link: "/cloud-attendance-software.html",
             img: "/images/sub-sub-categories/sub-cloud-attendance-software.avif",
             description:
               "Cloud attendance software for remote attendance monitoring.",
@@ -2489,7 +2489,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "conventional-fire-alarm-panel",
             name: "Conventional Fire Alarm Panel",
-            link: "/sub-conventional-fire-alarm-panel.html",
+            link: "/conventional-fire-alarm-panel.html",
             img: "/images/sub-sub-categories/sub-conventional-fire-alarm-panel.avif",
             description:
               "Conventional fire alarm panel for zone-based fire alarm projects.",
@@ -2505,7 +2505,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "conventional-smoke-detector",
             name: "Conventional Smoke Detector",
-            link: "/sub-conventional-smoke-detector.html",
+            link: "/conventional-smoke-detector.html",
             img: "/images/sub-sub-categories/sub-conventional-smoke-detector.avif",
             description: "Smoke detector for conventional fire alarm systems.",
             products: [
@@ -2520,7 +2520,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "conventional-heat-detector",
             name: "Conventional Heat Detector",
-            link: "/sub-conventional-heat-detector.html",
+            link: "/conventional-heat-detector.html",
             img: "/images/sub-sub-categories/sub-conventional-heat-detector.avif",
             description: "Heat detector for conventional fire alarm systems.",
             products: [
@@ -2568,7 +2568,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "addressable-fire-alarm-panel",
             name: "Addressable Fire Alarm Panel",
-            link: "/sub-addressable-fire-alarm-panel.html",
+            link: "/addressable-fire-alarm-panel.html",
             img: "/images/sub-sub-categories/sub-addressable-fire-alarm-panel.avif",
             description:
               "Addressable fire alarm panel for advanced fire detection.",
@@ -2584,7 +2584,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "addressable-smoke-detector",
             name: "Addressable Smoke Detector",
-            link: "/sub-addressable-smoke-detector.html",
+            link: "/addressable-smoke-detector.html",
             img: "/images/sub-sub-categories/sub-addressable-smoke-detector.avif",
             description:
               "Addressable smoke detector for intelligent fire alarm systems.",
@@ -2600,7 +2600,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "addressable-heat-detector",
             name: "Addressable Heat Detector",
-            link: "/sub-addressable-heat-detector.html",
+            link: "/addressable-heat-detector.html",
             img: "/images/sub-sub-categories/sub-addressable-heat-detector.avif",
             description:
               "Addressable heat detector for advanced fire alarm projects.",
@@ -2649,7 +2649,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "2-zone-fire-alarm-panel",
             name: "2 Zone Fire Alarm Panel",
-            link: "/sub-2-zone-fire-alarm-panel.html",
+            link: "/2-zone-fire-alarm-panel.html",
             img: "/images/sub-sub-categories/sub-2-zone-fire-alarm-panel.avif",
             description: "2 zone fire alarm panel for small projects.",
             products: [
@@ -2664,7 +2664,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "4-zone-fire-alarm-panel",
             name: "4 Zone Fire Alarm Panel",
-            link: "/sub-4-zone-fire-alarm-panel.html",
+            link: "/4-zone-fire-alarm-panel.html",
             img: "/images/sub-sub-categories/sub-4-zone-fire-alarm-panel.avif",
             description: "4 zone fire alarm panel for medium projects.",
             products: [
@@ -2679,7 +2679,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "8-zone-fire-alarm-panel",
             name: "8 Zone Fire Alarm Panel",
-            link: "/sub-8-zone-fire-alarm-panel.html",
+            link: "/8-zone-fire-alarm-panel.html",
             img: "/images/sub-sub-categories/sub-8-zone-fire-alarm-panel.avif",
             description:
               "8 zone fire alarm panel for larger conventional systems.",
@@ -2721,7 +2721,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "optical-smoke-detector",
             name: "Optical Smoke Detector",
-            link: "/sub-optical-smoke-detector.html",
+            link: "/optical-smoke-detector.html",
             img: "/images/sub-sub-categories/sub-optical-smoke-detector.avif",
             description: "Optical smoke detector for fire alarm systems.",
             products: [
@@ -2736,7 +2736,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "photoelectric-smoke-detector",
             name: "Photoelectric Smoke Detector",
-            link: "/sub-photoelectric-smoke-detector.html",
+            link: "/photoelectric-smoke-detector.html",
             img: "/images/sub-sub-categories/sub-photoelectric-smoke-detector.avif",
             description:
               "Photoelectric smoke detector for building fire safety.",
@@ -2778,7 +2778,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fixed-temperature-heat-detector",
             name: "Fixed Temperature Heat Detector",
-            link: "/sub-fixed-temperature-heat-detector.html",
+            link: "/fixed-temperature-heat-detector.html",
             img: "/images/sub-sub-categories/sub-fixed-temperature-heat-detector.avif",
             description:
               "Fixed temperature heat detector for fire alarm systems.",
@@ -2794,7 +2794,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rate-of-rise-heat-detector",
             name: "Rate of Rise Heat Detector",
-            link: "/sub-rate-of-rise-heat-detector.html",
+            link: "/rate-of-rise-heat-detector.html",
             img: "/images/sub-sub-categories/sub-rate-of-rise-heat-detector.avif",
             description:
               "Rate of rise heat detector for fast temperature increase detection.",
@@ -2831,7 +2831,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "break-glass-call-point",
             name: "Break Glass Call Point",
-            link: "/sub-break-glass-call-point.html",
+            link: "/break-glass-call-point.html",
             img: "/images/sub-sub-categories/sub-break-glass-call-point.avif",
             description:
               "Break glass call point for manual fire alarm activation.",
@@ -2847,7 +2847,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "resettable-call-point",
             name: "Resettable Call Point",
-            link: "/sub-resettable-call-point.html",
+            link: "/resettable-call-point.html",
             img: "/images/sub-sub-categories/sub-resettable-call-point.avif",
             description: "Resettable manual call point for fire alarm systems.",
             products: [
@@ -2888,7 +2888,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fire-alarm-sounder",
             name: "Fire Alarm Sounder",
-            link: "/sub-fire-alarm-sounder.html",
+            link: "/fire-alarm-sounder.html",
             img: "/images/sub-sub-categories/sub-fire-alarm-sounder.avif",
             description: "Audible sounder for fire alarm notification.",
             products: [
@@ -2903,7 +2903,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fire-alarm-strobe",
             name: "Fire Alarm Strobe",
-            link: "/sub-fire-alarm-strobe.html",
+            link: "/fire-alarm-strobe.html",
             img: "/images/sub-sub-categories/sub-fire-alarm-strobe.avif",
             description: "Visual strobe light for fire alarm notification.",
             products: [
@@ -2988,7 +2988,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "manual-tripod-turnstile",
             name: "Manual Tripod Turnstile",
-            link: "/sub-manual-tripod-turnstile.html",
+            link: "/manual-tripod-turnstile.html",
             img: "/images/sub-sub-categories/sub-manual-tripod-turnstile.avif",
             description:
               "Manual tripod turnstile for basic pedestrian access control.",
@@ -3004,7 +3004,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "automatic-tripod-turnstile",
             name: "Automatic Tripod Turnstile",
-            link: "/sub-automatic-tripod-turnstile.html",
+            link: "/automatic-tripod-turnstile.html",
             img: "/images/sub-sub-categories/sub-automatic-tripod-turnstile.avif",
             description:
               "Automatic tripod turnstile with card, biometric or QR access control.",
@@ -3053,7 +3053,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-lane-flap-barrier",
             name: "Single Lane Flap Barrier",
-            link: "/sub-single-lane-flap-barrier.html",
+            link: "/single-lane-flap-barrier.html",
             img: "/images/sub-sub-categories/sub-single-lane-flap-barrier.avif",
             description:
               "Single lane flap barrier for controlled pedestrian entry.",
@@ -3069,7 +3069,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "double-lane-flap-barrier",
             name: "Double Lane Flap Barrier",
-            link: "/sub-double-lane-flap-barrier.html",
+            link: "/double-lane-flap-barrier.html",
             img: "/images/sub-sub-categories/sub-double-lane-flap-barrier.avif",
             description: "Double lane flap barrier for higher pedestrian flow.",
             products: [
@@ -3117,7 +3117,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-swing-barrier",
             name: "Single Swing Barrier",
-            link: "/sub-single-swing-barrier.html",
+            link: "/single-swing-barrier.html",
             img: "/images/sub-sub-categories/sub-single-swing-barrier.avif",
             description:
               "Single swing barrier for controlled pedestrian access.",
@@ -3133,7 +3133,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "double-swing-barrier",
             name: "Double Swing Barrier",
-            link: "/sub-double-swing-barrier.html",
+            link: "/double-swing-barrier.html",
             img: "/images/sub-sub-categories/sub-double-swing-barrier.avif",
             description:
               "Double swing barrier for wide entrance access control.",
@@ -3182,7 +3182,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-full-height-turnstile",
             name: "Single Full Height Turnstile",
-            link: "/sub-single-full-height-turnstile.html",
+            link: "/single-full-height-turnstile.html",
             img: "/images/sub-sub-categories/sub-single-full-height-turnstile.avif",
             description:
               "Single full height turnstile for high-security entrance control.",
@@ -3198,7 +3198,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "double-full-height-turnstile",
             name: "Double Full Height Turnstile",
-            link: "/sub-double-full-height-turnstile.html",
+            link: "/double-full-height-turnstile.html",
             img: "/images/sub-sub-categories/sub-double-full-height-turnstile.avif",
             description:
               "Double full height turnstile for high traffic secured entrances.",
@@ -3247,7 +3247,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "straight-arm-boom-barrier",
             name: "Straight Arm Boom Barrier",
-            link: "/sub-straight-arm-boom-barrier.html",
+            link: "/straight-arm-boom-barrier.html",
             img: "/images/sub-sub-categories/sub-straight-arm-boom-barrier.avif",
             description:
               "Straight arm boom barrier for vehicle access control.",
@@ -3263,7 +3263,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "folding-arm-boom-barrier",
             name: "Folding Arm Boom Barrier",
-            link: "/sub-folding-arm-boom-barrier.html",
+            link: "/folding-arm-boom-barrier.html",
             img: "/images/sub-sub-categories/sub-folding-arm-boom-barrier.avif",
             description:
               "Folding arm boom barrier for basement and low height parking.",
@@ -3312,7 +3312,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-parking-barrier",
             name: "RFID Parking Barrier",
-            link: "/sub-rfid-parking-barrier.html",
+            link: "/rfid-parking-barrier.html",
             img: "/images/sub-sub-categories/sub-rfid-parking-barrier.avif",
             description: "RFID parking barrier for authorized vehicle access.",
             products: [
@@ -3327,7 +3327,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "anpr-parking-barrier",
             name: "ANPR Parking Barrier",
-            link: "/sub-anpr-parking-barrier.html",
+            link: "/anpr-parking-barrier.html",
             img: "/images/sub-sub-categories/sub-anpr-parking-barrier.avif",
             description:
               "ANPR parking barrier for automatic plate recognition parking.",
@@ -3375,7 +3375,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "qr-ticketing-gate",
             name: "QR Ticketing Gate",
-            link: "/sub-qr-ticketing-gate.html",
+            link: "/qr-ticketing-gate.html",
             img: "/images/sub-sub-categories/sub-qr-ticketing-gate.avif",
             description: "QR ticketing gate for scan-based entry access.",
             products: [
@@ -3390,7 +3390,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-ticketing-gate",
             name: "RFID Ticketing Gate",
-            link: "/sub-rfid-ticketing-gate.html",
+            link: "/rfid-ticketing-gate.html",
             img: "/images/sub-sub-categories/sub-rfid-ticketing-gate.avif",
             description: "RFID ticketing gate for card-based entry access.",
             products: [
@@ -3475,7 +3475,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "p2-indoor-led-display",
             name: "P2 Indoor LED Display",
-            link: "/sub-p2-indoor-led-display.html",
+            link: "/p2-indoor-led-display.html",
             img: "/images/sub-sub-categories/sub-p2-indoor-led-display.avif",
             description:
               "P2 pixel pitch indoor LED display for high-resolution display projects.",
@@ -3491,7 +3491,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "p3-indoor-led-display",
             name: "P3 Indoor LED Display",
-            link: "/sub-p3-indoor-led-display.html",
+            link: "/p3-indoor-led-display.html",
             img: "/images/sub-sub-categories/sub-p3-indoor-led-display.avif",
             description:
               "P3 indoor LED display for commercial display and advertising.",
@@ -3540,7 +3540,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "p4-outdoor-led-display",
             name: "P4 Outdoor LED Display",
-            link: "/sub-p4-outdoor-led-display.html",
+            link: "/p4-outdoor-led-display.html",
             img: "/images/sub-sub-categories/sub-p4-outdoor-led-display.avif",
             description:
               "P4 outdoor LED display for sharp outdoor advertising screens.",
@@ -3556,7 +3556,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "p5-outdoor-led-display",
             name: "P5 Outdoor LED Display",
-            link: "/sub-p5-outdoor-led-display.html",
+            link: "/p5-outdoor-led-display.html",
             img: "/images/sub-sub-categories/sub-p5-outdoor-led-display.avif",
             description:
               "P5 outdoor LED display for large outdoor screen projects.",
@@ -3605,7 +3605,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "touch-kiosk",
             name: "Touch Kiosk",
-            link: "/sub-touch-kiosk.html",
+            link: "/touch-kiosk.html",
             img: "/images/sub-sub-categories/sub-touch-kiosk.avif",
             description:
               "Touch screen kiosk for interactive customer information display.",
@@ -3621,7 +3621,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "self-service-kiosk",
             name: "Self Service Kiosk",
-            link: "/sub-self-service-kiosk.html",
+            link: "/self-service-kiosk.html",
             img: "/images/sub-sub-categories/sub-self-service-kiosk.avif",
             description:
               "Self-service kiosk for automated customer service and registration.",
@@ -3670,7 +3670,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "lcd-video-wall",
             name: "LCD Video Wall",
-            link: "/sub-lcd-video-wall.html",
+            link: "/lcd-video-wall.html",
             img: "/images/sub-sub-categories/sub-lcd-video-wall.avif",
             description:
               "LCD video wall display for control rooms and commercial display.",
@@ -3686,7 +3686,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "led-video-wall",
             name: "LED Video Wall",
-            link: "/sub-led-video-wall.html",
+            link: "/led-video-wall.html",
             img: "/images/sub-sub-categories/sub-led-video-wall.avif",
             description: "LED video wall for seamless large screen display.",
             products: [
@@ -3734,7 +3734,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "android-signage-player",
             name: "Android Signage Player",
-            link: "/sub-android-signage-player.html",
+            link: "/android-signage-player.html",
             img: "/images/sub-sub-categories/sub-android-signage-player.avif",
             description:
               "Android media player for digital signage content playback.",
@@ -3750,7 +3750,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "windows-signage-player",
             name: "Windows Signage Player",
-            link: "/sub-windows-signage-player.html",
+            link: "/windows-signage-player.html",
             img: "/images/sub-sub-categories/sub-windows-signage-player.avif",
             description:
               "Windows signage player for professional display systems.",
@@ -3799,7 +3799,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "floor-standing-display",
             name: "Floor Standing Display",
-            link: "/sub-floor-standing-display.html",
+            link: "/floor-standing-display.html",
             img: "/images/sub-sub-categories/sub-floor-standing-display.avif",
             description:
               "Floor standing digital display for advertising and information.",
@@ -3815,7 +3815,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wall-mounted-display",
             name: "Wall Mounted Display",
-            link: "/sub-wall-mounted-display.html",
+            link: "/wall-mounted-display.html",
             img: "/images/sub-sub-categories/sub-wall-mounted-display.avif",
             description: "Wall mounted display for digital signage projects.",
             products: [
@@ -3906,7 +3906,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "basic-token-machine",
             name: "Basic Token Machine",
-            link: "/sub-basic-token-machine.html",
+            link: "/basic-token-machine.html",
             img: "/images/sub-sub-categories/sub-basic-token-machine.avif",
             description:
               "Basic token machine for simple customer queue management.",
@@ -3922,7 +3922,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "touch-token-machine",
             name: "Touch Token Machine",
-            link: "/sub-touch-token-machine.html",
+            link: "/touch-token-machine.html",
             img: "/images/sub-sub-categories/sub-touch-token-machine.avif",
             description:
               "Touch screen token machine for modern queue management.",
@@ -3938,7 +3938,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "kiosk-token-machine",
             name: "Kiosk Token Machine",
-            link: "/sub-kiosk-token-machine.html",
+            link: "/kiosk-token-machine.html",
             img: "/images/sub-sub-categories/sub-kiosk-token-machine.avif",
             description:
               "Kiosk token machine for self-service queue number generation.",
@@ -3987,7 +3987,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "counter-display",
             name: "Counter Display",
-            link: "/sub-counter-display.html",
+            link: "/counter-display.html",
             img: "/images/sub-sub-categories/sub-counter-display.avif",
             description:
               "Counter display for showing token number at service counters.",
@@ -4003,7 +4003,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "main-queue-display",
             name: "Main Queue Display",
-            link: "/sub-main-queue-display.html",
+            link: "/main-queue-display.html",
             img: "/images/sub-sub-categories/sub-main-queue-display.avif",
             description: "Main queue display for customer waiting areas.",
             products: [
@@ -4051,7 +4051,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wireless-calling-system",
             name: "Wireless Calling System",
-            link: "/sub-wireless-calling-system.html",
+            link: "/wireless-calling-system.html",
             img: "/images/sub-sub-categories/sub-wireless-calling-system.avif",
             description: "Wireless token calling system for service counters.",
             products: [
@@ -4066,7 +4066,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "software-calling-system",
             name: "Software Calling System",
-            link: "/sub-software-calling-system.html",
+            link: "/software-calling-system.html",
             img: "/images/sub-sub-categories/sub-software-calling-system.avif",
             description:
               "Software calling system for counter-based queue control.",
@@ -4114,7 +4114,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "led-counter-display",
             name: "LED Counter Display",
-            link: "/sub-led-counter-display.html",
+            link: "/led-counter-display.html",
             img: "/images/sub-sub-categories/sub-led-counter-display.avif",
             description: "LED counter display for queue token number display.",
             products: [
@@ -4129,7 +4129,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "lcd-counter-display",
             name: "LCD Counter Display",
-            link: "/sub-lcd-counter-display.html",
+            link: "/lcd-counter-display.html",
             img: "/images/sub-sub-categories/sub-lcd-counter-display.avif",
             description: "LCD counter display for digital queue management.",
             products: [
@@ -4177,7 +4177,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "cloud-queue-software",
             name: "Cloud Queue Software",
-            link: "/sub-cloud-queue-software.html",
+            link: "/cloud-queue-software.html",
             img: "/images/sub-sub-categories/sub-cloud-queue-software.avif",
             description:
               "Cloud queue software for remote queue monitoring and reports.",
@@ -4193,7 +4193,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "local-queue-software",
             name: "Local Queue Software",
-            link: "/sub-local-queue-software.html",
+            link: "/local-queue-software.html",
             img: "/images/sub-sub-categories/sub-local-queue-software.avif",
             description:
               "Local queue software for offline queue management projects.",
@@ -4242,7 +4242,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "feedback-kiosk",
             name: "Feedback Kiosk",
-            link: "/sub-feedback-kiosk.html",
+            link: "/feedback-kiosk.html",
             img: "/images/sub-sub-categories/sub-feedback-kiosk.avif",
             description: "Feedback kiosk for customer rating collection.",
             products: [
@@ -4257,7 +4257,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "feedback-software",
             name: "Feedback Software",
-            link: "/sub-feedback-software.html",
+            link: "/feedback-software.html",
             img: "/images/sub-sub-categories/sub-feedback-software.avif",
             description: "Feedback software for customer experience analytics.",
             products: [
@@ -4348,7 +4348,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ticket-parking-system",
             name: "Ticket Parking System",
-            link: "/sub-ticket-parking-system.html",
+            link: "/ticket-parking-system.html",
             img: "/images/sub-sub-categories/sub-ticket-parking-system.avif",
             description:
               "Ticket-based parking system for entry, exit and payment operation.",
@@ -4364,7 +4364,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-parking-system",
             name: "RFID Parking System",
-            link: "/sub-rfid-parking-system.html",
+            link: "/rfid-parking-system.html",
             img: "/images/sub-sub-categories/sub-rfid-parking-system.avif",
             description: "RFID parking system for authorized vehicle access.",
             products: [
@@ -4379,7 +4379,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "anpr-parking-system",
             name: "ANPR Parking System",
-            link: "/sub-anpr-parking-system.html",
+            link: "/anpr-parking-system.html",
             img: "/images/sub-sub-categories/sub-anpr-parking-system.avif",
             description:
               "ANPR parking system for automatic number plate based vehicle access.",
@@ -4428,7 +4428,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "indoor-parking-guidance",
             name: "Indoor Parking Guidance",
-            link: "/sub-indoor-parking-guidance.html",
+            link: "/indoor-parking-guidance.html",
             img: "/images/sub-sub-categories/sub-indoor-parking-guidance.avif",
             description:
               "Indoor parking guidance system for basement and covered parking.",
@@ -4444,7 +4444,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "outdoor-parking-guidance",
             name: "Outdoor Parking Guidance",
-            link: "/sub-outdoor-parking-guidance.html",
+            link: "/outdoor-parking-guidance.html",
             img: "/images/sub-sub-categories/sub-outdoor-parking-guidance.avif",
             description:
               "Outdoor parking guidance system for open vehicle parking areas.",
@@ -4492,7 +4492,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-long-range-reader",
             name: "RFID Long Range Reader",
-            link: "/sub-rfid-long-range-reader.html",
+            link: "/rfid-long-range-reader.html",
             img: "/images/sub-sub-categories/sub-rfid-long-range-reader.avif",
             description: "Long range RFID reader for vehicle access control.",
             products: [
@@ -4507,7 +4507,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "rfid-vehicle-tag",
             name: "RFID Vehicle Tag",
-            link: "/sub-rfid-vehicle-tag.html",
+            link: "/rfid-vehicle-tag.html",
             img: "/images/sub-sub-categories/sub-rfid-vehicle-tag.avif",
             description:
               "RFID vehicle tag for authorized vehicle identification.",
@@ -4556,7 +4556,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "anpr-entry-system",
             name: "ANPR Entry System",
-            link: "/sub-anpr-entry-system.html",
+            link: "/anpr-entry-system.html",
             img: "/images/sub-sub-categories/sub-anpr-entry-system.avif",
             description:
               "ANPR entry system for number plate based vehicle access.",
@@ -4572,7 +4572,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "anpr-exit-system",
             name: "ANPR Exit System",
-            link: "/sub-anpr-exit-system.html",
+            link: "/anpr-exit-system.html",
             img: "/images/sub-sub-categories/sub-anpr-exit-system.avif",
             description: "ANPR exit system for automated vehicle exit control.",
             products: [
@@ -4620,7 +4620,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "single-channel-loop-detector",
             name: "Single Channel Loop Detector",
-            link: "/sub-single-channel-loop-detector.html",
+            link: "/single-channel-loop-detector.html",
             img: "/images/sub-sub-categories/sub-single-channel-loop-detector.avif",
             description:
               "Single channel loop detector for parking and barrier systems.",
@@ -4636,7 +4636,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "dual-channel-loop-detector",
             name: "Dual Channel Loop Detector",
-            link: "/sub-dual-channel-loop-detector.html",
+            link: "/dual-channel-loop-detector.html",
             img: "/images/sub-sub-categories/sub-dual-channel-loop-detector.avif",
             description:
               "Dual channel loop detector for advanced vehicle detection.",
@@ -4683,7 +4683,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "cash-payment-kiosk",
             name: "Cash Payment Kiosk",
-            link: "/sub-cash-payment-kiosk.html",
+            link: "/cash-payment-kiosk.html",
             img: "/images/sub-sub-categories/sub-cash-payment-kiosk.avif",
             description: "Cash payment kiosk for parking fee payment.",
             products: [
@@ -4698,7 +4698,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "card-payment-kiosk",
             name: "Card Payment Kiosk",
-            link: "/sub-card-payment-kiosk.html",
+            link: "/card-payment-kiosk.html",
             img: "/images/sub-sub-categories/sub-card-payment-kiosk.avif",
             description: "Card payment kiosk for cashless parking payment.",
             products: [
@@ -4783,7 +4783,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wired-conference-microphone",
             name: "Wired Conference Microphone",
-            link: "/sub-wired-conference-microphone.html",
+            link: "/wired-conference-microphone.html",
             img: "/images/sub-sub-categories/sub-wired-conference-microphone.avif",
             description:
               "Wired microphone for professional conference and meeting systems.",
@@ -4799,7 +4799,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wireless-conference-microphone",
             name: "Wireless Conference Microphone",
-            link: "/sub-wireless-conference-microphone.html",
+            link: "/wireless-conference-microphone.html",
             img: "/images/sub-sub-categories/sub-wireless-conference-microphone.avif",
             description:
               "Wireless microphone for flexible conference audio systems.",
@@ -4848,7 +4848,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wall-mount-pa-speaker",
             name: "Wall Mount PA Speaker",
-            link: "/sub-wall-mount-pa-speaker.html",
+            link: "/wall-mount-pa-speaker.html",
             img: "/images/sub-sub-categories/sub-wall-mount-pa-speaker.avif",
             description:
               "Wall mount PA speaker for public address audio coverage.",
@@ -4864,7 +4864,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ceiling-pa-speaker",
             name: "Ceiling PA Speaker",
-            link: "/sub-ceiling-pa-speaker.html",
+            link: "/ceiling-pa-speaker.html",
             img: "/images/sub-sub-categories/sub-ceiling-pa-speaker.avif",
             description:
               "Ceiling speaker for indoor PA and background music systems.",
@@ -4913,7 +4913,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "mixer-amplifier",
             name: "Mixer Amplifier",
-            link: "/sub-mixer-amplifier.html",
+            link: "/mixer-amplifier.html",
             img: "/images/sub-sub-categories/sub-mixer-amplifier.avif",
             description: "Mixer amplifier for microphone and speaker control.",
             products: [
@@ -4928,7 +4928,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "power-amplifier",
             name: "Power Amplifier",
-            link: "/sub-power-amplifier.html",
+            link: "/power-amplifier.html",
             img: "/images/sub-sub-categories/sub-power-amplifier.avif",
             description: "Power amplifier for larger speaker and PA projects.",
             products: [
@@ -4976,7 +4976,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "handheld-wireless-microphone",
             name: "Handheld Wireless Microphone",
-            link: "/sub-handheld-wireless-microphone.html",
+            link: "/handheld-wireless-microphone.html",
             img: "/images/sub-sub-categories/sub-handheld-wireless-microphone.avif",
             description:
               "Handheld wireless microphone for speeches and PA systems.",
@@ -4992,7 +4992,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "lapel-wireless-microphone",
             name: "Lapel Wireless Microphone",
-            link: "/sub-lapel-wireless-microphone.html",
+            link: "/lapel-wireless-microphone.html",
             img: "/images/sub-sub-categories/sub-lapel-wireless-microphone.avif",
             description:
               "Lapel wireless microphone for hands-free speech and presentation.",
@@ -5041,7 +5041,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "small-meeting-room-audio",
             name: "Small Meeting Room Audio",
-            link: "/sub-small-meeting-room-audio.html",
+            link: "/small-meeting-room-audio.html",
             img: "/images/sub-sub-categories/sub-small-meeting-room-audio.avif",
             description:
               "Audio system for small meeting rooms and huddle rooms.",
@@ -5057,7 +5057,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "large-meeting-room-audio",
             name: "Large Meeting Room Audio",
-            link: "/sub-large-meeting-room-audio.html",
+            link: "/large-meeting-room-audio.html",
             img: "/images/sub-sub-categories/sub-large-meeting-room-audio.avif",
             description: "Audio system for large meeting rooms and boardrooms.",
             products: [
@@ -5105,7 +5105,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "zone-pa-system",
             name: "Zone PA System",
-            link: "/sub-zone-pa-system.html",
+            link: "/zone-pa-system.html",
             img: "/images/sub-sub-categories/sub-zone-pa-system.avif",
             description:
               "Zone PA system for separate area announcement control.",
@@ -5121,7 +5121,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "emergency-pa-system",
             name: "Emergency PA System",
-            link: "/sub-emergency-pa-system.html",
+            link: "/emergency-pa-system.html",
             img: "/images/sub-sub-categories/sub-emergency-pa-system.avif",
             description:
               "Emergency PA system for evacuation and safety announcements.",
@@ -5207,7 +5207,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "bms-controller",
             name: "BMS Controller",
-            link: "/sub-bms-controller.html",
+            link: "/bms-controller.html",
             img: "/images/sub-sub-categories/sub-bms-controller.avif",
             description:
               "BMS controller for building automation device control.",
@@ -5223,7 +5223,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "bms-monitoring-software",
             name: "BMS Monitoring Software",
-            link: "/sub-bms-monitoring-software.html",
+            link: "/bms-monitoring-software.html",
             img: "/images/sub-sub-categories/sub-bms-monitoring-software.avif",
             description:
               "BMS monitoring software for centralized building system dashboard.",
@@ -5272,7 +5272,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "dimming-control",
             name: "Dimming Control",
-            link: "/sub-dimming-control.html",
+            link: "/dimming-control.html",
             img: "/images/sub-sub-categories/sub-dimming-control.avif",
             description: "Dimming control system for smart lighting projects.",
             products: [
@@ -5287,7 +5287,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "motion-lighting-control",
             name: "Motion Lighting Control",
-            link: "/sub-motion-lighting-control.html",
+            link: "/motion-lighting-control.html",
             img: "/images/sub-sub-categories/sub-motion-lighting-control.avif",
             description:
               "Motion sensor lighting control for automatic light operation.",
@@ -5336,7 +5336,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "thermostat-control",
             name: "Thermostat Control",
-            link: "/sub-thermostat-control.html",
+            link: "/thermostat-control.html",
             img: "/images/sub-sub-categories/sub-thermostat-control.avif",
             description:
               "Thermostat control for temperature and HVAC automation.",
@@ -5352,7 +5352,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "ahu-control",
             name: "AHU Control",
-            link: "/sub-ahu-control.html",
+            link: "/ahu-control.html",
             img: "/images/sub-sub-categories/sub-ahu-control.avif",
             description: "AHU control system for air handling unit management.",
             products: [
@@ -5400,7 +5400,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "energy-meter",
             name: "Energy Meter",
-            link: "/sub-energy-meter.html",
+            link: "/energy-meter.html",
             img: "/images/sub-sub-categories/sub-energy-meter.avif",
             description: "Energy meter for building power usage monitoring.",
             products: [
@@ -5415,7 +5415,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "energy-monitoring-software",
             name: "Energy Monitoring Software",
-            link: "/sub-energy-monitoring-software.html",
+            link: "/energy-monitoring-software.html",
             img: "/images/sub-sub-categories/sub-energy-monitoring-software.avif",
             description:
               "Energy monitoring software for reports and consumption analysis.",
@@ -5463,7 +5463,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-building-controller",
             name: "Smart Building Controller",
-            link: "/sub-smart-building-controller.html",
+            link: "/smart-building-controller.html",
             img: "/images/sub-sub-categories/sub-smart-building-controller.avif",
             description: "Controller for smart building automation systems.",
             products: [
@@ -5478,7 +5478,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-building-dashboard",
             name: "Smart Building Dashboard",
-            link: "/sub-smart-building-dashboard.html",
+            link: "/smart-building-dashboard.html",
             img: "/images/sub-sub-categories/sub-smart-building-dashboard.avif",
             description: "Dashboard for smart building monitoring and control.",
             products: [
@@ -5526,7 +5526,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "central-monitoring-software",
             name: "Central Monitoring Software",
-            link: "/sub-central-monitoring-software.html",
+            link: "/central-monitoring-software.html",
             img: "/images/sub-sub-categories/sub-central-monitoring-software.avif",
             description:
               "Central monitoring software for building automation systems.",
@@ -5542,7 +5542,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "monitoring-workstation",
             name: "Monitoring Workstation",
-            link: "/sub-monitoring-workstation.html",
+            link: "/monitoring-workstation.html",
             img: "/images/sub-sub-categories/sub-monitoring-workstation.avif",
             description:
               "Monitoring workstation for building control room operation.",
@@ -5634,7 +5634,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "fingerprint-smart-lock",
             name: "Fingerprint Smart Lock",
-            link: "/sub-fingerprint-smart-lock.html",
+            link: "/fingerprint-smart-lock.html",
             img: "/images/sub-sub-categories/sub-fingerprint-smart-lock.avif",
             description:
               "Fingerprint smart lock for biometric home and office door access.",
@@ -5650,7 +5650,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wifi-smart-lock",
             name: "WiFi Smart Lock",
-            link: "/sub-wifi-smart-lock.html",
+            link: "/wifi-smart-lock.html",
             img: "/images/sub-sub-categories/sub-wifi-smart-lock.avif",
             description:
               "WiFi smart lock for app-based and remote door access.",
@@ -5666,7 +5666,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "card-smart-lock",
             name: "Card Smart Lock",
-            link: "/sub-card-smart-lock.html",
+            link: "/card-smart-lock.html",
             img: "/images/sub-sub-categories/sub-card-smart-lock.avif",
             description: "Card smart lock for RFID card based door access.",
             products: [
@@ -5720,7 +5720,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "one-gang-smart-switch",
             name: "One Gang Smart Switch",
-            link: "/sub-one-gang-smart-switch.html",
+            link: "/one-gang-smart-switch.html",
             img: "/images/sub-sub-categories/sub-one-gang-smart-switch.avif",
             description:
               "One gang smart switch for single circuit smart control.",
@@ -5736,7 +5736,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "two-gang-smart-switch",
             name: "Two Gang Smart Switch",
-            link: "/sub-two-gang-smart-switch.html",
+            link: "/two-gang-smart-switch.html",
             img: "/images/sub-sub-categories/sub-two-gang-smart-switch.avif",
             description: "Two gang smart switch for dual lighting control.",
             products: [
@@ -5751,7 +5751,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "three-gang-smart-switch",
             name: "Three Gang Smart Switch",
-            link: "/sub-three-gang-smart-switch.html",
+            link: "/three-gang-smart-switch.html",
             img: "/images/sub-sub-categories/sub-three-gang-smart-switch.avif",
             description:
               "Three gang smart switch for multiple circuit control.",
@@ -5799,7 +5799,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-curtain-motor",
             name: "Smart Curtain Motor",
-            link: "/sub-smart-curtain-motor.html",
+            link: "/smart-curtain-motor.html",
             img: "/images/sub-sub-categories/sub-smart-curtain-motor.avif",
             description: "Motor for automatic smart curtain operation.",
             products: [
@@ -5814,7 +5814,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-curtain-track",
             name: "Smart Curtain Track",
-            link: "/sub-smart-curtain-track.html",
+            link: "/smart-curtain-track.html",
             img: "/images/sub-sub-categories/sub-smart-curtain-track.avif",
             description: "Curtain track for smart motorized curtain system.",
             products: [
@@ -5862,7 +5862,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-led-bulb",
             name: "Smart LED Bulb",
-            link: "/sub-smart-led-bulb.html",
+            link: "/smart-led-bulb.html",
             img: "/images/sub-sub-categories/sub-smart-led-bulb.avif",
             description:
               "Smart LED bulb for mobile app and voice lighting control.",
@@ -5878,7 +5878,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-strip-light",
             name: "Smart Strip Light",
-            link: "/sub-smart-strip-light.html",
+            link: "/smart-strip-light.html",
             img: "/images/sub-sub-categories/sub-smart-strip-light.avif",
             description:
               "Smart strip light for decorative smart home lighting.",
@@ -5927,7 +5927,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-motion-sensor",
             name: "Smart Motion Sensor",
-            link: "/sub-smart-motion-sensor.html",
+            link: "/smart-motion-sensor.html",
             img: "/images/sub-sub-categories/sub-smart-motion-sensor.avif",
             description:
               "Motion sensor for smart home security and automation.",
@@ -5943,7 +5943,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "smart-door-sensor",
             name: "Smart Door Sensor",
-            link: "/sub-smart-door-sensor.html",
+            link: "/smart-door-sensor.html",
             img: "/images/sub-sub-categories/sub-smart-door-sensor.avif",
             description:
               "Door sensor for smart home door open and close detection.",
@@ -5991,7 +5991,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "wifi-automation-hub",
             name: "WiFi Automation Hub",
-            link: "/sub-wifi-automation-hub.html",
+            link: "/wifi-automation-hub.html",
             img: "/images/sub-sub-categories/sub-wifi-automation-hub.avif",
             description: "WiFi hub for connecting smart home devices.",
             products: [
@@ -6006,7 +6006,7 @@ export const PRODUCT_CATEGORIES = {
           {
             key: "zigbee-automation-hub",
             name: "Zigbee Automation Hub",
-            link: "/sub-zigbee-automation-hub.html",
+            link: "/zigbee-automation-hub.html",
             img: "/images/sub-sub-categories/sub-zigbee-automation-hub.avif",
             description: "Zigbee hub for smart home automation devices.",
             products: [
