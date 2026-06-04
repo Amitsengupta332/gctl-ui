@@ -46,7 +46,7 @@ export function getAllProducts() {
             categoryTitle: category.title,
             subKey: sub.key,
             subTitle: sub.name,
-          })
+          }),
         );
       });
 
@@ -60,7 +60,7 @@ export function getAllProducts() {
               subTitle: sub.name,
               subSubKey: subSub.key,
               subSubTitle: subSub.name,
-            })
+            }),
           );
         });
       });
@@ -75,7 +75,7 @@ export function getAllProducts() {
           categoryKey: section.categoryKey,
           categoryTitle: section.title,
           sourceSectionKey: section.key,
-        })
+        }),
       );
     });
   });

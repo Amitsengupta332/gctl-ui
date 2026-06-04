@@ -1,5 +1,7 @@
 import { findProductBySlug, getAllProducts } from "../utils/product-utils.js";
 
+// import { findProductBySlug, getAllProducts } from "./utils/product-utils.js";
+
 // const root = document.querySelector("#productDetailsRoot");
 let root = null;
 
@@ -163,55 +165,55 @@ function renderSpecs(specs) {
   `;
 }
 
-function renderRelatedProducts(products) {
-  if (!products.length) return "";
+// function renderRelatedProducts(products) {
+//   if (!products.length) return "";
 
-  return `
-    <section class="mt-20">
-      <h2 class="text-[28px] font-black text-[#111827]">Related Products</h2>
+//   return `
+//     <section class="mt-20">
+//       <h2 class="text-[28px] font-black text-[#111827]">Related Products</h2>
 
-      <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        ${products
-          .map(
-            (item) => `
-              <a
-                href="${productUrl(item)}"
-                class="group block border border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(15,23,42,0.10)]"
-              >
-                <div class="flex h-[280px] items-center justify-center bg-white p-8">
-                  <img
-                    src="${escapeHtml(item.img || "/images/products/placeholder.avif")}"
-                    alt="${escapeHtml(item.name)}"
-                    class="max-h-full max-w-full object-contain transition duration-300 group-hover:scale-105"
-                    onerror="this.src='/images/products/placeholder.avif'"
-                  />
-                </div>
+//       <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+//         ${products
+//           .map(
+//             (item) => `
+//               <a
+//                 href="${productUrl(item)}"
+//                 class="group block border border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(15,23,42,0.10)]"
+//               >
+//                 <div class="flex h-[280px] items-center justify-center bg-white p-8">
+//                   <img
+//                     src="${escapeHtml(item.img || "/images/products/placeholder.avif")}"
+//                     alt="${escapeHtml(item.name)}"
+//                     class="max-h-full max-w-full object-contain transition duration-300 group-hover:scale-105"
+//                     onerror="this.src='/images/products/placeholder.avif'"
+//                   />
+//                 </div>
 
-                <div class="bg-[#eef5fb] px-5 py-5 text-center">
-                  <p class="text-[11px] font-bold uppercase tracking-wide text-slate-400">
-                    ${escapeHtml(item.categoryTitle || "Product")}
-                  </p>
+//                 <div class="bg-[#eef5fb] px-5 py-5 text-center">
+//                   <p class="text-[11px] font-bold uppercase tracking-wide text-slate-400">
+//                     ${escapeHtml(item.categoryTitle || "Product")}
+//                   </p>
 
-                  <h3 class="mt-2 line-clamp-1 text-[15px] font-bold text-[#111827] group-hover:text-[#0057d8]">
-                    ${escapeHtml(item.name)}
-                  </h3>
+//                   <h3 class="mt-2 line-clamp-1 text-[15px] font-bold text-[#111827] group-hover:text-[#0057d8]">
+//                     ${escapeHtml(item.name)}
+//                   </h3>
 
-                  <div class="mt-3 text-[13px] tracking-[2px] text-slate-400">
-                    ★★★★★
-                  </div>
+//                   <div class="mt-3 text-[13px] tracking-[2px] text-slate-400">
+//                     ★★★★★
+//                   </div>
 
-                  <p class="mt-2 text-[18px] font-black text-[#111827]">
-                    ${escapeHtml(getPriceText(item))}
-                  </p>
-                </div>
-              </a>
-            `,
-          )
-          .join("")}
-      </div>
-    </section>
-  `;
-}
+//                   <p class="mt-2 text-[18px] font-black text-[#111827]">
+//                     ${escapeHtml(getPriceText(item))}
+//                   </p>
+//                 </div>
+//               </a>
+//             `,
+//           )
+//           .join("")}
+//       </div>
+//     </section>
+//   `;
+// }
 
 // function initGallery(gallery) {
 //   const mainImage = root.querySelector("[data-main-product-image]");
@@ -255,6 +257,103 @@ function renderRelatedProducts(products) {
 
 //   showImage(0);
 // }
+
+
+function renderRelatedProducts(products) {
+  if (!products.length) return "";
+
+  return `
+    <section class="mt-20">
+      <div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="text-[13px] font-black uppercase tracking-[0.18em] text-[#0057b8]">
+            Explore More
+          </p>
+          <h2 class="mt-2 text-[28px] font-black text-[#111827]">
+            Related Products
+          </h2>
+        </div>
+
+        <a
+          href="/index.html"
+          class="text-[13px] font-black uppercase tracking-wide text-[#0057b8] hover:underline"
+        >
+          View All Products
+        </a>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        ${products
+          .map((item) => {
+            const name = escapeHtml(item.name || "Product");
+            const img = escapeHtml(item.img || "/images/products/placeholder.avif");
+            const artNo = escapeHtml(item.artNo || "Call for Price");
+
+            return `
+              <div>
+                <div
+                  class="group flex h-[445px] flex-col rounded-[10px] border border-[#e3ecf7] bg-white shadow-[0_10px_28px_rgba(15,23,42,0.07)] transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:border-[#0057d8] hover:shadow-[0_18px_45px_rgba(0,87,216,0.16)]"
+                >
+                  <a
+                    href="${productUrl(item)}"
+                    class="h-[245px] shrink-0 flex items-center justify-center p-5 bg-white"
+                  >
+                    <img
+                      src="${img}"
+                      alt="${name}"
+                      class="max-w-full max-h-full object-contain transition duration-300 group-hover:scale-105"
+                      onerror="this.src='/images/products/placeholder.avif'"
+                    />
+                  </a>
+
+                  <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
+                    <a href="${productUrl(item)}">
+                      <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] hover:underline">
+                        ${name}
+                      </h3>
+                    </a>
+
+                    <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                      <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+                        Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
+                      </p>
+
+                      <div class="text-[#ff4b00] text-[15px] sm:text-[17px] leading-none tracking-[-1px]">
+                        ★★★★★
+                      </div>
+                    </div>
+
+                    <a
+                      href="${productUrl(item)}"
+                      class="mt-3 inline-flex items-center justify-center rounded-full border border-[#dfeaf7] bg-[#f8fbff] px-4 py-2 text-[12px] font-black text-[#0057b8] transition hover:bg-[#0057b8] hover:text-white"
+                    >
+                      View Details
+                    </a>
+
+                    <a
+                      href="tel:${PHONE_TEL}"
+                      class="mt-3 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827]"
+                    >
+                      <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0">
+                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.2.5 1.2 1.2v3.5c0 .7-.5 1.2-1.2 1.2C10.4 22 2 13.6 2 3.4 2 2.7 2.5 2.2 3.2 2.2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-1.6 2.2z"></path>
+                        </svg>
+                      </span>
+
+                      <span data-call-rotate data-phone="${PHONE_TEL}">
+                        Call for Price
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            `;
+          })
+          .join("")}
+      </div>
+    </section>
+  `;
+}
 
 function initGallery(gallery) {
   const mainImage = root.querySelector("[data-main-product-image]");
@@ -454,16 +553,14 @@ function renderProduct(product) {
           </div>
 
           <div class="order-1 lg:order-2">
-            <div class="relative flex min-h-[460px] items-center justify-center bg-white p-8">
-              <span class="absolute left-0 top-4 bg-[#05c755] px-4 py-2 text-[12px] font-black uppercase text-white">
-                Hot
-              </span>
+          <div class="relative flex min-h-[460px] items-center justify-center overflow-hidden bg-white p-8">
+            
 
-              <button
-                type="button"
-                data-gallery-prev
-                class="absolute left-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-slate-200 bg-white text-[24px] shadow-sm"
-              >
+         <button
+  type="button"
+  data-gallery-prev
+  class="absolute left-2 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-slate-200 bg-white text-[24px] shadow-sm"
+>
                 ‹
               </button>
 
@@ -475,11 +572,11 @@ function renderProduct(product) {
                 onerror="this.src='/images/products/placeholder.avif'"
               />
 
-              <button
-                type="button"
-                data-gallery-next
-                class="absolute right-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-slate-200 bg-white text-[24px] shadow-sm"
-              >
+          <button
+  type="button"
+  data-gallery-next
+  class="absolute right-2 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-slate-200 bg-white text-[24px] shadow-sm"
+>
                 ›
               </button>
             </div>

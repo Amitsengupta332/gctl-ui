@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^product-details/[^/]+/?$ product-details.html [L]
+RewriteRule ^project-details/[^/]+/?$ project-details.html [L]

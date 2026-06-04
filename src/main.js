@@ -788,20 +788,61 @@ function initProductMegaMenu() {
           name: "Walk Through Metal Detector",
           link: "/walk-through-metal-detector.html",
           subSub: [
+            // {
+            //   name: "Single Zone Metal Detector",
+            //   link: "/sub-single-zone-metal-detector.html",
+            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
+            // },
+            // {
+            //   name: "Multi Zone Metal Detector",
+            //   link: "/sub-multi-zone-metal-detector.html",
+            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
+            // },
+            // {
+            //   name: "Weatherproof Metal Detector",
+            //   link: "/sub-weatherproof-metal-detector.html",
+            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
+            // },
+
             {
-              name: "Single Zone Metal Detector",
-              link: "/sub-single-zone-metal-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
+              name: "6 Zone Walk Through Metal Detector",
+              link: "/sub-6-zone-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/6-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "Multi Zone Metal Detector",
-              link: "/sub-multi-zone-metal-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
+              name: "18 Zone Walk Through Metal Detector",
+              link: "/sub-18-zone-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/18-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "Weatherproof Metal Detector",
-              link: "/sub-weatherproof-metal-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
+              name: "33 Zone Walk Through Metal Detector",
+              link: "/sub-33-zone-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/33-zone-walk-through-metal-detector.avif",
+            },
+            {
+              name: "45 Zone Walk Through Metal Detector",
+              link: "/sub-45-zone-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/45-zone-walk-through-metal-detector.avif",
+            },
+            {
+              name: "60 Zone Walk Through Metal Detector",
+              link: "/sub-60-zone-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/60-zone-walk-through-metal-detector.avif",
+            },
+            {
+              name: "Waterproof Walk Through Metal Detector",
+              link: "/sub-waterproof-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/waterproof-walk-through-metal-detector.avif",
+            },
+            {
+              name: "Portable Walk Through Metal Detector",
+              link: "/sub-portable-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/portable-walk-through-metal-detector.avif",
+            },
+            {
+              name: "Single Panel Walk Through Metal Detector",
+              link: "/sub-single-panel-walk-through-metal-detector.html",
+              img: "/images/sub-sub-categories/entrance-security/metal-detector/single-panel-walk-through-metal-detector.avif",
             },
           ],
         },
