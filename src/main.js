@@ -65,27 +65,120 @@ function initFooterYear() {
 function initNavbarMenu() {
   const mobileMenuButton = document.getElementById("mobileMenuButton");
   const mobileMenu = document.getElementById("mobileMenu");
+  const searchBox = document.getElementById("navbarSearchBox");
+
+  const mobileProductsToggle = document.getElementById("mobileProductsToggle");
+  const mobileProductsDropdown = document.getElementById(
+    "mobileProductsDropdown",
+  );
+  const mobileProductsIcon = document.getElementById("mobileProductsIcon");
 
   if (!mobileMenuButton || !mobileMenu) return;
+
+  // Prevent duplicate event listeners if components reload
+  if (mobileMenuButton.dataset.navMenuReady === "true") return;
+  mobileMenuButton.dataset.navMenuReady = "true";
+
+  const DESKTOP_BREAKPOINT = 1280;
+
+  function closeMobileProductsDropdown() {
+    if (mobileProductsDropdown) {
+      mobileProductsDropdown.classList.add("hidden");
+    }
+
+    if (mobileProductsToggle) {
+      mobileProductsToggle.setAttribute("aria-expanded", "false");
+    }
+
+    if (mobileProductsIcon) {
+      mobileProductsIcon.classList.remove("rotate-180");
+    }
+  }
+
+  function openMenu() {
+    if (searchBox) {
+      searchBox.classList.add("hidden");
+    }
+
+    mobileMenu.classList.remove("hidden");
+    mobileMenuButton.setAttribute("aria-expanded", "true");
+
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    mobileMenu.classList.add("hidden");
+    mobileMenuButton.setAttribute("aria-expanded", "false");
+
+    closeMobileProductsDropdown();
+
+    document.documentElement.style.overflow = "";
+    document.body.style.overflow = "";
+  }
+
+  function toggleMenu() {
+    if (mobileMenu.classList.contains("hidden")) {
+      openMenu();
+    } else {
+      closeMenu();
+    }
+  }
 
   mobileMenuButton.addEventListener("click", function (e) {
     e.preventDefault();
     e.stopPropagation();
 
-    mobileMenu.classList.toggle("hidden");
+    toggleMenu();
   });
+
+  if (mobileProductsToggle && mobileProductsDropdown) {
+    mobileProductsToggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const isClosed = mobileProductsDropdown.classList.contains("hidden");
+
+      if (isClosed) {
+        mobileProductsDropdown.classList.remove("hidden");
+        mobileProductsToggle.setAttribute("aria-expanded", "true");
+
+        if (mobileProductsIcon) {
+          mobileProductsIcon.classList.add("rotate-180");
+        }
+      } else {
+        closeMobileProductsDropdown();
+      }
+    });
+  }
 
   mobileMenu.addEventListener("click", function (e) {
     e.stopPropagation();
   });
 
-  document.addEventListener("click", function () {
-    mobileMenu.classList.add("hidden");
+  mobileMenu.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (
+      !mobileMenu.classList.contains("hidden") &&
+      !mobileMenu.contains(e.target) &&
+      !mobileMenuButton.contains(e.target)
+    ) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      closeMenu();
+    }
   });
 
   window.addEventListener("resize", function () {
-    if (window.innerWidth >= 1024) {
-      mobileMenu.classList.add("hidden");
+    if (window.innerWidth >= DESKTOP_BREAKPOINT) {
+      closeMenu();
     }
   });
 }
@@ -94,34 +187,76 @@ function initNavbarSearch() {
   const searchButton = document.getElementById("navbarSearchButton");
   const searchBox = document.getElementById("navbarSearchBox");
   const searchClose = document.getElementById("navbarSearchClose");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const mobileMenuButton = document.getElementById("mobileMenuButton");
 
   if (!searchButton || !searchBox || !searchClose) return;
+
+  function openSearch() {
+    searchBox.classList.remove("hidden");
+
+    if (mobileMenu) {
+      mobileMenu.classList.add("hidden");
+    }
+
+    if (mobileMenuButton) {
+      mobileMenuButton.setAttribute("aria-expanded", "false");
+    }
+
+    document.documentElement.style.overflow = "";
+    document.body.style.overflow = "";
+
+    const input = searchBox.querySelector("input");
+    if (input) {
+      setTimeout(function () {
+        input.focus();
+      }, 50);
+    }
+  }
+
+  function closeSearch() {
+    searchBox.classList.add("hidden");
+  }
+
+  function toggleSearch() {
+    if (searchBox.classList.contains("hidden")) {
+      openSearch();
+    } else {
+      closeSearch();
+    }
+  }
 
   searchButton.addEventListener("click", function (e) {
     e.preventDefault();
     e.stopPropagation();
 
-    searchBox.classList.toggle("hidden");
+    toggleSearch();
   });
 
   searchClose.addEventListener("click", function (e) {
     e.preventDefault();
     e.stopPropagation();
 
-    searchBox.classList.add("hidden");
+    closeSearch();
   });
 
   searchBox.addEventListener("click", function (e) {
     e.stopPropagation();
   });
 
-  document.addEventListener("click", function () {
-    searchBox.classList.add("hidden");
+  document.addEventListener("click", function (e) {
+    if (
+      !searchBox.classList.contains("hidden") &&
+      !searchBox.contains(e.target) &&
+      !searchButton.contains(e.target)
+    ) {
+      closeSearch();
+    }
   });
 
   window.addEventListener("keydown", function (e) {
     if (e.key === "Escape") {
-      searchBox.classList.add("hidden");
+      closeSearch();
     }
   });
 }
@@ -785,63 +920,47 @@ function initProductMegaMenu() {
       link: "/entrance-security-solutions.html",
       sub: [
         {
-          name: "Walk Through Metal Detector",
-          link: "/walk-through-metal-detector.html",
+          name: "Archway Walk Through Metal Detector",
+          link: "/archway-walk-through-metal-detector.html",
           subSub: [
-            // {
-            //   name: "Single Zone Metal Detector",
-            //   link: "/single-zone-metal-detector.html",
-            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
-            // },
-            // {
-            //   name: "Multi Zone Metal Detector",
-            //   link: "/multi-zone-metal-detector.html",
-            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
-            // },
-            // {
-            //   name: "Weatherproof Metal Detector",
-            //   link: "/weatherproof-metal-detector.html",
-            //   img: "/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
-            // },
-
             {
-              name: "6 Zone Walk Through Metal Detector",
-              link: "/6-zone-walk-through-metal-detector.html",
+              name: "6 Zone Archway Metal Detector",
+              link: "/6-zone-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/6-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "18 Zone Walk Through Metal Detector",
-              link: "/18-zone-walk-through-metal-detector.html",
+              name: "18 Zone Archway Metal Detector",
+              link: "/18-zone-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/18-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "33 Zone Walk Through Metal Detector",
-              link: "/33-zone-walk-through-metal-detector.html",
+              name: "33 Zone Archway Metal Detector",
+              link: "/33-zone-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/33-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "45 Zone Walk Through Metal Detector",
-              link: "/45-zone-walk-through-metal-detector.html",
+              name: "45 Zone Archway Metal Detector",
+              link: "/45-zone-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/45-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "60 Zone Walk Through Metal Detector",
-              link: "/60-zone-walk-through-metal-detector.html",
+              name: "60 Zone Archway Metal Detector",
+              link: "/60-zone-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/60-zone-walk-through-metal-detector.avif",
             },
             {
-              name: "Waterproof Walk Through Metal Detector",
-              link: "/waterproof-walk-through-metal-detector.html",
+              name: "Waterproof Archway Metal Detector",
+              link: "/waterproof-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/waterproof-walk-through-metal-detector.avif",
             },
             {
-              name: "Portable Walk Through Metal Detector",
-              link: "/portable-walk-through-metal-detector.html",
+              name: "Portable Archway Metal Detector",
+              link: "/portable-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/portable-walk-through-metal-detector.avif",
             },
             {
-              name: "Single Panel Walk Through Metal Detector",
-              link: "/single-panel-walk-through-metal-detector.html",
+              name: "Single Panel Archway Metal Detector",
+              link: "/single-panel-archway-metal-detector.html",
               img: "/images/sub-sub-categories/entrance-security/metal-detector/single-panel-walk-through-metal-detector.avif",
             },
           ],
@@ -851,99 +970,97 @@ function initProductMegaMenu() {
           link: "/hand-held-metal-detector.html",
           subSub: [
             {
-              name: "Rechargeable Hand Held Detector",
-              link: "/rechargeable-hand-held-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
+              name: "Compact Hand Held Metal Detector",
+              link: "/compact-hand-held-metal-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
             },
             {
-              name: "Portable Hand Held Detector",
-              link: "/portable-hand-held-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
+              name: "Wand Hand Held Metal Detector",
+              link: "/wand-hand-held-metal-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
             },
           ],
         },
         {
-          name: "X-Ray Baggage Scanner",
+          name: "X Ray Baggage Scanner",
           link: "/x-ray-baggage-scanner.html",
           subSub: [
             {
-              name: "Small Baggage Scanner",
-              link: "/small-baggage-scanner.html",
-              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
+              name: "Single Energy Baggage Scanner",
+              link: "/single-energy-baggage-scanner.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             },
             {
-              name: "Medium Baggage Scanner",
-              link: "/medium-baggage-scanner.html",
-              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
+              name: "Dual Energy Baggage Scanner",
+              link: "/dual-energy-baggage-scanner.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             },
             {
-              name: "Large Baggage Scanner",
-              link: "/large-baggage-scanner.html",
-              img: "/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
-            },
-          ],
-        },
-        {
-          name: "Under Vehicle Scanner",
-          link: "/under-vehicle-scanner.html",
-          subSub: [
-            {
-              name: "Fixed Under Vehicle Scanner",
-              link: "/fixed-under-vehicle-scanner.html",
-              img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
+              name: "Dual View Baggage Scanner",
+              link: "/dual-view-baggage-scanner.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             },
             {
-              name: "Portable Under Vehicle Scanner",
-              link: "/portable-under-vehicle-scanner.html",
-              img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
+              name: "Baggage Scanner Accessories",
+              link: "/baggage-scanner-accessories.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             },
           ],
         },
         {
-          name: "Explosive Detector",
-          link: "/explosive-detector.html",
+          name: "Vehicle Surveillance System",
+          link: "/vehicle-surveillance-system.html",
           subSub: [
             {
-              name: "Portable Explosive Detector",
-              link: "/portable-explosive-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
+              name: "Fixed Type Under Vehicle Surveillance System",
+              link: "/fixed-type-under-vehicle-surveillance-system.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
             },
             {
-              name: "Trace Explosive Detector",
-              link: "/trace-explosive-detector.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
+              name: "Portable Type Under Vehicle Surveillance System",
+              link: "/portable-type-under-vehicle-surveillance-system.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            },
+            {
+              name: "Under Vehicle Inspection System Accessories",
+              link: "/under-vehicle-inspection-system-accessories.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            },
+            {
+              name: "Under Vehicle Inspection Camera",
+              link: "/under-vehicle-inspection-camera.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            },
+            {
+              name: "Under Vehicle Inspection Mirror",
+              link: "/under-vehicle-inspection-mirror.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
             },
           ],
         },
         {
-          name: "Visitor Management System",
-          link: "/visitor-management-system.html",
+          name: "Explosive Trace Detectors",
+          link: "/explosive-trace-detectors.html",
           subSub: [
             {
-              name: "Visitor Registration Kiosk",
-              link: "/visitor-registration-kiosk.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
+              name: "Portable Explosive Drugs Detector",
+              link: "/portable-explosive-drugs-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             },
             {
-              name: "Visitor Pass System",
-              link: "/visitor-pass-system.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
-            },
-          ],
-        },
-        {
-          name: "Security Inspection System",
-          link: "/security-inspection-system.html",
-          subSub: [
-            {
-              name: "Inspection Mirror",
-              link: "/inspection-mirror.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
+              name: "Portable Explosive Multi Gas Detector",
+              link: "/portable-explosive-multi-gas-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             },
             {
-              name: "Security Screening Kit",
-              link: "/security-screening-kit.html",
-              img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
+              name: "Portable Explosive Liquid Detector",
+              link: "/portable-explosive-liquid-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
+            },
+            {
+              name: "Portable Explosive Bomb Detector",
+              link: "/portable-explosive-bomb-detector.html",
+              img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             },
           ],
         },

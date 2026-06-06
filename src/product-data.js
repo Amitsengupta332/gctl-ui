@@ -1229,20 +1229,20 @@ export const PRODUCT_CATEGORIES = {
     seoTitle: "Professional Entrance Security Solutions in Bangladesh",
     seoText: [
       "GCTL provides entrance security solutions for commercial buildings, factories, offices, hospitals, airports, schools, banks and high-security facilities.",
-      "Our entrance security products include walk through metal detectors, hand held metal detectors, X-ray baggage scanners, under vehicle scanners, explosive detectors, visitor management systems and inspection systems.",
-      "These solutions help organizations improve security screening, visitor control, access safety and threat detection at entry points.",
+      "Our entrance security products include archway walk through metal detectors, hand held metal detectors, X-ray baggage scanners, vehicle surveillance systems and explosive trace detectors.",
+      "These entrance security solutions help organizations improve people screening, baggage checking, vehicle inspection, visitor control and threat detection at secure entry points.",
     ],
 
     faq: [
       {
-        question: "What is entrance security solution?",
+        question: "What is an entrance security solution?",
         answer:
           "Entrance security solution means security products used at entry points to screen people, bags, vehicles and visitors before entering a building or restricted area.",
       },
       {
         question: "Which products are used for entrance security?",
         answer:
-          "Common products include walk through metal detectors, hand held metal detectors, X-ray baggage scanners, under vehicle scanners, explosive detectors and visitor management systems.",
+          "Common products include archway walk through metal detectors, hand held metal detectors, X-ray baggage scanners, vehicle surveillance systems and explosive trace detectors.",
       },
       {
         question: "Do you provide installation support?",
@@ -1254,79 +1254,159 @@ export const PRODUCT_CATEGORIES = {
     sub: [
       {
         key: "walk-through-metal-detector",
-        name: "Walk Through Metal Detector",
-        link: "/walk-through-metal-detector.html",
+        name: "Archway Walk Through Metal Detector",
+        link: "/archway-walk-through-metal-detector.html",
         img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/walk-through-metal-detector.avif",
         description:
-          "Walk through metal detectors for people screening at secure entry points.",
+          "Archway walk through metal detectors for people screening at secure entry points.",
 
         products: [
           {
-            name: "Walk Through Metal Detector",
+            name: "Archway Walk Through Metal Detector",
             img: "/images/products/walk-through-metal-detector.avif",
             description:
-              "Security screening gate for detecting metal objects at building entrances.",
+              "Archway walk through metal detector for detecting metal objects at building entrances.",
           },
           {
-            name: "Multi Zone Metal Detector",
-            img: "/images/products/multi-zone-metal-detector.avif",
+            name: "6 Zone Archway Metal Detector",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/6-zone-walk-through-metal-detector.avif",
             description:
-              "Multi zone walk through detector for accurate metal detection and security screening.",
+              "6 zone archway metal detector for basic entrance security screening.",
           },
           {
-            name: "Weatherproof Metal Detector",
-            img: "/images/products/weatherproof-metal-detector.avif",
+            name: "18 Zone Archway Metal Detector",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/18-zone-walk-through-metal-detector.avif",
             description:
-              "Weatherproof metal detector gate for outdoor and semi-outdoor entrance security.",
+              "18 zone archway metal detector for accurate people screening.",
           },
         ],
 
         subSub: [
           {
-            key: "single-zone-metal-detector",
-            name: "Single Zone Metal Detector",
-            link: "/single-zone-metal-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/metal-detector/single_zone_metal_detector.avif",
+            key: "6-zone-archway-metal-detector",
+            name: "6 Zone Archway Metal Detector",
+            link: "/6-zone-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/6-zone-walk-through-metal-detector.avif",
             description:
-              "Single zone walk through metal detector for basic entrance screening.",
+              "6 zone archway metal detector for basic entrance screening.",
             products: [
               {
-                name: "Single Zone Metal Detector",
-                img: "/images/products/single-zone-metal-detector.avif",
+                name: "6 Zone Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/6-zone-walk-through-metal-detector.avif",
                 description:
-                  "Basic walk through metal detector for entry point people screening.",
+                  "6 zone archway metal detector for office, school and commercial entrance security.",
               },
             ],
           },
           {
-            key: "multi-zone-metal-detector",
-            name: "Multi Zone Metal Detector",
-            link: "/multi-zone-metal-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
+            key: "18-zone-archway-metal-detector",
+            name: "18 Zone Archway Metal Detector",
+            link: "/18-zone-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/18-zone-walk-through-metal-detector.avif",
             description:
-              "Multi zone detector for accurate metal location detection.",
+              "18 zone archway metal detector for accurate people screening.",
             products: [
               {
-                name: "Multi Zone Metal Detector",
-                img: "/images/sub-sub-categories/entrance-security/metal-detector/multi_zone_metal_detector.avif",
+                name: "18 Zone Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/18-zone-walk-through-metal-detector.avif",
                 description:
-                  "Advanced walk through detector with multiple detection zones.",
+                  "18 zone archway metal detector for entrance security checkpoints.",
               },
             ],
           },
           {
-            key: "weatherproof-metal-detector",
-            name: "Weatherproof Metal Detector",
-            link: "/weatherproof-metal-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/metal-detector/weatherproof_metal_detector.avif",
+            key: "33-zone-archway-metal-detector",
+            name: "33 Zone Archway Metal Detector",
+            link: "/33-zone-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/33-zone-walk-through-metal-detector.avif",
             description:
-              "Weatherproof metal detector for outdoor security screening.",
+              "33 zone archway metal detector for high-security screening.",
             products: [
               {
-                name: "Weatherproof Metal Detector",
-                img: "/images/products/weatherproof-metal-detector.avif",
+                name: "33 Zone Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/33-zone-walk-through-metal-detector.avif",
                 description:
-                  "Outdoor walk through metal detector for weather-resistant entrance security.",
+                  "33 zone archway metal detector for commercial and restricted area entrance security.",
+              },
+            ],
+          },
+          {
+            key: "45-zone-archway-metal-detector",
+            name: "45 Zone Archway Metal Detector",
+            link: "/45-zone-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/45-zone-walk-through-metal-detector.avif",
+            description:
+              "45 zone archway metal detector for advanced entrance screening.",
+            products: [
+              {
+                name: "45 Zone Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/45-zone-walk-through-metal-detector.avif",
+                description:
+                  "45 zone archway metal detector for high accuracy people screening.",
+              },
+            ],
+          },
+          {
+            key: "60-zone-archway-metal-detector",
+            name: "60 Zone Archway Metal Detector",
+            link: "/60-zone-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/60-zone-walk-through-metal-detector.avif",
+            description:
+              "60 zone archway metal detector for premium security screening.",
+            products: [
+              {
+                name: "60 Zone Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/60-zone-walk-through-metal-detector.avif",
+                description:
+                  "60 zone archway metal detector for airports, factories and high-security facilities.",
+              },
+            ],
+          },
+          {
+            key: "waterproof-archway-metal-detector",
+            name: "Waterproof Archway Metal Detector",
+            link: "/waterproof-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/waterproof-walk-through-metal-detector.avif",
+            description:
+              "Waterproof archway metal detector for outdoor entrance security.",
+            products: [
+              {
+                name: "Waterproof Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/waterproof-walk-through-metal-detector.avif",
+                description:
+                  "Waterproof archway metal detector for outdoor and semi-outdoor security screening.",
+              },
+            ],
+          },
+          {
+            key: "portable-archway-metal-detector",
+            name: "Portable Archway Metal Detector",
+            link: "/portable-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/portable-walk-through-metal-detector.avif",
+            description:
+              "Portable archway metal detector for temporary security checking.",
+            products: [
+              {
+                name: "Portable Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/portable-walk-through-metal-detector.avif",
+                description:
+                  "Portable archway metal detector for events, temporary gates and movable security points.",
+              },
+            ],
+          },
+          {
+            key: "single-panel-archway-metal-detector",
+            name: "Single Panel Archway Metal Detector",
+            link: "/single-panel-archway-metal-detector.html",
+            img: "/images/sub-sub-categories/entrance-security/metal-detector/single-panel-walk-through-metal-detector.avif",
+            description:
+              "Single panel archway metal detector for compact entrance screening.",
+            products: [
+              {
+                name: "Single Panel Archway Metal Detector",
+                img: "/images/sub-sub-categories/entrance-security/metal-detector/single-panel-walk-through-metal-detector.avif",
+                description:
+                  "Single panel archway metal detector for compact and space-saving security entrances.",
               },
             ],
           },
@@ -1349,43 +1429,43 @@ export const PRODUCT_CATEGORIES = {
               "Portable metal detector for security guard manual checking.",
           },
           {
-            name: "Rechargeable Hand Held Detector",
-            img: "/images/products/rechargeable-hand-held-detector.avif",
+            name: "Compact Hand Held Metal Detector",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
             description:
-              "Rechargeable hand held detector for daily security operations.",
+              "Compact hand held metal detector for quick and easy security screening.",
           },
         ],
 
         subSub: [
           {
-            key: "rechargeable-hand-held-detector",
-            name: "Rechargeable Hand Held Detector",
-            link: "/rechargeable-hand-held-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/rechargeable-hand-held-detector.avif",
+            key: "compact-hand-held-metal-detector",
+            name: "Compact Hand Held Metal Detector",
+            link: "/compact-hand-held-metal-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
             description:
-              "Rechargeable portable detector for entrance security checking.",
+              "Compact hand held metal detector for quick manual security checking.",
             products: [
               {
-                name: "Rechargeable Hand Held Detector",
-                img: "/images/products/rechargeable-hand-held-detector.avif",
+                name: "Compact Hand Held Metal Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
                 description:
-                  "Rechargeable hand held metal detector for security checkpoint use.",
+                  "Compact hand held metal detector for security guards, events and entrance screening.",
               },
             ],
           },
           {
-            key: "portable-hand-held-detector",
-            name: "Portable Hand Held Detector",
-            link: "/portable-hand-held-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/Hand-Held-metal-detector/portable-hand-held-detector.avif",
+            key: "wand-hand-held-metal-detector",
+            name: "Wand Hand Held Metal Detector",
+            link: "/wand-hand-held-metal-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
             description:
-              "Portable hand held detector for quick metal object checking.",
+              "Wand hand held metal detector for manual body scanning.",
             products: [
               {
-                name: "Portable Hand Held Detector",
-                img: "/images/products/portable-hand-held-detector.avif",
+                name: "Wand Hand Held Metal Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/hand-held-metal-detector.avif",
                 description:
-                  "Portable security detector for manual scanning and entry checking.",
+                  "Wand hand held metal detector for visitor checking and checkpoint security.",
               },
             ],
           },
@@ -1394,79 +1474,89 @@ export const PRODUCT_CATEGORIES = {
 
       {
         key: "x-ray-baggage-scanner",
-        name: "X-Ray Baggage Scanner",
+        name: "X Ray Baggage Scanner",
         link: "/x-ray-baggage-scanner.html",
         img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
         description:
-          "X-ray baggage scanners for bag, parcel and luggage inspection.",
+          "X Ray baggage scanners for luggage, parcel and bag inspection at secure entrances.",
 
         products: [
           {
-            name: "X-Ray Baggage Scanner",
+            name: "X Ray Baggage Scanner",
             img: "/images/products/x-ray-baggage-scanner.avif",
             description:
-              "Baggage scanning system for security screening at entrance points.",
+              "X Ray baggage scanner for luggage and parcel inspection.",
           },
           {
-            name: "Small Baggage Scanner",
-            img: "/images/products/small-baggage-scanner.avif",
+            name: "Single Energy Baggage Scanner",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             description:
-              "Compact X-ray scanner for small bags and parcel inspection.",
-          },
-          {
-            name: "Large Baggage Scanner",
-            img: "/images/products/large-baggage-scanner.avif",
-            description:
-              "Large tunnel X-ray baggage scanner for heavy luggage inspection.",
+              "Single energy baggage scanner for standard baggage checking.",
           },
         ],
 
         subSub: [
           {
-            key: "small-baggage-scanner",
-            name: "Small Baggage Scanner",
-            link: "/small-baggage-scanner.html",
-            img: "/images/sub-sub-categories/entrance-security/baggage-scanner/small-baggage-scanner.avif",
+            key: "single-energy-baggage-scanner",
+            name: "Single Energy Baggage Scanner",
+            link: "/single-energy-baggage-scanner.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             description:
-              "Small X-ray scanner for parcel and handbag inspection.",
+              "Single energy baggage scanner for standard luggage inspection.",
             products: [
               {
-                name: "Small Baggage Scanner",
-                img: "/images/products/small-baggage-scanner.avif",
+                name: "Single Energy Baggage Scanner",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
                 description:
-                  "Compact X-ray baggage scanner for small bag screening.",
+                  "Single energy baggage scanner for offices, factories, schools and commercial entrances.",
               },
             ],
           },
           {
-            key: "medium-baggage-scanner",
-            name: "Medium Baggage Scanner",
-            link: "/medium-baggage-scanner.html",
-            img: "/images/sub-sub-categories/entrance-security/baggage-scanner/medium-baggage-scanner.avif",
+            key: "dual-energy-baggage-scanner",
+            name: "Dual Energy Baggage Scanner",
+            link: "/dual-energy-baggage-scanner.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             description:
-              "Medium size X-ray scanner for regular luggage inspection.",
+              "Dual energy baggage scanner for improved material detection.",
             products: [
               {
-                name: "Medium Baggage Scanner",
-                img: "/images/products/medium-baggage-scanner.avif",
+                name: "Dual Energy Baggage Scanner",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
                 description:
-                  "Medium baggage scanner for office, factory and building security.",
+                  "Dual energy baggage scanner for advanced luggage and parcel inspection.",
               },
             ],
           },
           {
-            key: "large-baggage-scanner",
-            name: "Large Baggage Scanner",
-            link: "/large-baggage-scanner.html",
-            img: "/images/sub-sub-categories/entrance-security/baggage-scanner/large-baggage-scanner.avif",
+            key: "dual-view-baggage-scanner",
+            name: "Dual View Baggage Scanner",
+            link: "/dual-view-baggage-scanner.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
             description:
-              "Large X-ray scanner for heavy luggage and large bag inspection.",
+              "Dual view baggage scanner for multi-angle security inspection.",
             products: [
               {
-                name: "Large Baggage Scanner",
-                img: "/images/products/large-baggage-scanner.avif",
+                name: "Dual View Baggage Scanner",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
                 description:
-                  "Large tunnel X-ray baggage scanner for high security screening.",
+                  "Dual view baggage scanner for high-security baggage inspection points.",
+              },
+            ],
+          },
+          {
+            key: "baggage-scanner-accessories",
+            name: "Baggage Scanner Accessories",
+            link: "/baggage-scanner-accessories.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
+            description:
+              "Accessories for baggage scanner installation, support and operation.",
+            products: [
+              {
+                name: "Baggage Scanner Accessories",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/x-ray-baggage-scanner.avif",
+                description:
+                  "Accessories and support items for baggage scanner systems.",
               },
             ],
           },
@@ -1474,52 +1564,106 @@ export const PRODUCT_CATEGORIES = {
       },
 
       {
-        key: "under-vehicle-scanner",
-        name: "Under Vehicle Scanner",
-        link: "/under-vehicle-scanner.html",
+        key: "vehicle-surveillance-system",
+        name: "Vehicle Surveillance System",
+        link: "/vehicle-surveillance-system.html",
         img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
         description:
-          "Under vehicle scanning systems for vehicle bottom inspection.",
+          "Vehicle surveillance systems for under vehicle inspection and vehicle security checking.",
 
         products: [
           {
-            name: "Under Vehicle Scanner",
-            img: "/images/products/under-vehicle-scanner.avif",
+            name: "Vehicle Surveillance System",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
             description:
-              "Vehicle undercarriage scanner for high-security vehicle inspection.",
+              "Vehicle surveillance system for under vehicle inspection and security checking.",
+          },
+          {
+            name: "Fixed Type Under Vehicle Surveillance System",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            description:
+              "Fixed type under vehicle surveillance system for permanent checkpoints.",
           },
         ],
 
         subSub: [
           {
-            key: "fixed-under-vehicle-scanner",
-            name: "Fixed Under Vehicle Scanner",
-            link: "/fixed-under-vehicle-scanner.html",
-            img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
+            key: "fixed-type-under-vehicle-surveillance-system",
+            name: "Fixed Type Under Vehicle Surveillance System",
+            link: "/fixed-type-under-vehicle-surveillance-system.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
             description:
-              "Fixed under vehicle scanner for permanent checkpoint installation.",
+              "Fixed type under vehicle surveillance system for permanent security checkpoints.",
             products: [
               {
-                name: "Fixed Under Vehicle Scanner",
-                img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/fixed-under-vehicle-scanner.avif",
+                name: "Fixed Type Under Vehicle Surveillance System",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
                 description:
-                  "Fixed UVSS system for vehicle undercarriage inspection.",
+                  "Fixed under vehicle surveillance system for factory, airport, government and high-security entrance points.",
               },
             ],
           },
           {
-            key: "portable-under-vehicle-scanner",
-            name: "Portable Under Vehicle Scanner",
-            link: "/portable-under-vehicle-scanner.html",
-            img: "/images/sub-sub-categories/entrance-security/under-vehicle-scanner/portable-under-vehicle-scanner.avif",
+            key: "portable-type-under-vehicle-surveillance-system",
+            name: "Portable Type Under Vehicle Surveillance System",
+            link: "/portable-type-under-vehicle-surveillance-system.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
             description:
-              "Portable under vehicle scanner for temporary security inspection.",
+              "Portable type under vehicle surveillance system for movable vehicle inspection.",
             products: [
               {
-                name: "Portable Under Vehicle Scanner",
-                img: "/images/products/portable-under-vehicle-scanner.avif",
+                name: "Portable Type Under Vehicle Surveillance System",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
                 description:
-                  "Portable UVSS system for flexible vehicle inspection setup.",
+                  "Portable under vehicle surveillance system for temporary gates, events and mobile checkpoints.",
+              },
+            ],
+          },
+          {
+            key: "under-vehicle-inspection-system-accessories",
+            name: "Under Vehicle Inspection System Accessories",
+            link: "/under-vehicle-inspection-system-accessories.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            description:
+              "Accessories for under vehicle inspection and surveillance systems.",
+            products: [
+              {
+                name: "Under Vehicle Inspection System Accessories",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+                description:
+                  "Accessories and support items for under vehicle inspection systems.",
+              },
+            ],
+          },
+          {
+            key: "under-vehicle-inspection-camera",
+            name: "Under Vehicle Inspection Camera",
+            link: "/under-vehicle-inspection-camera.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            description:
+              "Under vehicle inspection camera for checking the underside of vehicles.",
+            products: [
+              {
+                name: "Under Vehicle Inspection Camera",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+                description:
+                  "Inspection camera for viewing under vehicles at secure entry points.",
+              },
+            ],
+          },
+          {
+            key: "under-vehicle-inspection-mirror",
+            name: "Under Vehicle Inspection Mirror",
+            link: "/under-vehicle-inspection-mirror.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+            description:
+              "Under vehicle inspection mirror for manual vehicle checking.",
+            products: [
+              {
+                name: "Under Vehicle Inspection Mirror",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/under-vehicle-scanner.avif",
+                description:
+                  "Manual inspection mirror for checking the underside of cars, trucks and vehicles.",
               },
             ],
           },
@@ -1527,156 +1671,90 @@ export const PRODUCT_CATEGORIES = {
       },
 
       {
-        key: "explosive-detector",
-        name: "Explosive Detector",
-        link: "/explosive-detector.html",
+        key: "explosive-trace-detectors",
+        name: "Explosive Trace Detectors",
+        link: "/explosive-trace-detectors.html",
         img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
         description:
-          "Explosive detection systems for high-security entrance screening.",
+          "Explosive trace detectors for detecting explosives, drugs, gases, liquids and bomb threats.",
 
         products: [
           {
-            name: "Explosive Detector",
-            img: "/images/products/explosive-detector.avif",
+            name: "Explosive Trace Detectors",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             description:
-              "Explosive detection device for security inspection and threat detection.",
+              "Explosive trace detector for high-security threat detection.",
+          },
+          {
+            name: "Portable Explosive Drugs Detector",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
+            description:
+              "Portable explosive and drugs detector for checkpoint security.",
           },
         ],
 
         subSub: [
           {
-            key: "portable-explosive-detector",
-            name: "Portable Explosive Detector",
-            link: "/portable-explosive-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/portable-explosive-detector.avif",
+            key: "portable-explosive-drugs-detector",
+            name: "Portable Explosive Drugs Detector",
+            link: "/portable-explosive-drugs-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             description:
-              "Portable explosive detector for mobile security screening.",
+              "Portable detector for explosive and drug trace detection.",
             products: [
               {
-                name: "Portable Explosive Detector",
-                img: "/images/products/portable-explosive-detector.avif",
+                name: "Portable Explosive Drugs Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
                 description:
-                  "Portable explosive detection device for security checkpoints.",
+                  "Portable explosive drugs detector for airport, factory, government and checkpoint security.",
               },
             ],
           },
           {
-            key: "trace-explosive-detector",
-            name: "Trace Explosive Detector",
-            link: "/trace-explosive-detector.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/trace-explosive-detector.avif",
+            key: "portable-explosive-multi-gas-detector",
+            name: "Portable Explosive Multi Gas Detector",
+            link: "/portable-explosive-multi-gas-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             description:
-              "Trace explosive detector for advanced threat detection.",
+              "Portable explosive multi gas detector for gas and threat detection.",
             products: [
               {
-                name: "Trace Explosive Detector",
-                img: "/images/products/trace-explosive-detector.avif",
+                name: "Portable Explosive Multi Gas Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
                 description:
-                  "Trace explosive detection system for high-security inspection.",
-              },
-            ],
-          },
-        ],
-      },
-
-      {
-        key: "visitor-management-system",
-        name: "Visitor Management System",
-        link: "/visitor-management-system.html",
-        img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/visitor-management-system.avif",
-        description:
-          "Visitor management systems for visitor registration, pass management and entry tracking.",
-
-        products: [
-          {
-            name: "Visitor Management System",
-            img: "/images/products/visitor-management-system.avif",
-            description:
-              "Visitor registration and tracking system for secure building entry.",
-          },
-        ],
-
-        subSub: [
-          {
-            key: "visitor-registration-kiosk",
-            name: "Visitor Registration Kiosk",
-            link: "/visitor-registration-kiosk.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-registration-kiosk.avif",
-            description:
-              "Visitor kiosk for self registration and visitor check-in.",
-            products: [
-              {
-                name: "Visitor Registration Kiosk",
-                img: "/images/products/visitor-registration-kiosk.avif",
-                description:
-                  "Self-service visitor registration kiosk for office and building entry.",
+                  "Portable explosive multi gas detector for industrial, commercial and security operations.",
               },
             ],
           },
           {
-            key: "visitor-pass-system",
-            name: "Visitor Pass System",
-            link: "/visitor-pass-system.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/visitor-pass-system.avif",
+            key: "portable-explosive-liquid-detector",
+            name: "Portable Explosive Liquid Detector",
+            link: "/portable-explosive-liquid-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             description:
-              "Visitor pass system for visitor identity and entry control.",
+              "Portable explosive liquid detector for liquid threat screening.",
             products: [
               {
-                name: "Visitor Pass System",
-                img: "/images/products/visitor-pass-system.avif",
-                description: "Visitor pass printing and entry tracking system.",
-              },
-            ],
-          },
-        ],
-      },
-
-      {
-        key: "security-inspection-system",
-        name: "Security Inspection System",
-        link: "/security-inspection-system.html",
-        img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/security-inspection-system.avif",
-        description:
-          "Security inspection systems and tools for entrance screening.",
-
-        products: [
-          {
-            name: "Security Inspection System",
-            img: "/images/products/security-inspection-system.avif",
-            description:
-              "Security inspection tools for building and checkpoint screening.",
-          },
-        ],
-
-        subSub: [
-          {
-            key: "inspection-mirror",
-            name: "Inspection Mirror",
-            link: "/inspection-mirror.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/inspection-mirror.avif",
-            description: "Inspection mirror for vehicle and object checking.",
-            products: [
-              {
-                name: "Inspection Mirror",
-                img: "/images/products/inspection-mirror.avif",
+                name: "Portable Explosive Liquid Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
                 description:
-                  "Security inspection mirror for vehicle and under-object checking.",
+                  "Portable explosive liquid detector for checking suspicious liquids at entry points.",
               },
             ],
           },
           {
-            key: "security-screening-kit",
-            name: "Security Screening Kit",
-            link: "/security-screening-kit.html",
-            img: "/images/sub-sub-categories/entrance-security/security_sub_sub_category/security-screening-kit.avif",
+            key: "portable-explosive-bomb-detector",
+            name: "Portable Explosive Bomb Detector",
+            link: "/portable-explosive-bomb-detector.html",
+            img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
             description:
-              "Security screening kit for entrance inspection operation.",
+              "Portable explosive bomb detector for bomb threat screening.",
             products: [
               {
-                name: "Security Screening Kit",
-                img: "/images/products/security-screening-kit.avif",
+                name: "Portable Explosive Bomb Detector",
+                img: "/images/sub-categories/Entrance-Security-Solutions-sub-category/explosive-detector.avif",
                 description:
-                  "Security screening tools and kit for inspection checkpoint.",
+                  "Portable explosive bomb detector for high-security and emergency screening operations.",
               },
             ],
           },
