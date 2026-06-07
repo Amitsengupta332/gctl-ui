@@ -215,7 +215,7 @@ function productCard(product) {
   const stars = "★★★★★".slice(0, Math.max(1, Math.min(rating, 5)));
 
   const slug = product.slug || slugify(product.name || "product");
- const detailsLink = `/product-details/${encodeURIComponent(slug)}`;
+  const detailsLink = `/product-details/${encodeURIComponent(slug)}`;
 
   return `
     <div
@@ -576,19 +576,20 @@ function seoAndFaqHtml(item) {
 
   return `
     <!-- SEO Text -->
-    <div class="bg-[#f7fbff] py-12 lg:py-16 border-t border-[#e4eef8]">
-      <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="rounded-[22px] border border-[#dfeaf7] bg-white p-5 sm:p-8 lg:p-10 shadow-[0_14px_40px_rgba(15,23,42,0.06)]">
-          <h2 class="text-[24px] sm:text-[32px] leading-tight font-extrabold text-[#071b45] tracking-[-0.02em]">
-            ${item.seoTitle || `${title} in Bangladesh`}
-          </h2>
+   <!-- SEO Text -->
+  <div class="bg-[#f7fbff] py-12 lg:py-16 border-t border-[#e4eef8]">
+    <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div>
+        <h2 class="text-[24px] sm:text-[32px] leading-tight font-extrabold text-[#071b45] tracking-[-0.02em]">
+          ${item.seoTitle || `${title} in Bangladesh`}
+        </h2>
 
-          <div class="mt-5 space-y-5 text-[15px] sm:text-[16px] leading-7 sm:leading-8 font-medium text-[#40516b]">
-            ${seoText.map((text) => `<p>${text}</p>`).join("")}
-          </div>
+        <div class="mt-5 space-y-5 text-[15px] sm:text-[16px] leading-7 sm:leading-8 font-medium text-[#40516b]">
+          ${seoText.map((text) => `<p>${text}</p>`).join("")}
         </div>
       </div>
     </div>
+  </div>
 
     <!-- FAQ -->
     <div class="bg-white py-12 lg:py-16 pb-24 lg:pb-16">

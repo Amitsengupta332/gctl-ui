@@ -33,33 +33,6 @@ function getProductSlug() {
   return decodeURIComponent(lastPathPart);
 }
 
-// function productUrl(product) {
-//   return `/product-details/${encodeURIComponent(product.slug)}`;
-// }
-
-// function getProductSlug() {
-//   const querySlug = new URLSearchParams(window.location.search).get("product");
-
-//   const pathParts = window.location.pathname.split("/").filter(Boolean);
-//   const lastPathPart = pathParts[pathParts.length - 1] || "";
-
-//   const slug = querySlug || (lastPathPart !== "product-details.html" ? lastPathPart : "");
-
-//   // if (querySlug) {
-//   //   window.history.replaceState(
-//   //     {},
-//   //     "",
-//   //     `/product-details.html/${encodeURIComponent(querySlug)}`
-//   //   );
-//   // }
-
-//   return decodeURIComponent(slug);
-// }
-
-// function productUrl(product) {
-//   return `/product-details.html/${encodeURIComponent(product.slug)}`;
-// }
-
 function getPriceText(product) {
   return (
     product.price || product.priceText || product.salePrice || "Call for Price"
@@ -258,7 +231,6 @@ function renderSpecs(specs) {
 //   showImage(0);
 // }
 
-
 function renderRelatedProducts(products) {
   if (!products.length) return "";
 
@@ -266,17 +238,17 @@ function renderRelatedProducts(products) {
     <section class="mt-20">
       <div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p class="text-[13px] font-black uppercase tracking-[0.18em] text-[#0057b8]">
-            Explore More
-          </p>
-          <h2 class="mt-2 text-[28px] font-black text-[#111827]">
-            Related Products
-          </h2>
+    <p class="text-[12px] font-normal uppercase tracking-[0.18em] text-[#0057b8]">
+  Explore More
+</p>
+        <h2 class="mt-2 text-[22px] font-normal text-[#111827]">
+  Related Products
+</h2>
         </div>
 
         <a
           href="/index.html"
-          class="text-[13px] font-black uppercase tracking-wide text-[#0057b8] hover:underline"
+         class="text-[12px] font-normal uppercase tracking-wide text-[#0057b8] hover:underline"
         >
           View All Products
         </a>
@@ -286,7 +258,9 @@ function renderRelatedProducts(products) {
         ${products
           .map((item) => {
             const name = escapeHtml(item.name || "Product");
-            const img = escapeHtml(item.img || "/images/products/placeholder.avif");
+            const img = escapeHtml(
+              item.img || "/images/products/placeholder.avif",
+            );
             const artNo = escapeHtml(item.artNo || "Call for Price");
 
             return `
@@ -308,7 +282,7 @@ function renderRelatedProducts(products) {
 
                   <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
                     <a href="${productUrl(item)}">
-                      <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] hover:underline">
+                     <h3 class="min-h-[48px] text-[12px] sm:text-[13px] leading-[1.35] font-medium text-[#0057b8] hover:underline">
                         ${name}
                       </h3>
                     </a>
@@ -340,9 +314,9 @@ function renderRelatedProducts(products) {
                         </svg>
                       </span>
 
-                      <span data-call-rotate data-phone="${PHONE_TEL}">
-                        Call for Price
-                      </span>
+                  <span data-call-rotate data-phone="${PHONE_TEL}" class="text-[11px] sm:text-[12px] font-normal">
+  Call for Price
+</span>
                     </a>
                   </div>
                 </div>
@@ -587,7 +561,7 @@ function renderProduct(product) {
           </div>
 
           <div class="order-3">
-            <h1 class="text-[30px] font-black leading-tight text-[#111827] md:text-[36px]">
+        <h1 class="text-[24px] font-normal leading-tight text-[#111827] md:text-[28px]">
               ${escapeHtml(product.name)}
             </h1>
 
@@ -599,65 +573,98 @@ function renderProduct(product) {
             </div>
 
             <div class="mt-6 flex flex-wrap items-center gap-3">
-              <span class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[13px] font-bold">f</span>
-              <span class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[13px] font-bold">x</span>
-              <span class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[13px] font-bold">in</span>
-              <span class="ml-2 text-[13px] font-black uppercase text-[#111827]">♡ Add to Wishlist</span>
-              <span class="text-[13px] font-black uppercase text-[#111827]">⚖ Compare</span>
+           <a
+  href="https://www.facebook.com/gctlbd"
+  target="_blank"
+  rel="noopener"
+  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[12px] font-normal text-[#111827] transition hover:bg-slate-100"
+>
+  f
+</a>
+
+<a
+  href="https://x.com/SecurityGctl"
+  target="_blank"
+  rel="noopener"
+  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[12px] font-normal text-[#111827] transition hover:bg-slate-100"
+>
+  x
+</a>
+
+<a
+  href="https://www.linkedin.com/company/gctl"
+  target="_blank"
+  rel="noopener"
+  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[12px] font-normal text-[#111827] transition hover:bg-slate-100"
+>
+  in
+</a>
+
+<a
+  href="https://www.youtube.com/c/GCTLBD"
+  target="_blank"
+  rel="noopener"
+  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[11px] font-normal text-[#111827] transition hover:bg-slate-100"
+>
+  yt
+</a>
+
+<span class="ml-2 text-[12px] font-medium uppercase text-[#111827]">♡ Add to Wishlist</span>
+<span class="text-[12px] font-medium uppercase text-[#111827]">⚖ Compare</span>
             </div>
 
             <div class="mt-8 h-px w-10 bg-slate-300"></div>
 
-            <p class="mt-7 text-[30px] font-black text-[#111827]">
-              ${escapeHtml(getPriceText(product))}
-            </p>
+              <p class="mt-7 text-[18px] font-normal text-[#111827]">
+                ${escapeHtml(getPriceText(product))}
+              </p>
 
-            <p class="mt-5 max-w-[560px] text-[18px] font-medium leading-8 text-slate-600">
+            <p class="mt-5 max-w-[560px] text-[14px] font-normal leading-7 text-slate-600">
               ${escapeHtml(description)}
-            </p>
+              </p>
 
-            <div class="mt-7 space-y-3 text-[14px]">
+              <div class="mt-7 space-y-3 text-[14px]">
               <p>
-                <span class="font-black uppercase text-[#111827]">SKU:</span>
-                <span class="font-medium text-slate-500">${escapeHtml(product.artNo || "Call for Price")}</span>
+              <span class="font-semibold uppercase text-[#111827]">SKU:</span>
+             <span class="font-normal text-slate-500">${escapeHtml(product.artNo || "Call for Price")}</span>
               </p>
 
               <p>
-                <span class="font-black uppercase text-[#111827]">Category:</span>
-                <span class="font-medium uppercase text-slate-500">${escapeHtml(product.categoryTitle || "Product")}</span>
+               <span class="font-semibold uppercase text-[#111827]">Category:</span>
+                <span class="font-normal uppercase text-slate-500">${escapeHtml(product.categoryTitle || "Product")}</span>
               </p>
-            </div>
+              </div>
 
-            <div class="mt-8 border-t border-slate-200 pt-6">
+              <div class="mt-8 border-t border-slate-200 pt-6">
               <div class="flex flex-wrap items-center gap-3">
               <div class="flex h-12 items-center border border-slate-200">
-  <button
-    type="button"
-    data-qty-minus
-    class="h-full w-12 text-[20px] transition hover:bg-slate-100"
-  >
-    -
-  </button>
+            <button
+            type="button"
+            data-qty-minus
+            class="h-full w-12 text-[20px] transition hover:bg-slate-100"
+            >
+            -
+            </button>
 
-  <span
-    data-qty-value
-    class="flex h-full w-12 items-center justify-center text-[15px] font-bold"
-  >
-    1
-  </span>
+          <span
+            data-qty-value
+            class="flex h-full w-12 items-center justify-center text-[15px] font-bold"
+          >
+            1
+          </span>
 
-  <button
-    type="button"
-    data-qty-plus
-    class="h-full w-12 text-[20px] transition hover:bg-slate-100"
-  >
-    +
-  </button>
-</div>
+          <button
+            type="button"
+            data-qty-plus
+            class="h-full w-12 text-[20px] transition hover:bg-slate-100"
+          >
+            +
+          </button>
+        </div>
 
                 <a
                   href="tel:${PHONE_TEL}"
-                  class="flex h-12 items-center justify-center bg-[#8b8f96] px-9 text-[13px] font-black uppercase text-white transition hover:bg-[#111827]"
+                 class="flex h-12 items-center justify-center bg-[#8b8f96] px-9 text-[13px] font-semibold uppercase text-white transition hover:bg-[#111827]"
                 >
                   Call Now
                 </a>
@@ -667,13 +674,13 @@ function renderProduct(product) {
   data-whatsapp-link
   target="_blank"
   rel="noopener"
-  class="flex h-12 items-center justify-center bg-[#111827] px-9 text-[13px] font-black uppercase text-white transition hover:bg-[#05c755]"
+ class="flex h-12 items-center justify-center bg-[#111827] px-9 text-[13px] font-semibold uppercase text-white transition hover:bg-[#05c755]"
 >
   WhatsApp
 </a>
               </div>
 
-              <p class="mt-4 text-[13px] font-semibold text-slate-500">
+             <p class="mt-4 text-[13px] font-normal text-slate-500">
                 Need price? Call: ${PHONE_DISPLAY}
               </p>
             </div>
@@ -683,29 +690,29 @@ function renderProduct(product) {
         <section class="mt-16">
           <div class="border-b border-slate-200">
             <div class="flex flex-wrap gap-8">
-              <button
-                type="button"
-                data-tab-button="description"
-                class="border-b-2 border-[#111827] pb-4 text-[14px] font-black uppercase text-[#111827]"
-              >
-                Description
-              </button>
+             <button
+  type="button"
+  data-tab-button="description"
+ class="border-b-2 border-[#111827] pb-4 text-[12px] font-normal uppercase text-[#111827]"
+>
+  Description
+</button>
 
-              <button
-                type="button"
-                data-tab-button="details"
-                class="border-b-2 border-transparent pb-4 text-[14px] font-black uppercase text-slate-500"
-              >
-                Details
-              </button>
+<button
+  type="button"
+  data-tab-button="details"
+ class="border-b-2 border-transparent pb-4 text-[12px] font-normal uppercase text-slate-500"
+>
+  Details
+</button>
 
-              <button
-                type="button"
-                data-tab-button="specifications"
-                class="border-b-2 border-transparent pb-4 text-[14px] font-black uppercase text-slate-500"
-              >
-                Specifications
-              </button>
+<button
+  type="button"
+  data-tab-button="specifications"
+  class="border-b-2 border-transparent pb-4 text-[12px] font-normal uppercase text-slate-500"
+>
+  Specifications
+</button>
             </div>
           </div>
 
@@ -750,19 +757,6 @@ function renderProduct(product) {
   initTabs();
   initQuantity(product);
 }
-
-// if (!root) {
-//   console.warn("productDetailsRoot not found. Skipping product details script.");
-// } else {
-//   const productSlug = getProductSlug();
-//   const product = findProductBySlug(productSlug);
-
-//   if (!product) {
-//     renderNotFound();
-//   } else {
-//     renderProduct(product);
-//   }
-// }
 
 export function initProductDetailsPage() {
   root = document.querySelector("#productDetailsRoot");
