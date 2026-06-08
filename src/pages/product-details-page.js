@@ -98,19 +98,6 @@ function renderNotFound() {
   `;
 }
 
-function renderFeaturePills(features) {
-  return features
-    .slice(0, 8)
-    .map(
-      (feature) => `
-        <span class="inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#34c7df] text-[13px] font-black text-[#00a8c8]">
-          ✓
-        </span>
-      `,
-    )
-    .join("");
-}
-
 function renderSpecs(specs) {
   const entries = Object.entries(specs || {});
 
@@ -124,10 +111,11 @@ function renderSpecs(specs) {
         .map(
           ([key, value]) => `
             <div class="border border-slate-200 bg-white p-4">
-              <p class="text-[12px] font-black uppercase tracking-[0.12em] text-slate-500">
+              <p class="text-[11px] font-normal uppercase tracking-[0.12em] text-slate-500">
                 ${escapeHtml(key)}
               </p>
-              <p class="mt-2 text-[14px] font-bold text-[#111827]">
+
+              <p class="mt-2 text-[13px] font-normal text-[#111827]">
                 ${escapeHtml(value)}
               </p>
             </div>
@@ -262,6 +250,10 @@ function renderRelatedProducts(products) {
               item.img || "/images/products/placeholder.avif",
             );
             const artNo = escapeHtml(item.artNo || "Call for Price");
+            const whatsappNumber = String(PHONE_TEL).replace(/\D/g, "");
+            const whatsappText = encodeURIComponent(
+              `Hello, I want to know about ${item.name || "this product"}`,
+            );
 
             return `
               <div>
@@ -304,20 +296,33 @@ function renderRelatedProducts(products) {
                       View Details
                     </a>
 
-                    <a
-                      href="tel:${PHONE_TEL}"
-                      class="mt-3 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827]"
-                    >
-                      <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0">
-                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.2.5 1.2 1.2v3.5c0 .7-.5 1.2-1.2 1.2C10.4 22 2 13.6 2 3.4 2 2.7 2.5 2.2 3.2 2.2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-1.6 2.2z"></path>
-                        </svg>
-                      </span>
+                        <div
+            class="mt-3 flex items-center gap-2 text-[12px] sm:text-[13px] font-medium text-[#111827]"
+          >
+        <a href="tel:${PHONE_TEL}" class="flex min-w-0 items-center gap-2 text-inherit">
+          <span class="w-4 h-4 rounded-[4px] bg-black text-white flex items-center justify-center shrink-0">
+            <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.2.5 1.2 1.2v3.5c0 .7-.5 1.2-1.2 1.2C10.4 22 2 13.6 2 3.4 2 2.7 2.5 2.2 3.2 2.2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-1.6 2.2z"></path>
+            </svg>
+          </span>
 
-                  <span data-call-rotate data-phone="${PHONE_TEL}" class="text-[11px] sm:text-[12px] font-normal">
-  Call for Price
-</span>
-                    </a>
+          <span data-call-rotate data-phone="${PHONE_TEL}" class="text-[11px] sm:text-[12px] font-normal">
+            Call for Price
+          </span>
+        </a>
+
+        <a
+          href="https://wa.me/${whatsappNumber}?text=${whatsappText}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+          class="ml-auto shrink-0 text-[#25D366]"
+        >
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.33 4.95L2 22l5.26-1.38a9.88 9.88 0 0 0 4.78 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.76 14.16c-.24.68-1.4 1.3-1.95 1.38-.5.08-1.12.11-1.81-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.16-4.94-4.35-.14-.19-1.18-1.57-1.18-3s.75-2.13 1.02-2.42c.27-.29.59-.36.78-.36h.56c.18.01.42-.07.65.5.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.07 1.31 2.36 1.46.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.65-.15.27.1 1.71.81 2 .96.29.15.48.22.55.34.07.12.07.7-.17 1.38Z"></path>
+          </svg>
+        </a>
+      </div>
                   </div>
                 </div>
               </div>
@@ -554,10 +559,7 @@ function renderProduct(product) {
                 ›
               </button>
             </div>
-
-            <div class="mt-5 flex justify-center gap-3">
-              ${renderFeaturePills(features)}
-            </div>
+ 
           </div>
 
           <div class="order-3">
@@ -619,9 +621,9 @@ function renderProduct(product) {
                 ${escapeHtml(getPriceText(product))}
               </p>
 
-            <p class="mt-5 max-w-[560px] text-[14px] font-normal leading-7 text-slate-600">
-              ${escapeHtml(description)}
-              </p>
+            <p class="max-w-[900px] text-[14px] font-normal leading-7 text-slate-600">
+  ${escapeHtml(description)}
+</p>
 
               <div class="mt-7 space-y-3 text-[14px]">
               <p>
@@ -717,25 +719,25 @@ function renderProduct(product) {
           </div>
 
           <div class="py-8">
-            <div data-tab-panel="description">
-              <p class="max-w-[900px] text-[15px] font-medium leading-8 text-slate-600">
-                ${escapeHtml(description)}
-              </p>
-            </div>
+        <div data-tab-panel="description">
+  <p class="max-w-[900px] text-[14px] font-normal leading-7 text-slate-600">
+    ${escapeHtml(description)}
+  </p>
+</div>
 
             <div data-tab-panel="details" class="hidden">
-              <p class="max-w-[900px] text-[15px] font-medium leading-8 text-slate-600">
-                ${escapeHtml(details)}
-              </p>
+             <p class="max-w-[900px] text-[14px] font-normal leading-7 text-slate-600">
+  ${escapeHtml(details)}
+</p>
 
               <ul class="mt-5 grid gap-3 sm:grid-cols-2">
                 ${features
                   .map(
                     (feature) => `
-                      <li class="flex items-center gap-3 text-[14px] font-bold text-[#111827]">
-                        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-[#e8f8fb] text-[#00a8c8]">✓</span>
-                        ${escapeHtml(feature)}
-                      </li>
+                   <li class="flex items-center gap-3 text-[13px] font-normal text-[#111827]">
+  <span class="flex h-7 w-7 items-center justify-center rounded-full bg-[#e8f8fb] text-[#00a8c8]">✓</span>
+  ${escapeHtml(feature)}
+</li>
                     `,
                   )
                   .join("")}
