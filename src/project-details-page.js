@@ -10,7 +10,7 @@ const badgeClasses = {
   Healthcare: "bg-[#16a34a]",
   Hospitality: "bg-[#8b5cf6]",
   Retail: "bg-[#e11d48]",
-};
+}; 
 
 function escapeHtml(value = "") {
   return String(value)

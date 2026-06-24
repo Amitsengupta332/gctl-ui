@@ -1,4 +1,4 @@
-export const gctlProjects = [
+export const gctlProjects = [ 
   {
     id: "hazrat-shahjalal-airport-cctv",
     title: `"CCTV Security Camera" Installation at Hazrat Shahjalal International Airport`,

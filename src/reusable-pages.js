@@ -177,12 +177,12 @@ function categoryCard(item, isActive = false) {
 //       </div>
 
 //       <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
-//         <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00]">
+//         <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#c2410c]">
 //           ${product.name || "Product Name"}
 //         </h3>
 
 //         <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-//           <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+//           <p class="text-[11px] sm:text-[12px] font-bold text-[#c2410c]">
 //             Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
 //           </p>
 
@@ -236,13 +236,13 @@ function productCard(product) {
 
       <div class="flex flex-1 flex-col justify-end px-3 sm:px-4 pb-4">
         <a href="${detailsLink}">
-          <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#ff5a00] hover:underline">
+          <h3 class="min-h-[48px] text-[13px] sm:text-[14px] leading-[1.35] font-black text-[#0057b8] transition-colors duration-300 group-hover:text-[#c2410c] hover:underline">
             ${product.name || "Product Name"}
           </h3>
         </a>
 
         <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+          <p class="text-[11px] sm:text-[12px] font-bold text-[#c2410c]">
             Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
           </p>
 

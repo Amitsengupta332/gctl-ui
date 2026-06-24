@@ -166,7 +166,7 @@ function renderProductCard(product, color = "#0057b8") {
           </a>
 
           <div class="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <p class="text-[11px] sm:text-[12px] font-bold text-[#ff5a00]">
+            <p class="text-[11px] sm:text-[12px] font-bold text-[#c2410c]">
               Art.Nr.: <span class="font-medium text-[#111827]">${artNo}</span>
             </p>
 
